@@ -1,0 +1,815 @@
+{
+  "id": "book",
+  "title": "Le livret de l'étudiant",
+  "author": "Ola Yahia Fangary Ali",
+  "pages": [
+    {
+      "id": "cover-page-1",
+      "pageNumber": 1,
+      "type": "content",
+      "content": [
+        { "type": "heading", "text": "Le livret de l'étudiant", "level": 1 },
+        { "type": "heading", "text": "Livre numérique interactif basé sur l'approche actionnelle", "level": 2 },
+        { "type": "divider" },
+        { "type": "paragraph", "text": "👋 Bonjour, {name} !" }
+      ]
+    },
+    {
+      "id": "cover-academic-2",
+      "pageNumber": 2,
+      "type": "content",
+      "layout": "academic-cover",
+      "content": [
+        { "type": "quote", "text": "\"Emploi d’un livre numérique interactif basé sur l’approche actionnelle pour développer les compétences de la communication écrite en FLE et le plaisir d’apprendre auprès des étudiants de la faculté de pédagogie\"" },
+        { "type": "heading", "text": "Le livret de l’étudiant", "level": 2 },
+        { "type": "paragraph", "text": "Présenté pour l’obtention du grade de Doctorat (didactique du FLE)" },
+        { "type": "paragraph", "text": "Par" },
+        { "type": "heading", "text": "Ola Yahia Fangary Ali", "level": 3 },
+        { "type": "paragraph", "text": "Maitre assistante à la faculté de pédagogie de Minia\nDépartement de Curricula et de Méthodologie" },
+        { "type": "paragraph", "text": "2026" }
+      ]
+    },
+    {
+      "id": "index-page-3",
+      "pageNumber": 3,
+      "type": "content",
+      "content": [
+        {
+          "type": "index",
+          "units": [
+            {
+              "id": "intro-section",
+              "title": "Introduction & Objectifs",
+              "lessons": [
+                { "id": "intro", "number": "0.1", "title": "Introduction du programme", "pageIndex": 3 },
+                { "id": "objectives", "number": "0.2", "title": "Objectifs du programme", "pageIndex": 4 }
+              ]
+            },
+            {
+              "id": "unit0",
+              "title": "Orientation",
+              "lessons": [
+                { "id": "lesson0", "number": "0", "title": "Leçon zéro : L'approche actionnelle", "pageIndex": 12 }
+              ]
+            },
+            {
+              "id": "unit1",
+              "title": "Module 1 : L'environnement et le développement durable",
+              "lessons": [
+                { "id": "lesson1", "number": "1", "title": "Le réchauffement climatique", "pageIndex": 16 },
+                { "id": "lesson2", "number": "2", "title": "Les espaces verts (Bientôt)", "pageIndex": 1 },
+                { "id": "lesson3", "number": "3", "title": "Le covoiturage (Bientôt)", "pageIndex": 1 }
+              ]
+            },
+            {
+              "id": "unit2",
+              "title": "Module 2 : La technologie et la société",
+              "lessons": [
+                { "id": "lesson4", "number": "4", "title": "La vie dans le passé (Bientôt)", "pageIndex": 1 },
+                { "id": "lesson5", "number": "5", "title": "L'absence familiale et ses effets sur la vie quotidienne (Bientôt)", "pageIndex": 1 },
+                { "id": "lesson6", "number": "6", "title": "Le phénomène des influenceurs sur les réseaux sociaux (Bientôt)", "pageIndex": 1 }
+              ]
+            },
+            {
+              "id": "unit3",
+              "title": "Module 3 : Le travail et la vie sociale",
+              "lessons": [
+                { "id": "lesson7", "number": "7", "title": "Le télétravail (Bientôt)", "pageIndex": 1 },
+                { "id": "lesson8", "number": "8", "title": "Le travail contribue-t-il au bonheur ? (Bientôt)", "pageIndex": 1 },
+                { "id": "lesson9", "number": "9", "title": "Le pot de lait de Gita (Bientôt)", "pageIndex": 1 }
+              ]
+            },
+            {
+              "id": "unit4",
+              "title": "Module 4 : Le sport et la vie scolaire",
+              "lessons": [
+                { "id": "lesson10", "number": "10", "title": "Le Pharaon du Football (Bientôt)", "pageIndex": 1 },
+                { "id": "lesson11", "number": "11", "title": "L'Intelligence artificielle à l'école (Bientôt)", "pageIndex": 1 },
+                { "id": "lesson12", "number": "12", "title": "Faut-il donner des devoirs à l'école ? (Bientôt)", "pageIndex": 1 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "introduction-page-4",
+      "pageNumber": 4,
+      "type": "content",
+      "title": "INTRODUCTION",
+      "content": [
+        { "type": "heading", "text": "Introduction :", "level": 2 },
+        { "type": "paragraph", "text": "Ce programme vise à développer les compétences de la communication écrite et le plaisir d’apprendre chez les étudiants de quatrième année section de français à la faculté de pédagogie de Minia. Pour atteindre cet objectif, la chercheuse va utiliser le livre numérique interactif basé sur l’approche actionnelle." },
+        { "type": "divider" },
+        { "type": "heading", "text": "Objectifs généraux du programme :", "level": 3 },
+        { "type": "instruction", "text": "📝" },
+        { "type": "paragraph", "text": "➢ Développer les compétences de la communication écrite et le plaisir d’apprendre pour les étudiants de quatrième année à la section de français à la faculté de Pédagogie de Minia." }
+      ]
+    },
+    {
+      "id": "objectives-comp-1-5",
+      "pageNumber": 5,
+      "type": "content",
+      "title": "OBJECTIFS SPÉCIFIQUES",
+      "content": [
+        { "type": "heading", "text": "Objectifs spécifiques du programme :", "level": 2 },
+        { "type": "instruction", "text": "📝" },
+        { "type": "paragraph", "text": "➢ Le programme actuel vise à développer les compétences de la compréhension écrite suivantes :" },
+        { "type": "objectives", "text": "Compréhension écrite (01 - 12)", "items": [
+          "01\nComprendre l’idée générale d’un texte lu.",
+          "02\nDéterminer les idées principales et secondaires d’un texte lu.",
+          "03\nSaisir le sens des mots selon le contexte.",
+          "04\nFaire ressortir les mots clés d’un texte lu.",
+          "05\nPrédire des hypothèses sur le thème d’un texte lu.",
+          "06\nPoser des questions variées dont les réponses se trouvent dans le texte lu.",
+          "07\nDonner le synonyme d’un mot cité dans un texte lu.",
+          "08\nConnaitre les trois parties du mot (la racine, le préfixe et le suffixe).",
+          "09\nReconnaitre les règles grammaticales dans un texte lu.",
+          "10\nPrédire le sens général d’un texte lu à travers des indices.",
+          "11\nIdentifier les informations détaillées du texte.",
+          "12\nLier entre ses connaissances antérieures et les informations d’un texte lu."
+        ]}
+      ]
+    },
+    {
+      "id": "objectives-comp-2-6",
+      "pageNumber": 6,
+      "type": "content",
+      "title": "OBJECTIFS SPÉCIFIQUES",
+      "content": [
+        { "type": "objectives", "text": "Compréhension écrite (13 - 24)", "items": [
+          "13\nDéterminer l’idée de chaque paragraphe dans un texte lu.",
+          "14\nDéterminer le genre d’un texte lu.",
+          "15\nEtablir des liens entre les parties d’un texte lu.",
+          "16\nProposer un autre titre pertinent pour un texte lu.",
+          "17\nDégager le sens implicite existant entre les lignes.",
+          "18\nSuivre l’enchaînement chronologique des événements d’un texte lu.",
+          "19\nFaire des comparaisons entre les problèmes contenus dans le texte et les problèmes semblables dans la vie quotidienne.",
+          "20\nRésumer correctement un texte lu.",
+          "21\nPorter un jugement d’un texte lu à partir des critères pertinents.",
+          "22\nFaire des inférences en établissant des liens entre les éléments d’un texte lu en justifiant son interprétation.",
+          "23\nRéorganiser les informations d’un texte d’une manière personnelle.",
+          "24\nAnalyser l’organisation d’un texte lu et interpréter son sens en s’appuyant sur des indices."
+        ]}
+      ]
+    },
+    {
+      "id": "objectives-prod-1-7",
+      "pageNumber": 7,
+      "type": "content",
+      "title": "OBJECTIFS SPÉCIFIQUES",
+      "content": [
+        { "type": "instruction", "text": "📝" },
+        { "type": "paragraph", "text": "➢ De même, ce programme vise à développer les compétences de la production écrite suivantes :" },
+        { "type": "objectives", "text": "Production écrite (01 - 14)", "items": [
+          "01\nEmployer des mots adéquats à la situation.",
+          "02\nEmployer un vocabulaire riche et varié pour que le message écrit soit compréhensible.",
+          "03\nFonctionner les consignes.",
+          "04\nDonner des exemples, en tant que possible sur le sujet du texte.",
+          "05\nOrthographier correctement les mots.",
+          "06\nChoisir des mots clairs et simples.",
+          "07\nEmployer correctement les prépositions (dans – en – au – à – de).",
+          "08\nConjuguer correctement des verbes dans le temps convenable.",
+          "09\nRespecter les éléments essentiels de la phrase (sujet+ verbe+ complément).",
+          "10\nÉcrire des phrases correctes et cohérentes.",
+          "11\nRespecter l’ordre logique des mots dans la phrase.",
+          "12\nEmployer le temps convenable d’après le type du texte.",
+          "13\nEmployer les connecteurs logiques.",
+          "14\nMaîtriser les règles de l’accord en genre et en nombre."
+        ]}
+      ]
+    },
+    {
+      "id": "objectives-prod-2-8",
+      "pageNumber": 8,
+      "type": "content",
+      "title": "OBJECTIFS SPÉCIFIQUES",
+      "content": [
+        { "type": "objectives", "text": "Production écrite (15 - 28)", "items": [
+          "15\nFonctionner convenablement les signes de ponctuation.",
+          "16\nMaîtriser les règles de l’orthographe (utiliser la majuscule au début de la phrase, nom propre).",
+          "17\nÉcrire un texte clair et bien structuré.",
+          "18\nDévelopper chaque idée secondaire dans un paragraphe.",
+          "19\nArgumenter son point de vue.",
+          "20\nS’exprimer et se faire comprendre à l’écrit en organisant les idées.",
+          "21\nFonctionner les règles de présentation du texte (introduction-développement - conclusion).",
+          "22\nÉcrire un titre à son texte pour attirer le lecteur.",
+          "23\nMettre en lien des connaissances antérieures au sujet visé.",
+          "24\nPrésenter des idées exprimant correctement le contenu d’un sujet.",
+          "25\nFonctionner la mise en page du texte.",
+          "26\nEnchaîner logiquement les idées.",
+          "27\nExprimer ses goûts et ses préférences.",
+          "28\nRéviser et améliorer son texte à partir des remarques ou en comparant avec les camarades."
+        ]}
+      ]
+    },
+    {
+      "id": "objectives-pleasure-1-9",
+      "pageNumber": 9,
+      "type": "content",
+      "title": "OBJECTIFS SPÉCIFIQUES",
+      "content": [
+        { "type": "instruction", "text": "📝" },
+        { "type": "paragraph", "text": "➢ De même, ce programme vise à développer les objectifs du plaisir d’apprendre suivants :" },
+        { "type": "objectives", "text": "Plaisir d'apprendre (01 - 12)", "items": [
+          "01\nDévelopper chez les apprenants le sentiment que l’apprentissage du français est utile et significatif.",
+          "02\nÉveiller la curiosité et l’intérêt des apprenants à travers des activités d’apprentissage variées.",
+          "03\nAmener les apprenants à comprendre l’importance de l’apprentissage du français pour leur avenir académique et professionnel.",
+          "04\nRenforcer l’engagement des apprenants dans les activités d’apprentissage afin de susciter leur intérêt pour l’apprentissage du FLE.",
+          "05\nCréer une atmosphère positive et agréable en classe de FLE.",
+          "06\nRenforcer le sentiment de soutien pédagogique chez les apprenants.",
+          "07\nMettre en œuvre des stratégies d’enseignement variées et motivantes afin de rendre le cours plus intéressant.",
+          "08\nFournir une rétroaction constructive pour aider les apprenants à améliorer leurs apprentissages.",
+          "09\nUtiliser l’humour pédagogique pour rendre l’apprentissage du FLE plus plaisant.",
+          "10\nRenforcer la confiance en soi des apprenants dans l’apprentissage du français.",
+          "11\nEncourager les apprenants à élargير leurs connaissances et à développer leur curiosité intellectuelle.",
+          "12\nProposer des activités pédagogiques motivantes qui suscitent l’intérêt des apprenants pour le cours."
+        ]}
+      ]
+    },
+    {
+      "id": "objectives-pleasure-2-10",
+      "pageNumber": 10,
+      "type": "content",
+      "title": "OBJECTIFS SPÉCIFIQUES",
+      "content": [
+        { "type": "objectives", "text": "Plaisir d'apprendre (13 - 25)", "items": [
+          "13\nCréer un climat de classe agréable, motivant et favorable à l’apprentissage.",
+          "14\nEncourager les apprenants à participer librement sans craindre de commettre des erreurs.",
+          "15\nFavoriser des relations positives et solidaires entre les apprenants.",
+          "16\nPromouvoir un environnement d’apprentissage basé sur la coopération et les échanges.",
+          "17\nIntégrer des moments d’échange et d’interaction afin de rendre l’apprentissage plus plaisant.",
+          "18\nIntégrer le livre numérique interactif pour rendre l’apprentissage du français plus motivant et plus plaisant.",
+          "19\nEncourager la participation active des apprenants à travers des activités numériques interactives.",
+          "20\nExploiter les supports numériques pour enrichir l’expérience d’apprentissage du FLE.",
+          "21\nRenforcer le plaisir d’apprendre le français chez les apprenants.",
+          "22\nDévelopper le sentiment de satisfaction lié au progrès dans l’apprentissage du FLE.",
+          "23\nEncourager les apprenants à relever les défis liés à l’apprentissage du français.",
+          "24\nStimuler la motivation des apprenants à participer aux activités et à progresser en FLE.",
+          "25\nAmener les apprenants à profiter les difficultés comme des occasions d’apprentissage et de développement."
+        ]}
+      ]
+    },
+    {
+      "id": "program-content-11",
+      "pageNumber": 11,
+      "type": "content",
+      "title": "CONTENU DU PROGRAMME",
+      "content": [
+        { "type": "heading", "text": "Contenu du programme :", "level": 2 },
+        { "type": "paragraph", "text": "Ce programme se compose de quatre modules :" },
+        { "type": "objectives", "text": "Modules", "items": [
+          "01\n− Module (1) L’environnement et le développement durable.",
+          "02\n− Module (2) La technologie et la société.",
+          "03\n− Module (3) Le travail et le bien-être.",
+          "04\n− Module (4) Le sport et la vie scolaire."
+        ]},
+        { "type": "paragraph", "text": "Chaque module se compose de trois leçons et chaque leçon comprend quatre phases ;" },
+        { "type": "objectives", "text": "Phases et Leçons", "items": [
+          "01\n− La première phase : la pré- action (Introduction et motivation et la lecture guidée du texte).",
+          "02\n− La deuxième phase : L’action (la compréhension approfondie).",
+          "03\n− La troisième phase : Post action (Tâche finale).",
+          "04\n− La quatrième phase : évaluation des produits des étudiants.",
+          "05\n− Leçon zéro présente une introduction sur l’approche actionnelle et son utilisation dans la salle de classe."
+        ]}
+      ]
+    },
+    {
+      "id": "evaluation-page-12",
+      "pageNumber": 12,
+      "type": "content",
+      "title": "ÉVALUATION",
+      "content": [
+        { "type": "heading", "text": "Évaluation dans le programme :", "level": 2 },
+        { "type": "heading", "text": "Évaluation initiale :", "level": 3 },
+        { "type": "paragraph", "text": "Ce type d’évaluation vise à déterminer les connaissances antérieures des apprenants en ce qui concerne la compréhension et la production écrite en appliquant les pré-tests et l'application antérieure d'échelle de plaisir d'apprendre." },
+        { "type": "divider" },
+        { "type": "heading", "text": "Évaluation formative :", "level": 3 },
+        { "type": "paragraph", "text": "Ce type d’évaluation se déroule durant l’étude de chaque leçon en vue de mesurer le progrès des apprenants pendant l’étude du programme. Chaque leçon comprend un certain nombre de tâches variées pour évaluer le niveau des apprenants durant l’étude de chaque leçon." },
+        { "type": "divider" },
+        { "type": "heading", "text": "Évaluation sommative :", "level": 3 },
+        { "type": "paragraph", "text": "À la fin du programme, les post tests visent à mesurer l’efficacité d’utilisation du livre numérique interactif basé sur l’approche actionnelle dans le développement des compétences de la compréhension, de la production écrite et le plaisir d’apprendre chez les étudiants de l’échantillon." }
+      ]
+    },
+    {
+      "id": "lesson0-intro-13",
+      "pageNumber": 13,
+      "type": "content",
+      "title": "LEÇON ZÉRO",
+      "content": [
+        { "type": "heading", "text": "Leçon zéro : Premier contact « L’approche actionnelle »", "level": 1 },
+        { "type": "heading", "text": "Introduction :", "level": 2 },
+        { "type": "paragraph", "text": "Cette approche présente l’avantage de permettre à l’apprenant de se focaliser sur les objectifs à atteindre, de façon à ce que le langage devienne un outil, et enfin, de transformer l’usage de la langue en nécessité. Ces situations ressemblent à des activités ou des tâches que l’apprenant réalise afin d’atteindre le but désiré. Pendant qu’il accomplit ces tâches, il pratique la langue comme un outil, en même temps il apprend la langue à travers la pratiquer dans ces tâches." },
+        { "type": "divider" },
+        { "type": "heading", "text": "Objectifs de l’approche actionnelle :", "level": 2 },
+        { "type": "paragraph", "text": "L’objectif essentiel de l’approche actionnelle est de mettre l’accent sur les tâches à accomplir par lesquels l’apprenant qui participe à l’intérieur d’un projet global pour des objectifs sociaux, non pour des objectifs langagiers ou pédagogiques seulement." },
+        { "type": "paragraph", "text": "En bref, l’approche actionnelle à une grande importance dans le processus d’apprentissage de l’apprenant, c’est pourquoi, cette approche vise à :" },
+        { "type": "objectives", "text": "Objectifs", "items": [
+          "01\n− Améliorer l’acquisition de connaissances afin de permettre aux apprenants d’utiliser le français de manière compétente et en toute confiance en tant qu’acteurs sociaux pour réaliser des tâches quotidiennes.",
+          "02\n− Fournir des rétroactions spécifiques et ponctuelles et créer des occasions qui permettent aux apprenants d’en tenir compte.",
+          "03\n− Présenter des tâches pertinentes et authentiques qui conviennent bien aux apprenants.",
+          "04\n− Créer un climat d’apprentissage en donnant aux apprenants le désir de communiquer."
+        ]}
+      ]
+    },
+    {
+      "id": "lesson0-charact-14",
+      "pageNumber": 14,
+      "type": "content",
+      "title": "LEÇON ZÉRO",
+      "content": [
+        { "type": "heading", "text": "Les caractéristiques de l’approche actionnelle :", "level": 2 },
+        { "type": "paragraph", "text": "En effet, les caractéristiques de la perspective actionnelle sont en relation avec les théories d’apprentissage dominantes selon la communauté scientifique:" },
+        { "type": "objectives", "text": "Caractéristiques", "items": [
+          "01\n− À travers des projets/scénarios, les apprenants travaillent sur des tâches verbales et non-verbales, authentiques, qui doivent encourager la réflexion sur la langue en exposant un problème à résoudre.",
+          "02\n− L’enseignant guide l’apprenant dans la résolution de problème.",
+          "03\n− Les étudiants collaborent sur le problème pour le résoudre ensemble.",
+          "04\n− Les étudiants ont l’occasion de réfléchir sur leurs propres méthodes d’apprentissage."
+        ]},
+        { "type": "divider" },
+        { "type": "heading", "text": "Les principes de l’approche actionnelle :", "level": 2 },
+        { "type": "paragraph", "text": "Dans ce cadre, Cette approche repose sur deux principes essentiels pour atteindre les objectifs de l’enseignement/apprentissage et favorise l’utilisation de la langue ; ces deux principes sont les suivants :" },
+        { "type": "paragraph", "text": "<strong>L’apprenant est un acteur social :</strong>\nL’apprenant est considéré comme un acteur de ses apprentissages. Il le met en activité et introduit la langue et la culture comme instruments d’action et non seulement de communication. On ne communique plus seulement pour parler avec l’autre mais on communique pour agir avec l’autre. Dans ce cas, l’apprenant entre en action pour communiquer et il sollicite ces trois composantes : la composante linguistique, la composante sociolinguistique et la composante pragmatique." },
+        { "type": "paragraph", "text": "<strong>La tâche :</strong>\nPremièrement, la tâche est une interaction entre les apprenants pour arriver à accomplir quelque chose. Deuxièmement, pour accomplir ce quelque chose et pour accomplir cette interaction, il faut que les apprenants mobilisent tous les acquis, tous les apprentissages faites au cours de l’unité que ce soit des apprentissages grammaticaux, lexicaux, phonétiques ou pragmatiques (comment utiliser la langue en situation de communication)." }
+      ]
+    },
+    {
+      "id": "lesson0-task-15",
+      "pageNumber": 15,
+      "type": "content",
+      "title": "LEÇON ZÉRO",
+      "content": [
+        { "type": "heading", "text": "La tâche comme point central de l’approche actionnelle :", "level": 2 },
+        { "type": "paragraph", "text": "Simplement, la tâche est le point central de l’approche actionnelle. Elle est une action qui a un but, un contenu et un plan déterminé. Son objectif est de rendre l’apprentissage de la langue étrangère plus facile en passant d’activités simples aux plus complexes. Les tâches doivent être variées, proches de la vie réelle et complexes en posant plusieurs défis aux apprenants qui doivent utiliser la langue de manière efficace pour accomplir ces tâches. Cela peut permettre à l’apprenant de communiquer, d’agir et de s’intégrer dans toutes les situations de la vie quotidienne. La tâche est une activité menée par l’apprenant dont l’objectif est de déclencher les processus mentaux qui conduise à un apprentissage et qui permettent une évaluation personnalisée. C’est une unité de sens à l’intérieur du processus d’apprentissage. La réussite de l’apprenant dans sa tâche dépend non seulement de sa capacité à utiliser des savoirs variés mais aussi de sa capacité à interpréter et à utiliser les données linguistiques présentes." },
+        { "type": "divider" },
+        { "type": "heading", "text": "Les types de tâches :", "level": 2 },
+        { "type": "paragraph", "text": "Effectivement, la pratique des tâches en classe des langues n’est jamais homogène. C’est-à-dire que les enseignants adoptent des approches variées en fonction de leurs propres expériences, de leur formation et des caractéristiques de leurs apprenants. De plus, les tâches elles-mêmes peuvent être mises en œuvre de différentes manières, selon les objectifs visés et les ressources disponibles." },
+        { "type": "objectives", "text": "Types", "items": [
+          "01\n− Tâches cibles (proches de la vie réelle) / tâches pédagogiques : Le CECRL distingue deux types de tâches : La tâche cible est assez proche de la vie réelle et son choix est orienté par les besoins de l’apprenant hors de la classe. Par contre, la tâche pédagogique est loin de la vie réelle, dans le but de développer la compétence communicative.",
+          "02\n− Mono-tâche/projet intégrant une ou plusieurs tâches/ suite de tâches scénarisées"
+        ]}
+      ]
+    },
+    {
+      "id": "lesson0-roles-16",
+      "pageNumber": 16,
+      "type": "content",
+      "title": "LEÇON ZÉRO",
+      "content": [
+        { "type": "heading", "text": "Rôles de l’enseignant dans l’approche actionnelle :", "level": 2 },
+        { "type": "paragraph", "text": "D’après l’approche actionnelle, l’enseignant ne rend pas un responsable unique des connaissances mais il joue différents rôles parmi lesquels comme guide, contrôleur et formateur. Il aide chaque apprenant à être responsable de son apprentissage. À la lueur de l’approche actionnelle, l’enseignant prend en charge de diverses responsabilités. Il devient un guide qui dirige les apprenants, incite leur motivation, facilite leur apprentissage, fournit les instructions et les directives nécessaires, les encourage de faire le meilleur, intervient pour résoudre les problèmes, leur offre les conseils, facilite les intéractions entre eux, prendre en compte leurs besoins et les différences individuelles entre eux , les aider à accomplir les tâches et enfin les évalue et leur fournit des feedbacks nécessaires pour atteindre l’objectif final." },
+        { "type": "divider" },
+        { "type": "heading", "text": "Rôles de l’apprenant dans l’approche actionnelle :", "level": 2 },
+        { "type": "paragraph", "text": "Afin de mettre en œuvre les tâches à accomplir, les apprenants doivent :" },
+        { "type": "objectives", "text": "Attentes", "items": [
+          "01\n− Savoir identifier et définir précisément l’information nécessaire pour satisfaire le besoin ou résoudre le problème.",
+          "02\n− Savoir trouver l’information nécessaire quand on sait qu’elle existe.",
+          "03\n− Savoir comprendre l’information trouvée, ou à qui faire appel pour cela, si nécessaire.",
+          "04\n− Savoir organiser, analyser, interpréter et évaluer l’information.",
+          "05\n− Savoir communiquer et présenter l’information à autrui à l’aide de formats/ supports adaptés / utilisables.",
+          "06\n− Savoir utiliser l’information afin de résoudre un problème, prendre une décision et répondre à un besoin.",
+          "07\n− Savoir à supprimer les informations qui ne sont plus indispensables et à préserver celles qui doivent être protégées."
+        ]},
+        { "type": "divider" },
+        { "type": "paragraph", "text": "La nature du manuel numérique interactif peut aider dans le développement des compétences de la communication écrite. Ce manuel offre des supports supplémentaires (vidéos, images audios et liens d’internet) qui rend le processus d’apprentissage plus active et enrichi et réalise l’interaction. Cette interaction renforce non seulement la compréhension du texte écrit mais aussi la capacité d’écrire un texte cohérent en utilisant les informations supplémentaires. En bref, les outils numériques, comme le livre numérique interactif, seront utilisés comme supports pour faciliter la mise en œuvre des tâches." }
+      ]
+    },
+    {
+      "id": "lesson1-page-17",
+      "pageNumber": 17,
+      "type": "content",
+      "title": "LEÇON 1 : LE RÉCHAUFFEMENT CLIMATIQUE",
+      "content": [
+        { "type": "heading", "text": "Leçon 1 : Le réchauffement climatique", "level": 1 },
+        { "type": "divider" },
+        { "type": "heading", "text": "Objectifs de cette leçon :", "level": 2 },
+        { "type": "paragraph", "text": "À la fin de la leçon « Agir contre le réchauffement climatique », l’apprenant sera capable de comprendre et de produire un texte écrit cohérent et structuré pour informer et convaincre." },
+        { "type": "paragraph", "text": "Objectifs de cette leçon, l’apprenant doit être capable de/d’ :" },
+        { "type": "objectives", "text": "Objectifs de la leçon (01 - 06)", "items": [
+          "01\nComprendre l’idée générale d’un texte lu.",
+          "02\nDéterminer les idées principales et secondaires d’un texte lu.",
+          "03\nSaisir le sens des mots selon le contexte.",
+          "04\nFaire des inférences en établissant des liens entre les éléments d’un texte lu en justifiant son interprétation.",
+          "05\nRésumer correctement un texte lu.",
+          "06\nSuivre l’enchaînement chronologique des événements d’un texte lu."
+        ]}
+      ]
+    },
+    {
+      "id": "lesson1-page-18",
+      "pageNumber": 18,
+      "type": "content",
+      "title": "LEÇON 1 : OBJECTIFS & PHASE 1",
+      "content": [
+        { "type": "objectives", "text": "Objectifs de la leçon (07 - 11)", "items": [
+          "07\nEmployer un vocabulaire riche et varié pour que le message écrit soit compréhensible.",
+          "08\nEmployer les connecteurs logiques.",
+          "09\nÉcrire des phrases correctes et cohérentes.",
+          "10\nDévelopper chez les apprenants le sentiment que l’apprentissage du français est utile et significatif.",
+          "11\nÉveiller la curiosité et l’intérêt des apprenants à travers des activités d’apprentissage variées."
+        ]}
+      ]
+    },
+    {
+      "id": "lesson1-page-19",
+      "pageNumber": 19,
+      "type": "content",
+      "title": "LEÇON 1 : IMAGES D'OBSERVATION",
+      "content": [
+        { "type": "instruction", "text": "<strong>PHASE 1 : PRÉ-ACTION (ACTIVATION DES CONNAISSANCES) (20 MINUTES)</strong>" },
+        { "type": "heading", "text": "I. Introduction et Motivation : (5 minutes)", "level": 2 },
+        { "type": "instruction", "text": "📌 Consigne : Observez attentivement les deux images suivantes, puis prédisez le thème du texte." },
+        { "type": "images-row", "images": [
+          { "imageUrl": "images/lessons/lesson1-run.png", "caption": "Image 1 : Pollution et réaction humaine" },
+          { "imageUrl": "images/lessons/lesson1-earth.png", "caption": "Image 2 : Notre planète Terre en souffrance" }
+        ]},
+        { "type": "question", "questionId": "l1-q0" }
+      ]
+    },
+    {
+      "id": "lesson1-page-20",
+      "pageNumber": 20,
+      "type": "content",
+      "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
+      "content": [
+        { "type": "instruction", "text": "📌 Répondez aux questions suivantes :" },
+        { "type": "question", "questionId": "l1-q1" },
+        { "type": "question", "questionId": "l1-q2" },
+        { "type": "divider" },
+        { "type": "instruction", "text": "<strong>PHASE 2 : ACTION (COMPRÉHENSION APPROFONDIE) (60 MINUTES)</strong>" },
+        { "type": "heading", "text": "II. Lecture guidée du texte (15 minutes)", "level": 2 },
+        { "type": "instruction", "text": "📝 Micro tâche 1 : Lisez le texte en entier en silence ou à voix basse et comprenez le sens global. (10 minutes)" },
+        { "type": "instruction", "text": "📌 Consigne : Lisez le texte suivant, puis répondez aux questions." }
+      ]
+    },
+    {
+      "id": "lesson1-page-21",
+      "pageNumber": 21,
+      "type": "content",
+      "title": "LEÇON 1 : LECTURE DU TEXTE",
+      "content": [
+        { "type": "heading", "text": "Agir contre le réchauffement climatique", "level": 2 },
+        { "type": "paragraph", "text": "Pour lutter contre le réchauffement climatique, j’essaie de faire des petites choses à mon échelle au quotidien. Je pense que c’est important que chacun fasse quelque chose à son niveau. Bien sûr, il faudrait aussi que des décisions politiques soient vraiment prises pour protéger l’environnement, mais nous avons tous un pouvoir que nous oublions trop souvent : le pouvoir du consommateur." },
+        { "type": "paragraph", "text": "Tel que je vois les choses, si tout le monde arrêtait d’acheter des produits polluants, on arrêterait tout simplement d’en vendre. Alors, j’essaie de faire les choses à mon échelle en espérant que d’autres feront pareil." },
+        { "type": "paragraph", "text": "Par exemple, j’essaie de n’acheter que des fruits et légumes de saison. J’achète plutôt des produits locaux pour privilégier les circuits courts. Aussi, je fais attention à acheter le moins possible de produits fabriqués à l’étranger, comme ça, je sais que ce que j’achète n’a pas été transporté dans des conteneurs polluants." },
+        { "type": "paragraph", "text": "Je ne demande pas de sacs plastiques quand je fais des courses, car je sais qu’ils se retrouvent dans les océans et sont dévastateurs pour la faune marine." },
+        { "type": "paragraph", "text": "Ensuite, pour mes déplacements, je privilégie plutôt les transports en commun, la marche à pied ou le vélo pour éviter la voiture le plus possible." },
+        { "type": "paragraph", "text": "Bien sûr, quand on vit à la campagne, c’est beaucoup plus difficile de vivre sans voiture, surtout quand on est obligé de faire 20 kilomètres pour faire des courses. Mais quand on vit en centre-ville et que tout est à 2 ou 3 kilomètres à pied, je trouve qu’on n’a pas trop d’excuses." },
+        { "type": "paragraph", "text": "J’aimerais vraiment que le vélo se démocratise en France comme en Allemagne, mais le problème des villes françaises, c’est qu’elles ne sont pas aménagées pour les vélos." },
+        { "type": "paragraph", "text": "Mais je reste plutôt optimiste, les choses commencent à changer, bien que trop lentement à mon goût. De toute façon, je ne suis pas un modèle non plus et je sais que je pollue énormément malgré mes petits gestes." }
+      ]
+    },
+    {
+      "id": "lesson1-page-22",
+      "pageNumber": 22,
+      "type": "content",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES",
+      "content": [
+        { "type": "heading", "text": "Questions guidées (10 minutes)", "level": 2 },
+        { "type": "instruction", "text": "📌 Répondez aux questions suivantes :" },
+        { "type": "question", "questionId": "l1-q3" },
+        { "type": "question", "questionId": "l1-q4" },
+        { "type": "question", "questionId": "l1-q5" }
+      ]
+    },
+    {
+      "id": "lesson1-page-23",
+      "pageNumber": 23,
+      "type": "content",
+      "title": "LEÇON 1 : MOTS-CLÉS & SENS",
+      "content": [
+        { "type": "instruction", "text": "📌 Déterminez les mots-clés dans le texte et leurs significations selon le contexte (5 minutes)" },
+        { "type": "objectives", "text": "Mots-clés (01 - 05)", "items": [
+          "01\nConsommateur",
+          "02\nProduits polluants",
+          "03\nCircuits courts",
+          "04\nTransports en commun",
+          "05\nSacs plastiques"
+        ]},
+        { "type": "question", "questionId": "l1-q6" }
+      ]
+    },
+    {
+      "id": "lesson1-page-24",
+      "pageNumber": 24,
+      "type": "content",
+      "title": "LEÇON 1 : MICRO-TÂCHES D'ANALYSE",
+      "content": [
+        { "type": "instruction", "text": "📝 Micro tâche 2 : Trouvez l’idée générale du texte ? (5 minutes)" },
+        { "type": "question", "questionId": "l1-q7" },
+        { "type": "divider" },
+        { "type": "instruction", "text": "📝 Micro-tâches 3 : (5 minutes) : Identifiez les connecteurs logiques (ex. : « Alors », « Aussi », « Mais ») et expliquez leur rôle." },
+        { "type": "question", "questionId": "l1-q8" },
+        { "type": "divider" },
+        { "type": "instruction", "text": "📝 Micro-tâches 4 : (10 minutes) Résumez chaque paragraphe en une phrase ?" },
+        { "type": "question", "questionId": "l1-q9" }
+      ]
+    },
+    {
+      "id": "lesson1-page-25",
+      "pageNumber": 25,
+      "type": "content",
+      "title": "LEÇON 1 : DOCUMENTATION & PHRASES DIFFICILES",
+      "content": [
+        { "type": "heading", "text": "Des informations enrichissantes", "level": 2 },
+        { "type": "paragraph", "text": "<strong>Des informations supplémentaires : LE TEXTE ARGUMENTATIF</strong><br/><br/><strong>1️⃣ Définition :</strong> Le texte argumentatif cherche à convaincre ou persuader le lecteur d’adopter une idée ou une attitude.<br/>• Présente un problème ou un sujet.<br/>• Expose l’opinion de l’auteur.<br/>• Fournit arguments et exemples concrets.<br/>• Peut inclure un appel à l’action.<br/><br/><strong>2️⃣ Objectif :</strong><br/>• Persuader ou convaincre le lecteur.<br/>• Faire réfléchir sur un sujet.<br/>• Proposer des solutions ou encourager un comportement.<br/><br/><strong>3️⃣ Caractéristiques principales :</strong><br/>• Problème : Le réchauffement climatique menace la planète.<br/>• Opinion : « J'essaie de faire des petites choses à mon échelle »<br/>• Arguments : Acheter local, éviter les sacs plastiques, utiliser le vélo/transports en commun.<br/>• Exemples concrets : Fruits et légumes de saison, circuits courts, limiter produits importés.<br/>• Appel à l'action : « Chacun peut agir, nous avons le pouvoir du consommateur »" },
+        { "type": "divider" },
+        { "type": "instruction", "text": "📝 Micro-tâches 5 : (5 minutes) Déterminez les phrases difficiles à comprendre pour vous ?" },
+        { "type": "question", "questionId": "l1-q10" }
+      ]
+    },
+    {
+      "id": "lesson1-page-26",
+      "pageNumber": 26,
+      "type": "content",
+      "title": "LEÇON 1 : VRAI OU FAUX & PRODUCTION",
+      "content": [
+        { "type": "instruction", "text": "📌 Mettez vrai ou faux devant chaque phrase : (5 minutes)" },
+        { "type": "question", "questionId": "l1-vf1" },
+        { "type": "question", "questionId": "l1-vf2" },
+        { "type": "question", "questionId": "l1-vf3" },
+        { "type": "question", "questionId": "l1-vf4" },
+        { "type": "question", "questionId": "l1-vf5" },
+        { "type": "divider" },
+        { "type": "instruction", "text": "📝 Micro-tâches 6 : (5 minutes) Reformulez la phrase suivante ?" },
+        { "type": "instruction", "text": "📌 Consigne : Reformulez cette phrase en utilisant vos propres mots : « Je ne demande pas de sacs plastiques car ils sont dévastateurs pour la faune marine. »" },
+        { "type": "question", "questionId": "l1-q11" },
+        { "type": "divider" },
+        { "type": "instruction", "text": "📝 Micro-tâches 7 : Mini-production (5 minutes)" },
+        { "type": "instruction", "text": "📌 Consigne : Écrivez (2 à 3 lignes) : Quelles actions écologiques faites-vous dans votre vie quotidienne pour lutter contre le réchauffement climatique ?" },
+        { "type": "question", "questionId": "l1-q12" }
+      ]
+    },
+    {
+      "id": "lesson1-page-27",
+      "pageNumber": 27,
+      "type": "content",
+      "title": "LEÇON 1 : VIDÉO ÉDUCATIVE",
+      "content": [
+        { "type": "instruction", "text": "📝 Micro tâche 8 : (5 minutes) : Regardez cette vidéo pour bien comprendre le changement climatique : comprendre ses causes et ses conséquences pour mieux réagir" },
+        { "type": "video", "videoUrl": "https://www.youtube.com/embed/NfaeoCORuzk", "caption": "Le réchauffement climatique expliqué aux enfants" },
+        { "type": "instruction", "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo." },
+        { "type": "question", "questionId": "l1-q13" }
+      ]
+    },
+    {
+      "id": "lesson1-page-28",
+      "pageNumber": 28,
+      "type": "content",
+      "title": "LEÇON 1 : STRUCTURES & DISCUSSION",
+      "content": [
+        { "type": "heading", "text": "Structures à observer :", "level": 2 },
+        { "type": "instruction", "text": "📌 EXEMPLES DU TEXTE :" },
+        { "type": "objectives", "text": "Structures linguistiques", "items": [
+          "• Les connecteurs d’opinion : je pense que, je trouve que…",
+          "• Les connecteurs d’exemple : par exemple…",
+          "• Les connecteurs d’opposition : mais, pourtant…",
+          "• Les structures pour exprimer un souhait : J’aimerais que…"
+        ]},
+        { "type": "divider" },
+        { "type": "instruction", "text": "📝 Micro-tâches 9 : Discussion en groupes (10 minutes)" },
+        { "type": "instruction", "text": "📌 Quelles actions peuvent être mises en œuvre à l’université ou dans votre ville pour lutter contre le réchauffement climatique ?" },
+        { "type": "instruction", "text": "📌👉 Déroulement: Travaillez en petits groupes (3 à 4 étudiants). Discutez autour de la question suivante : 👉" },
+        { "type": "question", "questionId": "l1-q14" }
+      ]
+    },
+    {
+      "id": "lesson1-page-29",
+      "pageNumber": 29,
+      "type": "content",
+      "title": "LEÇON 1 : TÂCHE FINALE",
+      "content": [
+        { "type": "instruction", "text": "<strong>PHASE 3 : POST-ACTION (TÂCHE FINALE) DURÉE (20 MINUTES) :</strong>" },
+        { "type": "heading", "text": "Tâche Finale : Rédiger un message de sensibilisation écologique (format publication Facebook / Instagram)", "level": 2 },
+        { "type": "instruction", "text": "📌 Consigne : L’université de Minia souhaite un article de sensibilisation contre le réchauffement climatique. Elle demande aux étudiants de créer un article officiel à diffuser dans les réseaux sociaux de l’université." },
+        { "type": "paragraph", "text": "La demande : En tant qu’étudiant, rédigez un article (8 à 10 lignes) pour sensibiliser vos camarades aux comportements simples qui réduisent le réchauffement climatique. La publication doit être claire, motivante et adaptée aux réseaux sociaux." },
+        { "type": "question", "questionId": "l1-q15" }
+      ]
+    },
+    {
+      "id": "lesson1-page-30",
+      "pageNumber": 30,
+      "type": "content",
+      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION PARTIE 1",
+      "content": [
+        { "type": "instruction", "text": "<strong>PHASE 4 : ÉVALUATION DES PRODUITS DES ÉTUDIANTS : DURÉE : 10 MINUTES</strong>" },
+        { "type": "paragraph", "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, structure), comparez avec vos collègues et corrigez son texte si nécessaire." },
+        { "type": "instruction", "text": "Discutez en groupe : quelles actions pourraient être mises en place dans votre ville ou votre quartier ?" },
+        { "type": "question", "questionId": "l1-q16" },
+        { "type": "divider" },
+        { "type": "heading", "text": "É-évaluation : Répondez à ces questions :", "level": 2 },
+        { "type": "question", "questionId": "l1-e1" },
+        { "type": "question", "questionId": "l1-e2" },
+        { "type": "question", "questionId": "l1-e3" },
+        { "type": "question", "questionId": "l1-e4" }
+      ]
+    },
+    {
+      "id": "lesson1-page-31",
+      "pageNumber": 31,
+      "type": "content",
+      "title": "LEÇON 1 : É-ÉVALUATION & SOUMISSION",
+      "content": [
+        { "type": "question", "questionId": "l1-e5" },
+        { "type": "question", "questionId": "l1-e6" },
+        { "type": "question", "questionId": "l1-e7" },
+        { "type": "question", "questionId": "l1-e8" },
+        { "type": "question", "questionId": "l1-e9" },
+        { "type": "question", "questionId": "l1-e10" },
+        { "type": "divider" },
+        { "type": "heading", "text": "Soumission du devoir", "level": 2 },
+        { "type": "paragraph", "text": "Vous êtes arrivé à la fin de la Leçon 1. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous." },
+        { "type": "submit", "lessonId": "lesson1", "lessonTitle": "Le réchauffement climatique" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "l1-q0",
+      "type": "open-ended",
+      "text": "Consigne : Observez attentivement les deux images suivantes, puis prédisez le thème du texte.",
+      "lines": 3
+    },
+    {
+      "id": "l1-q1",
+      "type": "open-ended",
+      "text": "Savez-vous ce qu’est le réchauffement climatique ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-q2",
+      "type": "open-ended",
+      "text": "Quelles actions peut-on faire pour protéger l’environnement au quotidien ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-q3",
+      "type": "open-ended",
+      "text": "1. Pourquoi l’auteur fait-il attention à ses achats ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-q4",
+      "type": "open-ended",
+      "text": "2. Quels moyens de transport privilégie-t-il ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-q5",
+      "type": "open-ended",
+      "text": "3. Quel rôle le consommateur peut-il jouer ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-q6",
+      "type": "open-ended",
+      "text": "Déterminez les significations des mots-clés selon le contexte (Consommateur, Produits polluants, Circuits courts, Transports en commun, Sacs plastiques) :",
+      "lines": 4
+    },
+    {
+      "id": "l1-q7",
+      "type": "open-ended",
+      "text": "Trouvez l’idée générale du texte ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-q8",
+      "type": "open-ended",
+      "text": "Identifiez les connecteurs logiques (ex. : « Alors », « Aussi », « Mais ») et expliquez leur rôle.",
+      "lines": 3
+    },
+    {
+      "id": "l1-q9",
+      "type": "open-ended",
+      "text": "Résumez chaque paragraphe en une phrase ?",
+      "lines": 5
+    },
+    {
+      "id": "l1-q10",
+      "type": "open-ended",
+      "text": "Déterminez les phrases difficiles à comprendre pour vous ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-vf1",
+      "type": "vrai-faux",
+      "text": "1. L’auteur pense que chacun peut agir contre le réchauffement climatique."
+    },
+    {
+      "id": "l1-vf2",
+      "type": "vrai-faux",
+      "text": "2. L’auteur utilise souvent la voiture pour ses déplacements."
+    },
+    {
+      "id": "l1-vf3",
+      "type": "vrai-faux",
+      "text": "3. Les sacs plastiques ont un impact sur la faune marine."
+    },
+    {
+      "id": "l1-vf4",
+      "type": "vrai-faux",
+      "text": "4. Acheter des produits locaux réduit le transport polluant."
+    },
+    {
+      "id": "l1-vf5",
+      "type": "vrai-faux",
+      "text": "5. Est-ce que les gouvernements ont un rôle d’après le texte."
+    },
+    {
+      "id": "l1-q11",
+      "type": "open-ended",
+      "text": "Reformulez cette phrase en utilisant vos propres mots : « Je ne demande pas de sacs plastiques car ils sont dévastateurs pour la faune marine. »",
+      "lines": 3
+    },
+    {
+      "id": "l1-q12",
+      "type": "open-ended",
+      "text": "Écrivez (2 à 3 lignes) : Quelles actions écologiques faites-vous dans votre vie quotidienne pour lutter contre le réchauffement climatique ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-q13",
+      "type": "open-ended",
+      "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo.",
+      "lines": 3
+    },
+    {
+      "id": "l1-q14",
+      "type": "open-ended",
+      "text": "Quelles actions peuvent être mises en œuvre à l’université ou dans votre ville pour lutter contre le réchauffement climatique ?",
+      "lines": 4
+    },
+    {
+      "id": "l1-q15",
+      "type": "open-ended",
+      "text": "Tâche Finale : Rédiger un message de sensibilisation écologique (format publication Facebook / Instagram) : En tant qu’étudiant, rédigez un article (8 à 10 lignes) pour sensibiliser vos camarades aux comportements simples qui réduisent le réchauffement climatique.",
+      "lines": 6
+    },
+    {
+      "id": "l1-q16",
+      "type": "open-ended",
+      "text": "Discutez en groupe : quelles actions pourraient être mises en place dans votre ville ou votre quartier ?",
+      "lines": 4
+    },
+    {
+      "id": "l1-e1",
+      "type": "open-ended",
+      "text": "Écrivez quatre idées secondaires ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-e2",
+      "type": "open-ended",
+      "text": "Pourquoi l’auteur pense-t-il que les actions individuelles sont importantes ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-e3",
+      "type": "open-ended",
+      "text": "Donnez un autre exemple d’action écologique que l’auteur aurait pu mentionner ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-e4",
+      "type": "open-ended",
+      "text": "Identifiez les mots clés du texte ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-e5",
+      "type": "open-ended",
+      "text": "Trouvez un (autre) titre qui donne bien la clé du texte ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-e6",
+      "type": "open-ended",
+      "text": "Qui doit agir contre le réchauffement climatique ?",
+      "lines": 3
+    },
+    {
+      "id": "l1-e7",
+      "type": "open-ended",
+      "text": "Identifiez l’opinion de l’auteur et ses arguments principaux.",
+      "lines": 3
+    },
+    {
+      "id": "l1-e8",
+      "type": "open-ended",
+      "text": "Comparez ces pratiques économiques de l’auteur pour la protection de l’environnement selon votre propre environnement.",
+      "lines": 4
+    },
+    {
+      "id": "l1-e9",
+      "type": "open-ended",
+      "text": "Proposez une critique ou un commentaire sur les actions proposées.",
+      "lines": 3
+    },
+    {
+      "id": "l1-e10",
+      "type": "open-ended",
+      "text": "En petit groupe, déterminez avec vos camarades des autres causes du réchauffement climatique.",
+      "lines": 4
+    }
+  ]
+}
