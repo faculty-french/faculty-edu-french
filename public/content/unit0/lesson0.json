@@ -5,86 +5,209 @@
   "unitTitle": "Orientation",
   "pages": [
     {
-      "id": "lesson0-intro-13",
+      "id": "lesson0-page-1",
       "pageNumber": 13,
       "type": "content",
-      "title": "LEÇON ZÉRO",
+      "title": "LEÇON ZÉRO (1/2)",
       "content": [
-        { "type": "heading", "text": "Leçon zéro : Premier contact « L’approche actionnelle »", "level": 1 },
-        { "type": "heading", "text": "Introduction :", "level": 2 },
-        { "type": "paragraph", "text": "Cette approche présente l’avantage de permettre à l’apprenant de se focaliser sur les objectifs à atteindre, de façon à ce que le langage devienne un outil, et enfin, de transformer l’usage de la langue en nécessité. Ces situations ressemblent à des activités ou des tâches que l’apprenant réalise afin d’atteindre le but désiré. Pendant qu’il accomplit ces tâches, il pratique la langue comme un outil, en même temps il apprend la langue à travers la pratiquer dans ces tâches." },
-        { "type": "divider" },
-        { "type": "heading", "text": "Objectifs de l’approche actionnelle :", "level": 2 },
-        { "type": "paragraph", "text": "L’objectif essentiel de l’approche actionnelle est de mettre l’accent sur les tâches à accomplir par lesquels l’apprenant qui participe à l’intérieur d’un projet global pour des objectifs sociaux, non pour des objectifs langagiers ou pédagogiques seulement." },
-        { "type": "paragraph", "text": "En bref, l’approche actionnelle à une grande importance dans le processus d’apprentissage de l’apprenant, c’est pourquoi, cette approche vise à :" },
-        { "type": "objectives", "text": "Objectifs", "items": [
-          "01\n− Améliorer l’acquisition de connaissances afin de permettre aux apprenants d’utiliser le français de manière compétente et en toute confiance en tant qu’acteurs sociaux pour réaliser des tâches quotidiennes.",
-          "02\n− Fournir des rétroactions spécifiques et ponctuelles et créer des occasions qui permettent aux apprenants d’en tenir compte.",
-          "03\n− Présenter des tâches pertinentes et authentiques qui conviennent bien aux apprenants.",
-          "04\n− Créer un climat d’apprentissage en donnant aux apprenants le désir de communiquer."
-        ]}
+        {
+          "type": "heading",
+          "text": "Leçon zéro : Premier contact « L’approche actionnelle »",
+          "level": 1
+        },
+        {
+          "type": "heading",
+          "text": "Introduction :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette approche présente l’avantage de permettre à l’apprenant de se focaliser sur les objectifs à atteindre, de façon à ce que le langage devienne un outil, et enfin, de transformer l’usage de la langue en nécessité. Ces situations ressemblent à des activités ou des tâches que l’apprenant réalise afin d’atteindre le but désiré. Pendant qu’il accomplit ces tâches, il pratique la langue comme un outil, en même temps il apprend la langue à travers la pratiquer dans ces tâches."
+        }
       ]
     },
     {
-      "id": "lesson0-charact-14",
+      "id": "lesson0-page-2",
+      "pageNumber": 13,
+      "type": "content",
+      "title": "LEÇON ZÉRO (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Objectifs de l’approche actionnelle :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "L’objectif essentiel de l’approche actionnelle est de mettre l’accent sur les tâches à accomplir par lesquels l’apprenant qui participe à l’intérieur d’un projet global pour des objectifs sociaux, non pour des objectifs langagiers ou pédagogiques seulement."
+        },
+        {
+          "type": "paragraph",
+          "text": "En bref, l’approche actionnelle à une grande importance dans le processus d’apprentissage de l’apprenant, c’est pourquoi, cette approche vise à :"
+        },
+        {
+          "type": "objectives",
+          "text": "Objectifs",
+          "items": [
+            "01\n− Améliorer l’acquisition de connaissances afin de permettre aux apprenants d’utiliser le français de manière compétente et en toute confiance en tant qu’acteurs sociaux pour réaliser des tâches quotidiennes.",
+            "02\n− Fournir des rétroactions spécifiques et ponctuelles et créer des occasions qui permettent aux apprenants d’en tenir compte.",
+            "03\n− Présenter des tâches pertinentes et authentiques qui conviennent bien aux apprenants.",
+            "04\n− Créer un climat d’apprentissage en donnant aux apprenants le désir de communiquer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson0-page-3",
       "pageNumber": 14,
       "type": "content",
-      "title": "LEÇON ZÉRO",
+      "title": "LEÇON ZÉRO (3/2)",
       "content": [
-        { "type": "heading", "text": "Les caractéristiques de l’approche actionnelle :", "level": 2 },
-        { "type": "paragraph", "text": "En effet, les caractéristiques de la perspective actionnelle sont en relation avec les théories d’apprentissage dominantes selon la communauté scientifique:" },
-        { "type": "objectives", "text": "Caractéristiques", "items": [
-          "01\n− À travers des projets/scénarios, les apprenants travaillent sur des tâches verbales et non-verbales, authentiques, qui doivent encourager la réflexion sur la langue en exposant un problème à résoudre.",
-          "02\n− L’enseignant guide l’apprenant dans la résolution de problème.",
-          "03\n− Les étudiants collaborent sur le problème pour le résoudre ensemble.",
-          "04\n− Les étudiants ont l’occasion de réfléchir sur leurs propres méthodes d’apprentissage."
-        ]},
-        { "type": "divider" },
-        { "type": "heading", "text": "Les principes de l’approche actionnelle :", "level": 2 },
-        { "type": "paragraph", "text": "Dans ce cadre, Cette approche repose sur deux principes essentiels pour atteindre les objectifs de l’enseignement/apprentissage et favorise l’utilisation de la langue ; ces deux principes sont les suivants :" },
-        { "type": "paragraph", "text": "<strong>L’apprenant est un acteur social :</strong>\nL’apprenant est considéré comme un actor de ses apprentissages. Il le met en activité et introduit la langue et la culture comme instruments d’action et non seulement de communication. On ne communique plus seulement pour parler avec l’autre mais on communique pour agir avec l’autre. Dans ce cas, l’apprenant entre en action pour communiquer et il sollicite ces trois composantes : la composante linguistique, la composante sociolinguistique et la composante pragmatique." },
-        { "type": "paragraph", "text": "<strong>La tâche :</strong>\nPremièrement, la tâche est une interaction entre les apprenants pour arriver à accomplir quelque chose. Deuxièmement, pour accomplir ce quelque chose et pour accomplir cette interaction, il faut que les apprenants mobilisent tous les acquis, tous les apprentissages faites au cours de l’unité que ce soit des apprentissages grammaticaux, lexicaux, phonétiques ou pragmatiques (comment utiliser la langue en situation de communication)." }
+        {
+          "type": "heading",
+          "text": "Les caractéristiques de l’approche actionnelle :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "En effet, les caractéristiques de la perspective actionnelle sont en relation avec les théories d’apprentissage dominantes selon la communauté scientifique:"
+        },
+        {
+          "type": "objectives",
+          "text": "Caractéristiques",
+          "items": [
+            "01\n− À travers des projets/scénarios, les apprenants travaillent sur des tâches verbales et non-verbales, authentiques, qui doivent encourager la réflexion sur la langue en exposant un problème à résoudre.",
+            "02\n− L’enseignant guide l’apprenant dans la résolution de problème.",
+            "03\n− Les étudiants collaborent sur le problème pour le résoudre ensemble.",
+            "04\n− Les étudiants ont l’occasion de réfléchir sur leurs propres méthodes d’apprentissage."
+          ]
+        }
       ]
     },
     {
-      "id": "lesson0-task-15",
+      "id": "lesson0-page-4",
+      "pageNumber": 14,
+      "type": "content",
+      "title": "LEÇON ZÉRO (4/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Les principes de l’approche actionnelle :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ce cadre, Cette approche repose sur deux principes essentiels pour atteindre les objectifs de l’enseignement/apprentissage et favorise l’utilisation de la langue ; ces deux principes sont les suivants :"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>L’apprenant est un acteur social :</strong>\nL’apprenant est considéré comme un actor de ses apprentissages. Il le met en activité et introduit la langue et la culture comme instruments d’action et non seulement de communication. On ne communique plus seulement pour parler avec l’autre mais on communique pour agir avec l’autre. Dans ce cas, l’apprenant entre en action pour communiquer et il sollicite ces trois composantes : la composante linguistique, la composante sociolinguistique et la composante pragmatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>La tâche :</strong>\nPremièrement, la tâche est une interaction entre les apprenants pour arriver à accomplir quelque chose. Deuxièmement, pour accomplir ce quelque chose et pour accomplir cette interaction, il faut que les apprenants mobilisent tous les acquis, tous les apprentissages faites au cours de l’unité que ce soit des apprentissages grammaticaux, lexicaux, phonétiques ou pragmatiques (comment utiliser la langue en situation de communication)."
+        }
+      ]
+    },
+    {
+      "id": "lesson0-page-5",
       "pageNumber": 15,
       "type": "content",
-      "title": "LEÇON ZÉRO",
+      "title": "LEÇON ZÉRO (5/2)",
       "content": [
-        { "type": "heading", "text": "La tâche comme point central de l’approche actionnelle :", "level": 2 },
-        { "type": "paragraph", "text": "Simplement, la tâche est le point central de l’approche actionnelle. Elle est une action qui a un but, un contenu et un plan déterminé. Son objectif est de rendre l’apprentissage de la langue étrangère plus facile en passant d’activités simples aux plus complexes. Les tâches doivent être variées, proches de la vie réelle et complexes en posant plusieurs défis aux apprenants qui doivent utiliser la langue de manière efficace pour accomplir ces tâches. Cela peut permettre à l’apprenant de communiquer, d’agir et de s’intégrer dans toutes les situations de la vie quotidienne. La tâche est une activité menée par l’apprenant dont l’objectif est de déclencher les processus mentaux qui conduise à un apprentissage et qui permettent une évaluation personnalisée. C’est une unité de sens à l’intérieur du processus d’apprentissage. La réussite de l’apprenant dans sa tâche dépend non seulement de sa capacité à utiliser des savoirs variés mais aussi de sa capacité à interpréter et à utiliser les données linguistiques présentes." },
-        { "type": "divider" },
-        { "type": "heading", "text": "Les types de tâches :", "level": 2 },
-        { "type": "paragraph", "text": "Effectivement, la pratique des tâches en classe des langues n’est jamais homogène. C’est-à-dire que les enseignants adoptent des approches variées en fonction de leurs propres expériences, de leur formation et des caractéristiques de leurs apprenants. De plus, les tâches elles-mêmes peuvent être mises en œuvre de différentes manières, selon les objectifs visés et les ressources disponibles." },
-        { "type": "objectives", "text": "Types", "items": [
-          "01\n− Tâches cibles (proches de la vie réelle) / tâches pédagogiques : Le CECRL distingue deux types de tâches : La tâche cible est assez proche de la vie réelle et son choix est orienté par les besoins de l’apprenant hors de la classe. Par contre, la tâche pédagogique est loin de la vie réelle, dans le but de développer la compétence communicative.",
-          "02\n− Mono-tâche/projet intégrant une ou plusieurs tâches/ suite de tâches scénarisées"
-        ]}
+        {
+          "type": "heading",
+          "text": "La tâche comme point central de l’approche actionnelle :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Simplement, la tâche est le point central de l’approche actionnelle. Elle est une action qui a un but, un contenu et un plan déterminé. Son objectif est de rendre l’apprentissage de la langue étrangère plus facile en passant d’activités simples aux plus complexes. Les tâches doivent être variées, proches de la vie réelle et complexes en posant plusieurs défis aux apprenants qui doivent utiliser la langue de manière efficace pour accomplir ces tâches. Cela peut permettre à l’apprenant de communiquer, d’agir et de s’intégrer dans toutes les situations de la vie quotidienne. La tâche est une activité menée par l’apprenant dont l’objectif est de déclencher les processus mentaux qui conduise à un apprentissage et qui permettent une évaluation personnalisée. C’est une unité de sens à l’intérieur du processus d’apprentissage. La réussite de l’apprenant dans sa tâche dépend non seulement de sa capacité à utiliser des savoirs variés mais aussi de sa capacité à interpréter et à utiliser les données linguistiques présentes."
+        }
       ]
     },
     {
-      "id": "lesson0-roles-16",
+      "id": "lesson0-page-6",
+      "pageNumber": 15,
+      "type": "content",
+      "title": "LEÇON ZÉRO (6/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Les types de tâches :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Effectivement, la pratique des tâches en classe des langues n’est jamais homogène. C’est-à-dire que les enseignants adoptent des approches variées en fonction de leurs propres expériences, de leur formation et des caractéristiques de leurs apprenants. De plus, les tâches elles-mêmes peuvent être mises en œuvre de différentes manières, selon les objectifs visés et les ressources disponibles."
+        },
+        {
+          "type": "objectives",
+          "text": "Types",
+          "items": [
+            "01\n− Tâches cibles (proches de la vie réelle) / tâches pédagogiques : Le CECRL distingue deux types de tâches : La tâche cible est assez proche de la vie réelle et son choix est orienté par les besoins de l’apprenant hors de la classe. Par contre, la tâche pédagogique est loin de la vie réelle, dans le but de développer la compétence communicative.",
+            "02\n− Mono-tâche/projet intégrant une ou plusieurs tâches/ suite de tâches scénarisées"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson0-page-7",
       "pageNumber": 16,
       "type": "content",
-      "title": "LEÇON ZÉRO",
+      "title": "LEÇON ZÉRO (7/2)",
       "content": [
-        { "type": "heading", "text": "Rôles de l’enseignant dans l’approche actionnelle :", "level": 2 },
-        { "type": "paragraph", "text": "D’après l’approche actionnelle, l’enseignant ne rend pas un responsable unique des connaissances mais il joue différents rôles parmi lesquels comme guide, contrôleur et formateur. Il aide chaque apprenant à être responsable de son apprentissage. À la lueur de l’approche actionnelle, l’enseignant prend en charge de diverses responsabilités. Il devient un guide qui dirige les apprenants, incite leur motivation, facilite leur apprentissage, fournit les instructions et les directives nécessaires, les encourage de faire le meilleur, intervient pour résoudre les problèmes, leur offre les conseils, facilite les intéractions entre eux, prendre en compte leurs besoins et les différences individuelles entre eux , les aider à accomplir les tâches et enfin les évalue et leur fournit des feedbacks nécessaires pour atteindre l’objectif final." },
-        { "type": "divider" },
-        { "type": "heading", "text": "Rôles de l’apprenant dans l’approche actionnelle :", "level": 2 },
-        { "type": "paragraph", "text": "Afin de mettre en œuvre les tâches à accomplir, les apprenants doivent :" },
-        { "type": "objectives", "text": "Attentes", "items": [
-          "01\n− Savoir identifier et définir précisément l’information nécessaire pour satisfaire le besoin ou résoudre le problème.",
-          "02\n− Savoir trouver l’information nécessaire quand on sait qu’elle existe.",
-          "03\n− Savoir comprendre l’information trouvée, ou à qui faire appel pour cela, si nécessaire.",
-          "04\n− Savoir organiser, analyser, interpréter et évaluer l’information.",
-          "05\n− Savoir communiquer et présenter l’information à autrui à l’aide de formats/ supports adaptés / utilisables.",
-          "06\n− Savoir utiliser l’information afin de résoudre un problème, prendre une décision et répondre à un besoin.",
-          "07\n− Savoir à supprimer les informations qui ne sont plus indispensables et à préserver celles qui doivent être protégées."
-        ]},
-        { "type": "divider" },
-        { "type": "paragraph", "text": "La nature du manuel numérique interactif peut aider dans le développement des compétences de la communication écrite. Ce manuel offre des supports supplémentaires (vidéos, images audios et liens d’internet) qui rend le processus d’apprentissage plus active et enrichi et réalise l’interaction. Cette interaction renforce non seulement la compréhension du texte écrit mais aussi la capacité d’écrire un texte cohérent en utilisant les informations supplémentaires. En bref, les outils numériques, comme le livre numérique interactif, seront utilisés comme supports pour faciliter la mise en œuvre des tâches." }
+        {
+          "type": "heading",
+          "text": "Rôles de l’enseignant dans l’approche actionnelle :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "D’après l’approche actionnelle, l’enseignant ne rend pas un responsable unique des connaissances mais il joue différents rôles parmi lesquels comme guide, contrôleur et formateur. Il aide chaque apprenant à être responsable de son apprentissage. À la lueur de l’approche actionnelle, l’enseignant prend en charge de diverses responsabilités. Il devient un guide qui dirige les apprenants, incite leur motivation, facilite leur apprentissage, fournit les instructions et les directives nécessaires, les encourage de faire le meilleur, intervient pour résoudre les problèmes, leur offre les conseils, facilite les intéractions entre eux, prendre en compte leurs besoins et les différences individuelles entre eux , les aider à accomplir les tâches et enfin les évalue et leur fournit des feedbacks nécessaires pour atteindre l’objectif final."
+        }
+      ]
+    },
+    {
+      "id": "lesson0-page-8",
+      "pageNumber": 16,
+      "type": "content",
+      "title": "LEÇON ZÉRO (8/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Rôles de l’apprenant dans l’approche actionnelle :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Afin de mettre en œuvre les tâches à accomplir, les apprenants doivent :"
+        },
+        {
+          "type": "objectives",
+          "text": "Attentes",
+          "items": [
+            "01\n− Savoir identifier et définir précisément l’information nécessaire pour satisfaire le besoin ou résoudre le problème.",
+            "02\n− Savoir trouver l’information nécessaire quand on sait qu’elle existe.",
+            "03\n− Savoir comprendre l’information trouvée, ou à qui faire appel pour cela, si nécessaire.",
+            "04\n− Savoir organiser, analyser, interpréter et évaluer l’information.",
+            "05\n− Savoir communiquer et présenter l’information à autrui à l’aide de formats/ supports adaptés / utilisables.",
+            "06\n− Savoir utiliser l’information afin de résoudre un problème, prendre une décision et répondre à un besoin.",
+            "07\n− Savoir à supprimer les informations qui ne sont plus indispensables et à préserver celles qui doivent être protégées."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson0-page-9",
+      "pageNumber": 16,
+      "type": "content",
+      "title": "LEÇON ZÉRO (9/2)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La nature du manuel numérique interactif peut aider dans le développement des compétences de la communication écrite. Ce manuel offre des supports supplémentaires (vidéos, images audios et liens d’internet) qui rend le processus d’apprentissage plus active et enrichi et réalise l’interaction. Cette interaction renforce non seulement la compréhension du texte écrit mais aussi la capacité d’écrire un texte cohérent en utilisant les informations supplémentaires. En bref, les outils numériques, comme le livre numérique interactif, seront utilisés comme supports pour faciliter la mise en œuvre des tâches."
+        }
       ]
     }
   ],

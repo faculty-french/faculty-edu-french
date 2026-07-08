@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 export default function OpenEnded({ question, value, onChange }) {
   const stopEvent = (e) => e.stopPropagation();
 
-  const lineCount = question.lines || 3;
+  const lineCount = Math.max(question.lines || 0, 4);
 
   const [localLines, setLocalLines] = useState(() => {
     const initialLines = value ? value.split('\n') : [];
@@ -98,7 +98,7 @@ export default function OpenEnded({ question, value, onChange }) {
               e.stopPropagation();
               e.target.focus();
             }}
-            placeholder={idx === 0 ? "Écrivez votre réponse ici..." : ""}
+            placeholder={idx === 0 ? "Votre réponse ici…" : ""}
           />
         ))}
       </div>

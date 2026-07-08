@@ -9,15 +9,16 @@ export default function VideoPlayer({ videoUrl, caption }) {
     );
   }
 
+  const embedUrl = videoUrl.replace('www.youtube.com/embed/', 'www.youtube-nocookie.com/embed/');
+
   return (
     <div className="video-player">
       <iframe
         className="video-player__iframe"
-        src={videoUrl}
+        src={embedUrl}
         title={caption || 'Vidéo de la leçon'}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        loading="lazy"
       />
       {caption && <p className="video-player__caption">{caption}</p>}
     </div>

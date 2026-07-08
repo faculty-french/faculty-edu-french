@@ -5,89 +5,143 @@
 .book-shell {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  background: var(--color-bg);
+  height: 100vh;
+  height: 100dvh;
+  background: var(--shell-bg);
+  overflow: hidden;
 }
 
 .book-header {
-  position: sticky;
-  top: 0;
+  flex: 0 0 auto;
   z-index: var(--z-header);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--spacing-sm);
   padding: var(--spacing-sm) var(--spacing-md);
   background: var(--color-header-bg);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--color-border-light);
-  min-height: 48px;
+  border-bottom: 1px solid var(--color-header-border);
+  min-height: 44px;
+}
+
+.book-header__brand {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-header-text-muted);
+  opacity: 0.7;
+  display: none;
 }
 
 .book-header__title {
   font-family: var(--font-sans);
   font-size: var(--font-size-xs);
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-primary);
-  max-width: 70%;
+  letter-spacing: 0.06em;
+  color: var(--color-header-text);
+  flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  text-align: center;
 }
 
 .book-header__page-info {
   font-size: var(--font-size-xs);
-  color: var(--color-text-muted);
+  color: var(--color-header-text-muted);
+  opacity: 0.8;
+  font-variant-numeric: tabular-nums;
 }
 
+@media (min-width: 640px) {
+  .book-header__brand { display: block; }
+  .book-header__title { text-align: left; }
+}
+
+/* ---------- No-scroll viewer + fixed logical sheet ---------- */
 .book-viewer {
-  flex: 1;
+  flex: 1 1 auto;
+  min-height: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--spacing-md);
+  overflow: hidden;
+  padding: var(--spacing-sm);
+}
+
+.book-sheet-frame {
+  position: relative;
   overflow: hidden;
 }
 
+.book-sheet-scaler {
+  transform-origin: top left;
+  box-shadow: var(--shadow-page);
+  border-radius: 4px;
+  border: 1px solid var(--color-sheet-border);
+}
+
+.book-viewer__flipbook {
+  background: var(--paper);
+}
+
 .page {
-  background-color: var(--color-page-bg);
-  padding: var(--spacing-lg);
+  background-color: var(--paper);
   overflow: hidden;
-  font-family: var(--font-serif);
-  line-height: 1.9;
-  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  color: var(--ink);
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dev-only overflow authoring aid */
+.page--overflow {
+  outline: 3px solid var(--color-error) !important;
+  outline-offset: -3px;
 }
 
 .page__content-wrapper {
   height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
   box-sizing: border-box;
-  padding-bottom: var(--spacing-xl);
+  padding: 1.35rem 1.15rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
 }
 
-/* Center crease shadows to simulate book depth */
-.page::before {
-  content: '';
+/* Top rule in the phase color, thin, on every lesson page */
+.page--phase-1 { border-top: 4px solid var(--phase-1); }
+.page--phase-2 { border-top: 4px solid var(--phase-2); }
+.page--phase-3 { border-top: 4px solid var(--phase-3); }
+.page--phase-4 { border-top: 4px solid var(--phase-4); }
+
+/* Phase tab on the sheet's edge */
+.page__phase-tab {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 35px;
-  pointer-events: none;
-  z-index: 10;
-  transition: opacity var(--transition-base);
-}
-.page--left::before {
+  top: 0.6rem;
   right: 0;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.07) 0%, rgba(0, 0, 0, 0.03) 30%, rgba(0, 0, 0, 0) 100%);
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-full) 0 0 var(--radius-full);
+  z-index: 5;
 }
-.page--right::before {
-  left: 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.07) 0%, rgba(0, 0, 0, 0.03) 30%, rgba(0, 0, 0, 0) 100%);
-}
+.page__phase-tab--1 { background: var(--phase-1); }
+.page__phase-tab--2 { background: var(--phase-2); }
+.page__phase-tab--3 { background: var(--phase-3); }
+.page__phase-tab--4 { background: var(--phase-4); }
 
 .page--cover {
   display: flex;
@@ -95,75 +149,79 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(135deg, var(--color-primary-bg) 0%, var(--color-surface) 100%);
+  background: linear-gradient(135deg, var(--color-primary-bg) 0%, var(--paper) 100%);
 }
 
 .page__number {
   position: absolute;
-  bottom: var(--spacing-sm);
+  bottom: 0.4rem;
   font-family: var(--font-sans);
-  font-size: var(--font-size-xs);
+  font-size: 0.65rem;
   color: var(--color-text-muted);
-  font-weight: 500;
+  font-weight: 600;
   z-index: 20;
 }
 .page__number--left {
-  left: var(--spacing-lg);
+  left: 0.9rem;
 }
 .page__number--right {
-  right: var(--spacing-lg);
+  right: 0.9rem;
 }
 
-.page__heading { color: var(--color-primary-dark); margin-bottom: var(--spacing-md); }
-.page__heading--1 { font-size: var(--font-size-2xl); font-weight: 800; border-bottom: 2px solid var(--color-primary-light); padding-bottom: var(--spacing-xs); }
-.page__heading--2 { font-size: var(--font-size-xl); font-weight: 700; color: var(--color-primary); }
-.page__heading--3 { font-size: var(--font-size-lg); font-weight: 600; color: var(--color-text); }
+.page__heading { font-family: var(--font-display); color: var(--ink); margin-bottom: 0.15rem; }
+.page__heading--1 { font-size: 1.3rem; font-weight: 400; border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.25rem; }
+.page__heading--2 { font-size: 1.1rem; font-weight: 400; color: var(--color-primary-dark); }
+.page__heading--3 { font-size: 1rem; font-weight: 400; color: var(--ink); }
 
-.page__paragraph { margin-bottom: var(--spacing-md); text-align: justify; line-height: 1.9; }
+.page__paragraph { margin-bottom: 0.4rem; text-align: justify; line-height: 1.65; font-size: 0.9rem; }
 
 .page__quote {
   position: relative;
-  padding: var(--spacing-md) var(--spacing-lg) var(--spacing-md) var(--spacing-2xl);
-  margin: var(--spacing-lg) 0;
+  padding: 0.75rem 1rem 0.75rem 1.75rem;
+  margin: 0.35rem 0;
   background: var(--color-primary-bg);
-  border-left: 4px solid var(--color-primary);
+  border-left: 4px solid var(--phase-1);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
   font-style: italic;
-  font-size: var(--font-size-base);
-  color: var(--color-text-secondary);
-  line-height: 1.8;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
 }
 .page__quote::before {
-  content: '“';
+  content: '\201C';
   position: absolute;
   left: var(--spacing-sm);
   top: -5px;
-  font-family: var(--font-serif);
-  font-size: 3rem;
-  color: var(--color-primary-light);
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--phase-1);
   opacity: 0.3;
   line-height: 1;
 }
 
+/* Legacy instruction block (un-migrated files) */
 .page__instruction {
   font-family: var(--font-sans);
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 0.85rem;
   color: var(--color-primary-dark);
-  margin: var(--spacing-lg) 0 var(--spacing-md);
-  border-bottom: 2px solid var(--color-primary-light);
-  padding-bottom: var(--spacing-sm);
+  margin: 0.15rem 0;
+  padding: 0.4rem 0.6rem;
+  border-left: 3px solid var(--color-primary-light);
+  background: var(--color-primary-bg);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 
-.page__divider { border: none; height: 1px; background: linear-gradient(to right, transparent, var(--color-border), transparent); margin: var(--spacing-xl) 0; }
+.page__divider { border: none; height: 1px; background: linear-gradient(to right, transparent, var(--color-border), transparent); margin: 0.3rem 0; }
 
-.page__image { margin: var(--spacing-md) 0; border-radius: var(--radius-md); overflow: hidden; }
+.page__image { margin: 0.3rem 0; border-radius: var(--radius-md); overflow: hidden; }
 .page__image img { width: 100%; }
-.page__image-caption { font-size: var(--font-size-xs); color: var(--color-text-muted); text-align: center; padding: var(--spacing-sm); }
+.page__image-caption { font-size: 0.65rem; color: var(--color-text-muted); text-align: center; padding: 0.3rem; }
 
 .page__images-row {
   display: flex;
-  gap: var(--spacing-md);
-  margin: var(--spacing-md) 0;
+  gap: 0.5rem;
+  margin: 0.3rem 0;
 }
 .page__images-row .page__image--row-item {
   flex: 1;
@@ -174,44 +232,240 @@
 }
 .page__images-row .page__image--row-item img {
   width: 100%;
-  height: 140px;
+  height: 90px;
   object-fit: cover;
 }
 
+/* ---------- Phase banner ---------- */
+.phase-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: var(--radius-md);
+  color: #fff;
+  margin-bottom: 0.15rem;
+}
+.phase-banner--1 { background: var(--phase-1); }
+.phase-banner--2 { background: var(--phase-2); }
+.phase-banner--3 { background: var(--phase-3); }
+.phase-banner--4 { background: var(--phase-4); }
+
+.phase-banner__number {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(255, 255, 255, 0.22);
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-full);
+  flex-shrink: 0;
+}
+.phase-banner__title {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  flex: 1;
+  line-height: 1.3;
+}
+.phase-banner__timer {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.65rem;
+  background: rgba(255, 255, 255, 0.22);
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-full);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* ---------- Consigne ---------- */
+.consigne {
+  background: var(--color-primary-bg);
+  border-left: 3px solid var(--phase-1);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 0.45rem 0.65rem;
+}
+.consigne__label {
+  display: block;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--phase-1);
+  margin-bottom: 0.15rem;
+}
+.consigne__text {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* ---------- Microtask ---------- */
+.microtask {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.5rem;
+  background: var(--phase-3-tint);
+  border-left: 3px solid var(--phase-3);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 0.4rem 0.65rem;
+}
+.microtask__label {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--phase-3);
+  flex-basis: 100%;
+}
+.microtask__text {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--ink);
+  margin: 0;
+  flex: 1;
+}
+.microtask__timer {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.65rem;
+  color: var(--phase-3);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 0.1rem 0.4rem;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+
+/* ---------- Keywords (vocabulary chips) ---------- */
+.keywords__title {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  margin-bottom: 0.3rem;
+}
+.keywords__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.keywords__chip {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: var(--phase-2);
+  background: var(--phase-2-tint);
+  border: 1px solid #C4DED2;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+}
+
+/* ---------- Info box (structured theory) ---------- */
+.info-box {
+  background: #F3F1EA;
+  border: 1px solid #E3DFD2;
+  border-radius: var(--radius-md);
+  padding: 0.55rem 0.7rem;
+}
+.info-box__title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+}
+.info-box__section + .info-box__section { margin-top: 0.35rem; }
+.info-box__heading {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--phase-1);
+  margin-bottom: 0.15rem;
+}
+.info-box__items {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.info-box__item {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--ink);
+  padding-left: 0.85rem;
+  position: relative;
+}
+.info-box__item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--phase-1);
+  font-weight: 700;
+}
+
+/* ---------- Objectives box (compact numbered rows) ---------- */
 .objectives-box {
-  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-primary-bg) 100%);
+  background: var(--color-primary-bg);
   border: 1px solid var(--color-primary-border);
-  border-left: 5px solid var(--color-primary);
-  border-radius: var(--radius-lg);
-  padding: var(--spacing-lg);
-  margin: var(--spacing-xl) 0;
-  box-shadow: var(--shadow-sm);
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  border-radius: var(--radius-md);
+  padding: 0.55rem 0.65rem;
 }
-.objectives-box:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+.objectives-box__title {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.35rem;
 }
+.objectives-box__list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.28rem; }
+.objectives-box__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+}
+.objectives-box__num {
+  flex-shrink: 0;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 0.2rem;
+  background: var(--phase-1);
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.05rem;
+}
+.objectives-box__text { font-size: 0.78rem; line-height: 1.35; color: var(--ink); }
 
-.objectives-box__header { display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-md); }
-.objectives-box__icon { width: 40px; height: 40px; background: var(--color-accent-bg); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
-.objectives-box__title { font-family: var(--font-sans); font-size: var(--font-size-lg); font-weight: 700; }
-.objectives-box__list { list-style: none; padding: 0; }
-.objectives-box__item { padding-left: var(--spacing-lg); margin-bottom: var(--spacing-sm); font-size: var(--font-size-sm); position: relative; }
-.objectives-box__item::before { content: '•'; position: absolute; left: var(--spacing-sm); color: var(--color-primary); font-weight: 700; }
-
+/* ---------- Footer ---------- */
 .book-footer {
-  position: sticky;
-  bottom: 0;
+  flex: 0 0 auto;
   z-index: var(--z-header);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-md);
   padding: var(--spacing-sm) var(--spacing-md);
   background: var(--color-header-bg);
   backdrop-filter: blur(12px);
-  border-top: 1px solid var(--color-border-light);
+  border-top: 1px solid var(--color-header-border);
   min-height: 52px;
 }
 
@@ -220,30 +474,43 @@
   align-items: center;
   gap: var(--spacing-xs);
   padding: var(--spacing-sm) var(--spacing-lg);
-  background: var(--color-primary);
+  background: var(--phase-1);
   color: white;
   border-radius: var(--radius-full);
   font-family: var(--font-sans);
   font-size: var(--font-size-sm);
-  font-weight: 600;
+  font-weight: 700;
   transition: all var(--transition-fast);
   min-height: 44px;
   min-width: 44px;
   justify-content: center;
 }
 
-.book-footer__btn:hover { background: var(--color-primary-dark); transform: translateY(-1px); }
-.book-footer__btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.book-footer__btn:hover:not(:disabled) { background: var(--color-primary-dark); transform: translateY(-1px); }
+.book-footer__btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
-.book-footer__page-counter { font-size: var(--font-size-sm); color: var(--color-text-secondary); font-weight: 500; min-width: 60px; text-align: center; }
+.book-footer__center { display: flex; flex-direction: column; align-items: center; gap: 0.25rem; min-width: 70px; }
+.book-footer__page-counter { font-size: var(--font-size-xs); color: var(--color-header-text); opacity: 0.85; font-weight: 600; text-align: center; font-variant-numeric: tabular-nums; }
+
+.progress-rail { display: flex; gap: 0.25rem; }
+.progress-rail__dot {
+  width: 1.1rem;
+  height: 0.28rem;
+  border-radius: var(--radius-full);
+  background: var(--color-rail-dot);
+}
+.progress-rail__dot--1.progress-rail__dot--active { background: var(--phase-1); }
+.progress-rail__dot--2.progress-rail__dot--active { background: var(--phase-2); }
+.progress-rail__dot--3.progress-rail__dot--active { background: var(--phase-3); }
+.progress-rail__dot--4.progress-rail__dot--active { background: var(--phase-4); }
 
 .theme-toggle {
   width: 36px; height: 36px; border-radius: var(--radius-full);
   display: flex; align-items: center; justify-content: center;
-  background: var(--color-border-light); transition: all var(--transition-fast);
+  background: var(--color-toggle-bg); transition: all var(--transition-fast);
   font-size: 1.1rem; cursor: pointer;
 }
-.theme-toggle:hover { background: var(--color-border); transform: scale(1.1); }
+.theme-toggle:hover { background: var(--color-toggle-hover-bg); transform: scale(1.1); }
 
 /* ============================================
    ACADEMIC COVER LAYOUT
@@ -260,7 +527,6 @@
   gap: var(--spacing-md);
 }
 
-/* Double-border formal frame for academic page */
 .page--layout-academic-cover .page__content-wrapper::after {
   content: '';
   position: absolute;
@@ -288,7 +554,6 @@
   z-index: 1;
 }
 
-/* Academic cover elements styling */
 .page--layout-academic-cover .page__quote {
   font-family: var(--font-sans);
   font-size: var(--font-size-sm);
@@ -305,12 +570,10 @@
 }
 
 .page--layout-academic-cover .page__heading--2 {
-  font-family: var(--font-sans);
+  font-family: var(--font-display);
   font-size: var(--font-size-2xl);
-  font-weight: 800;
+  font-weight: 400;
   color: var(--color-primary-dark);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
   margin: var(--spacing-sm) 0;
   position: relative;
   display: inline-block;
@@ -329,11 +592,10 @@
 
 .page--layout-academic-cover .page__heading--3 {
   font-family: var(--font-sans);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  color: var(--color-text);
-  margin: 0;
   color: var(--color-primary-dark);
+  margin: 0;
 }
 
 .page--layout-academic-cover .page__paragraph {
@@ -343,3 +605,318 @@
   text-align: center;
   line-height: 1.6;
 }
+
+/* ============================================================
+   Book cover — cahier title page (page 1 signature)
+   ============================================================ */
+
+/* Zero out padding on the page content wrapper for the cover layout to allow full bleed */
+.page--layout-cover .page__content-wrapper {
+  padding: 0 !important;
+  height: 100%;
+  width: 100%;
+}
+
+.book-cover {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #F5F2EB 0%, #FCFAF7 100%);
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 1.15rem; /* margins outside the decorative keyline */
+}
+
+/* Spectrum spine running down the absolute left edge of the page */
+.book-cover__spectrum {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 6px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+.book-cover__spectrum-segment {
+  flex: 1;
+}
+.book-cover__spectrum--1 { background-color: var(--phase-1); }
+.book-cover__spectrum--2 { background-color: var(--phase-2); }
+.book-cover__spectrum--3 { background-color: var(--phase-3); }
+.book-cover__spectrum--4 { background-color: var(--phase-4); }
+
+/* Elegant French Editorial dual-keyline frame */
+.book-cover__frame {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(38, 50, 75, 0.12);
+  padding: 3px; /* spacing between the double borders */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.book-cover__inner-frame {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 2px solid var(--ink);
+  padding: 1.45rem 1.15rem 1.15rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/* Header styles */
+.book-cover__head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+}
+.book-cover__eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.56rem;
+  color: var(--ink-soft);
+  margin: 0 0 0.55rem;
+  line-height: 1.2;
+}
+.book-cover__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1.1;
+  color: var(--ink);
+  margin: 0 0 0.45rem;
+  letter-spacing: -0.01em;
+}
+.book-cover__subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  line-height: 1.35;
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin: 0;
+  max-width: 38ch;
+}
+
+/* Diamond Divider Accent */
+.book-cover__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.65rem 0;
+  width: 60%;
+}
+.book-cover__divider::before,
+.book-cover__divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(38, 50, 75, 0.25), transparent);
+}
+.book-cover__divider-diamond {
+  font-size: 0.55rem;
+  color: var(--phase-3);
+  margin: 0 0.55rem;
+  line-height: 1;
+}
+
+/* Body / Table of Contents Preview */
+.book-cover__body {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.book-cover__section-title {
+  font-family: var(--font-sans);
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin-bottom: 0.45rem;
+  opacity: 0.8;
+}
+.book-cover__modules {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.cover-module {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1px solid rgba(38, 50, 75, 0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  text-align: left;
+  transition: all var(--transition-fast);
+}
+
+.cover-module:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+.cover-module__num-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.cover-module__num {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1;
+}
+.cover-module__title {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.25;
+}
+
+/* Phase coloring for modules */
+.cover-module--phase-1 {
+  border-left: 3px solid var(--phase-1);
+}
+.cover-module--phase-1 .cover-module__num-wrapper {
+  background-color: var(--phase-1-tint);
+}
+.cover-module--phase-1 .cover-module__num {
+  color: var(--phase-1);
+}
+
+.cover-module--phase-2 {
+  border-left: 3px solid var(--phase-2);
+}
+.cover-module--phase-2 .cover-module__num-wrapper {
+  background-color: var(--phase-2-tint);
+}
+.cover-module--phase-2 .cover-module__num {
+  color: var(--phase-2);
+}
+
+.cover-module--phase-3 {
+  border-left: 3px solid var(--phase-3);
+}
+.cover-module--phase-3 .cover-module__num-wrapper {
+  background-color: var(--phase-3-tint);
+}
+.cover-module--phase-3 .cover-module__num {
+  color: var(--phase-3);
+}
+
+.cover-module--phase-4 {
+  border-left: 3px solid var(--phase-4);
+}
+.cover-module--phase-4 .cover-module__num-wrapper {
+  background-color: var(--phase-4-tint);
+}
+.cover-module--phase-4 .cover-module__num {
+  color: var(--phase-4);
+}
+
+/* Footer Section */
+.book-cover__foot {
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-cover__welcome-box {
+  width: 100%;
+  margin: 0.35rem auto 0.55rem;
+  max-width: 320px;
+}
+.book-cover__welcome {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--ink-soft);
+  background: rgba(246, 237, 223, 0.45); /* very soft ocre tint */
+  border: 1px dashed rgba(176, 100, 19, 0.22);
+  border-radius: 6px;
+  padding: 0.35rem 0.55rem;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.book-cover__credit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.book-cover__divider-thin {
+  width: 70px;
+  height: 1px;
+  background: rgba(38, 50, 75, 0.15);
+  margin-bottom: 0.45rem;
+}
+.book-cover__author {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin: 0 0 0.15rem;
+  letter-spacing: 0.02em;
+}
+.book-cover__meta {
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+  margin: 0 0 0.45rem;
+  line-height: 1.25;
+}
+
+/* French emblem detail */
+.book-cover__french-emblem {
+  display: flex;
+  width: 18px;
+  height: 10px;
+  border-radius: 1px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 0.2rem;
+}
+.book-cover__french-emblem span {
+  flex: 1;
+}
+.book-cover__french-emblem .emblem-blue {
+  background-color: #002395;
+}
+.book-cover__french-emblem .emblem-white {
+  background-color: #FFFFFF;
+}
+.book-cover__french-emblem .emblem-red {
+  background-color: #ED2939;
+}
+
+

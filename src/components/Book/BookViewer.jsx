@@ -2,28 +2,39 @@ import { useState, useCallback, useEffect, forwardRef, useImperativeHandle, useR
 import HTMLFlipBook from 'react-pageflip';
 import PageContent from './PageContent';
 
+// Fixed logical "sheet" size. Every page is authored against this box; the
+// whole book area is scaled with a CSS transform to fit whatever viewport
+// space remains after the header/footer — this is what guarantees zero
+// scrolling on any device.
+export const SHEET_WIDTH = 420;
+export const SHEET_HEIGHT = 640;
+
 const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers, validateAnswers, markSubmitted, isSubmitted, onPageChange, initialPage = 0 }, ref) => {
   const bookRef = useRef(null);
-  const [dimensions, setDimensions] = useState({ width: 400, height: 550 });
+  const frameRef = useRef(null);
+  const [scale, setScale] = useState(1);
   const [currentPage, setCurrentPage] = useState(initialPage);
 
   useEffect(() => {
-    const updateDimensions = () => {
-      const w = window.innerWidth;
-      if (w < 768) {
-        setDimensions({ width: Math.min(w - 32, 500), height: Math.min(window.innerHeight - 160, 700) });
-      } else if (w < 1024) {
-        setDimensions({ width: Math.min(w - 64, 550), height: Math.min(window.innerHeight - 160, 750) });
-      } else {
-        setDimensions({ width: 500, height: 680 });
-      }
-    };
-    updateDimensions();
-    window.addEventListener('resize', updateDimensions);
-    return () => window.removeEventListener('resize', updateDimensions);
-  }, []);
+    const el = frameRef.current;
+    if (!el) return;
 
-  const isMobile = window.innerWidth < 768;
+    const updateScale = () => {
+      const availW = el.clientWidth;
+      const availH = el.clientHeight;
+      const nextScale = Math.min(availW / SHEET_WIDTH, availH / SHEET_HEIGHT);
+      setScale(Number.isFinite(nextScale) && nextScale > 0 ? nextScale : 1);
+    };
+
+    updateScale();
+    const observer = new ResizeObserver(updateScale);
+    observer.observe(el);
+    window.addEventListener('resize', updateScale);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('resize', updateScale);
+    };
+  }, []);
 
   useImperativeHandle(ref, () => ({
     flipNext: () => {
@@ -31,12 +42,8 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
       if (pageFlip) {
         const originalSetting = pageFlip.getSettings().disableFlipByClick;
         pageFlip.getSettings().disableFlipByClick = false;
-        if (isMobile) {
-          const next = currentPage + 1;
-          if (next < pages.length) pageFlip.flip(next);
-        } else {
-          pageFlip.flipNext();
-        }
+        const next = currentPage + 1;
+        if (next < pages.length) pageFlip.flip(next);
         pageFlip.getSettings().disableFlipByClick = originalSetting;
       }
     },
@@ -45,12 +52,8 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
       if (pageFlip) {
         const originalSetting = pageFlip.getSettings().disableFlipByClick;
         pageFlip.getSettings().disableFlipByClick = false;
-        if (isMobile) {
-          const prev = currentPage - 1;
-          if (prev >= 0) pageFlip.flip(prev);
-        } else {
-          pageFlip.flipPrev();
-        }
+        const prev = currentPage - 1;
+        if (prev >= 0) pageFlip.flip(prev);
         pageFlip.getSettings().disableFlipByClick = originalSetting;
       }
     },
@@ -66,38 +69,48 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
   }, [onPageChange]);
 
   return (
-    <div className="book-viewer">
-      <HTMLFlipBook
-        ref={bookRef}
-        width={dimensions.width}
-        height={dimensions.height}
-        showCover={true}
-        clickEventForward={true}
-        useMouseEvents={!isMobile}
-        disableFlipByClick={true}
-        swipeDistance={60}
-        mobileScrollSupport={false}
-        maxShadowOpacity={0.3}
-        flippingTime={600}
-        usePortrait={isMobile}
-        startPage={initialPage}
-        onFlip={handleFlip}
-        className="book-viewer__flipbook"
+    <div className="book-viewer" ref={frameRef}>
+      <div
+        className="book-sheet-frame"
+        style={{ width: SHEET_WIDTH * scale, height: SHEET_HEIGHT * scale }}
       >
-        {pages.map((page) => (
-          <PageContent
-            key={page.id}
-            page={page}
-            questions={questions}
-            getAnswer={getAnswer}
-            setAnswer={setAnswer}
-            answers={answers}
-            validateAnswers={validateAnswers}
-            markSubmitted={markSubmitted}
-            isSubmitted={isSubmitted}
-          />
-        ))}
-      </HTMLFlipBook>
+        <div
+          className="book-sheet-scaler"
+          style={{ width: SHEET_WIDTH, height: SHEET_HEIGHT, transform: `scale(${scale})` }}
+        >
+          <HTMLFlipBook
+            ref={bookRef}
+            width={SHEET_WIDTH}
+            height={SHEET_HEIGHT}
+            showCover={true}
+            clickEventForward={true}
+            useMouseEvents={true}
+            disableFlipByClick={true}
+            swipeDistance={60}
+            mobileScrollSupport={false}
+            maxShadowOpacity={0.3}
+            flippingTime={600}
+            usePortrait={true}
+            startPage={initialPage}
+            onFlip={handleFlip}
+            className="book-viewer__flipbook"
+          >
+            {pages.map((page) => (
+              <PageContent
+                key={page.id}
+                page={page}
+                questions={questions}
+                getAnswer={getAnswer}
+                setAnswer={setAnswer}
+                answers={answers}
+                validateAnswers={validateAnswers}
+                markSubmitted={markSubmitted}
+                isSubmitted={isSubmitted}
+              />
+            ))}
+          </HTMLFlipBook>
+        </div>
+      </div>
     </div>
   );
 });

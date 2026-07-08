@@ -1,50 +1,71 @@
 /* ============================================
-   DESIGN SYSTEM — Le livret de l'étudiant
+   DESIGN SYSTEM — "Cahier français"
+   Le livret de l'étudiant
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+/* Fonts are self-hosted via @fontsource, imported in main.jsx. */
 
 /* ---------- CSS Variables ---------- */
 :root {
-  /* Primary palette */
-  --color-primary: #2563eb;
-  --color-primary-light: #60a5fa;
-  --color-primary-dark: #1d4ed8;
-  --color-primary-bg: #eff6ff;
-  --color-primary-border: #bfdbfe;
+  /* ---- Cahier français identity ---- */
+  --paper: #FBFAF7;
+  --ink: #26324B;
+  --ink-soft: #5C6B8A;
+  --seyes-line: #C3D8EC;
+  --margin-red: #D9534A;
+  --shell-bg: #FFFFFF;
 
-  /* Accent */
-  --color-accent: #f59e0b;
-  --color-accent-light: #fcd34d;
-  --color-accent-bg: #fffbeb;
+  /* Phase hues + pale tints */
+  --phase-1: #3568A7; --phase-1-tint: #E8EFF7;
+  --phase-2: #33795F; --phase-2-tint: #E7F0EC;
+  --phase-3: #B06413; --phase-3-tint: #F6EDDF;
+  --phase-4: #6E4E9E; --phase-4-tint: #EFE9F6;
 
-  /* Success / Error / Warning */
-  --color-success: #10b981;
-  --color-success-bg: #ecfdf5;
-  --color-error: #ef4444;
-  --color-error-bg: #fef2f2;
-  --color-warning: #f59e0b;
-  --color-warning-bg: #fffbeb;
+  /* ---- Semantic palette, derived from the identity above ---- */
+  --color-primary: var(--phase-1);
+  --color-primary-light: #6E93C6;
+  --color-primary-dark: #244B78;
+  --color-primary-bg: var(--phase-1-tint);
+  --color-primary-border: #B7CBE6;
 
-  /* Neutrals */
-  --color-bg: #f8fafc;
-  --color-surface: #ffffff;
+  --color-accent: var(--phase-3);
+  --color-accent-light: #D08A3F;
+  --color-accent-bg: var(--phase-3-tint);
+
+  --color-success: var(--phase-2);
+  --color-success-bg: var(--phase-2-tint);
+  --feedback-correct: #2E7D5B;
+  --color-error: var(--margin-red);
+  --color-error-bg: #FBEAE8;
+  --color-warning: var(--phase-3);
+  --color-warning-bg: var(--phase-3-tint);
+
+  --color-bg: var(--shell-bg);
+  --color-surface: var(--paper);
   --color-surface-elevated: #ffffff;
-  --color-text: #1e293b;
-  --color-text-secondary: #64748b;
-  --color-text-muted: #94a3b8;
-  --color-border: #e2e8f0;
-  --color-border-light: #f1f5f9;
+  --color-text: var(--ink);
+  --color-text-secondary: var(--ink-soft);
+  --color-text-muted: #8B96AD;
+  --color-border: #DCE3EE;
+  --color-border-light: #EEF2F7;
 
   /* Book-specific */
-  --color-page-bg: #fffef9;
-  --color-page-shadow: rgba(0, 0, 0, 0.08);
-  --color-line: #d1d5db;
+  --color-page-bg: var(--paper);
+  --color-page-shadow: rgba(0, 0, 0, 0.35);
+  --color-line: var(--seyes-line);
   --color-header-bg: rgba(255, 255, 255, 0.95);
+  --color-header-text: var(--ink);
+  --color-header-text-muted: var(--ink-soft);
+  --color-header-border: var(--color-border);
+  --color-toggle-bg: rgba(0, 0, 0, 0.06);
+  --color-toggle-hover-bg: rgba(0, 0, 0, 0.12);
+  --color-rail-dot: rgba(0, 0, 0, 0.1);
+  --color-sheet-border: var(--color-border);
 
   /* Typography */
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
+  --font-display: 'Young Serif', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: var(--font-display);
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
@@ -74,7 +95,7 @@
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
-  --shadow-page: 2px 0 8px rgba(0, 0, 0, 0.1), 5px 0 20px rgba(0, 0, 0, 0.05);
+  --shadow-page: 0 10px 30px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
 
   /* Transitions */
   --transition-fast: 150ms ease;
@@ -88,22 +109,28 @@
   --z-notification: 1100;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* ---------- Dark Mode ---------- */
 [data-theme="dark"] {
-  --color-bg: #0f172a;
-  --color-surface: #1e293b;
-  --color-surface-elevated: #334155;
-  --color-text: #f1f5f9;
-  --color-text-secondary: #94a3b8;
-  --color-text-muted: #64748b;
-  --color-border: #334155;
-  --color-border-light: #1e293b;
-  --color-page-bg: #1a2332;
-  --color-page-shadow: rgba(0, 0, 0, 0.3);
-  --color-header-bg: rgba(15, 23, 42, 0.95);
-  --color-line: #475569;
-  --color-primary-bg: #1e3a5f;
-  --color-primary-border: #1d4ed8;
+  --shell-bg: #10141E;
+  --color-bg: var(--shell-bg);
+  --color-header-bg: rgba(16, 20, 30, 0.92);
+  --color-header-text: #ffffff;
+  --color-header-text-muted: var(--phase-1-tint);
+  --color-header-border: rgba(255, 255, 255, 0.08);
+  --color-toggle-bg: rgba(255, 255, 255, 0.12);
+  --color-toggle-hover-bg: rgba(255, 255, 255, 0.22);
+  --color-rail-dot: rgba(255, 255, 255, 0.2);
+  --color-sheet-border: rgba(255, 255, 255, 0.12);
+  --shadow-page: 0 10px 40px rgba(0, 0, 0, 0.45);
 }
 
 /* ---------- Reset ---------- */
@@ -118,7 +145,11 @@
 html {
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
-  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -129,8 +160,8 @@ body {
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
-  min-height: 100vh;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 img {
@@ -186,10 +217,19 @@ select {
   padding: 0 var(--spacing-md);
 }
 
+/* Small-caps label style used for phase names, timer chips, header brand */
+.label-caps {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: var(--font-size-xs);
+}
+
 /* ---------- Typography ---------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-weight: 400;
   line-height: 1.3;
   color: var(--color-text);
 }
@@ -204,22 +244,10 @@ p {
   line-height: 1.8;
 }
 
-/* ---------- Scrollbar ---------- */
+/* ---------- Scrollbar (hidden everywhere — hard no-scroll constraint) ---------- */
 ::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--color-border-light);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-text-muted);
-  border-radius: var(--radius-full);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-text-secondary);
+  width: 0;
+  height: 0;
 }
 
 /* ---------- Selection ---------- */

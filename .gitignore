@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+tools/agy-worker.log
+
+# Scratch worker artifacts (screenshots, one-off briefs/scripts)
+tools/*.png
+tools/cover-screenshot.png
+tools/screenshot-cover.js
+tools/brief-*.md

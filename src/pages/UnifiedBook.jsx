@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
-import { loadLesson } from '../services/contentLoader';
+import { loadBook } from '../services/contentLoader';
 import { useAnswers } from '../hooks/useAnswers';
 import { useProgress } from '../hooks/useProgress';
 import BookViewer from '../components/Book/BookViewer';
@@ -21,12 +21,8 @@ export default function UnifiedBook() {
   useEffect(() => {
     setLoading(true);
     setError(null);
-    // Load the mock unified book data
-    fetch(`${import.meta.env.BASE_URL}content/book.json`)
-      .then(res => {
-        if (!res.ok) throw new Error('Erreur de chargement du livre.');
-        return res.json();
-      })
+    // Assemble the full book from book.json (front matter) + every lesson file.
+    loadBook()
       .then(data => {
         setBookData(data);
         const savedPage = getCurrentPage('book');
@@ -113,6 +109,7 @@ export default function UnifiedBook() {
       <Footer
         currentPage={currentPage}
         totalPages={pagesWithNav.length}
+        phase={currentPageData?.phase || 0}
         onPrev={() => viewerRef.current?.flipPrev()}
         onNext={() => viewerRef.current?.flipNext()}
       />

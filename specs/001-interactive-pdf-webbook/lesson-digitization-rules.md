@@ -1,5 +1,7 @@
 # Guide d'Intégration et de Numérisation des Leçons
 
+> ⚠️ **OBSOLÈTE (2026-07-08).** Ce document est remplacé par `lesson-factory-guide.md` (nouveau schéma JSON, structure de pages sans défilement, fichier unique par leçon — la règle de double synchronisation avec book.json est supprimée). Ne pas suivre les instructions ci-dessous.
+
 Ce document sert de référence pour l'intégration des leçons futures (Leçons 2 à 12). Il s'appuie sur la structure validée et optimisée lors de la conception de la Leçon 1.
 
 ---

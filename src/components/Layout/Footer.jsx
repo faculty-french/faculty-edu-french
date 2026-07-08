@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 
-export default function Footer({ currentPage, totalPages, onPrev, onNext }) {
+const PHASES = [1, 2, 3, 4];
+
+export default function Footer({ currentPage, totalPages, phase, onPrev, onNext }) {
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('book_theme') || 'light';
   });
@@ -22,9 +24,23 @@ export default function Footer({ currentPage, totalPages, onPrev, onNext }) {
       >
         ‹ Précédent
       </button>
-      <span className="book-footer__page-counter">
-        {currentPage + 1} / {totalPages}
-      </span>
+
+      <div className="book-footer__center">
+        <span className="book-footer__page-counter">
+          {currentPage + 1} / {totalPages}
+        </span>
+        {phase > 0 && (
+          <div className="progress-rail" aria-hidden="true">
+            {PHASES.map((p) => (
+              <span
+                key={p}
+                className={`progress-rail__dot progress-rail__dot--${p} ${p === phase ? 'progress-rail__dot--active' : ''}`}
+              />
+            ))}
+          </div>
+        )}
+      </div>
+
       <button
         className="book-footer__btn"
         onClick={onNext}
