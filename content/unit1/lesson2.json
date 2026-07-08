@@ -3,6 +3,1063 @@
   "title": "Les espaces verts",
   "unitId": "unit1",
   "unitTitle": "Module 1 : L'environnement et le développement durable",
-  "pages": [],
-  "questions": []
+  "pages": [
+    {
+      "id": "lesson2-p01",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 2 : LES ESPACES VERTS",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Leçon 2 : Les espaces verts",
+          "level": 1
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "heading",
+          "text": "Objectifs de cette leçon :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "À la fin de la leçon « les espaces verts », l’apprenant sera capable de comprendre un texte explicatif et de produire un texte écrit cohérent et structuré pour informer et convaincre."
+        },
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (01 - 06)",
+          "items": [
+            {
+              "num": "01",
+              "text": "Comprendre l’idée générale et déterminer les idées principales et secondaires d’un texte lu."
+            },
+            {
+              "num": "02",
+              "text": "Saisir le sens des mots selon le contexte."
+            },
+            {
+              "num": "03",
+              "text": "Etablir des liens entre les parties d’un texte lu."
+            },
+            {
+              "num": "04",
+              "text": "Suivre l’enchaînement chronologique des événements d’un texte lu."
+            },
+            {
+              "num": "05",
+              "text": "Résumer correctement un texte lu."
+            },
+            {
+              "num": "06",
+              "text": "Employer des mots adéquats à la situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p02",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 2 : OBJECTIFS (SUITE)",
+      "content": [
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (07 - 12)",
+          "items": [
+            {
+              "num": "07",
+              "text": "Écrire des phrases correctes et cohérentes."
+            },
+            {
+              "num": "08",
+              "text": "Employer les connecteurs logiques."
+            },
+            {
+              "num": "09",
+              "text": "Fonctionner les règles de présentation du texte (introduction-développement - conclusion)."
+            },
+            {
+              "num": "10",
+              "text": "Réviser et améliorer son texte à partir des remarques ou en comparant avec les camarades."
+            },
+            {
+              "num": "11",
+              "text": "Amener les apprenants à comprendre l’importance de l’apprentissage du français pour leur avenir académique et professionnel."
+            },
+            {
+              "num": "12",
+              "text": "Renforcer l’engagement des apprenants dans les activités d’apprentissage afin de susciter leur intérêt pour l’apprentissage du FLE."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p03",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 1,
+          "title": "Pré-action (activation des connaissances)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "I. Introduction et motivation",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Observez ce que vous voyez et prédisez le thème de la leçon."
+        },
+        {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson2-a.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson2-b.png",
+              "caption": "Image 2"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q0"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p04",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q1"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q2"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p05",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES & MICRO-TÂCHE 1",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Répondez à la question :"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q3"
+        },
+        {
+          "type": "microtask",
+          "number": 1,
+          "text": "Écrivez deux phrases pour expliquer ce qu’est un espace vert selon vous ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q4"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p06",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 2,
+          "title": "Action (compréhension approfondie)",
+          "duration": "60 min"
+        },
+        {
+          "type": "heading",
+          "text": "II. Lecture guidée du texte",
+          "level": 2
+        },
+        {
+          "type": "microtask",
+          "number": 2,
+          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global.",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte suivant, puis répondez aux questions."
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p07",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : LECTURE (1/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Les espaces verts",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Les espaces verts sont des endroits naturels en ville où l’on trouve des arbres, des pelouses et des fleurs. Ces lieux, comme les parcs, les jardins publics ou les forêts urbaines, sont très importants pour les habitants. Ils permettent de se détendre, de faire du sport ou simplement de profiter de la nature. Dans les grandes villes, les espaces verts améliorent la qualité de l’air et réduisent la pollution."
+        },
+        {
+          "type": "paragraph",
+          "text": "Beaucoup de personnes aiment passer leur temps libre dans les espaces verts. Les enfants y jouent, les adultes font des pique-niques ou lisent un livre, et les personnes âgées s’y promènent pour rester en forme. Ces endroits sont aussi utiles pour les animaux et les insectes, comme les oiseaux et les abeilles, qui y trouvent de la nourriture et un habitat naturel. Sans les espaces verts, la vie en ville serait beaucoup moins agréable."
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : LECTURE (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Les espaces verts (suite)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Malheureusement, dans certaines villes, les espaces verts disparaissent à cause de la construction de bâtiments ou de routes. Les gouvernements et les citoyens doivent agir pour protéger et créer plus de zones vertes. Planter des arbres, nettoyer les parcs et organiser des activités écologiques sont des solutions simples mais efficaces. Si tout le monde participe, les villes pourront devenir plus vertes et plus saines pour les générations futures."
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES (1/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (1/2)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez la bonne réponse :"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q5"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q6"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (2/2)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez la bonne réponse :"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q7"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : MICRO-TÂCHES D'ANALYSE",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "Trouvez dans le texte trois activités qu’on peut faire dans un espace vert ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q8"
+        },
+        {
+          "type": "microtask",
+          "number": 4,
+          "text": "Trouvez l’idée générale du texte ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q9"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : TEXTE EXPLICATIF",
+      "content": [
+        {
+          "type": "info-box",
+          "title": "Présentation du texte explicatif",
+          "sections": [
+            {
+              "heading": "Définition",
+              "items": [
+                "Le texte explicatif est un texte qui a pour objectif d’expliquer un phénomène, une idée ou une situation. Il répond souvent à des questions comme : Pourquoi ? Comment ? Quels sont les effets ?"
+              ]
+            },
+            {
+              "heading": "Caractéristiques principales",
+              "items": [
+                "Il donne des informations précises.",
+                "Il utilise des connecteurs logiques : car, parce que, ainsi, donc, cependant…",
+                "Il présente causes, conséquences, solutions.",
+                "Il peut contenir des exemples pour aider à comprendre."
+              ]
+            },
+            {
+              "heading": "Dans ce texte sur les espaces verts, l’auteur :",
+              "items": [
+                "Décrit ce qu’est un espace vert,",
+                "Explique pourquoi ils sont importants,",
+                "Montre les problèmes liés à leur disparition,",
+                "Propose des solutions pour les protéger."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p13",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : RÉSUMÉ & PHRASES DIFFICILES",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 5,
+          "text": "Résumez chaque paragraphe en une phrase ?",
+          "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q10"
+        },
+        {
+          "type": "microtask",
+          "number": 6,
+          "text": "Déterminez les phrases difficiles à comprendre pour vous ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q11"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : VRAI OU FAUX (1/2)",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Mettez vrai ou faux devant chaque phrase :"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-vf1"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-vf2"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p15",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : VRAI OU FAUX (2/2)",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Mettez vrai ou faux devant chaque phrase (suite) :"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-vf3"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-vf4"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p16",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : REFORMULATION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 7,
+          "text": "Reformulez la phrase suivante ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Reformulez cette phrase en utilisant vos propres mots. « Les espaces verts améliorent la qualité de l’air »."
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p17",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : MINI-PRODUCTION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 8,
+          "text": "Mini-production",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Écrivez un court paragraphe de 4 à 5 lignes sur les comportements humains qui menacent les espaces verts."
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q13"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p18",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : STRUCTURES À OBSERVER",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Structures à observer",
+          "sections": [
+            {
+              "heading": "Prépositions",
+              "items": [
+                "Dans → indique le lieu : « dans les grandes villes »",
+                "À cause de → indique la cause : « à cause de la construction »"
+              ]
+            },
+            {
+              "heading": "Temps verbaux",
+              "items": [
+                "Présent → utilisé pour décrire, expliquer ou parler de faits généraux : « Les espaces verts sont des endroits naturels ».",
+                "Futur → utilisé pour exprimer une conséquence possible : « Si tout le monde participe, les villes pourront devenir plus vertes »."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p19",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : DISCUSSION EN GROUPES",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 10,
+          "text": "Discussion en groupes",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Travaillez en petits groupes (3 à 4 étudiants). Échangez vos idées envers la tâche visée et notez les propositions les plus convenables."
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q14"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p20",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Tâche finale",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Le texte doit contenir",
+          "sections": [
+            {
+              "heading": "Éléments requis",
+              "items": [
+                "Définition d’un espace vert.",
+                "Importance pour les habitants.",
+                "Problèmes actuels.",
+                "Solutions proposées.",
+                "Conclusion motivante."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p21",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 2 : OUTILS INTERACTIFS",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "info-box",
+          "title": "Outils interactifs fournis",
+          "sections": [
+            {
+              "heading": "Banque de connecteurs",
+              "items": [
+                "d’abord, ensuite, en plus, pourtant, enfin…"
+              ]
+            },
+            {
+              "heading": "Aide lexicale",
+              "items": [
+                "arbres, pollution, protéger, créer, planter…"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p22",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 2 : TÂCHE FINALE — ARTICLE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Vous êtes membre d’un club écologique à l’université."
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q15"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, structure), comparez avec vos camarades et corrigez si nécessaire."
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q16"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p24",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/7)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e1"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e2"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p25",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/7)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e3"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p26",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (3/7)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e5"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e6"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p27",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (4/7)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e7"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e8"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p28",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (5/7)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e9"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e10"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p29",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (6/7)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e11"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e12"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p30",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (7/7)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e13"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p31",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Soumission du devoir",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes arrivé à la fin de la Leçon 2. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous."
+        },
+        {
+          "type": "submit",
+          "lessonId": "lesson2",
+          "lessonTitle": "Les espaces verts"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "l2-q0",
+      "type": "open-ended",
+      "text": "Observez ce que vous voyez et prédisez le thème de la leçon.",
+      "lines": 4
+    },
+    {
+      "id": "l2-q1",
+      "type": "open-ended",
+      "text": "Que voyez-vous dans cette image ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-q2",
+      "type": "open-ended",
+      "text": "Pourquoi ces endroits sont-ils importants ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-q3",
+      "type": "open-ended",
+      "text": "Quel est le thème du texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-q4",
+      "type": "open-ended",
+      "text": "Écrivez deux phrases pour expliquer ce qu’est un espace vert selon vous ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-q5",
+      "type": "multiple-choice",
+      "text": "1. Les espaces verts améliorent…",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "la pollution"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "la qualité de l’air"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "la circulation"
+        }
+      ]
+    },
+    {
+      "id": "l2-q6",
+      "type": "multiple-choice",
+      "text": "2. Dans les espaces verts, les adultes…",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "jouent au ballon"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "font des pique-niques"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "vont à l’école"
+        }
+      ]
+    },
+    {
+      "id": "l2-q7",
+      "type": "multiple-choice",
+      "text": "3. Les abeilles et les oiseaux trouvent dans les espaces verts…",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "des voitures"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "de la nourriture"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "des bâtiments"
+        }
+      ]
+    },
+    {
+      "id": "l2-q8",
+      "type": "open-ended",
+      "text": "Trouvez dans le texte trois activités qu’on peut faire dans un espace vert ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-q9",
+      "type": "open-ended",
+      "text": "Trouvez l’idée générale du texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-q10",
+      "type": "open-ended",
+      "text": "Résumez chaque paragraphe en une phrase ?",
+      "lines": 5
+    },
+    {
+      "id": "l2-q11",
+      "type": "open-ended",
+      "text": "Déterminez les phrases difficiles à comprendre pour vous ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-vf1",
+      "type": "vrai-faux",
+      "text": "1. Les espaces verts existent seulement dans les villages.",
+      "answer": "faux"
+    },
+    {
+      "id": "l2-vf2",
+      "type": "vrai-faux",
+      "text": "2. Les espaces verts permettent aux gens de se détendre.",
+      "answer": "vrai"
+    },
+    {
+      "id": "l2-vf3",
+      "type": "vrai-faux",
+      "text": "3. Les animaux ne peuvent pas vivre dans les espaces verts.",
+      "answer": "faux"
+    },
+    {
+      "id": "l2-vf4",
+      "type": "vrai-faux",
+      "text": "4. Dans certaines villes, les espaces verts disparaissent.",
+      "answer": "vrai"
+    },
+    {
+      "id": "l2-q12",
+      "type": "open-ended",
+      "text": "Reformulez la phrase.",
+      "lines": 4
+    },
+    {
+      "id": "l2-q13",
+      "type": "open-ended",
+      "text": "Rédigez votre paragraphe.",
+      "lines": 5
+    },
+    {
+      "id": "l2-q14",
+      "type": "open-ended",
+      "text": "Quelles actions pourraient être mises en place dans votre ville ou votre quartier ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-q15",
+      "type": "open-ended",
+      "text": "Rédigez un article (6–8 lignes) pour convaincre vos camarades de protéger les espaces verts dans votre ville.",
+      "lines": 6
+    },
+    {
+      "id": "l2-q16",
+      "type": "open-ended",
+      "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, structure), comparez avec vos camarades et corrigez si nécessaire.",
+      "lines": 4
+    },
+    {
+      "id": "l2-e1",
+      "type": "open-ended",
+      "text": "Déterminez quatre idées secondaires du texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e2",
+      "type": "open-ended",
+      "text": "Quels animaux peuvent y vivre ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e3",
+      "type": "open-ended",
+      "text": "Pourquoi certains espaces verts disparaissent-ils ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e4",
+      "type": "open-ended",
+      "text": "Identifiez les mots clés du texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e5",
+      "type": "open-ended",
+      "text": "Trouvez un (autre) titre qui donne bien la clé du texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e6",
+      "type": "open-ended",
+      "text": "Quelles solutions le texte propose-t-il ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e7",
+      "type": "open-ended",
+      "text": "Comparez ces pratiques économiques de l’auteur pour la protection de l’environnement avec votre propre expérience.",
+      "lines": 4
+    },
+    {
+      "id": "l2-e8",
+      "type": "open-ended",
+      "text": "En petit groupe, déterminez avec tes camarades d’autres causes de la disparition des espaces verts.",
+      "lines": 4
+    },
+    {
+      "id": "l2-e9",
+      "type": "open-ended",
+      "text": "Quels sont les avantages des espaces verts en ville ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e10",
+      "type": "open-ended",
+      "text": "Que font les adultes dans les espaces verts ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e11",
+      "type": "open-ended",
+      "text": "Pourquoi les espaces verts sont-ils importants pour les animaux ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e12",
+      "type": "open-ended",
+      "text": "Quelles sont les causes de la disparition des espaces verts ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-e13",
+      "type": "open-ended",
+      "text": "Comment peut-on protéger les espaces verts ?",
+      "lines": 4
+    }
+  ]
 }

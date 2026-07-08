@@ -5,251 +5,792 @@
   "unitTitle": "Module 1 : L'environnement et le développement durable",
   "pages": [
     {
-      "id": "lesson1-page-17",
-      "pageNumber": 17,
+      "id": "lesson1-p01",
+      "phase": 0,
       "type": "content",
       "title": "LEÇON 1 : LE RÉCHAUFFEMENT CLIMATIQUE",
       "content": [
-        { "type": "heading", "text": "Leçon 1 : Le réchauffement climatique", "level": 1 },
-        { "type": "divider" },
-        { "type": "heading", "text": "Objectifs de cette leçon :", "level": 2 },
-        { "type": "paragraph", "text": "À la fin de la leçon « Agir contre le réchauffement climatique », l’apprenant sera capable de comprendre et de produire un texte écrit cohérent et structuré pour informer et convaincre." },
-        { "type": "paragraph", "text": "Objectifs de cette leçon, l’apprenant doit être capable de/d’ :" },
-        { "type": "objectives", "text": "Objectifs de la leçon (01 - 06)", "items": [
-          "01\nComprendre l’idée générale d’un texte lu.",
-          "02\nDéterminer les idées principales et secondaires d’un texte lu.",
-          "03\nSaisir le sens des mots selon le contexte.",
-          "04\nFaire des inférences en établissant des liens entre les éléments d’un texte lu en justifiant son interprétation.",
-          "05\nRésumer correctement un texte lu.",
-          "06\nSuivre l’enchaînement chronologique des événements d’un texte lu."
-        ]}
+        {
+          "type": "heading",
+          "text": "Leçon 1 : Le réchauffement climatique",
+          "level": 1
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "heading",
+          "text": "Objectifs de cette leçon :",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "À la fin de la leçon « Agir contre le réchauffement climatique », l’apprenant sera capable de comprendre et de produire un texte écrit cohérent et structuré pour informer et convaincre."
+        },
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (01 - 06)",
+          "items": [
+            {
+              "num": "01",
+              "text": "Comprendre l’idée générale d’un texte lu."
+            },
+            {
+              "num": "02",
+              "text": "Déterminer les idées principales et secondaires d’un texte lu."
+            },
+            {
+              "num": "03",
+              "text": "Saisir le sens des mots selon le contexte."
+            },
+            {
+              "num": "04",
+              "text": "Faire des inférences en établissant des liens entre les éléments d’un texte lu en justifiant son interprétation."
+            },
+            {
+              "num": "05",
+              "text": "Résumer correctement un texte lu."
+            },
+            {
+              "num": "06",
+              "text": "Suivre l’enchaînement chronologique des événements d’un texte lu."
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "lesson1-page-18",
-      "pageNumber": 18,
+      "id": "lesson1-p02",
+      "phase": 0,
       "type": "content",
-      "title": "LEÇON 1 : OBJECTIFS & PHASE 1",
+      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
       "content": [
-        { "type": "objectives", "text": "Objectifs de la leçon (07 - 11)", "items": [
-          "07\nEmployer un vocabulaire riche et varié pour que le message écrit soit compréhensible.",
-          "08\nEmployer les connecteurs logiques.",
-          "09\nÉcrire des phrases correctes et cohérentes.",
-          "10\nDévelopper chez les apprenants le sentiment que l’apprentissage du français est utile et significatif.",
-          "11\nÉveiller la curiosité et l’intérêt des apprenants à travers des activités d’apprentissage variées."
-        ]}
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (07 - 11)",
+          "items": [
+            {
+              "num": "07",
+              "text": "Employer un vocabulaire riche et varié pour que le message écrit soit compréhensible."
+            },
+            {
+              "num": "08",
+              "text": "Employer les connecteurs logiques."
+            },
+            {
+              "num": "09",
+              "text": "Écrire des phrases correctes et cohérentes."
+            },
+            {
+              "num": "10",
+              "text": "Développer chez les apprenants le sentiment que l’apprentissage du français est utile et significatif."
+            },
+            {
+              "num": "11",
+              "text": "Éveiller la curiosité et l’intérêt des apprenants à travers des activités d’apprentissage variées."
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "lesson1-page-19",
-      "pageNumber": 19,
+      "id": "lesson1-p03",
+      "phase": 1,
       "type": "content",
-      "title": "LEÇON 1 : IMAGES D'OBSERVATION",
+      "title": "LEÇON 1 : PHASE 1 — IMAGES D'OBSERVATION",
       "content": [
-        { "type": "instruction", "text": "<strong>PHASE 1 : PRÉ-ACTION (ACTIVATION DES CONNAISSANCES) (20 MINUTES)</strong>" },
-        { "type": "heading", "text": "I. Introduction et Motivation : (5 minutes)", "level": 2 },
-        { "type": "instruction", "text": "📌 Consigne : Observez attentivement les deux images suivantes, puis prédisez le thème du texte." },
-        { "type": "images-row", "images": [
-          { "imageUrl": "images/lessons/lesson1-run.png", "caption": "Image 1 : Pollution et réaction humaine" },
-          { "imageUrl": "images/lessons/lesson1-earth.png", "caption": "Image 2 : Notre planète Terre en souffrance" }
-        ]},
-        { "type": "question", "questionId": "l1-q0" }
+        {
+          "type": "phase-banner",
+          "phase": 1,
+          "title": "Pré-action (activation des connaissances)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "I. Introduction et motivation",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Observez attentivement les deux images suivantes, puis prédisez le thème du texte."
+        },
+        {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson1-run.png",
+              "caption": "Image 1 : Pollution et réaction humaine"
+            },
+            {
+              "imageUrl": "images/lessons/lesson1-earth.png",
+              "caption": "Image 2 : Notre planète Terre en souffrance"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q0"
+        }
       ]
     },
     {
-      "id": "lesson1-page-20",
-      "pageNumber": 20,
+      "id": "lesson1-p04",
+      "phase": 1,
       "type": "content",
       "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
       "content": [
-        { "type": "instruction", "text": "📌 Répondez aux questions suivantes :" },
-        { "type": "question", "questionId": "l1-q1" },
-        { "type": "question", "questionId": "l1-q2" },
-        { "type": "divider" },
-        { "type": "instruction", "text": "<strong>PHASE 2 : ACTION (COMPRÉHENSION APPROFONDIE) (60 MINUTES)</strong>" },
-        { "type": "heading", "text": "II. Lecture guidée du texte (15 minutes)", "level": 2 },
-        { "type": "instruction", "text": "📝 Micro tâche 1 : Lisez le texte en entier en silence ou à voix basse et comprenez le sens global. (10 minutes)" },
-        { "type": "instruction", "text": "📌 Consigne : Lisez le texte suivant, puis répondez aux questions." }
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q1"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q2"
+        }
       ]
     },
     {
-      "id": "lesson1-page-21",
-      "pageNumber": 21,
+      "id": "lesson1-p05",
+      "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : LECTURE DU TEXTE",
+      "title": "LEÇON 1 : PHASE 2 — LECTURE GUIDÉE",
       "content": [
-        { "type": "heading", "text": "Agir contre le réchauffement climatique", "level": 2 },
-        { "type": "paragraph", "text": "Pour lutter contre le réchauffement climatique, j’essaie de faire des petites choses à mon échelle au quotidien. Je pense que c’est important que chacun fasse quelque chose à son niveau. Bien sûr, il faudrait aussi que des décisions politiques soient vraiment prises pour protéger l’environnement, mais nous avons tous un pouvoir que nous oublions trop souvent : le pouvoir du consommateur." },
-        { "type": "paragraph", "text": "Tel que je vois les choses, si tout le monde arrêtait d’acheter des produits polluants, on arrêterait tout simplement d’en vendre. Alors, j’essaie de faire les choses à mon échelle en espérant que d’autres feront pareil." },
-        { "type": "paragraph", "text": "Par exemple, j’essaie de n’acheter que des fruits et légumes de saison. J’achète plutôt des produits locaux pour privilégier les circuits courts. Aussi, je fais attention à acheter le moins possible de produits fabriqués à l’étranger, comme ça, je sais que ce que j’achète n’a pas été transporté dans des conteneurs polluants." },
-        { "type": "paragraph", "text": "Je ne demande pas de sacs plastiques quand je fais des courses, car je sais qu’ils se retrouvent dans les océans et sont dévastateurs pour la faune marine." },
-        { "type": "paragraph", "text": "Ensuite, pour mes déplacements, je privilégie plutôt les transports en commun, la marche à pied ou le vélo pour éviter la voiture le plus possible." },
-        { "type": "paragraph", "text": "Bien sûr, quand on vit à la campagne, c’est beaucoup plus difficile de vivre sans voiture, surtout quand on est obligé de faire 20 kilomètres pour faire des courses. Mais quand on vit en centre-ville et que tout est à 2 ou 3 kilomètres à pied, je trouve qu’on n’a pas trop d’excuses." },
-        { "type": "paragraph", "text": "J’aimerais vraiment que le vélo se démocratise en France comme en Allemagne, mais le problème des villes françaises, c’est qu’elles ne sont pas aménagées pour les vélos." },
-        { "type": "paragraph", "text": "Mais je reste plutôt optimiste, les choses commencent à changer, bien que trop lentement à mon goût. De toute façon, je ne suis pas un modèle non plus et je sais que je pollue énormément malgré mes petits gestes." }
+        {
+          "type": "phase-banner",
+          "phase": 2,
+          "title": "Action (compréhension approfondie)",
+          "duration": "60 min"
+        },
+        {
+          "type": "heading",
+          "text": "II. Lecture guidée du texte",
+          "level": 2
+        },
+        {
+          "type": "microtask",
+          "number": 1,
+          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global.",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte suivant, puis répondez aux questions."
+        }
       ]
     },
     {
-      "id": "lesson1-page-22",
-      "pageNumber": 22,
+      "id": "lesson1-p06",
+      "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : QUESTIONS GUIDÉES",
+      "title": "LEÇON 1 : LECTURE (1/2)",
       "content": [
-        { "type": "heading", "text": "Questions guidées (10 minutes)", "level": 2 },
-        { "type": "instruction", "text": "📌 Répondez aux questions suivantes :" },
-        { "type": "question", "questionId": "l1-q3" },
-        { "type": "question", "questionId": "l1-q4" },
-        { "type": "question", "questionId": "l1-q5" }
+        {
+          "type": "heading",
+          "text": "Agir contre le réchauffement climatique",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour lutter contre le réchauffement climatique, j’essaie de faire des petites choses à mon échelle au quotidien. Je pense que c’est important que chacun fasse quelque chose à son niveau. Bien sûr, il faudrait aussi que des décisions politiques soient vraiment prises pour protéger l’environnement, mais nous avons tous un pouvoir que nous oublions trop souvent : le pouvoir du consommateur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tel que je vois les choses, si tout le monde arrêtait d’acheter des produits polluants, on arrêterait tout simplement d’en vendre. Alors, j’essaie de faire les choses à mon échelle en espérant que d’autres feront pareil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, j’essaie de n’acheter que des fruits et légumes de saison. J’achète plutôt des produits locaux pour privilégier les circuits courts. Aussi, je fais attention à acheter le moins possible de produits fabriqués à l’étranger, comme ça, je sais que ce que j’achète n’a pas été transporté dans des conteneurs polluants."
+        },
+        {
+          "type": "paragraph",
+          "text": "Je ne demande pas de sacs plastiques quand je fais des courses, car je sais qu’ils se retrouvent dans les océans et sont dévastateurs pour la faune marine."
+        }
       ]
     },
     {
-      "id": "lesson1-page-23",
-      "pageNumber": 23,
+      "id": "lesson1-p07",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : LECTURE (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Agir contre le réchauffement climatique (suite)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensuite, pour mes déplacements, je privilégie plutôt les transports en commun, la marche à pied ou le vélo pour éviter la voiture le plus possible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien sûr, quand on vit à la campagne, c’est beaucoup plus difficile de vivre sans voiture, surtout quand on est obligé de faire 20 kilomètres pour faire des courses. Mais quand on vit en centre-ville et que tout est à 2 ou 3 kilomètres à pied, je trouve qu’on n’a pas trop d’excuses."
+        },
+        {
+          "type": "paragraph",
+          "text": "J’aimerais vraiment que le vélo se démocratise en France comme en Allemagne, mais le problème des villes françaises, c’est qu’elles ne sont pas aménagées pour les vélos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mais je reste plutôt optimiste, les choses commencent à changer, bien que trop lentement à mon goût. De toute façon, je ne suis pas un modèle non plus et je sais que je pollue énormément malgré mes petits gestes."
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (1/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (1/2)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q3"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q4"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (2/2)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q5"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p10",
+      "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MOTS-CLÉS & SENS",
       "content": [
-        { "type": "instruction", "text": "📌 Déterminez les mots-clés dans le texte et leurs significations selon le contexte (5 minutes)" },
-        { "type": "objectives", "text": "Mots-clés (01 - 05)", "items": [
-          "01\nConsommateur",
-          "02\nProduits polluants",
-          "03\nCircuits courts",
-          "04\nTransports en commun",
-          "05\nSacs plastiques"
-        ]},
-        { "type": "question", "questionId": "l1-q6" }
+        {
+          "type": "consigne",
+          "text": "Déterminez les mots-clés dans le texte et leurs significations selon le contexte."
+        },
+        {
+          "type": "keywords",
+          "title": "Mots-clés",
+          "items": [
+            "Consommateur",
+            "Produits polluants",
+            "Circuits courts",
+            "Transports en commun",
+            "Sacs plastiques"
+          ]
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q6"
+        }
       ]
     },
     {
-      "id": "lesson1-page-24",
-      "pageNumber": 24,
+      "id": "lesson1-p11",
+      "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : MICRO-TÂCHES D'ANALYSE",
+      "title": "LEÇON 1 : MICRO-TÂCHES D'ANALYSE (1/2)",
       "content": [
-        { "type": "instruction", "text": "📝 Micro tâche 2 : Trouvez l’idée générale du texte ? (5 minutes)" },
-        { "type": "question", "questionId": "l1-q7" },
-        { "type": "divider" },
-        { "type": "instruction", "text": "📝 Micro-tâches 3 : (5 minutes) : Identifiez les connecteurs logiques (ex. : « Alors », « Aussi », « Mais ») et expliquez leur rôle." },
-        { "type": "question", "questionId": "l1-q8" },
-        { "type": "divider" },
-        { "type": "instruction", "text": "📝 Micro-tâches 4 : (10 minutes) Résumez chaque paragraphe en une phrase ?" },
-        { "type": "question", "questionId": "l1-q9" }
+        {
+          "type": "microtask",
+          "number": 2,
+          "text": "Trouvez l’idée générale du texte ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q7"
+        },
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "Identifiez les connecteurs logiques (ex. : « Alors », « Aussi », « Mais ») et expliquez leur rôle.",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q8"
+        }
       ]
     },
     {
-      "id": "lesson1-page-25",
-      "pageNumber": 25,
+      "id": "lesson1-p12",
+      "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : DOCUMENTATION & PHRASES DIFFICILES",
+      "title": "LEÇON 1 : MICRO-TÂCHES D'ANALYSE (2/2)",
       "content": [
-        { "type": "heading", "text": "Des informations enrichissantes", "level": 2 },
-        { "type": "paragraph", "text": "<strong>Des informations supplémentaires : LE TEXTE ARGUMENTATIF</strong><br/><br/><strong>1️⃣ Définition :</strong> Le texte argumentatif cherche à convaincre ou persuader le lecteur d’adopter une idée ou une attitude.<br/>• Présente un problème ou un sujet.<br/>• Expose l’opinion de l’auteur.<br/>• Fournit arguments et exemples concrets.<br/>• Peut inclure un appel à l’action.<br/><br/><strong>2️⃣ Objectif :</strong><br/>• Persuader ou convaincre le lecteur.<br/>• Faire réfléchir sur un sujet.<br/>• Proposer des solutions ou encourager un comportement.<br/><br/><strong>3️⃣ Caractéristiques principales :</strong><br/>• Problème : Le réchauffement climatique menace la planète.<br/>• Opinion : « J'essaie de faire des petites choses à mon échelle »<br/>• Arguments : Acheter local, éviter les sacs plastiques, utiliser le vélo/transports en commun.<br/>• Exemples concrets : Fruits et légumes de saison, circuits courts, limiter produits importés.<br/>• Appel à l'action : « Chacun peut agir, nous avons le pouvoir du consommateur »" },
-        { "type": "divider" },
-        { "type": "instruction", "text": "📝 Micro-tâches 5 : (5 minutes) Déterminez les phrases difficiles à comprendre pour vous ?" },
-        { "type": "question", "questionId": "l1-q10" }
+        {
+          "type": "microtask",
+          "number": 4,
+          "text": "Résumez chaque paragraphe en une phrase ?",
+          "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q9"
+        }
       ]
     },
     {
-      "id": "lesson1-page-26",
-      "pageNumber": 26,
+      "id": "lesson1-p13",
+      "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : VRAI OU FAUX & PRODUCTION",
+      "title": "LEÇON 1 : LE TEXTE ARGUMENTATIF",
       "content": [
-        { "type": "instruction", "text": "📌 Mettez vrai ou faux devant chaque phrase : (5 minutes)" },
-        { "type": "question", "questionId": "l1-vf1" },
-        { "type": "question", "questionId": "l1-vf2" },
-        { "type": "question", "questionId": "l1-vf3" },
-        { "type": "question", "questionId": "l1-vf4" },
-        { "type": "question", "questionId": "l1-vf5" },
-        { "type": "divider" },
-        { "type": "instruction", "text": "📝 Micro-tâches 6 : (5 minutes) Reformulez la phrase suivante ?" },
-        { "type": "instruction", "text": "📌 Consigne : Reformulez cette phrase en utilisant vos propres mots : « Je ne demande pas de sacs plastiques car ils sont dévastateurs pour la faune marine. »" },
-        { "type": "question", "questionId": "l1-q11" },
-        { "type": "divider" },
-        { "type": "instruction", "text": "📝 Micro-tâches 7 : Mini-production (5 minutes)" },
-        { "type": "instruction", "text": "📌 Consigne : Écrivez (2 à 3 lignes) : Quelles actions écologiques faites-vous dans votre vie quotidienne pour lutter contre le réchauffement climatique ?" },
-        { "type": "question", "questionId": "l1-q12" }
+        {
+          "type": "info-box",
+          "title": "Le texte argumentatif",
+          "sections": [
+            {
+              "heading": "Définition",
+              "items": [
+                "Le texte argumentatif cherche à convaincre ou persuader le lecteur d’adopter une idée ou une attitude.",
+                "Présente un problème ou un sujet.",
+                "Expose l’opinion de l’auteur.",
+                "Fournit arguments et exemples concrets.",
+                "Peut inclure un appel à l’action."
+              ]
+            },
+            {
+              "heading": "Objectif",
+              "items": [
+                "Persuader ou convaincre le lecteur.",
+                "Faire réfléchir sur un sujet.",
+                "Proposer des solutions ou encourager un comportement."
+              ]
+            },
+            {
+              "heading": "Caractéristiques principales",
+              "items": [
+                "Problème : Le réchauffement climatique menace la planète.",
+                "Opinion : « J'essaie de faire des petites choses à mon échelle »",
+                "Arguments : Acheter local, éviter les sacs plastiques, utiliser le vélo/transports en commun.",
+                "Exemples concrets : Fruits et légumes de saison, circuits courts, limiter produits importés.",
+                "Appel à l'action : « Chacun peut agir, nous avons le pouvoir du consommateur »"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "lesson1-page-27",
-      "pageNumber": 27,
+      "id": "lesson1-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : PHRASES DIFFICILES",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 5,
+          "text": "Déterminez les phrases difficiles à comprendre pour vous ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q10"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p15",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : VRAI OU FAUX (1/2)",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Mettez vrai ou faux devant chaque phrase :"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-vf1"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-vf2"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-vf3"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p16",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : VRAI OU FAUX (2/2)",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Mettez vrai ou faux devant chaque phrase :"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-vf4"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-vf5"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p17",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : REFORMULATION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 6,
+          "text": "Reformulez la phrase suivante ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Reformulez cette phrase en utilisant vos propres mots : « Je ne demande pas de sacs plastiques car ils sont dévastateurs pour la faune marine. »"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q11"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p18",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : MINI-PRODUCTION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 7,
+          "text": "Mini-production",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Écrivez (2 à 3 lignes) : Quelles actions écologiques faites-vous dans votre vie quotidienne pour lutter contre le réchauffement climatique ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p19",
+      "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : VIDÉO ÉDUCATIVE",
       "content": [
-        { "type": "instruction", "text": "📝 Micro tâche 8 : (5 minutes) : Regardez cette vidéo pour bien comprendre le changement climatique : comprendre ses causes et ses conséquences pour mieux réagir" },
-        { "type": "video", "videoUrl": "https://www.youtube.com/embed/NfaeoCORuzk", "caption": "Le réchauffement climatique expliqué aux enfants" },
-        { "type": "instruction", "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo." },
-        { "type": "question", "questionId": "l1-q13" }
+        {
+          "type": "microtask",
+          "number": 8,
+          "text": "Regardez cette vidéo pour bien comprendre le changement climatique : comprendre ses causes et ses conséquences pour mieux réagir.",
+          "duration": "5 min"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/WsILHnwc4As",
+          "caption": "Le réchauffement climatique expliqué aux enfants"
+        }
       ]
     },
     {
-      "id": "lesson1-page-28",
-      "pageNumber": 28,
+      "id": "lesson1-p20",
+      "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : STRUCTURES & DISCUSSION",
+      "title": "LEÇON 1 : RÉSUMÉ DE LA VIDÉO",
       "content": [
-        { "type": "heading", "text": "Structures à observer :", "level": 2 },
-        { "type": "instruction", "text": "📌 EXEMPLES DU TEXTE :" },
-        { "type": "objectives", "text": "Structures linguistiques", "items": [
-          "• Les connecteurs d’opinion : je pense que, je trouve que…",
-          "• Les connecteurs d’exemple : par exemple…",
-          "• Les connecteurs d’opposition : mais, pourtant…",
-          "• Les structures pour exprimer un souhait : J’aimerais que…"
-        ]},
-        { "type": "divider" },
-        { "type": "instruction", "text": "📝 Micro-tâches 9 : Discussion en groupes (10 minutes)" },
-        { "type": "instruction", "text": "📌 Quelles actions peuvent être mises en œuvre à l’université ou dans votre ville pour lutter contre le réchauffement climatique ?" },
-        { "type": "instruction", "text": "📌👉 Déroulement: Travaillez en petits groupes (3 à 4 étudiants). Discutez autour de la question suivante : 👉" },
-        { "type": "question", "questionId": "l1-q14" }
+        {
+          "type": "consigne",
+          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q13"
+        }
       ]
     },
     {
-      "id": "lesson1-page-29",
-      "pageNumber": 29,
+      "id": "lesson1-p21",
+      "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : TÂCHE FINALE",
+      "title": "LEÇON 1 : STRUCTURES À OBSERVER",
       "content": [
-        { "type": "instruction", "text": "<strong>PHASE 3 : POST-ACTION (TÂCHE FINALE) DURÉE (20 MINUTES) :</strong>" },
-        { "type": "heading", "text": "Tâche Finale : Rédiger un message de sensibilisation écologique (format publication Facebook / Instagram)", "level": 2 },
-        { "type": "instruction", "text": "📌 Consigne : L’université de Minia souhaite un article de sensibilisation contre le réchauffement climatique. Elle demande aux étudiants de créer un article officiel à diffuser dans les réseaux sociaux de l’université." },
-        { "type": "paragraph", "text": "La demande : En tant qu’étudiant, rédigez un article (8 à 10 lignes) pour sensibiliser vos camarades aux comportements simples qui réduisent le réchauffement climatique. La publication doit être claire, motivante et adaptée aux réseaux sociaux." },
-        { "type": "question", "questionId": "l1-q15" }
+        {
+          "type": "heading",
+          "text": "Structures à observer",
+          "level": 2
+        },
+        {
+          "type": "keywords",
+          "title": "Structures linguistiques",
+          "items": [
+            "Opinion : je pense que, je trouve que…",
+            "Exemple : par exemple…",
+            "Opposition : mais, pourtant…",
+            "Souhait : J’aimerais que…"
+          ]
+        }
       ]
     },
     {
-      "id": "lesson1-page-30",
-      "pageNumber": 30,
+      "id": "lesson1-p22",
+      "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION PARTIE 1",
+      "title": "LEÇON 1 : DISCUSSION EN GROUPES",
       "content": [
-        { "type": "instruction", "text": "<strong>PHASE 4 : ÉVALUATION DES PRODUITS DES ÉTUDIANTS : DURÉE : 10 MINUTES</strong>" },
-        { "type": "paragraph", "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, structure), comparez avec vos collègues et corrigez son texte si nécessaire." },
-        { "type": "instruction", "text": "Discutez en groupe : quelles actions pourraient être mises en place dans votre ville ou votre quartier ?" },
-        { "type": "question", "questionId": "l1-q16" },
-        { "type": "divider" },
-        { "type": "heading", "text": "É-évaluation : Répondez à ces questions :", "level": 2 },
-        { "type": "question", "questionId": "l1-e1" },
-        { "type": "question", "questionId": "l1-e2" },
-        { "type": "question", "questionId": "l1-e3" },
-        { "type": "question", "questionId": "l1-e4" }
+        {
+          "type": "microtask",
+          "number": 9,
+          "text": "Discussion en groupes",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Quelles actions peuvent être mises en œuvre à l’université ou dans votre ville pour lutter contre le réchauffement climatique ? Déroulement : travaillez en petits groupes (3 à 4 étudiants) et discutez autour de la question."
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q14"
+        }
       ]
     },
     {
-      "id": "lesson1-page-31",
-      "pageNumber": 31,
+      "id": "lesson1-p23",
+      "phase": 3,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION & SOUMISSION",
+      "title": "LEÇON 1 : PHASE 3 — TÂCHE FINALE",
       "content": [
-        { "type": "question", "questionId": "l1-e5" },
-        { "type": "question", "questionId": "l1-e6" },
-        { "type": "question", "questionId": "l1-e7" },
-        { "type": "question", "questionId": "l1-e8" },
-        { "type": "question", "questionId": "l1-e9" },
-        { "type": "question", "questionId": "l1-e10" },
-        { "type": "divider" },
-        { "type": "heading", "text": "Soumission du devoir", "level": 2 },
-        { "type": "paragraph", "text": "Vous êtes arrivé à la fin de la Leçon 1. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous." },
-        { "type": "submit", "lessonId": "lesson1", "lessonTitle": "Le réchauffement climatique" }
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Rédiger un message de sensibilisation écologique",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "(format publication Facebook / Instagram)"
+        },
+        {
+          "type": "consigne",
+          "text": "L’université de Minia souhaite un article de sensibilisation contre le réchauffement climatique. Elle demande aux étudiants de créer un article officiel à diffuser dans les réseaux sociaux de l’université."
+        },
+        {
+          "type": "paragraph",
+          "text": "La demande : En tant qu’étudiant, rédigez un article (8 à 10 lignes) pour sensibiliser vos camarades aux comportements simples qui réduisent le réchauffement climatique. La publication doit être claire, motivante et adaptée aux réseaux sociaux."
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p24",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 1 : TÂCHE FINALE (SUITE)",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "consigne",
+          "text": "En tant qu'étudiant, rédigez votre article de sensibilisation (8 à 10 lignes) :"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q15"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p25",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, structure), comparez avec vos collègues et corrigez son texte si nécessaire."
+        },
+        {
+          "type": "consigne",
+          "text": "Discutez en groupe : quelles actions pourraient être mises en place dans votre ville ou votre quartier ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q16"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p26",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : É-ÉVALUATION (1/5)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation : répondez à ces questions",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e1"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e2"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p27",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : É-ÉVALUATION (2/5)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation : répondez à ces questions (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e3"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p28",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : É-ÉVALUATION (3/5)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation : répondez à ces questions (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e5"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e6"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p29",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : É-ÉVALUATION (4/5)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation : répondez à ces questions (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e7"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e8"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p30",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : É-ÉVALUATION (5/5)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation : répondez à ces questions (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e9"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e10"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p31",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : SOUMISSION DU DEVOIR",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Soumission du devoir",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes arrivé à la fin de la Leçon 1. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous."
+        },
+        {
+          "type": "submit",
+          "lessonId": "lesson1",
+          "lessonTitle": "Le réchauffement climatique"
+        }
       ]
     }
   ],
@@ -258,37 +799,37 @@
       "id": "l1-q0",
       "type": "open-ended",
       "text": "Consigne : Observez attentivement les deux images suivantes, puis prédisez le thème du texte.",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q1",
       "type": "open-ended",
       "text": "Savez-vous ce qu’est le réchauffement climatique ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q2",
       "type": "open-ended",
       "text": "Quelles actions peut-on faire pour protéger l’environnement au quotidien ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q3",
       "type": "open-ended",
       "text": "1. Pourquoi l’auteur fait-il attention à ses achats ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q4",
       "type": "open-ended",
       "text": "2. Quels moyens de transport privilégie-t-il ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q5",
       "type": "open-ended",
       "text": "3. Quel rôle le consommateur peut-il jouer ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q6",
@@ -300,13 +841,13 @@
       "id": "l1-q7",
       "type": "open-ended",
       "text": "Trouvez l’idée générale du texte ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q8",
       "type": "open-ended",
       "text": "Identifiez les connecteurs logiques (ex. : « Alors », « Aussi », « Mais ») et expliquez leur rôle.",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q9",
@@ -318,50 +859,55 @@
       "id": "l1-q10",
       "type": "open-ended",
       "text": "Déterminez les phrases difficiles à comprendre pour vous ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-vf1",
       "type": "vrai-faux",
-      "text": "1. L’auteur pense que chacun peut agir contre le réchauffement climatique."
+      "text": "1. L’auteur pense que chacun peut agir contre le réchauffement climatique.",
+      "answer": "vrai"
     },
     {
       "id": "l1-vf2",
       "type": "vrai-faux",
-      "text": "2. L’auteur utilise souvent la voiture pour ses déplacements."
+      "text": "2. L’auteur utilise souvent la voiture pour ses déplacements.",
+      "answer": "faux"
     },
     {
       "id": "l1-vf3",
       "type": "vrai-faux",
-      "text": "3. Les sacs plastiques ont un impact sur la faune marine."
+      "text": "3. Les sacs plastiques ont un impact sur la faune marine.",
+      "answer": "vrai"
     },
     {
       "id": "l1-vf4",
       "type": "vrai-faux",
-      "text": "4. Acheter des produits locaux réduit le transport polluant."
+      "text": "4. Acheter des produits locaux réduit le transport polluant.",
+      "answer": "vrai"
     },
     {
       "id": "l1-vf5",
       "type": "vrai-faux",
-      "text": "5. Est-ce que les gouvernements ont un rôle d’après le texte."
+      "text": "5. Est-ce que les gouvernements ont un rôle d’après le texte.",
+      "answer": "vrai"
     },
     {
       "id": "l1-q11",
       "type": "open-ended",
       "text": "Reformulez cette phrase en utilisant vos propres mots : « Je ne demande pas de sacs plastiques car ils sont dévastateurs pour la faune marine. »",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q12",
       "type": "open-ended",
       "text": "Écrivez (2 à 3 lignes) : Quelles actions écologiques faites-vous dans votre vie quotidienne pour lutter contre le réchauffement climatique ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q13",
       "type": "open-ended",
       "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo.",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-q14",
@@ -385,43 +931,43 @@
       "id": "l1-e1",
       "type": "open-ended",
       "text": "Écrivez quatre idées secondaires ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-e2",
       "type": "open-ended",
       "text": "Pourquoi l’auteur pense-t-il que les actions individuelles sont importantes ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-e3",
       "type": "open-ended",
       "text": "Donnez un autre exemple d’action écologique que l’auteur aurait pu mentionner ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-e4",
       "type": "open-ended",
       "text": "Identifiez les mots clés du texte ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-e5",
       "type": "open-ended",
       "text": "Trouvez un (autre) titre qui donne bien la clé du texte ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-e6",
       "type": "open-ended",
       "text": "Qui doit agir contre le réchauffement climatique ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-e7",
       "type": "open-ended",
       "text": "Identifiez l’opinion de l’auteur et ses arguments principaux.",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-e8",
@@ -433,7 +979,7 @@
       "id": "l1-e9",
       "type": "open-ended",
       "text": "Proposez une critique ou un commentaire sur les actions proposées.",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l1-e10",
