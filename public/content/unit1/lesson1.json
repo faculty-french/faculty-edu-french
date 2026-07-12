@@ -259,7 +259,7 @@
       "id": "lesson1-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : MOTS-CLÉS & SENS",
+      "title": "LEÇON 1 : MOTS-CLÉS & ANALYSE",
       "content": [
         {
           "type": "consigne",
@@ -279,15 +279,7 @@
         {
           "type": "question",
           "questionId": "l1-q6"
-        }
-      ]
-    },
-    {
-      "id": "lesson1-p09",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : MICRO-TÂCHES D'ANALYSE (1/2)",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 2,
@@ -297,7 +289,15 @@
         {
           "type": "question",
           "questionId": "l1-q7"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : MICRO-TÂCHES D'ANALYSE",
+      "content": [
         {
           "type": "microtask",
           "number": 3,
@@ -307,15 +307,7 @@
         {
           "type": "question",
           "questionId": "l1-q8"
-        }
-      ]
-    },
-    {
-      "id": "lesson1-p10",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : MICRO-TÂCHES D'ANALYSE (2/2)",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 4,
@@ -329,7 +321,7 @@
       ]
     },
     {
-      "id": "lesson1-p11",
+      "id": "lesson1-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : LE TEXTE ARGUMENTATIF",
@@ -371,7 +363,7 @@
       ]
     },
     {
-      "id": "lesson1-p12",
+      "id": "lesson1-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : PHRASES DIFFICILES & VRAI OU FAUX",
@@ -405,7 +397,7 @@
       ]
     },
     {
-      "id": "lesson1-p13",
+      "id": "lesson1-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : VRAI OU FAUX & REFORMULATION",
@@ -435,7 +427,7 @@
       ]
     },
     {
-      "id": "lesson1-p14",
+      "id": "lesson1-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MINI-PRODUCTION",
@@ -453,7 +445,7 @@
       ]
     },
     {
-      "id": "lesson1-p15",
+      "id": "lesson1-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : VIDÉO ÉDUCATIVE",
@@ -476,7 +468,7 @@
       ]
     },
     {
-      "id": "lesson1-p16",
+      "id": "lesson1-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : STRUCTURES & DISCUSSION",
@@ -513,7 +505,7 @@
       ]
     },
     {
-      "id": "lesson1-p17",
+      "id": "lesson1-p16",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : PHASE 3 — TÂCHE FINALE",
@@ -544,7 +536,7 @@
       ]
     },
     {
-      "id": "lesson1-p18",
+      "id": "lesson1-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : TÂCHE FINALE (SUITE)",
@@ -566,7 +558,7 @@
       ]
     },
     {
-      "id": "lesson1-p19",
+      "id": "lesson1-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : PHASE 4 — ÉVALUATION",
@@ -584,15 +576,7 @@
         {
           "type": "question",
           "questionId": "l1-q16"
-        }
-      ]
-    },
-    {
-      "id": "lesson1-p20",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (1/4)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "É-évaluation : répondez à ces questions",
@@ -601,22 +585,14 @@
         {
           "type": "question",
           "questionId": "l1-e1"
-        },
-        {
-          "type": "question",
-          "questionId": "l1-e2"
-        },
-        {
-          "type": "question",
-          "questionId": "l1-e3"
         }
       ]
     },
     {
-      "id": "lesson1-p21",
+      "id": "lesson1-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (2/4)",
+      "title": "LEÇON 1 : É-ÉVALUATION (1/4)",
       "content": [
         {
           "type": "heading",
@@ -625,7 +601,28 @@
         },
         {
           "type": "question",
+          "questionId": "l1-e2"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e3"
+        },
+        {
+          "type": "question",
           "questionId": "l1-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p20",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : É-ÉVALUATION (2/4)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation : répondez à ces questions (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -638,7 +635,7 @@
       ]
     },
     {
-      "id": "lesson1-p22",
+      "id": "lesson1-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION (3/4)",
@@ -655,23 +652,18 @@
         {
           "type": "question",
           "questionId": "l1-e8"
-        },
-        {
-          "type": "question",
-          "questionId": "l1-e9"
         }
       ]
     },
     {
-      "id": "lesson1-p23",
+      "id": "lesson1-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION (4/4) & SOUMISSION",
       "content": [
         {
-          "type": "heading",
-          "text": "É-évaluation : répondez à ces questions (suite)",
-          "level": 2
+          "type": "question",
+          "questionId": "l1-e9"
         },
         {
           "type": "question",

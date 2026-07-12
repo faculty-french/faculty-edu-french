@@ -584,15 +584,7 @@
         {
           "type": "question",
           "questionId": "l2-q16"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p20",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (1/5)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -605,23 +597,23 @@
         {
           "type": "question",
           "questionId": "l2-e2"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-e3"
         }
       ]
     },
     {
-      "id": "lesson2-p21",
+      "id": "lesson2-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (2/5)",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/4)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e3"
         },
         {
           "type": "question",
@@ -630,23 +622,23 @@
         {
           "type": "question",
           "questionId": "l2-e5"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-e6"
         }
       ]
     },
     {
-      "id": "lesson2-p22",
+      "id": "lesson2-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (3/5)",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/4)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e6"
         },
         {
           "type": "question",
@@ -655,23 +647,23 @@
         {
           "type": "question",
           "questionId": "l2-e8"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-e9"
         }
       ]
     },
     {
-      "id": "lesson2-p23",
+      "id": "lesson2-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (4/5)",
+      "title": "LEÇON 2 : É-ÉVALUATION (3/4)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e9"
         },
         {
           "type": "question",
@@ -680,23 +672,23 @@
         {
           "type": "question",
           "questionId": "l2-e11"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-e12"
         }
       ]
     },
     {
-      "id": "lesson2-p24",
+      "id": "lesson2-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (5/5) & SOUMISSION",
+      "title": "LEÇON 2 : É-ÉVALUATION (4/4) & SOUMISSION",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e12"
         },
         {
           "type": "question",
