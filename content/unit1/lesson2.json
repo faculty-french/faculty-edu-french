@@ -29,7 +29,7 @@
         },
         {
           "type": "objectives",
-          "title": "Objectifs de la leçon (01 - 06)",
+          "title": "Objectifs de la leçon (01 - 12)",
           "items": [
             {
               "num": "01",
@@ -54,21 +54,7 @@
             {
               "num": "06",
               "text": "Employer des mots adéquats à la situation."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p02",
-      "phase": 0,
-      "type": "content",
-      "title": "LEÇON 2 : OBJECTIFS (SUITE)",
-      "content": [
-        {
-          "type": "objectives",
-          "title": "Objectifs de la leçon (07 - 12)",
-          "items": [
+            },
             {
               "num": "07",
               "text": "Écrire des phrases correctes et cohérentes."
@@ -98,7 +84,7 @@
       ]
     },
     {
-      "id": "lesson2-p03",
+      "id": "lesson2-p02",
       "phase": 1,
       "type": "content",
       "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION",
@@ -130,22 +116,22 @@
               "caption": "Image 2"
             }
           ]
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q0"
         }
       ]
     },
     {
-      "id": "lesson2-p04",
+      "id": "lesson2-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES (1/2)",
       "content": [
         {
           "type": "consigne",
           "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q0"
         },
         {
           "type": "question",
@@ -158,10 +144,10 @@
       ]
     },
     {
-      "id": "lesson2-p05",
+      "id": "lesson2-p04",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES & MICRO-TÂCHE 1",
+      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES (2/2)",
       "content": [
         {
           "type": "consigne",
@@ -183,7 +169,7 @@
       ]
     },
     {
-      "id": "lesson2-p06",
+      "id": "lesson2-p05",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE",
@@ -212,7 +198,7 @@
       ]
     },
     {
-      "id": "lesson2-p07",
+      "id": "lesson2-p06",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : LECTURE (1/2)",
@@ -233,7 +219,7 @@
       ]
     },
     {
-      "id": "lesson2-p08",
+      "id": "lesson2-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : LECTURE (2/2)",
@@ -250,7 +236,7 @@
       ]
     },
     {
-      "id": "lesson2-p09",
+      "id": "lesson2-p08",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS GUIDÉES (1/2)",
@@ -275,7 +261,7 @@
       ]
     },
     {
-      "id": "lesson2-p10",
+      "id": "lesson2-p09",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS GUIDÉES (2/2)",
@@ -296,7 +282,7 @@
       ]
     },
     {
-      "id": "lesson2-p11",
+      "id": "lesson2-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MICRO-TÂCHES D'ANALYSE",
@@ -324,7 +310,7 @@
       ]
     },
     {
-      "id": "lesson2-p12",
+      "id": "lesson2-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : TEXTE EXPLICATIF",
@@ -362,7 +348,7 @@
       ]
     },
     {
-      "id": "lesson2-p13",
+      "id": "lesson2-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : RÉSUMÉ & PHRASES DIFFICILES",
@@ -390,10 +376,10 @@
       ]
     },
     {
-      "id": "lesson2-p14",
+      "id": "lesson2-p13",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : VRAI OU FAUX (1/2)",
+      "title": "LEÇON 2 : VRAI OU FAUX",
       "content": [
         {
           "type": "consigne",
@@ -406,18 +392,6 @@
         {
           "type": "question",
           "questionId": "l2-vf2"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p15",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : VRAI OU FAUX (2/2)",
-      "content": [
-        {
-          "type": "consigne",
-          "text": "Mettez vrai ou faux devant chaque phrase (suite) :"
         },
         {
           "type": "question",
@@ -430,7 +404,7 @@
       ]
     },
     {
-      "id": "lesson2-p16",
+      "id": "lesson2-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : REFORMULATION",
@@ -452,7 +426,7 @@
       ]
     },
     {
-      "id": "lesson2-p17",
+      "id": "lesson2-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MINI-PRODUCTION",
@@ -474,10 +448,10 @@
       ]
     },
     {
-      "id": "lesson2-p18",
+      "id": "lesson2-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : STRUCTURES À OBSERVER",
+      "title": "LEÇON 2 : STRUCTURES & DISCUSSION",
       "content": [
         {
           "type": "heading",
@@ -503,15 +477,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p19",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : DISCUSSION EN GROUPES",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 10,
@@ -529,7 +495,7 @@
       ]
     },
     {
-      "id": "lesson2-p20",
+      "id": "lesson2-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
@@ -560,20 +526,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p21",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 2 : OUTILS INTERACTIFS",
-      "content": [
-        {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (tâche finale)",
-          "duration": "20 min"
         },
         {
           "type": "info-box",
@@ -596,7 +548,7 @@
       ]
     },
     {
-      "id": "lesson2-p22",
+      "id": "lesson2-p18",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : TÂCHE FINALE — ARTICLE",
@@ -618,7 +570,7 @@
       ]
     },
     {
-      "id": "lesson2-p23",
+      "id": "lesson2-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
@@ -640,10 +592,10 @@
       ]
     },
     {
-      "id": "lesson2-p24",
+      "id": "lesson2-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (1/7)",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/5)",
       "content": [
         {
           "type": "heading",
@@ -657,40 +609,27 @@
         {
           "type": "question",
           "questionId": "l2-e2"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p25",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (2/7)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
           "questionId": "l2-e3"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-e4"
         }
       ]
     },
     {
-      "id": "lesson2-p26",
+      "id": "lesson2-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (3/7)",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/5)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e4"
         },
         {
           "type": "question",
@@ -703,10 +642,10 @@
       ]
     },
     {
-      "id": "lesson2-p27",
+      "id": "lesson2-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (4/7)",
+      "title": "LEÇON 2 : É-ÉVALUATION (3/5)",
       "content": [
         {
           "type": "heading",
@@ -720,40 +659,27 @@
         {
           "type": "question",
           "questionId": "l2-e8"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p28",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (5/7)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
           "questionId": "l2-e9"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-e10"
         }
       ]
     },
     {
-      "id": "lesson2-p29",
+      "id": "lesson2-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (6/7)",
+      "title": "LEÇON 2 : É-ÉVALUATION (4/5)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e10"
         },
         {
           "type": "question",
@@ -766,10 +692,10 @@
       ]
     },
     {
-      "id": "lesson2-p30",
+      "id": "lesson2-p24",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (7/7)",
+      "title": "LEÇON 2 : É-ÉVALUATION (5/5) & SOUMISSION",
       "content": [
         {
           "type": "heading",
@@ -779,15 +705,7 @@
         {
           "type": "question",
           "questionId": "l2-e13"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p31",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",
