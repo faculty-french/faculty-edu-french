@@ -429,10 +429,6 @@
           "duration": "5 min"
         },
         {
-          "type": "consigne",
-          "text": "Reformulez cette phrase en utilisant vos propres mots : « Je ne demande pas de sacs plastiques car ils sont dévastateurs pour la faune marine. »"
-        },
-        {
           "type": "question",
           "questionId": "l1-q11"
         }
@@ -449,10 +445,6 @@
           "number": 7,
           "text": "Mini-production",
           "duration": "5 min"
-        },
-        {
-          "type": "consigne",
-          "text": "Écrivez (2 à 3 lignes) : Quelles actions écologiques faites-vous dans votre vie quotidienne pour lutter contre le réchauffement climatique ?"
         },
         {
           "type": "question",
@@ -476,18 +468,6 @@
           "type": "video",
           "videoUrl": "https://www.youtube.com/embed/WsILHnwc4As",
           "caption": "Le réchauffement climatique expliqué aux enfants"
-        }
-      ]
-    },
-    {
-      "id": "lesson1-p16",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : RÉSUMÉ DE LA VIDÉO",
-      "content": [
-        {
-          "type": "consigne",
-          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
         },
         {
           "type": "question",
@@ -496,7 +476,7 @@
       ]
     },
     {
-      "id": "lesson1-p17",
+      "id": "lesson1-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : STRUCTURES & DISCUSSION",
@@ -533,7 +513,7 @@
       ]
     },
     {
-      "id": "lesson1-p18",
+      "id": "lesson1-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : PHASE 3 — TÂCHE FINALE",
@@ -564,7 +544,7 @@
       ]
     },
     {
-      "id": "lesson1-p19",
+      "id": "lesson1-p18",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : TÂCHE FINALE (SUITE)",
@@ -586,7 +566,7 @@
       ]
     },
     {
-      "id": "lesson1-p20",
+      "id": "lesson1-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : PHASE 4 — ÉVALUATION",
@@ -602,17 +582,13 @@
           "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, structure), comparez avec vos collègues et corrigez son texte si nécessaire."
         },
         {
-          "type": "consigne",
-          "text": "Discutez en groupe : quelles actions pourraient être mises en place dans votre ville ou votre quartier ?"
-        },
-        {
           "type": "question",
           "questionId": "l1-q16"
         }
       ]
     },
     {
-      "id": "lesson1-p21",
+      "id": "lesson1-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION (1/4)",
@@ -637,7 +613,7 @@
       ]
     },
     {
-      "id": "lesson1-p22",
+      "id": "lesson1-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION (2/4)",
@@ -662,7 +638,7 @@
       ]
     },
     {
-      "id": "lesson1-p23",
+      "id": "lesson1-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION (3/4)",
@@ -687,7 +663,7 @@
       ]
     },
     {
-      "id": "lesson1-p24",
+      "id": "lesson1-p23",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION (4/4) & SOUMISSION",

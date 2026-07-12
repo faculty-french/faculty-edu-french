@@ -582,10 +582,6 @@
           "duration": "10 min"
         },
         {
-          "type": "consigne",
-          "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, structure), comparez avec vos camarades et corrigez si nécessaire."
-        },
-        {
           "type": "question",
           "questionId": "l2-q16"
         }
