@@ -201,8 +201,9 @@ Every page renders on a fixed **420×640** sheet. Content that doesn't fit is **
 
 Budget rules (derived from the validated lesson 1; when in doubt, split):
 
-- **Open-ended questions:** **fill the page — aim for 2 per page.** A page carrying a single 4-line open-ended question wastes most of the sheet; pair two consecutive same-phase micro-task questions on one page (each with its own microtask/consigne block above it) whenever the pair fits the 420×640 sheet. The overflow detector is the final arbiter: if it fits without a warning, keep two; if it overflows, drop to one. Only ever put **1** question on a page when the pair genuinely overflows (e.g. a 5-line or 6-line answer zone paired with another, or a question sharing the page with a large block like an info-box or images-row). A **6-line** tâche-finale question always sits alone. Never exceed 2 open-ended questions per page.
-- **Vrai/faux:** max **3** per page.
+- **Page Density Policy:** Pack question pages to 3–4 compact questions (vrai-faux / multiple-choice) or 2–3 open-ended questions per page, using `verify-overflow.js` as the only arbiter; a page holding a single question is only acceptable when phase boundaries or structural blocks make merging impossible.
+- **Open-ended questions:** Pack 2–3 open-ended questions per page, ensuring they fit without overflow. A 6-line tâche-finale question always sits alone.
+- **Vrai/faux / Multiple-choice:** Pack 3–4 compact questions per page, as long as they fit without overflow.
 - **Reading text:** max **4 paragraphs** (~110 words) per page; split with `(1/2)`, `(2/2)` headings.
 - **info-box:** always alone on its page; max ~3 sections / 12 bullet items total. Longer → split into two info-boxes on two pages.
 - **objectives:** max **6** items per page.
