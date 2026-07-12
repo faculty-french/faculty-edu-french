@@ -114,7 +114,7 @@
   padding: 1.35rem 1.15rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.55rem;
+  gap: 0.5rem;
 }
 
 /* Top rule in the phase color, thin, on every lesson page */
@@ -287,7 +287,7 @@
   background: var(--color-primary-bg);
   border-left: 3px solid var(--phase-1);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  padding: 0.45rem 0.65rem;
+  padding: 0.35rem 0.6rem;
 }
 .consigne__label {
   display: block;
@@ -315,7 +315,7 @@
   background: var(--phase-3-tint);
   border-left: 3px solid var(--phase-3);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  padding: 0.4rem 0.65rem;
+  padding: 0.3rem 0.6rem;
 }
 .microtask__label {
   font-family: var(--font-sans);

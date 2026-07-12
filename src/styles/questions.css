@@ -2,15 +2,15 @@
    QUESTION COMPONENTS
    ============================================ */
 
-.question-block { margin: 0.4rem 0; }
-.question-block__text { font-family: var(--font-sans); font-weight: 700; font-size: 0.85rem; color: var(--ink); margin-bottom: 0.35rem; line-height: 1.4; }
+.question-block { margin: 0.3rem 0; }
+.question-block__text { font-family: var(--font-sans); font-weight: 700; font-size: 0.85rem; color: var(--ink); margin-bottom: 0.25rem; line-height: 1.4; }
 .question-block__number { color: var(--phase-1); margin-right: var(--spacing-xs); }
 
 /* ---------- Seyès answer zone — the signature element ----------
    Repeating pale-blue ruled lines + a red vertical margin rule,
    like a French school notebook (cahier Seyès). */
 .open-ended__lines {
-  --line-h: 1.9em;
+  --line-h: 1.8em;
   position: relative;
   display: flex;
   flex-direction: column;

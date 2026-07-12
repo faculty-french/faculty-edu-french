@@ -407,7 +407,7 @@
       "id": "lesson2-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : REFORMULATION",
+      "title": "LEÇON 2 : REFORMULATION & MINI-PRODUCTION",
       "content": [
         {
           "type": "microtask",
@@ -422,15 +422,7 @@
         {
           "type": "question",
           "questionId": "l2-q12"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p15",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : MINI-PRODUCTION",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 8,
@@ -448,7 +440,7 @@
       ]
     },
     {
-      "id": "lesson2-p16",
+      "id": "lesson2-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES & DISCUSSION",
@@ -495,7 +487,7 @@
       ]
     },
     {
-      "id": "lesson2-p17",
+      "id": "lesson2-p16",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
@@ -548,7 +540,7 @@
       ]
     },
     {
-      "id": "lesson2-p18",
+      "id": "lesson2-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : TÂCHE FINALE — ARTICLE",
@@ -570,7 +562,7 @@
       ]
     },
     {
-      "id": "lesson2-p19",
+      "id": "lesson2-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
@@ -601,7 +593,7 @@
       ]
     },
     {
-      "id": "lesson2-p20",
+      "id": "lesson2-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (1/4)",
@@ -626,7 +618,7 @@
       ]
     },
     {
-      "id": "lesson2-p21",
+      "id": "lesson2-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (2/4)",
@@ -651,7 +643,7 @@
       ]
     },
     {
-      "id": "lesson2-p22",
+      "id": "lesson2-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (3/4)",
@@ -676,7 +668,7 @@
       ]
     },
     {
-      "id": "lesson2-p23",
+      "id": "lesson2-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (4/4) & SOUMISSION",
