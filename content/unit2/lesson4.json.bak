@@ -30,34 +30,13 @@
           "type": "objectives",
           "title": "Objectifs de la leçon (01 - 07)",
           "items": [
-            {
-              "num": "01",
-              "text": "Prédire des hypothèses sur le thème d’un texte lu."
-            },
-            {
-              "num": "02",
-              "text": "Identifier les informations détaillées du texte."
-            },
-            {
-              "num": "03",
-              "text": "Lier entre ses connaissances antérieures et les informations d’un texte lu."
-            },
-            {
-              "num": "04",
-              "text": "Analyser l’organisation d’un texte lu et interpréter son sens en s’appuyant sur des indices."
-            },
-            {
-              "num": "05",
-              "text": "Résumer correctement un texte lu."
-            },
-            {
-              "num": "06",
-              "text": "Reconnaitre les règles grammaticales dans un texte lu."
-            },
-            {
-              "num": "07",
-              "text": "Argumenter son point de vue."
-            }
+            { "num": "01", "text": "Prédire des hypothèses sur le thème d’un texte lu." },
+            { "num": "02", "text": "Identifier les informations détaillées du texte." },
+            { "num": "03", "text": "Lier entre ses connaissances antérieures et les informations d’un texte lu." },
+            { "num": "04", "text": "Analyser l’organisation d’un texte lu et interpréter son sens en s’appuyant sur des indices." },
+            { "num": "05", "text": "Résumer correctement un texte lu." },
+            { "num": "06", "text": "Reconnaitre les règles grammaticales dans un texte lu." },
+            { "num": "07", "text": "Argumenter son point de vue." }
           ]
         }
       ]
@@ -72,30 +51,12 @@
           "type": "objectives",
           "title": "Objectifs de la leçon (08 - 13) (suite)",
           "items": [
-            {
-              "num": "08",
-              "text": "Donner des exemples, en tant que possible sur le sujet du texte."
-            },
-            {
-              "num": "09",
-              "text": "Conjuguer correctement des verbes dans le temps convenable."
-            },
-            {
-              "num": "10",
-              "text": "Orthographier correctement les mots."
-            },
-            {
-              "num": "11",
-              "text": "Employer le temps convenable d’après le type du texte."
-            },
-            {
-              "num": "12",
-              "text": "Mettre en œuvre des stratégies d’enseignement variées et motivantes afin de rendre le cours plus intéressant."
-            },
-            {
-              "num": "13",
-              "text": "Fournir une rétroaction constructive pour aider les apprenants à améliorer leurs apprentissages."
-            }
+            { "num": "08", "text": "Donner des exemples, en tant que possible sur le sujet du texte." },
+            { "num": "09", "text": "Conjuguer correctement des verbes dans le temps convenable." },
+            { "num": "10", "text": "Orthographier correctement les mots." },
+            { "num": "11", "text": "Employer le temps convenable d’après le type du texte." },
+            { "num": "12", "text": "Mettre en œuvre des stratégies d’enseignement variées et motivantes afin de rendre le cours plus intéressant." },
+            { "num": "13", "text": "Fournir une rétroaction constructive pour aider les apprenants à améliorer leurs apprentissages." }
           ]
         }
       ]
@@ -235,7 +196,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Cependant, la vie sans téléphone ni internet présentait aussi des limites. Les urgences étaient plus difficiles à gérer et le contact avec des personnes éloignées restait compliqué. Les démarches administratives prenaient plus de temps et certaines informations étaient difficiles à obtenir. Malgré ces contraintes, beaucoup de personnes gardent le souvenir d’une vie plus simple, rythmée par des échanges réels et une présence plus forte dans la vie quotidienne."
+          "text": "Cependant, la vie sans téléphone ni internet présentait aussi des limites. Les urgences étaient plus difficiles à gérer and le contact avec des personnes éloignées restait compliqué. Les démarches administratives prenaient plus de temps et certaines informations étaient difficiles à obtenir. Malgré ces contraintes, beaucoup de personnes gardent le souvenir d’une vie plus simple, rythmée par des échanges réels et une présence plus forte dans la vie quotidienne."
         },
         {
           "type": "paragraph",
@@ -247,7 +208,7 @@
       "id": "lesson4-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : ACTIVITÉS DU PASSÉ & QUESTIONS GUIDÉES",
+      "title": "LEÇON 4 : ACTIVITÉS DU PASSÉ",
       "content": [
         {
           "type": "microtask",
@@ -258,10 +219,18 @@
         {
           "type": "question",
           "questionId": "l4-q4"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 4 : QUESTIONS GUIDÉES (1/3)",
+      "content": [
         {
           "type": "heading",
-          "text": "Questions guidées",
+          "text": "Questions guidées (1/3)",
           "level": 2
         },
         {
@@ -271,31 +240,10 @@
         {
           "type": "question",
           "questionId": "l4-q5"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p09",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (1/2)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Questions guidées (suite)",
-          "level": 2
-        },
-        {
-          "type": "consigne",
-          "text": "Choisissez la bonne réponse :"
         },
         {
           "type": "question",
           "questionId": "l4-q6"
-        },
-        {
-          "type": "question",
-          "questionId": "l4-q7"
         }
       ]
     },
@@ -303,11 +251,11 @@
       "id": "lesson4-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (2/2)",
+      "title": "LEÇON 4 : QUESTIONS GUIDÉES (2/3)",
       "content": [
         {
           "type": "heading",
-          "text": "Questions guidées (suite)",
+          "text": "Questions guidées (2/3)",
           "level": 2
         },
         {
@@ -316,7 +264,28 @@
         },
         {
           "type": "question",
+          "questionId": "l4-q7"
+        },
+        {
+          "type": "question",
           "questionId": "l4-q8"
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 4 : QUESTIONS GUIDÉES (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (3/3)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez la bonne réponse :"
         },
         {
           "type": "question",
@@ -325,7 +294,7 @@
       ]
     },
     {
-      "id": "lesson4-p11",
+      "id": "lesson4-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : TEXTE EXPLICATIF",
@@ -363,7 +332,7 @@
       ]
     },
     {
-      "id": "lesson4-p12",
+      "id": "lesson4-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : AVANTAGES ET INCONVÉNIENTS",
@@ -391,10 +360,10 @@
       ]
     },
     {
-      "id": "lesson4-p13",
-      "type": "content",
+      "id": "lesson4-p14",
       "phase": 2,
-      "title": "LEÇON 4 : COMPARAISON PASSÉ / PRÉSENT",
+      "type": "content",
+      "title": "LEÇON 4 : COMPARAISON",
       "content": [
         {
           "type": "microtask",
@@ -409,7 +378,7 @@
       ]
     },
     {
-      "id": "lesson4-p14",
+      "id": "lesson4-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : CONJUGAISON A L'IMPARFAIT",
@@ -439,7 +408,7 @@
       ]
     },
     {
-      "id": "lesson4-p15",
+      "id": "lesson4-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : EFFORTS ET REFORMULATION",
@@ -471,9 +440,9 @@
       ]
     },
     {
-      "id": "lesson4-p16",
-      "type": "content",
+      "id": "lesson4-p17",
       "phase": 2,
+      "type": "content",
       "title": "LEÇON 4 : MINI-PRODUCTION",
       "content": [
         {
@@ -489,7 +458,7 @@
       ]
     },
     {
-      "id": "lesson4-p17",
+      "id": "lesson4-p18",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : STRUCTURES À OBSERVER (1/2)",
@@ -533,7 +502,7 @@
       ]
     },
     {
-      "id": "lesson4-p18",
+      "id": "lesson4-p19",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : STRUCTURES À OBSERVER (2/2)",
@@ -577,7 +546,7 @@
       ]
     },
     {
-      "id": "lesson4-p19",
+      "id": "lesson4-p20",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : VIDÉO DE GRAMMAIRE",
@@ -595,7 +564,7 @@
       ]
     },
     {
-      "id": "lesson4-p20",
+      "id": "lesson4-p21",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : MICRO-TÂCHE 10",
@@ -614,7 +583,7 @@
       ]
     },
     {
-      "id": "lesson4-p21",
+      "id": "lesson4-p22",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : COMPRÉHENSION VIDÉO ET DISCUSSION",
@@ -636,10 +605,10 @@
       ]
     },
     {
-      "id": "lesson4-p22",
+      "id": "lesson4-p23",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 4 : TÂCHE FINALE — OUTILS ET ELEMENTS",
+      "title": "LEÇON 4 : TÂCHE FINALE — ELEMENTS REQUIS",
       "content": [
         {
           "type": "phase-banner",
@@ -649,7 +618,7 @@
         },
         {
           "type": "heading",
-          "text": "Tâche finale (avec modèle + aide lexicale)",
+          "text": "Tâche finale (avec modèle + aide lexicale) (1/2)",
           "level": 2
         },
         {
@@ -666,6 +635,19 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p24",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 4 : TÂCHE FINALE — OUTILS INTERACTIFS",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale) (2/2)",
+          "level": 2
         },
         {
           "type": "info-box",
@@ -688,7 +670,7 @@
       ]
     },
     {
-      "id": "lesson4-p23",
+      "id": "lesson4-p25",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 4 : TÂCHE FINALE — ARTICLE",
@@ -710,7 +692,7 @@
       ]
     },
     {
-      "id": "lesson4-p24",
+      "id": "lesson4-p26",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 4 : EVALUATION ET CORRECTION",
@@ -728,14 +710,14 @@
       ]
     },
     {
-      "id": "lesson4-p25",
+      "id": "lesson4-p27",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (1/2)",
+      "title": "LEÇON 4 : É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "heading",
-          "text": "É-évaluation (1/2)",
+          "text": "É-évaluation",
           "level": 2
         },
         {
@@ -745,27 +727,40 @@
         {
           "type": "question",
           "questionId": "l4-e2"
-        },
-        {
-          "type": "question",
-          "questionId": "l4-e3"
         }
       ]
     },
     {
-      "id": "lesson4-p26",
+      "id": "lesson4-p28",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (2/2)",
+      "title": "LEÇON 4 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
-          "text": "É-évaluation (2/2)",
+          "text": "É-évaluation (suite)",
           "level": 2
         },
         {
           "type": "question",
+          "questionId": "l4-e3"
+        },
+        {
+          "type": "question",
           "questionId": "l4-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p29",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 4 : É-ÉVALUATION (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -778,7 +773,7 @@
       ]
     },
     {
-      "id": "lesson4-p27",
+      "id": "lesson4-p30",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 4 : SOUMISSION DU DEVOIR",
@@ -841,21 +836,9 @@
       "text": "1) Dans le passé, les gens vivaient …",
       "answer": "b",
       "options": [
-        {
-          "id": "a",
-          "label": "a",
-          "text": "Toujours connectés à Internet"
-        },
-        {
-          "id": "b",
-          "label": "b",
-          "text": "Sans Internet"
-        },
-        {
-          "id": "c",
-          "label": "c",
-          "text": "Devant les écrans"
-        }
+        { "id": "a", "label": "a", "text": "Toujours connectés à Internet" },
+        { "id": "b", "label": "b", "text": "Sans Internet" },
+        { "id": "c", "label": "c", "text": "Devant les écrans" }
       ]
     },
     {
@@ -864,21 +847,9 @@
       "text": "2) Les relations sociales étaient…",
       "answer": "c",
       "options": [
-        {
-          "id": "a",
-          "label": "a",
-          "text": "Faibles"
-        },
-        {
-          "id": "b",
-          "label": "b",
-          "text": "Virtuelles"
-        },
-        {
-          "id": "c",
-          "label": "c",
-          "text": "Plus fortes"
-        }
+        { "id": "a", "label": "a", "text": "Faibles" },
+        { "id": "b", "label": "b", "text": "Virtuelles" },
+        { "id": "c", "label": "c", "text": "Plus fortes" }
       ]
     },
     {
@@ -887,21 +858,9 @@
       "text": "3) Les enfants passaient leur temps à…",
       "answer": "a",
       "options": [
-        {
-          "id": "a",
-          "label": "a",
-          "text": "Jouer dehors"
-        },
-        {
-          "id": "b",
-          "label": "b",
-          "text": "Regarder des vidéos en ligne"
-        },
-        {
-          "id": "c",
-          "label": "c",
-          "text": "Utiliser les réseaux sociaux"
-        }
+        { "id": "a", "label": "a", "text": "Jouer dehors" },
+        { "id": "b", "label": "b", "text": "Regarder des vidéos en ligne" },
+        { "id": "c", "label": "c", "text": "Utiliser les réseaux sociaux" }
       ]
     },
     {
@@ -910,21 +869,9 @@
       "text": "4) Pour chercher des informer, les gens utilisaient surtout…",
       "answer": "c",
       "options": [
-        {
-          "id": "a",
-          "label": "a",
-          "text": "Les réseaux sociaux"
-        },
-        {
-          "id": "b",
-          "label": "b",
-          "text": "Internet"
-        },
-        {
-          "id": "c",
-          "label": "c",
-          "text": "Les journaux et les livres"
-        }
+        { "id": "a", "label": "a", "text": "Les réseaux sociaux" },
+        { "id": "b", "label": "b", "text": "Internet" },
+        { "id": "c", "label": "c", "text": "Les journaux et les livres" }
       ]
     },
     {
@@ -933,21 +880,9 @@
       "text": "5) La vie dans le passé était considérée comme…",
       "answer": "b",
       "options": [
-        {
-          "id": "a",
-          "label": "a",
-          "text": "Plus rapide"
-        },
-        {
-          "id": "b",
-          "label": "b",
-          "text": "Plus calme et plus simple"
-        },
-        {
-          "id": "c",
-          "label": "c",
-          "text": "Plus stressante"
-        }
+        { "id": "a", "label": "a", "text": "Plus rapide" },
+        { "id": "b", "label": "b", "text": "Plus calme et plus simple" },
+        { "id": "c", "label": "c", "text": "Plus stressante" }
       ]
     },
     {
