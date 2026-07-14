@@ -173,7 +173,7 @@
       "id": "lesson4-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 4 : PHASE 2 — LECTURE (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -196,7 +196,7 @@
         },
         {
           "type": "heading",
-          "text": "La vie dans le passé : sans téléphone, sans Internet (1/3)",
+          "text": "La vie dans le passé : sans téléphone, sans Internet (1/2)",
           "level": 3
         },
         {
@@ -209,29 +209,16 @@
       "id": "lesson4-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : LECTURE (2/3)",
+      "title": "LEÇON 4 : LECTURE (2/2)",
       "content": [
         {
           "type": "heading",
-          "text": "La vie dans le passé : sans téléphone, sans Internet (2/3)",
+          "text": "La vie dans le passé : sans téléphone, sans Internet (2/2)",
           "level": 3
         },
         {
           "type": "paragraph",
           "text": "Sans Internet, l’accès au savoir passait par les livres, les bibliothèques et les enseignants. Les recherches scolaires demandaient un véritable effort, car il fallait consulter plusieurs ouvrages pour trouver une information. Les loisirs étaient aussi différents : les gens passaient plus de temps à discuter, à lire ou à pratiquer des activités en plein air. Les relations humaines étaient souvent plus directes, car les échanges se faisaient en face à face. Cette vie favorisait parfois une meilleure concentration et une attention plus longue."
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p07",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 4 : LECTURE (3/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "La vie dans le passé : sans téléphone, sans Internet (3/3)",
-          "level": 3
         },
         {
           "type": "paragraph",
@@ -244,7 +231,7 @@
       ]
     },
     {
-      "id": "lesson4-p08",
+      "id": "lesson4-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : ACTIVITÉS DU PASSÉ & QUESTIONS GUIDÉES",
@@ -275,7 +262,7 @@
       ]
     },
     {
-      "id": "lesson4-p09",
+      "id": "lesson4-p08",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : QUESTIONS GUIDÉES (1/2)",
@@ -300,7 +287,7 @@
       ]
     },
     {
-      "id": "lesson4-p10",
+      "id": "lesson4-p09",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : QUESTIONS GUIDÉES (2/2)",
@@ -325,7 +312,7 @@
       ]
     },
     {
-      "id": "lesson4-p11",
+      "id": "lesson4-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : TEXTE EXPLICATIF",
@@ -363,7 +350,7 @@
       ]
     },
     {
-      "id": "lesson4-p12",
+      "id": "lesson4-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : AVANTAGES ET INCONVÉNIENTS",
@@ -391,7 +378,7 @@
       ]
     },
     {
-      "id": "lesson4-p13",
+      "id": "lesson4-p12",
       "type": "content",
       "phase": 2,
       "title": "LEÇON 4 : COMPARAISON PASSÉ / PRÉSENT",
@@ -409,7 +396,7 @@
       ]
     },
     {
-      "id": "lesson4-p14",
+      "id": "lesson4-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : CONJUGAISON A L'IMPARFAIT",
@@ -439,7 +426,7 @@
       ]
     },
     {
-      "id": "lesson4-p15",
+      "id": "lesson4-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : EFFORTS ET REFORMULATION",
@@ -471,10 +458,10 @@
       ]
     },
     {
-      "id": "lesson4-p16",
+      "id": "lesson4-p15",
       "type": "content",
       "phase": 2,
-      "title": "LEÇON 4 : MINI-PRODUCTION",
+      "title": "LEÇON 4 : MINI-PRODUCTION & STRUCTURES (1/2)",
       "content": [
         {
           "type": "microtask",
@@ -485,15 +472,7 @@
         {
           "type": "question",
           "questionId": "l4-q18"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p17",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 4 : STRUCTURES À OBSERVER (1/2)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Structures à observer (1/2)",
@@ -533,7 +512,7 @@
       ]
     },
     {
-      "id": "lesson4-p18",
+      "id": "lesson4-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : STRUCTURES À OBSERVER (2/2)",
@@ -577,7 +556,7 @@
       ]
     },
     {
-      "id": "lesson4-p19",
+      "id": "lesson4-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : VIDÉO DE GRAMMAIRE",
@@ -595,7 +574,7 @@
       ]
     },
     {
-      "id": "lesson4-p20",
+      "id": "lesson4-p18",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : MICRO-TÂCHE 10",
@@ -614,7 +593,7 @@
       ]
     },
     {
-      "id": "lesson4-p21",
+      "id": "lesson4-p19",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : COMPRÉHENSION VIDÉO ET DISCUSSION",
@@ -636,7 +615,7 @@
       ]
     },
     {
-      "id": "lesson4-p22",
+      "id": "lesson4-p20",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 4 : TÂCHE FINALE — OUTILS ET ELEMENTS",
@@ -688,7 +667,7 @@
       ]
     },
     {
-      "id": "lesson4-p23",
+      "id": "lesson4-p21",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 4 : TÂCHE FINALE — ARTICLE",
@@ -710,10 +689,10 @@
       ]
     },
     {
-      "id": "lesson4-p24",
+      "id": "lesson4-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : EVALUATION ET CORRECTION",
+      "title": "LEÇON 4 : ÉVALUATION & É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -724,23 +703,28 @@
         {
           "type": "question",
           "questionId": "l4-q22"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p25",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (1/2)",
-      "content": [
+        },
         {
           "type": "heading",
-          "text": "É-évaluation (1/2)",
+          "text": "É-évaluation",
           "level": 2
         },
         {
           "type": "question",
           "questionId": "l4-e1"
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 4 : É-ÉVALUATION (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -749,23 +733,23 @@
         {
           "type": "question",
           "questionId": "l4-e3"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p26",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (2/2)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (2/2)",
-          "level": 2
         },
         {
           "type": "question",
           "questionId": "l4-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p24",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 4 : É-ÉVALUATION (3/3) & SOUMISSION",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -774,15 +758,7 @@
         {
           "type": "question",
           "questionId": "l4-e6"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p27",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 4 : SOUMISSION DU DEVOIR",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",

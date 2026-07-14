@@ -194,15 +194,7 @@
         {
           "type": "consigne",
           "text": "Lisez le texte suivant, puis répondez aux questions."
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p06",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : LECTURE (1/2)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Les espaces verts",
@@ -211,15 +203,11 @@
         {
           "type": "paragraph",
           "text": "Les espaces verts sont des endroits naturels en ville où l’on trouve des arbres, des pelouses et des fleurs. Ces lieux, comme les parcs, les jardins publics ou les forêts urbaines, sont très importants pour les habitants. Ils permettent de se détendre, de faire du sport ou simplement de profiter de la nature. Dans les grandes villes, les espaces verts améliorent la qualité de l’air et réduisent la pollution."
-        },
-        {
-          "type": "paragraph",
-          "text": "Beaucoup de personnes aiment passer leur temps libre dans les espaces verts. Les enfants y jouent, les adultes font des pique-niques ou lisent un livre, et les personnes âgées s’y promènent pour rester en forme. Ces endroits sont aussi utiles pour les animaux et les insectes, comme les oiseaux et les abeilles, qui y trouvent de la nourriture et un habitat naturel. Sans les espaces verts, la vie en ville serait beaucoup moins agréable."
         }
       ]
     },
     {
-      "id": "lesson2-p07",
+      "id": "lesson2-p06",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : LECTURE (2/2)",
@@ -231,12 +219,16 @@
         },
         {
           "type": "paragraph",
+          "text": "Beaucoup de personnes aiment passer leur temps libre dans les espaces verts. Les enfants y jouent, les adultes font des pique-niques ou lisent un livre, et les personnes âgées s’y promènent pour rester en forme. Ces endroits sont aussi utiles pour les animaux et les insectes, comme les oiseaux et les abeilles, qui y trouvent de la nourriture et un habitat naturel. Sans les espaces verts, la vie en ville serait beaucoup moins agréable."
+        },
+        {
+          "type": "paragraph",
           "text": "Malheureusement, dans certaines villes, les espaces verts disparaissent à cause de la construction de bâtiments ou de routes. Les gouvernements et les citoyens doivent agir pour protéger et créer plus de zones vertes. Planter des arbres, nettoyer les parcs et organiser des activités écologiques sont des solutions simples mais efficaces. Si tout le monde participe, les villes pourront devenir plus vertes et plus saines pour les générations futures."
         }
       ]
     },
     {
-      "id": "lesson2-p08",
+      "id": "lesson2-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS GUIDÉES (1/2)",
@@ -261,7 +253,7 @@
       ]
     },
     {
-      "id": "lesson2-p09",
+      "id": "lesson2-p08",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS GUIDÉES (2/2)",
@@ -282,7 +274,7 @@
       ]
     },
     {
-      "id": "lesson2-p10",
+      "id": "lesson2-p09",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MICRO-TÂCHES D'ANALYSE",
@@ -310,7 +302,7 @@
       ]
     },
     {
-      "id": "lesson2-p11",
+      "id": "lesson2-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : TEXTE EXPLICATIF",
@@ -348,7 +340,7 @@
       ]
     },
     {
-      "id": "lesson2-p12",
+      "id": "lesson2-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : RÉSUMÉ & PHRASES DIFFICILES",
@@ -376,7 +368,7 @@
       ]
     },
     {
-      "id": "lesson2-p13",
+      "id": "lesson2-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : VRAI OU FAUX",
@@ -404,7 +396,7 @@
       ]
     },
     {
-      "id": "lesson2-p14",
+      "id": "lesson2-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : REFORMULATION & MINI-PRODUCTION",
@@ -440,7 +432,7 @@
       ]
     },
     {
-      "id": "lesson2-p15",
+      "id": "lesson2-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES & DISCUSSION",
@@ -487,7 +479,7 @@
       ]
     },
     {
-      "id": "lesson2-p16",
+      "id": "lesson2-p15",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
@@ -540,7 +532,7 @@
       ]
     },
     {
-      "id": "lesson2-p17",
+      "id": "lesson2-p16",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : TÂCHE FINALE — ARTICLE",
@@ -562,7 +554,7 @@
       ]
     },
     {
-      "id": "lesson2-p18",
+      "id": "lesson2-p17",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
@@ -593,7 +585,7 @@
       ]
     },
     {
-      "id": "lesson2-p19",
+      "id": "lesson2-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (1/4)",
@@ -618,7 +610,7 @@
       ]
     },
     {
-      "id": "lesson2-p20",
+      "id": "lesson2-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (2/4)",
@@ -643,7 +635,7 @@
       ]
     },
     {
-      "id": "lesson2-p21",
+      "id": "lesson2-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (3/4)",
@@ -668,7 +660,7 @@
       ]
     },
     {
-      "id": "lesson2-p22",
+      "id": "lesson2-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (4/4) & SOUMISSION",

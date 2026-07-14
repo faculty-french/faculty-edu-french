@@ -151,7 +151,7 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
   const pageNumberClass = `page__number ${isEven ? 'page__number--left' : 'page__number--right'}`;
 
   return (
-    <div className={pageClass} ref={ref}>
+    <div className={pageClass} data-page-id={page.id} ref={ref}>
       {page.phase > 0 && (
         <span className={`page__phase-tab page__phase-tab--${page.phase}`}>{PHASE_LABELS[page.phase]}</span>
       )}

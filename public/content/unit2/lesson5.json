@@ -28,7 +28,7 @@
         },
         {
           "type": "objectives",
-          "title": "Objectifs de la leçon (01 - 05)",
+          "title": "Objectifs de la leçon (01 - 10)",
           "items": [
             {
               "num": "01",
@@ -49,21 +49,7 @@
             {
               "num": "05",
               "text": "Orthographier correctement les mots."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p02",
-      "phase": 0,
-      "type": "content",
-      "title": "LEÇON 5 : OBJECTIFS (2/2)",
-      "content": [
-        {
-          "type": "objectives",
-          "title": "Objectifs de la leçon (06 - 10) (suite)",
-          "items": [
+            },
             {
               "num": "06",
               "text": "Fonctionner les règles de présentation du texte (introduction-développement - conclusion)."
@@ -89,7 +75,7 @@
       ]
     },
     {
-      "id": "lesson5-p03",
+      "id": "lesson5-p02",
       "phase": 1,
       "type": "content",
       "title": "LEÇON 5 : PHASE 1 — IMAGES D'OBSERVATION",
@@ -125,7 +111,7 @@
       ]
     },
     {
-      "id": "lesson5-p04",
+      "id": "lesson5-p03",
       "phase": 1,
       "type": "content",
       "title": "LEÇON 5 : QUESTIONS PRÉLIMINAIRES",
@@ -154,7 +140,7 @@
       ]
     },
     {
-      "id": "lesson5-p05",
+      "id": "lesson5-p04",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : PHASE 2 — LECTURE (1/3)",
@@ -190,7 +176,7 @@
       ]
     },
     {
-      "id": "lesson5-p06",
+      "id": "lesson5-p05",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : LECTURE (2/3)",
@@ -207,7 +193,7 @@
       ]
     },
     {
-      "id": "lesson5-p07",
+      "id": "lesson5-p06",
       "type": "content",
       "phase": 2,
       "title": "LEÇON 5 : LECTURE (3/3)",
@@ -228,7 +214,7 @@
       ]
     },
     {
-      "id": "lesson5-p08",
+      "id": "lesson5-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : MOTS-CLÉS",
@@ -257,7 +243,7 @@
       ]
     },
     {
-      "id": "lesson5-p09",
+      "id": "lesson5-p08",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : QUESTIONS GUIDÉES (1/3)",
@@ -282,7 +268,7 @@
       ]
     },
     {
-      "id": "lesson5-p10",
+      "id": "lesson5-p09",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : QUESTIONS GUIDÉES (2/3)",
@@ -307,7 +293,7 @@
       ]
     },
     {
-      "id": "lesson5-p11",
+      "id": "lesson5-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : QUESTIONS GUIDÉES (3/3)",
@@ -332,7 +318,7 @@
       ]
     },
     {
-      "id": "lesson5-p12",
+      "id": "lesson5-p11",
       "type": "content",
       "phase": 2,
       "title": "LEÇON 5 : IDÉE PRINCIPALE DU TEXTE",
@@ -350,7 +336,7 @@
       ]
     },
     {
-      "id": "lesson5-p13",
+      "id": "lesson5-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : TEXTE EXPLICATIF",
@@ -389,7 +375,7 @@
       ]
     },
     {
-      "id": "lesson5-p14",
+      "id": "lesson5-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : RÔLE DE LA TECHNOLOGIE ET DE LA SOLITUDE",
@@ -417,7 +403,7 @@
       ]
     },
     {
-      "id": "lesson5-p15",
+      "id": "lesson5-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : RÉSUMÉ ET REFORMULATION",
@@ -449,19 +435,19 @@
       ]
     },
     {
-      "id": "lesson5-p16",
+      "id": "lesson5-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : STRUCTURES À OBSERVER (1/2)",
+      "title": "LEÇON 5 : STRUCTURES À OBSERVER",
       "content": [
         {
           "type": "heading",
-          "text": "Structures à observer (1/2)",
+          "text": "Structures à observer",
           "level": 2
         },
         {
           "type": "info-box",
-          "title": "Structures à observer (1/2)",
+          "title": "Structures à observer",
           "sections": [
             {
               "heading": "Exprimer la cause d’après le texte :",
@@ -473,26 +459,7 @@
                 "Notamment en raison de l’absence familiale.",
                 "Certaines personnes hésitent à parler de leur mal-être par peur de déranger."
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p17",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 5 : STRUCTURES À OBSERVER (2/2)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Structures à observer (2/2)",
-          "level": 2
-        },
-        {
-          "type": "info-box",
-          "title": "Structures à observer (2/2)",
-          "sections": [
+            },
             {
               "heading": "Exprimer la conséquence d’après ce texte :",
               "items": [
@@ -517,7 +484,7 @@
       ]
     },
     {
-      "id": "lesson5-p18",
+      "id": "lesson5-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : VIDÉO DE COMPRÉHENSION",
@@ -532,22 +499,19 @@
           "type": "video",
           "videoUrl": "https://www.youtube.com/embed/JtbORjJ0MKk",
           "caption": "Micro-tâche 8"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q15"
         }
       ]
     },
     {
-      "id": "lesson5-p19",
+      "id": "lesson5-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : RÉSUMÉ VIDÉO ET CONNECTEURS",
       "content": [
-        {
-          "type": "question",
-          "questionId": "l5-q15"
-        },
-        {
-          "type": "divider"
-        },
         {
           "type": "microtask",
           "number": 9,
@@ -561,23 +525,19 @@
         {
           "type": "question",
           "questionId": "l5-q16"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p20",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 5 : CONNECTEURS (SUITE)",
-      "content": [
-        {
-          "type": "consigne",
-          "text": "Reliez les phrases avec : Cependant – Ainsi – En effet – De plus :"
         },
         {
           "type": "question",
           "questionId": "l5-q17"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p18",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : CONNECTEURS (SUITE)",
+      "content": [
         {
           "type": "question",
           "questionId": "l5-q18"
@@ -585,15 +545,7 @@
         {
           "type": "question",
           "questionId": "l5-q19"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p21",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 5 : DISCUSSION EN GROUPES",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 10,
@@ -607,7 +559,7 @@
       ]
     },
     {
-      "id": "lesson5-p22",
+      "id": "lesson5-p19",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 5 : TÂCHE FINALE — PREPARATION",
@@ -659,7 +611,7 @@
       ]
     },
     {
-      "id": "lesson5-p23",
+      "id": "lesson5-p20",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 5 : TÂCHE FINALE — CRÉATION",
@@ -677,10 +629,10 @@
       ]
     },
     {
-      "id": "lesson5-p24",
+      "id": "lesson5-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 5 : ÉVALUATION DES PAIRS",
+      "title": "LEÇON 5 : ÉVALUATION & É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -691,18 +643,10 @@
         {
           "type": "question",
           "questionId": "l5-q22"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p25",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 5 : É-ÉVALUATION (1/2)",
-      "content": [
+        },
         {
           "type": "heading",
-          "text": "É-évaluation (1/2)",
+          "text": "É-évaluation",
           "level": 2
         },
         {
@@ -712,6 +656,19 @@
         {
           "type": "question",
           "questionId": "l5-e1"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p22",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 5 : É-ÉVALUATION (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -720,27 +677,23 @@
         {
           "type": "question",
           "questionId": "l5-e3"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p26",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 5 : É-ÉVALUATION (2/2)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (2/2)",
-          "level": 2
-        },
-        {
-          "type": "consigne",
-          "text": "Répondez à ces questions :"
         },
         {
           "type": "question",
           "questionId": "l5-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 5 : É-ÉVALUATION (3/3) & SOUMISSION",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -749,15 +702,7 @@
         {
           "type": "question",
           "questionId": "l5-e6"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p27",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 5 : SOUMISSION DU DEVOIR",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",
