@@ -1,8 +1,1043 @@
 {
   "id": "lesson5",
-  "title": "L'absence familiale et ses effets sur la vie quotidienne",
+  "title": "L’absence familiale et ses effets sur la vie quotidienne",
   "unitId": "unit2",
   "unitTitle": "Module 2 : La technologie et la société",
-  "pages": [],
-  "questions": []
+  "pages": [
+    {
+      "id": "lesson5-p01",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 5 : OBJECTIFS (1/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Leçon 5 : L’absence familiale et ses effets sur la vie quotidienne",
+          "level": 1
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "paragraph",
+          "text": "Objectif général : À la fin de la leçon « L’absence familiale et ses effets sur la vie quotidienne », l’apprenant sera capable de comprendre un texte explicatif et de produire un texte écrit cohérent et structuré pour informer et convaincre."
+        },
+        {
+          "type": "paragraph",
+          "text": "À la fin de cette leçon, l’apprenant doit être capable de :"
+        },
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (01 - 05)",
+          "items": [
+            {
+              "num": "01",
+              "text": "Saisir le sens de mots selon le contexte."
+            },
+            {
+              "num": "02",
+              "text": "Dégager le sens implicite existant entre les lignes."
+            },
+            {
+              "num": "03",
+              "text": "Faire des inférences en établissant des liens entre les éléments d’un texte lu en justifiant son interprétation."
+            },
+            {
+              "num": "04",
+              "text": "Résumer correctement un texte lu."
+            },
+            {
+              "num": "05",
+              "text": "Orthographier correctement les mots."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p02",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 5 : OBJECTIFS (2/2)",
+      "content": [
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (06 - 10) (suite)",
+          "items": [
+            {
+              "num": "06",
+              "text": "Fonctionner les règles de présentation du texte (introduction-développement - conclusion)."
+            },
+            {
+              "num": "07",
+              "text": "Enchaîner logiquement les idées."
+            },
+            {
+              "num": "08",
+              "text": "S’exprimer et se faire comprendre à l’écrit en organisant les idées."
+            },
+            {
+              "num": "09",
+              "text": "Utiliser l’humour pédagogique pour rendre l’apprentissage du FLE plus plaisant."
+            },
+            {
+              "num": "10",
+              "text": "Renforcer la confiance en soi des apprenants dans l’apprentissage du français."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p03",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 5 : PHASE 1 — IMAGES D'OBSERVATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 1,
+          "title": "Pré-action (Activation des connaissances)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation",
+          "level": 2
+        },
+        {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson5-a.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson5-b.png",
+              "caption": "Image 2"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q0"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p04",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 5 : QUESTIONS PRÉLIMINAIRES",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q1"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q2"
+        },
+        {
+          "type": "microtask",
+          "number": 1,
+          "text": "Identifiez l’idée générale du texte ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q3"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p05",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : PHASE 2 — LECTURE (1/3)",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 2,
+          "title": "Action (Compréhension approfondie)",
+          "duration": "60 min"
+        },
+        {
+          "type": "heading",
+          "text": "Lecture guidée du texte (15 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global."
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte suivant, puis répondez aux questions."
+        },
+        {
+          "type": "heading",
+          "text": "L’absence familiale et ses effets sur la vie quotidienne. (1/3)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "La solitude est une réalité silencieuse qui touche de nombreuses personnes lorsque les familles vivent loin les unes des autres. Les raisons de cet éloignement sont variées : travail à l’étranger, études, migrations ou choix de vie. Quand les liens familiaux reposent surtout sur les appels et les messages, la relation change. La présence physique, les gestes simples et les discussions spontanées disparaissent peu à peu. Cette distance peut créer un sentiment de vide, surtout chez les personnes âgées ou celles qui vivent seules. Même entouré par la technologie, l’être humain peut ressentir un manque profond de relations humaines réelles."
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p06",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : LECTURE (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "L’absence familiale et ses effets sur la vie quotidienne. (2/3)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette situation a souvent des conséquences sur l’équilibre émotionnel. La solitude prolongée peut provoquer de la tristesse, une perte de motivation et parfois un repli sur soi. Certaines personnes hésitent à parler de leur mal-être par peur de déranger ou par honte. Les fêtes, les anniversaires ou les moments difficiles renforcent ce sentiment d’absence familiale. Sans un soutien proche, il devient plus difficile de partager ses émotions ou de demander de l’aide. Les spécialistes expliquent que le lien social joue un rôle essentiel dans la santé mentale et le sentiment de sécurité."
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p07",
+      "type": "content",
+      "phase": 2,
+      "title": "LEÇON 5 : LECTURE (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "L’absence familiale et ses effets sur la vie quotidienne. (3/3)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Face à cette réalité, plusieurs solutions peuvent aider à réduire la solitude. Maintenir un contact régulier avec la famille, même à distance, reste important. Les associations, les activités culturelles et le bénévolat permettent aussi de créer de nouveaux liens sociaux. Certaines villes développent des espaces de rencontre pour rompre l’isolement, notamment pour les seniors. Ces initiatives montrent que la solidarité et l’attention aux autres peuvent compenser l’éloignement familial. La lutte contre la solitude passe par des actions simples, mais humaines, qui redonnent une place centrale au lien social."
+        },
+        {
+          "type": "paragraph",
+          "text": "https://www.bien-ecrire.com"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : MOTS-CLÉS",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 2,
+          "text": "Après la lecture du texte, déduisez le sens des mots suivants selon le contexte :",
+          "duration": "5 min"
+        },
+        {
+          "type": "keywords",
+          "title": "Mots-clés",
+          "items": [
+            "éloignement",
+            "solitude",
+            "isolement",
+            "lien social",
+            "rompre l’isolement"
+          ]
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q4"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : QUESTIONS GUIDÉES (1/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez la bonne réponse :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q5"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : QUESTIONS GUIDÉES (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (suite)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez la bonne réponse :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q6"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q7"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : QUESTIONS GUIDÉES (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (suite)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez la bonne réponse :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q8"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q9"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p12",
+      "type": "content",
+      "phase": 2,
+      "title": "LEÇON 5 : IDÉE PRINCIPALE DU TEXTE",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "déterminez l’idée principale du texte puis relevez deux idées secondaires qui la développent.",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q10"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p13",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : TEXTE EXPLICATIF",
+      "content": [
+        {
+          "type": "info-box",
+          "title": "Des informations enrichissants",
+          "sections": [
+            {
+              "heading": "Présentation du texte explicatif",
+              "items": [
+                "Le texte explicatif est un type de texte qui vise à expliquer un phénomène, une situation ou une idée, afin d’aider le lecteur à mieux comprendre un sujet donné.",
+                "Il répond généralement aux questions suivantes : Pourquoi ? Comment ? Quelles sont les causes et les conséquences ?"
+              ]
+            },
+            {
+              "heading": "Caractéristiques principales du texte explicatif :",
+              "items": [
+                "Il présente des informations claires et précises.",
+                "Il utilise des connecteurs logiques : car, parce que, donc, ainsi, cependant, malgré, en effet.",
+                "Il explique les causes et les conséquences d’un phénomène.",
+                "Il peut proposer des exemples ou des solutions pour mieux comprendre la situation."
+              ]
+            },
+            {
+              "heading": "Dans ce texte « L’absence familiale et ses effets sur la vie quotidienne », l’auteur :",
+              "items": [
+                "Explique les raisons de l’éloignement familial.",
+                "Décrit les conséquences de cette absence sur la vie émotionnelle.",
+                "Montre l’importance des liens sociaux pour la santé mentale.",
+                "Propose des solutions concrètes pour réduire les effets négatifs de solitude."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : RÔLE DE LA TECHNOLOGIE ET DE LA SOLITUDE",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 4,
+          "text": "Quel est le rôle de la technologie dans les relations familiales ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q11"
+        },
+        {
+          "type": "microtask",
+          "number": 5,
+          "text": "Pourquoi la solitude est-elle très difficile pour les personnes âgées selon le texte ? Justifiez votre réponse.",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p15",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : RÉSUMÉ ET REFORMULATION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 6,
+          "text": "Résumez le texte en 3 ou 4 phrases en utilisant vos propres vocabulaires ?",
+          "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q13"
+        },
+        {
+          "type": "microtask",
+          "number": 7,
+          "text": "Reformulez la phrase suivante ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Reformulez cette phrase en utilisant vos propres mots."
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q14"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p16",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : STRUCTURES À OBSERVER (1/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer (1/2)",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Structures à observer (1/2)",
+          "sections": [
+            {
+              "heading": "Exprimer la cause d’après le texte :",
+              "items": [
+                "Lorsque + verbe",
+                "En raison de + nom",
+                "Par + nom",
+                "Exemples du texte : La solitude est une réalité silencieuse lorsque les familles vivent loin les unes des autres.",
+                "Notamment en raison de l’absence familiale.",
+                "Certaines personnes hésitent à parler de leur mal-être par peur de déranger."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p17",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : STRUCTURES À OBSERVER (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer (2/2)",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Structures à observer (2/2)",
+          "sections": [
+            {
+              "heading": "Exprimer la conséquence d’après ce texte :",
+              "items": [
+                "Peut / peuvent + infinitif",
+                "Devient / deviennent + adjectif",
+                "Exemples du texte : Cette distance peut créer un sentiment de vide.",
+                "La solitude prolongée peut provoquer de la tristesse.",
+                "Il devient plus difficile de partager ses émotions."
+              ]
+            },
+            {
+              "heading": "Exprimer l’opposition d’après ce texte :",
+              "items": [
+                "Même si / même + participe",
+                "Cependant",
+                "Exemples du texte : Même entouré par la technologie, l’être humain peut ressentir un manque profond…",
+                "Cependant, la vie sans soutien familial présente des difficultés."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p18",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : VIDÉO DE COMPRÉHENSION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 8,
+          "text": "Regardez cette vidéo pour bien comprendre qu’est-ce que signifie le covoit :",
+          "duration": "5 min"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/JtbORjJ0MKk",
+          "caption": "Micro-tâche 8"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p19",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : RÉSUMÉ VIDÉO ET CONNECTEURS",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l5-q15"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "microtask",
+          "number": 9,
+          "text": "Utilisez les connecteurs logiques.",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Reliez les phrases avec : Cependant – Ainsi – En effet – De plus :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q16"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p20",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : CONNECTEURS (SUITE)",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Reliez les phrases avec : Cependant – Ainsi – En effet – De plus :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q17"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q18"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q19"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p21",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 5 : DISCUSSION EN GROUPES",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 10,
+          "text": "Discussion en groupes",
+          "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q20"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p22",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 5 : TÂCHE FINALE — PREPARATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale)",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Ce texte doit contenir :",
+          "sections": [
+            {
+              "heading": "Éléments requis",
+              "items": [
+                "Une introduction sur le problème de la solitude et de l’éloignement familial.",
+                "Des exemples de solutions pour réduire la solitude (contact avec la famille, activités sociales…).",
+                "Les bénéfices attendus pour la santé émotionnelle et les relations sociales.",
+                "Une conclusion motivante incitant à agir et à créer du lien social."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Outils interactifs fournis",
+          "sections": [
+            {
+              "heading": "Banque de connecteurs",
+              "items": [
+                "d’abord, ensuite, en plus, cependant, malgré tout, enfin…"
+              ]
+            },
+            {
+              "heading": "Aide lexicale",
+              "items": [
+                "solitude, lien social, relations humaines, contact familial, isolement, soutien, activités, bénévolat, rencontres…"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p23",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 5 : TÂCHE FINALE — CRÉATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q21"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p24",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 5 : ÉVALUATION DES PAIRS",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q22"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p25",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 5 : É-ÉVALUATION (1/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (1/2)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez à ces questions :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e1"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e2"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e3"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p26",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 5 : É-ÉVALUATION (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (2/2)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez à ces questions :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e4"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e5"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e6"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p27",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 5 : SOUMISSION DU DEVOIR",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Soumission du devoir",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Vérifier ta repense correcte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes arrivé à la fin de la Leçon 5. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous."
+        },
+        {
+          "type": "submit",
+          "lessonId": "lesson5",
+          "lessonTitle": "L’absence familiale et ses effets sur la vie quotidienne"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "l5-q0",
+      "type": "open-ended",
+      "text": "Observez ce que vous voyez et prédisez le thème de la leçon.",
+      "lines": 4
+    },
+    {
+      "id": "l5-q1",
+      "type": "open-ended",
+      "text": "1. Que voyez-vous dans ces images ?",
+      "lines": 4
+    },
+    {
+      "id": "l5-q2",
+      "type": "open-ended",
+      "text": "2. Selon vous, quel est le thème de la leçon ?",
+      "lines": 4
+    },
+    {
+      "id": "l5-q3",
+      "type": "open-ended",
+      "text": "Selon les images ci-dessus, de quoi parle ce texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l5-q4",
+      "type": "open-ended",
+      "text": "Après la lecture du texte, déduisez le sens des mots suivants selon le contexte :",
+      "lines": 4
+    },
+    {
+      "id": "l5-q5",
+      "type": "multiple-choice",
+      "text": "1. Le thème principal du texte est :",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Les avantages de la technologie moderne."
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "L’absence familiale et ses conséquences sur la vie quotidienne."
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Les loisirs des familles aujourd’hui."
+        }
+      ]
+    },
+    {
+      "id": "l5-q6",
+      "type": "multiple-choice",
+      "text": "2. Selon le texte, quelles sont les causes de l’éloignement familial ?",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Uniquement le travail à l’étranger."
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Le travail, les études, les migrations et les choix de vie."
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Les conflits familiaux."
+        }
+      ]
+    },
+    {
+      "id": "l5-q7",
+      "type": "multiple-choice",
+      "text": "3. Quand les liens familiaux reposent surtout sur les appels et les messages,",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "La relation devient plus forte."
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "La relation change."
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "La relation disparaît totalement."
+        }
+      ]
+    },
+    {
+      "id": "l5-q8",
+      "type": "multiple-choice",
+      "text": "4. Selon le texte, quelles solutions peuvent aider à réduire le problème de la solitude ?",
+      "answer": "c",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Éviter tout contact avec les autres."
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Utiliser seulement la technologie."
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Maintenir le contact familial et participer à des activités sociales."
+        }
+      ]
+    },
+    {
+      "id": "l5-q9",
+      "type": "multiple-choice",
+      "text": "5. Quel est le message essentiel de ce texte ?",
+      "answer": "c",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "La technologie peut remplacer le rôle de la famille."
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "L’éloignement familial n’a aucun effet sur la vie quotidienne."
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Le lien social est très important et doit être renforcé malgré la distance familiale."
+        }
+      ]
+    },
+    {
+      "id": "l5-q10",
+      "type": "open-ended",
+      "text": "déterminez l’idée principale du texte puis relevez deux idées secondaires qui la développent.",
+      "lines": 4
+    },
+    {
+      "id": "l5-q11",
+      "type": "open-ended",
+      "text": "Quel est le rôle de la technologie dans les relations familiales ?",
+      "lines": 4
+    },
+    {
+      "id": "l5-q12",
+      "type": "open-ended",
+      "text": "Pourquoi la solitude est-elle très difficile pour les personnes âgées selon le texte ? Justifiez votre réponse.",
+      "lines": 4
+    },
+    {
+      "id": "l5-q13",
+      "type": "open-ended",
+      "text": "Résumez le texte en 3 ou 4 phrases en utilisant vos propres vocabulaires ?",
+      "lines": 5
+    },
+    {
+      "id": "l5-q14",
+      "type": "open-ended",
+      "text": "« Certaines personnes hésitent à parler de leur mal-être par peur de déranger ou par honte. »",
+      "lines": 4
+    },
+    {
+      "id": "l5-q15",
+      "type": "open-ended",
+      "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo.",
+      "lines": 5
+    },
+    {
+      "id": "l5-q16",
+      "type": "open-ended",
+      "text": "1. La solitude peut provoquer de la tristesse. Elle affecte l’équilibre émotionnel.",
+      "lines": 4
+    },
+    {
+      "id": "l5-q17",
+      "type": "open-ended",
+      "text": "2. Les familles vivent loin. Les relations changent.",
+      "lines": 4
+    },
+    {
+      "id": "l5-q18",
+      "type": "open-ended",
+      "text": "3. Certaines personnes souffrent en silence. Elles ont peur de déranger.",
+      "lines": 4
+    },
+    {
+      "id": "l5-q19",
+      "type": "open-ended",
+      "text": "4. Des solutions existent. La solidarité peut réduire l’isolement.",
+      "lines": 4
+    },
+    {
+      "id": "l5-q20",
+      "type": "open-ended",
+      "text": "Les étudiants discutent en petits groupes. Ils proposent des pratiques possibles pour réduire la solitude dans la famille de votre collègue de l’université.",
+      "lines": 5
+    },
+    {
+      "id": "l5-q21",
+      "type": "open-ended",
+      "text": "Vous êtes un conseiller social qui donne des conseils aux familles. Rédigez un texte de 6 à 8 lignes pour expliquer comment lutter contre la solitude et favoriser les liens sociaux entre les membres de la famille.",
+      "lines": 6
+    },
+    {
+      "id": "l5-q22",
+      "type": "open-ended",
+      "text": "Lisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collèges et corrigez son texte si nécessaire.",
+      "lines": 6
+    },
+    {
+      "id": "l5-e1",
+      "type": "open-ended",
+      "text": "1) Que signifie « un sentiment de vide » dans le texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l5-e2",
+      "type": "open-ended",
+      "text": "2) Précisez deux effets négatifs de l’éloignement familial sur la vie quotidienne.",
+      "lines": 4
+    },
+    {
+      "id": "l5-e3",
+      "type": "open-ended",
+      "text": "3) Donnez deux solutions proposées dans le texte pour lutter contre la solitude.",
+      "lines": 4
+    },
+    {
+      "id": "l5-e4",
+      "type": "open-ended",
+      "text": "4) Expliquez avec vos mots pourquoi les fêtes ou anniversaires renforcent le sentiment d’absence familiale.",
+      "lines": 4
+    },
+    {
+      "id": "l5-e5",
+      "type": "open-ended",
+      "text": "5) Trouvez un (autre) titre qui qui reflète bien le texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l5-e6",
+      "type": "open-ended",
+      "text": "6) Donnez un exemple du texte qui montre que l’éloignement familial peut être difficile pour certaines catégories de personnes.",
+      "lines": 4
+    }
+  ]
 }
