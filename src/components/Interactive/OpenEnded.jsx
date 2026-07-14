@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-export default function OpenEnded({ question, value, onChange }) {
+export default function OpenEnded({ question, value, onChange, hideText = false }) {
   const stopEvent = (e) => e.stopPropagation();
 
   const lineCount = Math.max(question.lines || 0, 4);
@@ -74,7 +74,7 @@ export default function OpenEnded({ question, value, onChange }) {
 
   return (
     <div className="question-block" id={`question-${question.id}`}>
-      <p className="question-block__text">{question.text}</p>
+      {!hideText && <p className="question-block__text">{question.text}</p>}
       <div 
         className={`open-ended__lines ${isAnswered ? 'open-ended__lines--answered' : ''}`}
         onPointerDown={stopEvent}

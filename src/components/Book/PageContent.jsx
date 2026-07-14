@@ -95,12 +95,19 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
       case 'question': {
         const question = questions?.find(q => q.id === block.questionId);
         if (!question) return null;
+        // The introducing microtask/consigne already displays this exact text —
+        // don't render it a second time inside the answer block.
+        const prev = page.content[index - 1];
+        const hideText = !!prev && (prev.type === 'microtask' || prev.type === 'consigne')
+          && typeof prev.text === 'string' && typeof question.text === 'string'
+          && prev.text.trim() === question.text.trim();
         return (
           <QuestionRenderer
             key={index}
             question={question}
             value={getAnswer(question.id)}
             onChange={setAnswer}
+            hideText={hideText}
           />
         );
       }
