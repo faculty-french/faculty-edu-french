@@ -374,15 +374,7 @@
         {
           "type": "question",
           "questionId": "l4-q11"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p12",
-      "type": "content",
-      "phase": 2,
-      "title": "LEÇON 4 : COMPARAISON PASSÉ / PRÉSENT",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 5,
@@ -396,10 +388,10 @@
       ]
     },
     {
-      "id": "lesson4-p13",
-      "phase": 2,
+      "id": "lesson4-p12",
       "type": "content",
-      "title": "LEÇON 4 : CONJUGAISON A L'IMPARFAIT",
+      "phase": 2,
+      "title": "LEÇON 4 : CONJUGAISON — L’IMPARFAIT",
       "content": [
         {
           "type": "microtask",
@@ -426,7 +418,7 @@
       ]
     },
     {
-      "id": "lesson4-p14",
+      "id": "lesson4-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : EFFORTS ET REFORMULATION",
@@ -458,7 +450,7 @@
       ]
     },
     {
-      "id": "lesson4-p15",
+      "id": "lesson4-p14",
       "type": "content",
       "phase": 2,
       "title": "LEÇON 4 : MINI-PRODUCTION & STRUCTURES (1/2)",
@@ -512,7 +504,7 @@
       ]
     },
     {
-      "id": "lesson4-p16",
+      "id": "lesson4-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : STRUCTURES À OBSERVER (2/2)",
@@ -556,7 +548,7 @@
       ]
     },
     {
-      "id": "lesson4-p17",
+      "id": "lesson4-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : VIDÉO DE GRAMMAIRE",
@@ -574,7 +566,7 @@
       ]
     },
     {
-      "id": "lesson4-p18",
+      "id": "lesson4-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : MICRO-TÂCHE 10",
@@ -593,7 +585,7 @@
       ]
     },
     {
-      "id": "lesson4-p19",
+      "id": "lesson4-p18",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : COMPRÉHENSION VIDÉO ET DISCUSSION",
@@ -615,7 +607,7 @@
       ]
     },
     {
-      "id": "lesson4-p20",
+      "id": "lesson4-p19",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 4 : TÂCHE FINALE — OUTILS ET ELEMENTS",
@@ -667,7 +659,7 @@
       ]
     },
     {
-      "id": "lesson4-p21",
+      "id": "lesson4-p20",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 4 : TÂCHE FINALE — ARTICLE",
@@ -689,7 +681,7 @@
       ]
     },
     {
-      "id": "lesson4-p22",
+      "id": "lesson4-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 4 : ÉVALUATION & É-ÉVALUATION (1/3)",
@@ -716,7 +708,7 @@
       ]
     },
     {
-      "id": "lesson4-p23",
+      "id": "lesson4-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 4 : É-ÉVALUATION (2/3)",
@@ -741,7 +733,7 @@
       ]
     },
     {
-      "id": "lesson4-p24",
+      "id": "lesson4-p23",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 4 : É-ÉVALUATION (3/3) & SOUMISSION",
