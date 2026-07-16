@@ -1,11 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const PHASES = [1, 2, 3, 4];
 
-export default function Footer({ currentPage, totalPages, phase, onPrev, onNext }) {
+export default function Footer({ currentPage, totalPages, phase, onPrev, onNext, onGoToPage }) {
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('book_theme') || 'light';
   });
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState('');
+  const isCancelling = useRef(false);
+  const hasCommitted = useRef(false);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -13,6 +17,16 @@ export default function Footer({ currentPage, totalPages, phase, onPrev, onNext 
   }, [theme]);
 
   const toggleTheme = () => setTheme(prev => prev === 'light' ? 'dark' : 'light');
+
+  const commit = () => {
+    if (isCancelling.current || hasCommitted.current) return;
+    hasCommitted.current = true;
+    const n = parseInt(draft, 10);
+    if (!isNaN(n) && n >= 1 && n <= totalPages) {
+      onGoToPage(n - 1);
+    }
+    setEditing(false);
+  };
 
   return (
     <footer className="book-footer">
@@ -26,9 +40,51 @@ export default function Footer({ currentPage, totalPages, phase, onPrev, onNext 
       </button>
 
       <div className="book-footer__center">
-        <span className="book-footer__page-counter">
-          {currentPage + 1} / {totalPages}
-        </span>
+        {editing ? (
+          <div className="book-footer__input-wrapper">
+            <input
+              className="book-footer__goto-input"
+              type="text"
+              inputMode="numeric"
+              pattern="[0-9]*"
+              autoFocus
+              value={draft}
+              onChange={(e) => {
+                const cleaned = e.target.value.replace(/\D/g, '');
+                if (cleaned.length <= 3) {
+                  setDraft(cleaned);
+                }
+              }}
+              onFocus={(e) => e.target.select()}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  commit();
+                } else if (e.key === 'Escape') {
+                  isCancelling.current = true;
+                  setEditing(false);
+                }
+              }}
+              onBlur={commit}
+            />
+            <span className="book-footer__page-counter"> / {totalPages}</span>
+          </div>
+        ) : (
+          <button
+            type="button"
+            className="book-footer__page-counter book-footer__page-counter--btn"
+            id="btn-goto-page"
+            title="Aller à la page…"
+            aria-label="Aller à une page précise"
+            onClick={() => {
+              isCancelling.current = false;
+              hasCommitted.current = false;
+              setEditing(true);
+              setDraft(String(currentPage + 1));
+            }}
+          >
+            {currentPage + 1} / {totalPages}
+          </button>
+        )}
         {phase > 0 && (
           <div className="progress-rail" aria-hidden="true">
             {PHASES.map((p) => (

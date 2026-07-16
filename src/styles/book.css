@@ -491,6 +491,38 @@
 
 .book-footer__center { display: flex; flex-direction: column; align-items: center; gap: 0.25rem; min-width: 70px; }
 .book-footer__page-counter { font-size: var(--font-size-xs); color: var(--color-header-text); opacity: 0.85; font-weight: 600; text-align: center; font-variant-numeric: tabular-nums; }
+.book-footer__page-counter--btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+.book-footer__page-counter--btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.book-footer__input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.book-footer__goto-input {
+  width: 3.2em;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  padding: 2px 4px;
+  border-radius: 6px;
+  border: 1px solid var(--color-primary);
+  background: var(--color-surface, #fff);
+  color: var(--color-text, #222);
+  outline: none;
+}
 
 .progress-rail { display: flex; gap: 0.25rem; }
 .progress-rail__dot {

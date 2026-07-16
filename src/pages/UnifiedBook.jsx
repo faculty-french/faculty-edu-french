@@ -112,6 +112,7 @@ export default function UnifiedBook() {
         phase={currentPageData?.phase || 0}
         onPrev={() => viewerRef.current?.flipPrev()}
         onNext={() => viewerRef.current?.flipNext()}
+        onGoToPage={handleNavigate}
       />
     </div>
   );
