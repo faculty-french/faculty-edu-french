@@ -3,6 +3,864 @@
   "title": "Le pot de lait de Gita",
   "unitId": "unit3",
   "unitTitle": "Module 3 : Le travail et la vie sociale",
-  "pages": [],
-  "questions": []
+  "pages": [
+    {
+      "id": "lesson9-p01",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 9 : OBJECTIFS",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Leçon 9 : Le pot de lait de Gita",
+          "level": 1
+        },
+        {
+          "type": "paragraph",
+          "text": "Objectif général : À la fin de la leçon « Le pot de lait de Gita », l'apprenant sera capable de comprendre et de produire un texte écrit cohérent et structuré pour informer et convaincre."
+        },
+        {
+          "type": "paragraph",
+          "text": "À la fin de cette leçon, l'apprenant doit être capable de :"
+        },
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (01 - 12)",
+          "items": [
+            {
+              "num": "01",
+              "text": "Faire ressortir les mots clés d'un texte lu."
+            },
+            {
+              "num": "02",
+              "text": "Déterminer le genre d'un texte lu."
+            },
+            {
+              "num": "03",
+              "text": "Dégager le sens implicite existant entre les lignes."
+            },
+            {
+              "num": "04",
+              "text": "Suivre l'enchaînement chronologique des événements d'un texte lu."
+            },
+            {
+              "num": "05",
+              "text": "Réorganiser les informations d'un texte d'une manière personnelle."
+            },
+            {
+              "num": "06",
+              "text": "Analyser l'organisation d'un texte lu et interpréter son sens en s'appuyant sur des indices."
+            },
+            {
+              "num": "07",
+              "text": "Choisir des mots clairs et simples."
+            },
+            {
+              "num": "08",
+              "text": "Conjuguer correctement des verbes dans le temps convenable."
+            },
+            {
+              "num": "09",
+              "text": "Employer le temps convenable d'après le type du texte."
+            },
+            {
+              "num": "10",
+              "text": "Enchaîner logiquement les idées."
+            },
+            {
+              "num": "11",
+              "text": "Intégrer des moments d'échange et d'interaction afin de rendre l'apprentissage plus plaisant."
+            },
+            {
+              "num": "12",
+              "text": "Intégrer le livre numérique interactif pour rendre l'apprentissage du français plus motivant et plus plaisant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p02",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 9 : PHASE 1 — OBSERVATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 1,
+          "title": "Pré-action (Activation des connaissances)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation",
+          "level": 2
+        },
+        {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson9-a.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson9-b.png",
+              "caption": "Image 2"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q0"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p03",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 9 : QUESTIONS PRÉLIMINAIRES",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q1"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q2"
+        },
+        {
+          "type": "microtask",
+          "number": 1,
+          "text": "Que fait-elle ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q3"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p04",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 9 : MICRO-TÂCHE 2 & LECTURE GUIDÉE",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 2,
+          "text": "Quels problèmes pourrait-elle rencontrer ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q4"
+        },
+        {
+          "type": "heading",
+          "text": "Lecture guidée du texte (15 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global. (10 minutes)"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p05",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : PHASE 2 — LECTURE (1/3)",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 2,
+          "title": "Action (Compréhension approfondie)",
+          "duration": "60 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte suivant, puis répondez aux questions."
+        },
+        {
+          "type": "heading",
+          "text": "Le pot de lait de Gita (1/3)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Il était une fois une jeune fille nommée Gita, qui vivait avec sa grand-mère dans une petite maison de campagne. Tous les matins, elle trayait les vaches et portait un grand pot de lait au marché du village. Elle aimait marcher le long du chemin, entourée des oiseaux et des fleurs. Ce jour-là, le soleil brillait fort et Gita était de bonne humeur. Sa grand-mère lui dit avant de partir : « Sois prudente, ma fille, et pense à bien tenir ton pot de lait. » Gita hocha la tête, mais, à peine sortie, elle se mit à rêver. Elle pensait à tout ce qu'elle pourrait acheter avec l'argent qu'elle gagnerait"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p06",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : LECTURE (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Le pot de lait de Gita (2/3)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "En marchant, Gita imagina une vie magnifique. « Avec l'argent du lait, je vais acheter une poule. Cette poule pondra des œufs. Je vendrai les œufs et j'aurai assez pour acheter une vache. Avec le lait de cette vache, j'aurai encore plus d'argent. Je pourrai acheter une belle robe bleue et aller à la fête du village. Qui sait ? Peut-être qu'un prince me remarquera ! Gita riait en pensant à tout cela. Mais, toute à ses rêves, elle oubliait son pot. Elle leva la tête fièrement, fit un grand pas... et ploc ! le pot tomba par terre. Le lait se renversa, coula sur la route, et tous ses beaux rêves disparurent d'un seul coup."
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p07",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : LECTURE (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Le pot de lait de Gita (3/3)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Gita resta là, sans bouger, le cœur serré. Elle pensa à sa grand-mère et sentit la honte la gagner. Elle avait perdu le lait, l'argent et la confiance de sa famille. Quand elle rentra à la maison, sa grand-mère l'écouta sans colère et dit doucement : « Tu vois, ma petite, il faut d'abord travailler avant de rêver. Les beaux projets naissent de la patience. » Gita essuya ses larmes et promit de ne plus rêver sans effort. Le lendemain, elle retourna au marché, plus prudente, un nouveau pot sur la tête et un vrai sourire sur les lèvres : cette fois, elle savait que le courage et la patience valent mieux que les rêves sans travail."
+        },
+        {
+          "type": "paragraph",
+          "text": "https://www.bien-ecrire.com"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : IDÉE GÉNÉRALE & QUESTIONS GUIDÉES (1/3)",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "Identifiez l'idée générale de l'histoire ?",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "consigne",
+          "text": "Quelle est l'idée générale de cette histoire."
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q5"
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q6"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q7"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : QUESTIONS GUIDÉES (2/3)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l9-q8"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q9"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q10"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : QUESTIONS GUIDÉES (3/3) & PRÉSENTATION",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l9-q11"
+        },
+        {
+          "type": "info-box",
+          "title": "Des informations supplémentaires",
+          "sections": [
+            {
+              "heading": "Présentation du texte.",
+              "items": [
+                "Ce texte est un texte narratif. Il raconte une histoire pour expliquer une leçon de vie importante : la valeur du travail, de la patience et de la prudence."
+              ]
+            },
+            {
+              "heading": "Caractéristiques principales du texte narratif :",
+              "items": [
+                "Il présente des informations claires et précises à travers une histoire.",
+                "Il utilise des connecteurs logiques pour organiser les idées : tout d'abord, ensuite, enfin, mais d'un autre côté.",
+                "Il montre les causes et les conséquences des actions de Gita : rêver sans agir conduit à des erreurs, tandis que le travail et la prudence mènent à la réussite."
+              ]
+            },
+            {
+              "heading": "Dans ce texte, le narrateur :",
+              "items": [
+                "Décrit la vie quotidienne de Gita et sa relation avec sa grand-mère.",
+                "Montre les conséquences de l'inattention et du rêve sans effort.",
+                "Donne une leçon morale sur l'importance du travail, de la patience et du courage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : MICRO-TÂCHES 4 À 6",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 4,
+          "text": "Faire ressortir les mots clés de l'histoire ?",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q12"
+        },
+        {
+          "type": "microtask",
+          "number": 5,
+          "text": "Identifiez le genre de cette histoire.",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q13"
+        },
+        {
+          "type": "microtask",
+          "number": 6,
+          "text": "Quel est le moral de cette histoire ?",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q14"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : MICRO-TÂCHES 7 & 8",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 7,
+          "text": "Conjuguez à l'imparfait ?",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Gita (marcher) le long du chemin.<br>2. Elle (rêver) d'une vie magnifique.<br>3. Le soleil (briller) fort."
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q15"
+        },
+        {
+          "type": "microtask",
+          "number": 8,
+          "text": "Arrangez ces phrases dans un ordre logique d'après l'histoire :",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Elle retourna au marché avec prudence.<br>• Gita renverse le pot de lait.<br>• Gita trayait les vaches chaque matin."
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q16"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p13",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : MICRO-TÂCHE 9 & STRUCTURE À OBSERVER (1/2)",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 9,
+          "text": "Reformulez la phrase suivante ?",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "consigne",
+          "text": "Reformulez cette phrase en utilisant vos propres mots."
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q17"
+        },
+        {
+          "type": "heading",
+          "text": "Structure à observer :",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Structure à observer",
+          "sections": [
+            {
+              "heading": "Structure de la cause : Sert à justifier une idée ou une conséquence.",
+              "items": [
+                "Exemple : « Elle avait perdu le lait, l'argent et la confiance de sa famille parce qu'elle rêvait sans faire attention. »"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : STRUCTURE À OBSERVER (2/2)",
+      "content": [
+        {
+          "type": "info-box",
+          "title": "Structure à observer (suite)",
+          "sections": [
+            {
+              "heading": "Structure de la conséquence : Sert à montrer l'effet d'une action ou d'une situation.",
+              "items": [
+                "Exemple : « Le pot tomba par terre. Le lait se renversa, et tous ses beaux rêves disparurent d'un seul coup. »"
+              ]
+            },
+            {
+              "heading": "Structure de l'opposition / contraste : Sert à présenter deux points de vue ou des situations différentes pour nuancer.",
+              "items": [
+                "Exemple : « Mais d'un autre côté, même avoir un travail que l'on n'aime pas peut être formate"
+              ]
+            },
+            {
+              "heading": "Imparfait : Sert à décrire la situation, les sentiments ou les actions répétitives.",
+              "items": [
+                "Exemples :",
+                "« Tous les matins, elle trayait les vaches… »",
+                "« Elle pensait à tout ce qu'elle pourrait acheter avec l'argent… »",
+                "« Gita était de bonne humeur. »"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p15",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : MICRO-TÂCHE 10 — VIDÉO",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 10,
+          "text": "Regardez cette vidéo pour bien comprendre qu'est-ce que signifie le covoit :",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/zNYr_vH5UIY",
+          "caption": "Micro-tâche 10"
+        },
+        {
+          "type": "consigne",
+          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q18"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p16",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : MINI-PRODUCTION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 11,
+          "text": "Mini-production : Résumez l'histoire lu en trois phrases ?",
+          "duration": "10 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q19"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p17",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : DISCUSSION EN GROUPES",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 12,
+          "text": "Discussion en groupes",
+          "duration": "10 minutes"
+        },
+        {
+          "type": "consigne",
+          "text": "Déroulement : Travaillez en petits groupes (3 à 4 étudiants). Discutez autour de la question suivante :"
+        },
+        {
+          "type": "paragraph",
+          "text": "« Que feriez-vous à la place de Gita? »"
+        },
+        {
+          "type": "consigne",
+          "text": "Chaque groupe propose des solutions réelles liées à ce phénomène."
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q20"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p18",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 9 : PHASE 3 — TÂCHE FINALE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "À travers la discussion précédente. Racontez une expérience personnelle qui vous est rencontré et expliquez ce que vous en avez appris. »"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q21"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p19",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 9 : PHASE 4 — ÉVALUATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collèges et corrigez son texte si nécessaire."
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q22"
+        },
+        {
+          "type": "heading",
+          "text": "É-évaluation",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p20",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 9 : É-ÉVALUATION (1/3)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l9-q23"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q24"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q25"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p21",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 9 : É-ÉVALUATION (2/3)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l9-q26"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q27"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q28"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p22",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 9 : É-ÉVALUATION (3/3) & SOUMISSION",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l9-q29"
+        },
+        {
+          "type": "heading",
+          "text": "Soumission du devoir",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Vérifier ta repense correcte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes arrivé à la fin de la Leçon 9. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous."
+        },
+        {
+          "type": "submit",
+          "lessonId": "lesson9",
+          "lessonTitle": "Le pot de lait de Gita"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "l9-q0",
+      "type": "open-ended",
+      "text": "Observez l'image, puis prédisez le thème de la leçon.",
+      "lines": 4
+    },
+    {
+      "id": "l9-q1",
+      "type": "open-ended",
+      "text": "1. Qui sont ces personnages ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q2",
+      "type": "open-ended",
+      "text": "2. Où vivent-ils ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q3",
+      "type": "open-ended",
+      "text": "Que fait-elle ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q4",
+      "type": "open-ended",
+      "text": "Quels problèmes pourrait-elle rencontrer ?",
+      "lines": 5
+    },
+    {
+      "id": "l9-q5",
+      "type": "open-ended",
+      "text": "Quelle est l'idée générale de cette histoire.",
+      "lines": 4
+    },
+    {
+      "id": "l9-q6",
+      "type": "open-ended",
+      "text": "1. Qui sont les personnages principaux ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q7",
+      "type": "open-ended",
+      "text": "2. Où vivent-ils ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q8",
+      "type": "open-ended",
+      "text": "3. Que fait Gita chaque matin ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q9",
+      "type": "open-ended",
+      "text": "4. Que rêvait Gita en allant au marché ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q10",
+      "type": "open-ended",
+      "text": "5. Quel problème rencontre-t-elle à cause de ses rêves ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q11",
+      "type": "open-ended",
+      "text": "6. Quelle leçon Gita apprend-elle à la fin ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q12",
+      "type": "open-ended",
+      "text": "Faire ressortir les mots clés de l'histoire ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q13",
+      "type": "open-ended",
+      "text": "Identifiez le genre de cette histoire.",
+      "lines": 4
+    },
+    {
+      "id": "l9-q14",
+      "type": "open-ended",
+      "text": "Quel est le moral de cette histoire ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q15",
+      "type": "open-ended",
+      "text": "Conjuguez ces verbes à l'imparfait.",
+      "lines": 4
+    },
+    {
+      "id": "l9-q16",
+      "type": "open-ended",
+      "text": "Arrangez ces phrases dans un ordre logique.",
+      "lines": 4
+    },
+    {
+      "id": "l9-q17",
+      "type": "open-ended",
+      "text": "« Les beaux projets naissent de la patience. »",
+      "lines": 4
+    },
+    {
+      "id": "l9-q18",
+      "type": "open-ended",
+      "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo.",
+      "lines": 5
+    },
+    {
+      "id": "l9-q19",
+      "type": "open-ended",
+      "text": "Résumez l'histoire lu en trois phrases ?",
+      "lines": 11
+    },
+    {
+      "id": "l9-q20",
+      "type": "open-ended",
+      "text": "Que feriez-vous à la place de Gita ?",
+      "lines": 7
+    },
+    {
+      "id": "l9-q21",
+      "type": "open-ended",
+      "text": "Racontez votre expérience personnelle.",
+      "lines": 10
+    },
+    {
+      "id": "l9-q22",
+      "type": "open-ended",
+      "text": "Relisez et corrigez votre texte.",
+      "lines": 9
+    },
+    {
+      "id": "l9-q23",
+      "type": "open-ended",
+      "text": "Pourquoi Gita a-t-elle fait tomber le pot de lait ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q24",
+      "type": "open-ended",
+      "text": "Comment se sent-elle après avoir perdu le lait ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q25",
+      "type": "open-ended",
+      "text": "Que lui dit sa grand-mère après l'accident ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q26",
+      "type": "open-ended",
+      "text": "Qu'est-ce que Gita apprend de cette expérience ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q27",
+      "type": "open-ended",
+      "text": "Comment Gita agit-elle le lendemain ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q28",
+      "type": "open-ended",
+      "text": "Quel est le thème principal de l'histoire ?",
+      "lines": 4
+    },
+    {
+      "id": "l9-q29",
+      "type": "open-ended",
+      "text": "Donnez un autre titre possible pour cette histoire.",
+      "lines": 5
+    }
+  ]
 }
