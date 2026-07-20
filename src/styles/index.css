@@ -21,6 +21,12 @@
   --phase-3: #B06413; --phase-3-tint: #F6EDDF;
   --phase-4: #6E4E9E; --phase-4-tint: #EFE9F6;
 
+  /* Module paper tints — each module's pages get their own paper color */
+  --module-1-paper: #F5F8FD;  /* bleu — L'environnement */
+  --module-2-paper: #F4FAF6;  /* vert — La technologie */
+  --module-3-paper: #FCF8EF;  /* ocre — Le travail */
+  --module-4-paper: #F9F5FC;  /* violet — Le sport */
+
   /* ---- Semantic palette, derived from the identity above ---- */
   --color-primary: var(--phase-1);
   --color-primary-light: #6E93C6;

@@ -10,6 +10,7 @@ import QuestionRenderer from '../Interactive/QuestionRenderer';
 import IndexPage from '../Content/IndexPage';
 import SubmitButton from '../Interactive/SubmitButton';
 import BookCover from '../Content/BookCover';
+import ModuleDivider from '../Content/ModuleDivider';
 import React from 'react';
 
 const PHASE_LABELS = { 1: 'Phase 1', 2: 'Phase 2', 3: 'Phase 3', 4: 'Phase 4' };
@@ -135,6 +136,8 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
             welcome={formatText(block.welcome)}
           />
         );
+      case 'module-divider':
+        return <ModuleDivider key={index} module={block.module} title={formatText(block.title)} lessons={block.lessons || []} />;
       case 'index':
         return <IndexPage key={index} units={block.units} onNavigate={block.onNavigate} />;
       case 'divider':
@@ -163,6 +166,7 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
     isEven ? 'page--left' : 'page--right',
     page.layout ? `page--layout-${page.layout}` : '',
     page.phase ? `page--phase-${page.phase}` : '',
+    page.module ? `page--module-${page.module}` : '',
     overflowing ? 'page--overflow' : ''
   ].filter(Boolean).join(' ');
   const pageNumberClass = `page__number ${isEven ? 'page__number--left' : 'page__number--right'}`;

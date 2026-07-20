@@ -107,10 +107,18 @@ export async function loadBook() {
   const frontMatterPages = Array.isArray(bookData.pages) ? bookData.pages : [];
   const frontMatterQuestions = Array.isArray(bookData.questions) ? bookData.questions : [];
 
+  const lessonTitles = {};
+  frontMatterPages.forEach(page => {
+    page.content?.forEach(block => {
+      if (block.type !== 'index') return;
+      block.units?.forEach(unit => unit.lessons?.forEach(l => { lessonTitles[l.id] = l.title; }));
+    });
+  });
+
   const lessonSlots = [{ unitId: 'unit0', lessonId: 'lesson0', title: "Leçon zéro : L'approche actionnelle" }];
   CONFIG.UNITS.forEach(unit => {
     unit.lessons.forEach(lessonId => {
-      lessonSlots.push({ unitId: unit.id, lessonId, title: lessonId });
+      lessonSlots.push({ unitId: unit.id, lessonId, title: lessonId, unitTitle: unit.title, unitLessons: unit.lessons });
     });
   });
 
@@ -122,10 +130,29 @@ export async function loadBook() {
   const allPages = [...frontMatterPages];
   const allQuestions = [...frontMatterQuestions];
 
+  const seenDividers = new Set();
   lessonSlots.forEach((slot, i) => {
     const { pages, questions } = lessonResults[i];
+    const moduleNum = /^unit([1-4])$/.exec(slot.unitId)?.[1];
+    if (moduleNum && !seenDividers.has(moduleNum)) {
+      seenDividers.add(moduleNum);
+      allPages.push({
+        id: `module-${moduleNum}-divider`,
+        type: 'content',
+        title: `MODULE ${moduleNum}`,
+        layout: 'divider',
+        module: Number(moduleNum),
+        content: [{
+          type: 'module-divider',
+          module: Number(moduleNum),
+          title: slot.unitTitle,
+          lessons: (slot.unitLessons || []).map(id => ({ id, title: lessonTitles[id] || id }))
+        }]
+      });
+    }
+
     lessonPageIndex[slot.lessonId] = allPages.length;
-    allPages.push(...pages);
+    allPages.push(...pages.map(p => (moduleNum ? { ...p, module: Number(moduleNum) } : p)));
     allQuestions.push(...questions);
   });
 
