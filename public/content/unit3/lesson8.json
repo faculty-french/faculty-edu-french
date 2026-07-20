@@ -3,6 +3,1032 @@
   "title": "Le travail contribue-t-il au bonheur ?",
   "unitId": "unit3",
   "unitTitle": "Module 3 : Le travail et la vie sociale",
-  "pages": [],
-  "questions": []
+  "pages": [
+    {
+      "id": "lesson8-p01",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 8 : OBJECTIFS",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Leçon 8 : Le travail contribue-t-il au bonheur ?",
+          "level": 1
+        },
+        {
+          "type": "paragraph",
+          "text": "Objectif général : À la fin de la leçon « Le travail contribue-t-il au bonheur ? », l'apprenant sera capable de comprendre un texte explicatif et de produire un écrit cohérent et structuré pour informer et convaincre."
+        },
+        {
+          "type": "paragraph",
+          "text": "À la fin de cette leçon, l'apprenant doit être capable de :"
+        },
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (01 - 11)",
+          "items": [
+            {
+              "num": "01",
+              "text": "Comprendre l'idée générale d'un texte lu."
+            },
+            {
+              "num": "02",
+              "text": "Déterminer les idées principales et secondaires d'un texte lu."
+            },
+            {
+              "num": "03",
+              "text": "Saisir le sens des mots selon le contexte."
+            },
+            {
+              "num": "04",
+              "text": "Porter un jugement d'un texte lu à partir des critères pertinents."
+            },
+            {
+              "num": "05",
+              "text": "Lier entre ses connaissances antérieures et les informations d'un texte lu."
+            },
+            {
+              "num": "06",
+              "text": "Choisir des mots clairs et simples."
+            },
+            {
+              "num": "07",
+              "text": "Fonctionner les consignes."
+            },
+            {
+              "num": "08",
+              "text": "Employer correctement les prépositions (dans – en – au – à – de)."
+            },
+            {
+              "num": "09",
+              "text": "Maîtriser les règles de l'accord en genre et en nombre."
+            },
+            {
+              "num": "10",
+              "text": "Favoriser des relations positives et solidaires entre les apprenants."
+            },
+            {
+              "num": "11",
+              "text": "Promouvoir un environnement d'apprentissage basé sur la coopération et les échanges."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p02",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 8 : PHASE 1 — IMAGES D'OBSERVATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 1,
+          "title": "Pré-action (Activation des connaissances)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation",
+          "level": 2
+        },
+        {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson8-a.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson8-b.png",
+              "caption": "Image 2"
+            },
+            {
+              "imageUrl": "images/lessons/lesson8-c.png",
+              "caption": "Image 3"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q0"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p03",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 8 : QUESTIONS PRÉLIMINAIRES",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q1"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q2"
+        },
+        {
+          "type": "microtask",
+          "number": 1,
+          "text": "Identifiez l'idée générale du texte ?"
+        },
+        {
+          "type": "consigne",
+          "text": "Selon les images ci-dessus, de quoi parle ce texte ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q3"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p04",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : PHASE 2 — LECTURE (1/3)",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 2,
+          "title": "Action (Compréhension approfondie)",
+          "duration": "60 min"
+        },
+        {
+          "type": "heading",
+          "text": "Lecture guidée du texte (15 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global. (10 minutes)"
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte suivant, puis répondez aux questions."
+        },
+        {
+          "type": "heading",
+          "text": "Le travail contribue-t-il au bonheur ? (1/3)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'on s'en tient à l'étymologie du mot « travail » qui vient du latin « tripalium », un ancien instrument de torture, alors, le travail ne contribue définitivement pas au bonheur. En effet, tout le monde n'a pas la chance de choisir son métier. Parfois, on est contraint de faire un travail ennuyeux, stressant et sans intérêt. Pas parce qu'on l'a décidé, mais parce qu'on est obligé de gagner de l'argent pour subvenir à ses besoins ou à ceux de sa famille."
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p05",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : LECTURE (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Le travail contribue-t-il au bonheur ? (2/3)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Mais d'un autre côté, même avoir un travail qui ne nous intéresse pas peut être formateur. En effet, parfois, faire un métier que l'on n'aime pas permet de savoir ce que l'on ne veut pas faire dans la vie, ce qui peut nous motiver à trouver des solutions pour nous en sortir."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, c'est parfois en commençant un nouveau travail que l'on peut se découvrir des passions cachées. Le travail peut aussi donner du sens à la vie des gens. Beaucoup de personnes s'identifient à leur travail, le travail leur donne une raison de vivre, une identité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensuite, on peut rencontrer des personnes passionnantes au travail. C'est un lieu d'interaction sociale où l'on peut se faire des amis. Enfin, je connais de nombreuses personnes qui disent ne pas aimer leur travail et qui se plaignent souvent de leur condition. Mais quand ces personnes prennent des vacances depuis trop longtemps, elles s'ennuient et veulent retourner dans leur entreprise."
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p06",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : LECTURE (3/3) & IDÉE PRINCIPALE",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Le travail contribue-t-il au bonheur ? (3/3)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette situation est assez paradoxale. En fait, je crois que nombreux d'entre nous ont besoin d'être un peu frustrés au travail pendant la journée pour mieux apprécier ces petits moments une fois à la maison. Alors, le travail peut contribuer au bonheur même si on ne s'en rend pas toujours compte."
+        },
+        {
+          "type": "paragraph",
+          "text": "https://anyfrench.com/lecture/le-travail-contribue-t-il-au-bonheur"
+        },
+        {
+          "type": "microtask",
+          "number": 2,
+          "text": "Quelle est l'idée principale de ce texte ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q4"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p07",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : QUESTIONS GUIDÉES (VRAI/FAUX)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (5 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Mettez vrai ou faux devant chaque phrase :"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-vf1"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-vf2"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-vf3"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-vf4"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-vf5"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : TEXTE EXPLICATIF-ARGUMENTATIF",
+      "content": [
+        {
+          "type": "info-box",
+          "title": "Des informations supplémentaires",
+          "sections": [
+            {
+              "heading": "Présentation du texte explicatif - argumentatif :",
+              "items": [
+                "Ce type du texte a pour objectif d'expliquer comment le travail peut influencer le bonheur des individus, en présentant à la fois ses avantages et ses inconvénients."
+              ]
+            },
+            {
+              "heading": "Caractéristiques principales du texte explicatif :",
+              "items": [
+                "Il présente des informations claires et précises.",
+                "Il utilise des connecteurs logiques tels que : en effet, cependant, car, donc, ainsi.",
+                "Il présente des causes et les conséquences du travail sur le bonheur.",
+                "Il propose des exemples pour faciliter la compréhension."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Dans ce texte, l'auteur :",
+          "sections": [
+            {
+              "heading": "Présenter son point de vue et sa justification :",
+              "items": [
+                "« Mais d'un autre côté, même avoir un travail qui ne nous intéresse pas peut être formateur. »",
+                "« Beaucoup de personnes s'identifient à leur travail, le travail leur donne une raison de vivre, une identité. »."
+              ]
+            },
+            {
+              "heading": "Conclusion argumentative :",
+              "items": [
+                "« Alors, le travail peut contribuer au bonheur même si on ne s'en rend pas toujours compte. »"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : SENS ET EXEMPLE",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "Saisir le sens des mot selon le contexte?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Donnez le sens du mot « paradoxale » selon le contexte du texte."
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q5"
+        },
+        {
+          "type": "microtask",
+          "number": 4,
+          "text": "Donnez un exemple de votre vie ou de la société qui confirme une idée du texte.",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q6"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : SOURCE DE BONHEUR & PRÉPOSITIONS",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 5,
+          "text": "Selon vous, le travail est-il une source de bonheur ou de frustration ? Pourquoi ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q7"
+        },
+        {
+          "type": "microtask",
+          "number": 6,
+          "text": "Employer correctement les prépositions (dans – en – au – à – de)",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Complétez avec la préposition correcte ? 1. Je travaille ___ une grande entreprise. 2. Beaucoup de personnes s'identifient ___ leur travail. 3. Elle est intéressée ___ la psychologie du travail. 4. Il passe beaucoup de temps ___ son bureau."
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q8"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : RÔLE DU TRAVAIL & REFORMULATION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 7,
+          "text": "Écrivez une seule phrase sur le rôle du travail dans la vie ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q9"
+        },
+        {
+          "type": "microtask",
+          "number": 9,
+          "text": "Reformulez la phrase suivante ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Reformulez cette phrase en utilisant vos propres mots. « Le travail peut donner une identité à certaines personnes. »"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q10"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : VIDÉO DE COMPRÉHENSION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 8,
+          "text": "Regardez cette vidéo pour bien comprendre qu'est-ce que signifie le covoit :",
+          "duration": "5 min"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/K5TUHK_J5QQ",
+          "caption": "Micro-tâche 8"
+        },
+        {
+          "type": "consigne",
+          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q11"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p13",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : STRUCTURES À OBSERVER",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Structures à observer",
+          "sections": [
+            {
+              "heading": "Structure de l'opposition : Sert à présenter des points de vue opposés et à nuancer l'argumentation.",
+              "items": [
+                "Si…, alors…",
+                "Mais d'un autre côté…",
+                "Même si…"
+              ]
+            },
+            {
+              "heading": "Structure de la cause : Sert à justifier une idée ou une opinion.",
+              "items": [
+                "Parce que…",
+                "Car…",
+                "En effet…"
+              ]
+            },
+            {
+              "heading": "Structure de la conséquence : Sert à montrer les effets du travail sur le bonheur.",
+              "items": [
+                "Alors…",
+                "Ce qui peut…",
+                "Cela permet de…"
+              ]
+            },
+            {
+              "heading": "Structure de l'énumération : Sert à organiser les idées de manière logique.",
+              "items": [
+                "En effet… / De plus… / Ensuite… / Enfin…"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : MINI-PRODUCTION ET DISCUSSION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 10,
+          "text": "Mini-production : Résumez ce texte lu en trois phrases ?",
+          "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q12"
+        },
+        {
+          "type": "microtask",
+          "number": 10,
+          "text": "Discussion en groupes",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Déroulement : Travaillez en petits groupes (3 à 4 étudiants). Discutez autour de la question suivante : « Selon vous, que peut-on faire pour que le travail contribue au bonheur des employés? » Chaque groupe propose des solutions réelles liées à ce phénomène."
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q13"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p15",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 8 : TÂCHE FINALE — PRÉPARATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "À travers la discussion précédente, Écrivez un e-mail à votre ami français à propos de votre récent changement d'emploi. Expliquez pourquoi vous avez changé de travail, décrivez vos nouvelles responsabilités et exprimez vos sentiments sur ce changement."
+        },
+        {
+          "type": "info-box",
+          "title": "Votre texte doit :",
+          "sections": [
+            {
+              "heading": "Éléments requis",
+              "items": [
+                "Commencer par une salutation adaptée.",
+                "Expliquer pourquoi vous avez changé de travail.",
+                "Décrire vos nouvelles responsabilités.",
+                "Exprimer vos sentiments et impressions sur ce changement.",
+                "Conclure par une phrase de conclusion amicale et une formule de politesse."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p16",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 8 : TÂCHE FINALE — CRÉATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q14"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p17",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 8 : ÉVALUATION & É-ÉVALUATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collègues et corrigez son texte si nécessaire."
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q15"
+        },
+        {
+          "type": "heading",
+          "text": "É-évaluation",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez la bonne réponse :"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p18",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 8 : É-ÉVALUATION (1/3)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l8-e1"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e2"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p19",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 8 : É-ÉVALUATION (2/3)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l8-e3"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p20",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 8 : É-ÉVALUATION (3/3)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l8-e5"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e6"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p21",
+      "type": "content",
+      "phase": 4,
+      "title": "LEÇON 8 : QUESTIONS FINALES (1/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Répondez aux questions :",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q16"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-q17"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p22",
+      "type": "content",
+      "phase": 4,
+      "title": "LEÇON 8 : QUESTIONS FINALES (2/2) & SOUMISSION",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l8-q18"
+        },
+        {
+          "type": "heading",
+          "text": "Soumission du devoir",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Vérifier ta repense correcte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes arrivé à la fin de la Leçon 8. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous."
+        },
+        {
+          "type": "submit",
+          "lessonId": "lesson8",
+          "lessonTitle": "Le travail contribue-t-il au bonheur ?"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "l8-q0",
+      "type": "open-ended",
+      "text": "Observez ce que vous voyez et prédisez le thème de la leçon.",
+      "lines": 4
+    },
+    {
+      "id": "l8-q1",
+      "type": "open-ended",
+      "text": "1. Que voyez-vous dans ces images ?",
+      "lines": 4
+    },
+    {
+      "id": "l8-q2",
+      "type": "open-ended",
+      "text": "2. Selon vous, quel est le thème de la leçon ?",
+      "lines": 4
+    },
+    {
+      "id": "l8-q3",
+      "type": "open-ended",
+      "text": "Selon les images ci-dessus, de quoi parle ce texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l8-q4",
+      "type": "open-ended",
+      "text": "Quelle est l'idée principale de ce texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l8-vf1",
+      "type": "vrai-faux",
+      "text": "1. Le mot « travail » vient du latin « tripalium », un ancien instrument de torture.",
+      "answer": "vrai"
+    },
+    {
+      "id": "l8-vf2",
+      "type": "vrai-faux",
+      "text": "2. Selon le texte, tout le monde a la possibilité de choisir librement son métier.",
+      "answer": "faux"
+    },
+    {
+      "id": "l8-vf3",
+      "type": "vrai-faux",
+      "text": "3. D'après l'auteur, un travail ennuyeux ne peut jamais être utile.",
+      "answer": "faux"
+    },
+    {
+      "id": "l8-vf4",
+      "type": "vrai-faux",
+      "text": "4. Le travail peut donner un sens à la vie et une identité à certaines personnes.",
+      "answer": "vrai"
+    },
+    {
+      "id": "l8-vf5",
+      "type": "vrai-faux",
+      "text": "5. L'auteur pense que le travail ne contribue jamais au bonheur.",
+      "answer": "faux"
+    },
+    {
+      "id": "l8-q5",
+      "type": "open-ended",
+      "text": "Donnez le sens du mot « paradoxale » selon le contexte du texte.",
+      "lines": 4
+    },
+    {
+      "id": "l8-q6",
+      "type": "open-ended",
+      "text": "Donnez un exemple de votre vie ou de la société qui confirme une idée du texte.",
+      "lines": 4
+    },
+    {
+      "id": "l8-q7",
+      "type": "open-ended",
+      "text": "Selon vous, le travail est-il une source de bonheur ou de frustration ? Pourquoi ?",
+      "lines": 4
+    },
+    {
+      "id": "l8-q8",
+      "type": "open-ended",
+      "text": "Complétez avec la préposition correcte ? 1. Je travaille ___ une grande entreprise. 2. Beaucoup de personnes s'identifient ___ leur travail. 3. Elle est intéressée ___ la psychologie du travail. 4. Il passe beaucoup de temps ___ son bureau.",
+      "lines": 4
+    },
+    {
+      "id": "l8-q9",
+      "type": "open-ended",
+      "text": "Écrivez une seule phrase sur le rôle du travail dans la vie ?",
+      "lines": 4
+    },
+    {
+      "id": "l8-q10",
+      "type": "open-ended",
+      "text": "Reformulez cette phrase en utilisant vos propres mots. « Le travail peut donner une identité à certaines personnes. »",
+      "lines": 4
+    },
+    {
+      "id": "l8-q11",
+      "type": "open-ended",
+      "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo.",
+      "lines": 4
+    },
+    {
+      "id": "l8-q12",
+      "type": "open-ended",
+      "text": "Résumez ce texte lu en trois phrases ?",
+      "lines": 4
+    },
+    {
+      "id": "l8-q13",
+      "type": "open-ended",
+      "text": "« Selon vous, que peut-on faire pour que le travail contribue au bonheur des employés? »",
+      "lines": 4
+    },
+    {
+      "id": "l8-q14",
+      "type": "open-ended",
+      "text": "À travers la discussion précédente, Écrivez un e-mail à votre ami français à propos de votre récent changement d'emploi. Expliquez pourquoi vous avez changé de travail, décrivez vos nouvelles responsabilités et exprimez vos sentiments sur ce changement.",
+      "lines": 10
+    },
+    {
+      "id": "l8-q15",
+      "type": "open-ended",
+      "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collègues et corrigez son texte si nécessaire.",
+      "lines": 4
+    },
+    {
+      "id": "l8-e1",
+      "type": "multiple-choice",
+      "text": "1. D'après l'auteur, tout le monde peut-il choisir son métier ?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Non, on n'a pas tous cette chance."
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Non, c'est réservé à une élite."
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Oui, être libre c'est choisir."
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Oui, mais les gens ne le font pas."
+        }
+      ]
+    },
+    {
+      "id": "l8-e2",
+      "type": "multiple-choice",
+      "text": "2. D'après l'auteur, quelles sont les caractéristiques des métiers subis ?",
+      "answer": "c",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Ils sont passionnants et relaxants"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Ils sont très bien payés"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Ils sont ennuyeux, stressants et sans intérêt"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Ils sont très mal payés"
+        }
+      ]
+    },
+    {
+      "id": "l8-e3",
+      "type": "multiple-choice",
+      "text": "3. D'après l'auteur, est-ce qu'un travail inintéressant peut servir ?",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Non, car il ne sert à rien"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Oui, il peut aider à savoir ce qu'on ne veut pas"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Oui, il reste utile à la société"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Non, c'est évident"
+        }
+      ]
+    },
+    {
+      "id": "l8-e4",
+      "type": "multiple-choice",
+      "text": "4. D'après l'auteur, que peut-on découvrir quand on commence un nouveau travail ?",
+      "answer": "d",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Une nouvelle manière de voir le monde"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Une nouvelle méthode de travail"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Que l'on est doué de conscience"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Une passion dont on n'avait pas conscience"
+        }
+      ]
+    },
+    {
+      "id": "l8-e5",
+      "type": "multiple-choice",
+      "text": "5. D'après l'auteur, que peut permettre le travail ?",
+      "answer": "d",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "De cotiser pour sa retraite"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "De contribuer à la société"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "De s'améliorer en permanence"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "De donner un sens à sa vie"
+        }
+      ]
+    },
+    {
+      "id": "l8-e6",
+      "type": "multiple-choice",
+      "text": "6. D'après l'auteur, le travail a-t-il un impact sur la vie sociale ?",
+      "answer": "c",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Non, il n'apporte que frustration"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Non, on ne peut pas se faire des amis au travail"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Oui, il permet de se faire des amis"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Oui, il fausse les relations"
+        }
+      ]
+    },
+    {
+      "id": "l8-q16",
+      "type": "open-ended",
+      "text": "1. Trouvez un (autre) titre qui qui reflète bien le texte ?",
+      "lines": 6
+    },
+    {
+      "id": "l8-q17",
+      "type": "open-ended",
+      "text": "2. Proposez d'autres avantages et inconvénients du travail.",
+      "lines": 6
+    },
+    {
+      "id": "l8-q18",
+      "type": "open-ended",
+      "text": "3. Êtes-vous d'accord avec l'idée que le travail peut contribuer au bonheur ? Justifiez votre réponse.",
+      "lines": 4
+    }
+  ]
 }
