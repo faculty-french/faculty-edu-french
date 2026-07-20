@@ -3,6 +3,840 @@
   "title": "Le télétravail",
   "unitId": "unit3",
   "unitTitle": "Module 3 : Le travail et la vie sociale",
-  "pages": [],
-  "questions": []
+  "pages": [
+    {
+      "id": "lesson7-p01",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 7 : OBJECTIFS",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Leçon 7 : Le télétravail",
+          "level": 1
+        },
+        {
+          "type": "paragraph",
+          "text": "Objectif général : À la fin de la leçon « Le télétravail », l'apprenant sera capable de comprendre un texte explicatif et de produire un texte écrit cohérent et structuré pour informer et convaincre."
+        },
+        {
+          "type": "paragraph",
+          "text": "À la fin de cette leçon, l'apprenant doit être capable de :"
+        },
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (01 - 11)",
+          "items": [
+            {
+              "num": "01",
+              "text": "Saisir le sens des mots selon le contexte."
+            },
+            {
+              "num": "02",
+              "text": "Connaitre les trois parties du mot (la racine, le préfixe et le suffixe)."
+            },
+            {
+              "num": "03",
+              "text": "Prédire le sens général d'un texte lu à travers des indices."
+            },
+            {
+              "num": "04",
+              "text": "Proposer un autre titre pertinent pour un texte lu."
+            },
+            {
+              "num": "05",
+              "text": "Faire des inférences en établissant des liens entre les éléments d'un texte lu en justifiant son interprétation."
+            },
+            {
+              "num": "06",
+              "text": "Respecter l'ordre logique des mots dans la phrase."
+            },
+            {
+              "num": "07",
+              "text": "S'exprimer et se faire comprendre à l'écrit en organisant les idées."
+            },
+            {
+              "num": "08",
+              "text": "Mettre en lien des connaissances antérieures au sujet visé."
+            },
+            {
+              "num": "09",
+              "text": "Exprimer ses goûts et ses préférences."
+            },
+            {
+              "num": "10",
+              "text": "Créer un climat de classe agréable, motivant et favorable à l'apprentissage."
+            },
+            {
+              "num": "11",
+              "text": "Encourager les apprenants à participer librement sans craindre de commettre des erreurs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p02",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 7 : PHASE 1 — IMAGES D'OBSERVATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 1,
+          "title": "Pré-action (Activation des connaissances)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation",
+          "level": 2
+        },
+        {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson7-a.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson7-b.png",
+              "caption": "Image 2"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q0"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p03",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 7 : QUESTIONS PRÉLIMINAIRES",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q1"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q2"
+        },
+        {
+          "type": "microtask",
+          "number": 1,
+          "text": "Trouver l'idée générale du texte ?"
+        },
+        {
+          "type": "consigne",
+          "text": "Selon les images ci-dessus, de quoi parle ce texte ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q3"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p04",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : PHASE 2 — LECTURE (1/3)",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 2,
+          "title": "Action (Compréhension approfondie)",
+          "duration": "60 min"
+        },
+        {
+          "type": "heading",
+          "text": "Lecture guidée du texte (15 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global. (10 minutes)"
+        },
+        {
+          "type": "consigne",
+          "text": "lisez le texte suivant, puis répondez aux questions."
+        },
+        {
+          "type": "heading",
+          "text": "Le télétravail (1/3)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Depuis quelques années, une nouvelle manière de travailler a fait son apparition : le télétravail Cela signifie que les employés n'ont plus besoin de se rendre dans un bureau tous les jours. Grâce à leur ordinateur et à une connexion internet, ils peuvent effectuer leurs tâches depuis chez eux. Cette pratique, encore peu répandue il y a quelques années, s'est considérablement développée, notamment avec la crise sanitaire du Cavid-19 qui a contraint de nombreuses entreprises à adapter leurs modes de fonctionnement."
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p05",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : LECTURE (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Le télétravail (2/3)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Le télétravail présente de nombreux avantages. Tout d'abord, il permet de gagner du temps en évitant les trajets quotidiens. Ensuite, il offre une plus grande flexibilité dans l'organisation du travail. Les salariés peuvent ainsi mieux concilier leur vie professionnelle et leur vie personnelle. Enfin, le télétravail peut contribuer à réduire l'empreinte écologique en limitant les déplacements Cependant, cette nouvelle façon de travailler n'est pas sans poser de problèmes Le principal inconvénient est sans doute l'isolement que peuvent ressentir certains télétravailleurs, privés des échanges avec leurs collègues. De plus, il est parfois difficile de séparer vie professionnelle et vie personnelle lorsque l'on travaille à domicile."
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p06",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : LECTURE (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Le télétravail (3/3)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le télétravail est une réalité pour de plus en plus de personnes, il est important de souligner que cette pratique ne convient pas à tous les métiers. Certains emplois nécessitent une présence physique et des interactions régulières avec les collègues. De plus, le télétravail soulève de nombreuses questions, notamment termes d'aménagement du temps de travail et d'évaluation des performances. Les entreprises et les salariés doivent donc apprendre à s'adapter à cette nouvelle organisation du travail pour en tirer le meilleur parti."
+        },
+        {
+          "type": "paragraph",
+          "text": "https://www.bien-ecrire.com"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p07",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 2,
+          "text": "Quelle est l'idée principale de ce texte ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q4"
+        },
+        {
+          "type": "heading",
+          "text": "Questions guidées (10 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Mettez vrai ou faux devant chaque phrase :"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-vf1"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : QUESTIONS GUIDÉES (VRAI/FAUX)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l7-vf2"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-vf3"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-vf4"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-vf5"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : TEXTE EXPLICATIF",
+      "content": [
+        {
+          "type": "info-box",
+          "title": "Des informations enrichissantes",
+          "sections": [
+            {
+              "heading": "Présentation du texte explicatif",
+              "items": [
+                "Le texte explicatif est un type de texte qui a pour objectif d'expliquer un phénomène, une situation ou une idée pour aider le lecteur à mieux comprendre un sujet donné. Il répond généralement à des questions comme : Pourquoi ? Comment ? Quelles sont les causes et les conséquences ?"
+              ]
+            },
+            {
+              "heading": "Caractéristiques principales du texte explicatif :",
+              "items": [
+                "Il présente des informations claires et précises.",
+                "Il utilise des connecteurs logiques tels que : car, parce que, donc, ainsi, cependant, malgré, en effet.",
+                "Il explique les causes et les conséquences d'un phénomène.",
+                "Il peut proposer des exemples pour faciliter la compréhension du phénomène."
+              ]
+            },
+            {
+              "heading": "Dans ce texte «Le télétravail», l'auteur :",
+              "items": [
+                "Décrit le télétravail grâce à l'intégration des outils numériques.",
+                "Présente les avantages du télétravail, comme la flexibilité, le gain de temps et la réduction de l'empreinte écologique.",
+                "Souligne aussi les inconvénients, tels que l'isolement des employés et la difficulté à séparer la vie professionnelle de la vie personnelle.",
+                "Explique en même temps que le télétravail ne convient pas à tous les métiers."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : SENS ET PARTIES DES MOTS",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "trouvez le sens des mot selon le contexte?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez dans le texte le mot « trajets quotidiens » et expliquez-le selon le contexte."
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q5"
+        },
+        {
+          "type": "microtask",
+          "number": 4,
+          "text": "reconnaitre les parties des mots?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "précisez le mot « télétravail » et identifiez la racine, le préfixe et le suffixe."
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q6"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : EXEMPLES ET CONNECTEURS",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 5,
+          "text": "Donnez un exemple de votre vie personnelle ou familiale lié au télétravail ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q7"
+        },
+        {
+          "type": "microtask",
+          "number": 6,
+          "text": "Utiliser les connecteurs logiques ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Reliez les phrases suivantes avec un connecteur logique : « Il permet de gagner du temps et …. Les salariés peuvent mieux concilier leur vie professionnelle et personnelle. »"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q8"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : REFORMULATION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 7,
+          "text": "Reformulez la phrase suivante ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Reformulez cette phrase en utilisant vos propres mots. « Le télétravail permet de gagner du temps en évitant les trajets quotidiens »."
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q9"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p13",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : STRUCTURE À OBSERVER",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structure à observer",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Structure à observer",
+          "sections": [
+            {
+              "heading": "Les connecteurs logiques : Tout d'abord, Ensuite, Enfin, Cependant, De plus",
+              "items": [
+                "Ils permettent d'organiser les idées et de montrer les relations entre elles."
+              ]
+            },
+            {
+              "heading": "Exemples :",
+              "items": [
+                "Tout d'abord, il permet de gagner du temps en évitant les trajets quotidiens.",
+                "De plus, il est parfois difficile de séparer vie professionnelle et vie personnelle lorsque l'on travaille à domicile."
+              ]
+            },
+            {
+              "heading": "Les expressions pour donner des causes et des conséquences : Grâce à… → Exprimer la cause · Cela permet de… → Exprimer la conséquence",
+              "items": [
+                "Grâce à leur ordinateur et à une connexion Internet, ils peuvent effectuer leurs tâches depuis chez eux.",
+                "Cela permet de gagner du temps en évitant les trajets quotidiens."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : VIDÉO DE COMPRÉHENSION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 8,
+          "text": "Regardez cette vidéo pour bien comprendre qu'est-ce que signifie le covoit :",
+          "duration": "5 min"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/PHRwehPtSLs",
+          "caption": "Micro-tâche 8"
+        },
+        {
+          "type": "consigne",
+          "text": "Écrivez un court résumé de ce que vous avez compris"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q10"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p15",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : MINI-PRODUCTION ET DISCUSSION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 9,
+          "text": "Mini-production : Résumez ce texte lu en trois phrases ?",
+          "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q11"
+        },
+        {
+          "type": "microtask",
+          "number": 10,
+          "text": "Discussion en groupes",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Déroulement : Travaillez en petits groupes (3 à 4 étudiants). Discutez autour de la question suivante : « Selon vous, quelles solutions pourraient aider à améliorer la qualité de vie des télétravailleurs ? Chaque groupe propose des solutions réelles liées à ce phénomène."
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p16",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 7 : TÂCHE FINALE — PRÉPARATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Vous travaillez en ligne et vos amis vous demandent quels sont les avantages et les inconvénients du télétravail. Rédigez un texte explicatif de 8 à 10 lignes sur le télétravail, en présentant ses avantages et ses inconvénients."
+        },
+        {
+          "type": "info-box",
+          "title": "Votre texte doit :",
+          "sections": [
+            {
+              "heading": "Éléments requis",
+              "items": [
+                "Décrire le problème.",
+                "Présenter un avantage et un inconvénient.",
+                "Utiliser des connecteurs logiques (car, donc, cependant, en effet…)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Outils interactifs fournis",
+          "sections": [
+            {
+              "heading": "Banque de connecteurs",
+              "items": [
+                "Tout d'abord, Ensuite, Enfin, Cependant, De plus, car, donc, en effet…"
+              ]
+            },
+            {
+              "heading": "Aide lexicale",
+              "items": [
+                "télétravail, trajets quotidiens, flexibilité, isolement, vie professionnelle, vie personnelle, empreinte écologique, connexion internet…"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p17",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 7 : TÂCHE FINALE — CRÉATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q13"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p18",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 7 : ÉVALUATION & É-ÉVALUATION (1/4)",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q14"
+        },
+        {
+          "type": "heading",
+          "text": "É-évaluation",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez à ces questions :"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e1"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p19",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 7 : É-ÉVALUATION (2/4)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l7-e2"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e3"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p20",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 7 : É-ÉVALUATION (3/4)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e5"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e6"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p21",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 7 : É-ÉVALUATION (4/4) & SOUMISSION",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l7-e7"
+        },
+        {
+          "type": "heading",
+          "text": "Soumission du devoir",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Vérifier ta repense correcte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes arrivé à la fin de la Leçon 7. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous."
+        },
+        {
+          "type": "submit",
+          "lessonId": "lesson7",
+          "lessonTitle": "Le télétravail"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "l7-q0",
+      "type": "open-ended",
+      "text": "Observez ce que vous voyez et prédisez le thème de la leçon.",
+      "lines": 4
+    },
+    {
+      "id": "l7-q1",
+      "type": "open-ended",
+      "text": "1. Que voyez-vous dans ces images ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-q2",
+      "type": "open-ended",
+      "text": "2. Selon vous, quel est le thème de la leçon ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-q3",
+      "type": "open-ended",
+      "text": "Selon les images ci-dessus, de quoi parle ce texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-q4",
+      "type": "open-ended",
+      "text": "Quelle est l'idée principale de ce texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-vf1",
+      "type": "vrai-faux",
+      "text": "1. Le télétravail signifie que les employés doivent se rendre au bureau tous les jours.",
+      "answer": "faux"
+    },
+    {
+      "id": "l7-vf2",
+      "type": "vrai-faux",
+      "text": "2. Le télétravail permet de gagner du temps en évitant les trajets quotidiens.",
+      "answer": "vrai"
+    },
+    {
+      "id": "l7-vf3",
+      "type": "vrai-faux",
+      "text": "3. Le télétravail ne présente aucun inconvénient.",
+      "answer": "faux"
+    },
+    {
+      "id": "l7-vf4",
+      "type": "vrai-faux",
+      "text": "4. Le télétravail peut contribuer à réduire l'empreinte écologique.",
+      "answer": "vrai"
+    },
+    {
+      "id": "l7-vf5",
+      "type": "vrai-faux",
+      "text": "5. Tous les métiers peuvent être exercés en télétravail.",
+      "answer": "faux"
+    },
+    {
+      "id": "l7-q5",
+      "type": "open-ended",
+      "text": "Choisissez dans le texte le mot « trajets quotidiens » et expliquez-le selon le contexte.",
+      "lines": 4
+    },
+    {
+      "id": "l7-q6",
+      "type": "open-ended",
+      "text": "précisez le mot « télétravail » et identifiez la racine, le préfixe et le suffixe.",
+      "lines": 4
+    },
+    {
+      "id": "l7-q7",
+      "type": "open-ended",
+      "text": "Donnez un exemple de votre vie personnelle ou familiale lié au télétravail ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-q8",
+      "type": "open-ended",
+      "text": "Reliez les phrases suivantes avec un connecteur logique : « Il permet de gagner du temps et …. Les salariés peuvent mieux concilier leur vie professionnelle et personnelle. »",
+      "lines": 4
+    },
+    {
+      "id": "l7-q9",
+      "type": "open-ended",
+      "text": "Reformulez cette phrase en utilisant vos propres mots. « Le télétravail permet de gagner du temps en évitant les trajets quotidiens ».",
+      "lines": 6
+    },
+    {
+      "id": "l7-q10",
+      "type": "open-ended",
+      "text": "Écrivez un court résumé de ce que vous avez compris",
+      "lines": 4
+    },
+    {
+      "id": "l7-q11",
+      "type": "open-ended",
+      "text": "Résumez ce texte lu en trois phrases ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-q12",
+      "type": "open-ended",
+      "text": "« Selon vous, quelles solutions pourraient aider à améliorer la qualité de vie des télétravailleurs ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-q13",
+      "type": "open-ended",
+      "text": "Vous travaillez en ligne et vos amis vous demandent quels sont les avantages et les inconvénients du télétravail. Rédigez un texte explicatif de 8 à 10 lignes sur le télétravail, en présentant ses avantages et ses inconvénients.",
+      "lines": 10
+    },
+    {
+      "id": "l7-q14",
+      "type": "open-ended",
+      "text": "Lisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collègues et corrigez son texte si nécessaire.",
+      "lines": 4
+    },
+    {
+      "id": "l7-e1",
+      "type": "open-ended",
+      "text": "1. Quels sont les avantages et les inconvénients du télétravail mentionnés dans le texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-e2",
+      "type": "open-ended",
+      "text": "2. Rédigez 3 à 4 lignes pour expliquer si vous aimeriez travailler en télétravail ou pas. Justifiez votre réponse.",
+      "lines": 4
+    },
+    {
+      "id": "l7-e3",
+      "type": "open-ended",
+      "text": "3. Trouvez un (autre) titre qui qui reflète bien le texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l7-e4",
+      "type": "open-ended",
+      "text": "4. Pourquoi certaines personnes trouvent-elles difficile de travailler à domicile ? Justifiez avec le texte.",
+      "lines": 4
+    },
+    {
+      "id": "l7-e5",
+      "type": "open-ended",
+      "text": "5. Préférez-vous le télétravail ou le travail en présentiel ? Justifiez-en 2–3 lignes.",
+      "lines": 4
+    },
+    {
+      "id": "l7-e6",
+      "type": "open-ended",
+      "text": "6. Proposez d'autres avantages et inconvénients du télétravail.",
+      "lines": 4
+    },
+    {
+      "id": "l7-e7",
+      "type": "open-ended",
+      "text": "7. Précisez les métiers qui ne peuvent pas travailler en ligne ? Donnez un exemple.",
+      "lines": 4
+    }
+  ]
 }
