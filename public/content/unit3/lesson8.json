@@ -244,7 +244,7 @@
       "id": "lesson8-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 8 : QUESTIONS GUIDÉES (VRAI/FAUX)",
+      "title": "LEÇON 8 : QUESTIONS GUIDÉES (5 MINUTES) (1/4)",
       "content": [
         {
           "type": "heading",
@@ -262,6 +262,19 @@
         {
           "type": "question",
           "questionId": "l8-vf2"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : QUESTIONS GUIDÉES (5 MINUTES) (2/4)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (5 minutes) (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -278,11 +291,16 @@
       ]
     },
     {
-      "id": "lesson8-p08",
+      "id": "lesson8-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 8 : TEXTE EXPLICATIF-ARGUMENTATIF",
+      "title": "LEÇON 8 : QUESTIONS GUIDÉES (5 MINUTES) (3/4)",
       "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (5 minutes) (suite)",
+          "level": 2
+        },
         {
           "type": "info-box",
           "title": "Des informations supplémentaires",
@@ -303,6 +321,19 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 8 : QUESTIONS GUIDÉES (5 MINUTES) (4/4)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (5 minutes) (suite)",
+          "level": 2
         },
         {
           "type": "info-box",
@@ -326,7 +357,7 @@
       ]
     },
     {
-      "id": "lesson8-p09",
+      "id": "lesson8-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 8 : SENS ET EXEMPLE",
@@ -358,7 +389,7 @@
       ]
     },
     {
-      "id": "lesson8-p10",
+      "id": "lesson8-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 8 : SOURCE DE BONHEUR & PRÉPOSITIONS",
@@ -390,7 +421,7 @@
       ]
     },
     {
-      "id": "lesson8-p11",
+      "id": "lesson8-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 8 : RÔLE DU TRAVAIL & REFORMULATION",
@@ -422,7 +453,7 @@
       ]
     },
     {
-      "id": "lesson8-p12",
+      "id": "lesson8-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 8 : VIDÉO DE COMPRÉHENSION",
@@ -449,7 +480,7 @@
       ]
     },
     {
-      "id": "lesson8-p13",
+      "id": "lesson8-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 8 : STRUCTURES À OBSERVER",
@@ -498,7 +529,7 @@
       ]
     },
     {
-      "id": "lesson8-p14",
+      "id": "lesson8-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 8 : MINI-PRODUCTION ET DISCUSSION",
@@ -530,7 +561,7 @@
       ]
     },
     {
-      "id": "lesson8-p15",
+      "id": "lesson8-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 8 : TÂCHE FINALE — PRÉPARATION",
@@ -569,7 +600,7 @@
       ]
     },
     {
-      "id": "lesson8-p16",
+      "id": "lesson8-p18",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 8 : TÂCHE FINALE — CRÉATION",
@@ -587,7 +618,7 @@
       ]
     },
     {
-      "id": "lesson8-p17",
+      "id": "lesson8-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 8 : ÉVALUATION DES PRODUITS",
@@ -605,7 +636,15 @@
         {
           "type": "question",
           "questionId": "l8-q15"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p20",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 8 : É-ÉVALUATION (1/4)",
+      "content": [
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -614,50 +653,65 @@
         {
           "type": "consigne",
           "text": "Choisissez la bonne réponse :"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e1"
         }
       ]
     },
     {
-      "id": "lesson8-p18",
+      "id": "lesson8-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 8 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 8 : É-ÉVALUATION (2/4)",
       "content": [
         {
-          "type": "question",
-          "questionId": "l8-e1"
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
           "questionId": "l8-e2"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e3"
         }
       ]
     },
     {
-      "id": "lesson8-p19",
+      "id": "lesson8-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 8 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 8 : É-ÉVALUATION (3/4)",
       "content": [
         {
-          "type": "question",
-          "questionId": "l8-e3"
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
           "questionId": "l8-e4"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e5"
         }
       ]
     },
     {
-      "id": "lesson8-p20",
+      "id": "lesson8-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 8 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 8 : É-ÉVALUATION (4/4)",
       "content": [
         {
-          "type": "question",
-          "questionId": "l8-e5"
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -666,7 +720,7 @@
       ]
     },
     {
-      "id": "lesson8-p21",
+      "id": "lesson8-p24",
       "type": "content",
       "phase": 4,
       "title": "LEÇON 8 : QUESTIONS FINALES (1/2)",
@@ -687,7 +741,7 @@
       ]
     },
     {
-      "id": "lesson8-p22",
+      "id": "lesson8-p25",
       "type": "content",
       "phase": 4,
       "title": "LEÇON 8 : QUESTIONS FINALES (2/2) & SOUMISSION",

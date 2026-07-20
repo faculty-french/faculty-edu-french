@@ -225,11 +225,11 @@
       "id": "lesson3-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (1/2)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (1/3)",
       "content": [
         {
           "type": "heading",
-          "text": "Questions guidées (1/2)",
+          "text": "Questions guidées",
           "level": 2
         },
         {
@@ -239,10 +239,6 @@
         {
           "type": "question",
           "questionId": "l3-q4"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q5"
         }
       ]
     },
@@ -250,16 +246,33 @@
       "id": "lesson3-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (2/2)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (2/3)",
       "content": [
         {
           "type": "heading",
-          "text": "Questions guidées (2/2)",
+          "text": "Questions guidées (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l3-q5"
         },
         {
           "type": "consigne",
           "text": "Choisissez la bonne réponse :"
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -268,7 +281,7 @@
       ]
     },
     {
-      "id": "lesson3-p09",
+      "id": "lesson3-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MICRO-TÂCHES D'ANALYSE (1/2)",
@@ -296,7 +309,7 @@
       ]
     },
     {
-      "id": "lesson3-p10",
+      "id": "lesson3-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MICRO-TÂCHES D'ANALYSE (2/2)",
@@ -324,7 +337,7 @@
       ]
     },
     {
-      "id": "lesson3-p11",
+      "id": "lesson3-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : TEXTE EXPLICATIF",
@@ -362,7 +375,7 @@
       ]
     },
     {
-      "id": "lesson3-p12",
+      "id": "lesson3-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : VRAI OU FAUX",
@@ -390,7 +403,7 @@
       ]
     },
     {
-      "id": "lesson3-p13",
+      "id": "lesson3-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : CORRECTION DE PHRASES (1/2)",
@@ -416,7 +429,7 @@
       ]
     },
     {
-      "id": "lesson3-p14",
+      "id": "lesson3-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : CORRECTION (2/2) & REFORMULATION",
@@ -442,7 +455,7 @@
       ]
     },
     {
-      "id": "lesson3-p15",
+      "id": "lesson3-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MINI-PRODUCTION",
@@ -469,7 +482,7 @@
       ]
     },
     {
-      "id": "lesson3-p16",
+      "id": "lesson3-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : STRUCTURES À OBSERVER",
@@ -517,7 +530,7 @@
       ]
     },
     {
-      "id": "lesson3-p17",
+      "id": "lesson3-p18",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : VIDÉO ET RÉSUMÉ",
@@ -539,7 +552,7 @@
       ]
     },
     {
-      "id": "lesson3-p18",
+      "id": "lesson3-p19",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : DISCUSSION EN GROUPES",
@@ -566,7 +579,7 @@
       ]
     },
     {
-      "id": "lesson3-p19",
+      "id": "lesson3-p20",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE",
@@ -619,7 +632,7 @@
       ]
     },
     {
-      "id": "lesson3-p20",
+      "id": "lesson3-p21",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
@@ -641,7 +654,7 @@
       ]
     },
     {
-      "id": "lesson3-p21",
+      "id": "lesson3-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (1/4)",
@@ -655,7 +668,15 @@
         {
           "type": "question",
           "questionId": "l3-q20"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
+      "content": [
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -668,23 +689,23 @@
         {
           "type": "question",
           "questionId": "l3-e1"
+        },
+        {
+          "type": "question",
+          "questionId": "l3-e2"
         }
       ]
     },
     {
-      "id": "lesson3-p22",
+      "id": "lesson3-p24",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (2/4)",
+      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l3-e2"
         },
         {
           "type": "question",
@@ -693,23 +714,23 @@
         {
           "type": "question",
           "questionId": "l3-e4"
+        },
+        {
+          "type": "question",
+          "questionId": "l3-e5"
         }
       ]
     },
     {
-      "id": "lesson3-p23",
+      "id": "lesson3-p25",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (3/4)",
+      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l3-e5"
         },
         {
           "type": "question",
@@ -718,24 +739,19 @@
         {
           "type": "question",
           "questionId": "l3-e7"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p24",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (4/4) & SOUMISSION",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
           "questionId": "l3-e8"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p26",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
+      "content": [
         {
           "type": "heading",
           "text": "Soumission du devoir",

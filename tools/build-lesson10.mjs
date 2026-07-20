@@ -1,4 +1,6 @@
 import fs from 'fs';
+import { enforceSectionFlow } from "./lib/section-flow.mjs";
+
 
 // ---- Question bank (all open-ended & vrai-faux; ids must match ^l10-(q\d+)$ or ^l10-(vf\d+)$) ----
 const Q = [];
@@ -222,14 +224,14 @@ P('lesson10-p24', 4, 'LEÇON 10 : É-ÉVALUATION (2/3)', [
   q('l10-q27', "6. Qu'a fait Salah pour un enfant qui a trébuché contre un lampadaire ?", 4)
 ]);
 
-P('lesson10-p25', 4, 'LEÇON 10 : É-ÉVALUATION (3/3) & VRAI/FAUX', [
+P('lesson10-p25', 4, 'LEÇON 10 : VRAI OU FAUX (1/2)', [
   q('l10-q28', '7. Donnez un autre titre au texte ?', 4),
   heading('Mettez Vrai ou Faux devant chaque phrase :', 2),
   vf('l10-vf1', 'Salah a commencé sa carrière au Caire avec El Mokawloon.', 'vrai'),
   vf('l10-vf2', "À Chelsea, Salah était titulaire dans l'équipe.", 'faux')
 ]);
 
-P('lesson10-p26', 4, 'LEÇON 10 : VRAI/FAUX & SOUMISSION', [
+P('lesson10-p26', 4, 'LEÇON 10 : VRAI OU FAUX (2/2) & SOUMISSION', [
   vf('l10-vf3', "Il a marqué 19 buts en une saison avec l'AS Roma.", 'vrai'),
   vf('l10-vf4', 'Sa fondation aide 100 familles par mois.', 'faux'),
   vf('l10-vf5', "Salah a payé l'essence de tous les clients dans une station-service.", 'vrai'),
@@ -245,7 +247,7 @@ const lesson = {
   title: 'Mohammed Salah : Le Pharaon du Football',
   unitId: 'unit4',
   unitTitle: 'Module 4 : Le sport et la vie scolaire',
-  pages,
+  pages: enforceSectionFlow(pages, 'lesson10', Q),
   questions: Q
 };
 

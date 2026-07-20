@@ -47,7 +47,11 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
     switch (block.type) {
       case 'heading': {
         const Tag = `h${block.level || 2}`;
-        return <Tag key={index} className={`page__heading page__heading--${block.level || 2}`} dangerouslySetInnerHTML={{ __html: formatText(block.text) }} />;
+        // A repeated "(suite)" section heading is a running head, not a primary
+        // title — render it compactly so it doesn't cost a full heading's height.
+        const isContinuation = typeof block.text === 'string' && block.text.trimEnd().endsWith('(suite)');
+        const cls = `page__heading page__heading--${block.level || 2}${isContinuation ? ' page__heading--continuation' : ''}`;
+        return <Tag key={index} className={cls} dangerouslySetInnerHTML={{ __html: formatText(block.text) }} />;
       }
       case 'paragraph':
         return <ReadingPassage key={index} text={formatText(block.text)} />;

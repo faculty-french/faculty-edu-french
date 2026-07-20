@@ -1,4 +1,6 @@
 import fs from 'fs';
+import { enforceSectionFlow } from "./lib/section-flow.mjs";
+
 
 // ---- Question bank (all open-ended; ids must match ^l9-(q\d+)$) ----
 const Q = [];
@@ -242,7 +244,7 @@ const lesson = {
   title: 'Le pot de lait de Gita',
   unitId: 'unit3',
   unitTitle: 'Module 3 : Le travail et la vie sociale',
-  pages,
+  pages: enforceSectionFlow(pages, 'lesson9', Q),
   questions: Q
 };
 

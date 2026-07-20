@@ -266,6 +266,10 @@
 .page__heading--1 { font-size: 1.3rem; font-weight: 400; border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.25rem; }
 .page__heading--2 { font-size: 1.1rem; font-weight: 400; color: var(--color-primary-dark); }
 .page__heading--3 { font-size: 1rem; font-weight: 400; color: var(--ink); }
+/* Running head for a section's continued pages — compact, single line, so it
+   reclaims the vertical space a full heading would cost (keeps dense MCQ pages
+   within the fixed sheet). */
+.page__heading--continuation { font-size: 0.82rem; font-style: italic; color: var(--ink-soft); margin-bottom: 0.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-bottom: none; padding-bottom: 0; }
 
 .page__paragraph { margin-bottom: 0.4rem; text-align: justify; line-height: 1.65; font-size: 0.9rem; }
 

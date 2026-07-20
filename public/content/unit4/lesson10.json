@@ -454,7 +454,7 @@
       "id": "lesson10-p17",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 10 : STRUCTURE À OBSERVER",
+      "title": "LEÇON 10 : STRUCTURE À OBSERVER :",
       "content": [
         {
           "type": "heading",
@@ -592,15 +592,6 @@
         {
           "type": "question",
           "questionId": "l10-q21"
-        },
-        {
-          "type": "heading",
-          "text": "É-évaluation",
-          "level": 2
-        },
-        {
-          "type": "consigne",
-          "text": "Répondez aux questions suivantes :"
         }
       ]
     },
@@ -611,16 +602,21 @@
       "title": "LEÇON 10 : É-ÉVALUATION (1/3)",
       "content": [
         {
+          "type": "heading",
+          "text": "É-évaluation",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
           "type": "question",
           "questionId": "l10-q22"
         },
         {
           "type": "question",
           "questionId": "l10-q23"
-        },
-        {
-          "type": "question",
-          "questionId": "l10-q24"
         }
       ]
     },
@@ -631,16 +627,21 @@
       "title": "LEÇON 10 : É-ÉVALUATION (2/3)",
       "content": [
         {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l10-q24"
+        },
+        {
           "type": "question",
           "questionId": "l10-q25"
         },
         {
           "type": "question",
           "questionId": "l10-q26"
-        },
-        {
-          "type": "question",
-          "questionId": "l10-q27"
         }
       ]
     },
@@ -648,12 +649,29 @@
       "id": "lesson10-p25",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 10 : É-ÉVALUATION (3/3) & VRAI/FAUX",
+      "title": "LEÇON 10 : É-ÉVALUATION (3/3)",
       "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l10-q27"
+        },
         {
           "type": "question",
           "questionId": "l10-q28"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson10-p26",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 10 : VRAI OU FAUX (1/2)",
+      "content": [
         {
           "type": "heading",
           "text": "Mettez Vrai ou Faux devant chaque phrase :",
@@ -670,10 +688,10 @@
       ]
     },
     {
-      "id": "lesson10-p26",
+      "id": "lesson10-p27",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 10 : VRAI/FAUX & SOUMISSION",
+      "title": "LEÇON 10 : VRAI OU FAUX (2/2) & SOUMISSION",
       "content": [
         {
           "type": "question",

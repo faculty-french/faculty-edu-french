@@ -233,7 +233,15 @@
         {
           "type": "question",
           "questionId": "l7-q4"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 7 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
+      "content": [
         {
           "type": "heading",
           "text": "Questions guidées (10 minutes)",
@@ -246,18 +254,23 @@
         {
           "type": "question",
           "questionId": "l7-vf1"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-vf2"
         }
       ]
     },
     {
-      "id": "lesson7-p08",
+      "id": "lesson7-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : QUESTIONS GUIDÉES (VRAI/FAUX)",
+      "title": "LEÇON 7 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
       "content": [
         {
-          "type": "question",
-          "questionId": "l7-vf2"
+          "type": "heading",
+          "text": "Questions guidées (10 minutes) (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -274,11 +287,16 @@
       ]
     },
     {
-      "id": "lesson7-p09",
+      "id": "lesson7-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : TEXTE EXPLICATIF",
+      "title": "LEÇON 7 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
       "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (10 minutes) (suite)",
+          "level": 2
+        },
         {
           "type": "info-box",
           "title": "Des informations enrichissantes",
@@ -312,7 +330,7 @@
       ]
     },
     {
-      "id": "lesson7-p10",
+      "id": "lesson7-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 7 : SENS ET PARTIES DES MOTS",
@@ -348,7 +366,7 @@
       ]
     },
     {
-      "id": "lesson7-p11",
+      "id": "lesson7-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 7 : EXEMPLES ET CONNECTEURS",
@@ -380,7 +398,7 @@
       ]
     },
     {
-      "id": "lesson7-p12",
+      "id": "lesson7-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 7 : REFORMULATION",
@@ -402,7 +420,7 @@
       ]
     },
     {
-      "id": "lesson7-p13",
+      "id": "lesson7-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 7 : STRUCTURE À OBSERVER",
@@ -441,7 +459,7 @@
       ]
     },
     {
-      "id": "lesson7-p14",
+      "id": "lesson7-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 7 : VIDÉO DE COMPRÉHENSION",
@@ -468,7 +486,7 @@
       ]
     },
     {
-      "id": "lesson7-p15",
+      "id": "lesson7-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 7 : MINI-PRODUCTION ET DISCUSSION",
@@ -500,7 +518,7 @@
       ]
     },
     {
-      "id": "lesson7-p16",
+      "id": "lesson7-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 7 : TÂCHE FINALE — PRÉPARATION",
@@ -555,7 +573,7 @@
       ]
     },
     {
-      "id": "lesson7-p17",
+      "id": "lesson7-p18",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 7 : TÂCHE FINALE — CRÉATION",
@@ -573,7 +591,7 @@
       ]
     },
     {
-      "id": "lesson7-p18",
+      "id": "lesson7-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 7 : ÉVALUATION & É-ÉVALUATION (1/4)",
@@ -587,7 +605,15 @@
         {
           "type": "question",
           "questionId": "l7-q14"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p20",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 7 : É-ÉVALUATION (1/3)",
+      "content": [
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -600,34 +626,18 @@
         {
           "type": "question",
           "questionId": "l7-e1"
-        }
-      ]
-    },
-    {
-      "id": "lesson7-p19",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 7 : É-ÉVALUATION (2/4)",
-      "content": [
+        },
         {
           "type": "question",
           "questionId": "l7-e2"
-        },
-        {
-          "type": "question",
-          "questionId": "l7-e3"
-        },
-        {
-          "type": "question",
-          "questionId": "l7-e4"
         }
       ]
     },
     {
-      "id": "lesson7-p20",
+      "id": "lesson7-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 7 : É-ÉVALUATION (3/4)",
+      "title": "LEÇON 7 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
@@ -636,24 +646,45 @@
         },
         {
           "type": "question",
-          "questionId": "l7-e5"
+          "questionId": "l7-e3"
         },
         {
           "type": "question",
-          "questionId": "l7-e6"
+          "questionId": "l7-e4"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e5"
         }
       ]
     },
     {
-      "id": "lesson7-p21",
+      "id": "lesson7-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 7 : É-ÉVALUATION (4/4) & SOUMISSION",
+      "title": "LEÇON 7 : É-ÉVALUATION (3/3)",
       "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e6"
+        },
         {
           "type": "question",
           "questionId": "l7-e7"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 7 : SOUMISSION DU DEVOIR",
+      "content": [
         {
           "type": "heading",
           "text": "Soumission du devoir",

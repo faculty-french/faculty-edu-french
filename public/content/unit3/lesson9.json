@@ -422,7 +422,15 @@
         {
           "type": "question",
           "questionId": "l9-q17"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 9 : STRUCTURE À OBSERVER : (1/2)",
+      "content": [
         {
           "type": "heading",
           "text": "Structure à observer :",
@@ -443,11 +451,16 @@
       ]
     },
     {
-      "id": "lesson9-p14",
+      "id": "lesson9-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : STRUCTURE À OBSERVER (2/2)",
+      "title": "LEÇON 9 : STRUCTURE À OBSERVER : (2/2)",
       "content": [
+        {
+          "type": "heading",
+          "text": "Structure à observer : (suite)",
+          "level": 2
+        },
         {
           "type": "info-box",
           "title": "Structure à observer (suite)",
@@ -478,7 +491,7 @@
       ]
     },
     {
-      "id": "lesson9-p15",
+      "id": "lesson9-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 9 : MICRO-TÂCHE 10 — VIDÉO",
@@ -505,7 +518,7 @@
       ]
     },
     {
-      "id": "lesson9-p16",
+      "id": "lesson9-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 9 : MINI-PRODUCTION",
@@ -523,7 +536,7 @@
       ]
     },
     {
-      "id": "lesson9-p17",
+      "id": "lesson9-p18",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 9 : DISCUSSION EN GROUPES",
@@ -553,7 +566,7 @@
       ]
     },
     {
-      "id": "lesson9-p18",
+      "id": "lesson9-p19",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 9 : PHASE 3 — TÂCHE FINALE",
@@ -580,7 +593,7 @@
       ]
     },
     {
-      "id": "lesson9-p19",
+      "id": "lesson9-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 9 : PHASE 4 — ÉVALUATION",
@@ -598,7 +611,15 @@
         {
           "type": "question",
           "questionId": "l9-q22"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p21",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 9 : É-ÉVALUATION (1/3)",
+      "content": [
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -607,15 +628,7 @@
         {
           "type": "consigne",
           "text": "Répondez aux questions suivantes :"
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p20",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 9 : É-ÉVALUATION (1/3)",
-      "content": [
+        },
         {
           "type": "question",
           "questionId": "l9-q23"
@@ -623,30 +636,6 @@
         {
           "type": "question",
           "questionId": "l9-q24"
-        },
-        {
-          "type": "question",
-          "questionId": "l9-q25"
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p21",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 9 : É-ÉVALUATION (2/3)",
-      "content": [
-        {
-          "type": "question",
-          "questionId": "l9-q26"
-        },
-        {
-          "type": "question",
-          "questionId": "l9-q27"
-        },
-        {
-          "type": "question",
-          "questionId": "l9-q28"
         }
       ]
     },
@@ -654,12 +643,54 @@
       "id": "lesson9-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 9 : É-ÉVALUATION (3/3) & SOUMISSION",
+      "title": "LEÇON 9 : É-ÉVALUATION (2/3)",
       "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q25"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q26"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q27"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 9 : É-ÉVALUATION (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q28"
+        },
         {
           "type": "question",
           "questionId": "l9-q29"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p24",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 9 : SOUMISSION DU DEVOIR",
+      "content": [
         {
           "type": "heading",
           "text": "Soumission du devoir",
