@@ -590,7 +590,7 @@
       "id": "lesson8-p17",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 8 : ÉVALUATION & É-ÉVALUATION",
+      "title": "LEÇON 8 : ÉVALUATION DES PRODUITS",
       "content": [
         {
           "type": "phase-banner",
@@ -842,7 +842,7 @@
       "id": "l8-q15",
       "type": "open-ended",
       "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collègues et corrigez son texte si nécessaire.",
-      "lines": 4
+      "lines": 10
     },
     {
       "id": "l8-e1",
@@ -1016,19 +1016,19 @@
       "id": "l8-q16",
       "type": "open-ended",
       "text": "1. Trouvez un (autre) titre qui qui reflète bien le texte ?",
-      "lines": 6
+      "lines": 8
     },
     {
       "id": "l8-q17",
       "type": "open-ended",
       "text": "2. Proposez d'autres avantages et inconvénients du travail.",
-      "lines": 6
+      "lines": 9
     },
     {
       "id": "l8-q18",
       "type": "open-ended",
       "text": "3. Êtes-vous d'accord avec l'idée que le travail peut contribuer au bonheur ? Justifiez votre réponse.",
-      "lines": 4
+      "lines": 8
     }
   ]
 }
