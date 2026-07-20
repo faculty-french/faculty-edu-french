@@ -15,10 +15,22 @@
           "title": "Le livret de l'étudiant",
           "subtitle": "Livre numérique interactif fondé sur l'approche actionnelle",
           "modules": [
-            { "num": "01", "title": "L'environnement et le développement durable" },
-            { "num": "02", "title": "La technologie et la société" },
-            { "num": "03", "title": "Le travail et le bien-être" },
-            { "num": "04", "title": "Le sport et la vie scolaire" }
+            {
+              "num": "01",
+              "title": "L'environnement et le développement durable"
+            },
+            {
+              "num": "02",
+              "title": "La technologie et la société"
+            },
+            {
+              "num": "03",
+              "title": "Le travail et le bien-être"
+            },
+            {
+              "num": "04",
+              "title": "Le sport et la vie scolaire"
+            }
           ],
           "welcome": "Bonjour {name}, bienvenue dans votre livret d'apprentissage.",
           "author": "Ola Yahia Fangary Ali",
@@ -130,13 +142,13 @@
                 {
                   "id": "lesson2",
                   "number": "2",
-                  "title": "Les espaces verts (Bientôt)",
+                  "title": "Les espaces verts",
                   "pageIndex": 1
                 },
                 {
                   "id": "lesson3",
                   "number": "3",
-                  "title": "Le covoiturage (Bientôt)",
+                  "title": "Le covoiturage",
                   "pageIndex": 1
                 }
               ]
@@ -148,13 +160,13 @@
                 {
                   "id": "lesson4",
                   "number": "4",
-                  "title": "La vie dans le passé (Bientôt)",
+                  "title": "La vie dans le passé",
                   "pageIndex": 1
                 },
                 {
                   "id": "lesson5",
                   "number": "5",
-                  "title": "L'absence familiale et ses effets sur la vie quotidienne (Bientôt)",
+                  "title": "L'absence familiale et ses effets sur la vie quotidienne",
                   "pageIndex": 1
                 },
                 {
