@@ -12,6 +12,15 @@
   .vrai-faux-options { gap: var(--spacing-lg); }
 }
 
+/* Landscape phones: slim the chrome so the sheet gets more height */
+@media (max-height: 480px) {
+  .book-header { min-height: 32px; padding: 2px var(--spacing-md); }
+  .book-footer { min-height: 36px; padding: 2px var(--spacing-md); }
+  .book-footer__btn { min-height: 32px; padding: var(--spacing-xs) var(--spacing-md); }
+  .book-footer__center { gap: 2px; }
+  .theme-toggle { width: 30px; height: 30px; }
+}
+
 @media (min-width: 1024px) {
   .book-header { padding: var(--spacing-sm) var(--spacing-xl); }
   .book-header__title { font-size: var(--font-size-sm); }
@@ -48,7 +57,7 @@
 
 /* Video player */
 .video-player { margin: 0.3rem 0; border-radius: var(--radius-md); overflow: hidden; }
-.video-player__iframe { width: 100%; aspect-ratio: 16/9; border: none; border-radius: var(--radius-md); }
+.video-player__iframe { width: 100%; aspect-ratio: 16/9; border: none; border-radius: var(--radius-md); background: #10141E; }
 .video-player__caption { font-size: 0.65rem; color: var(--color-text-muted); text-align: center; padding: 0.3rem; }
 .video-player__fallback {
   padding: var(--spacing-lg); background: var(--color-border-light); border-radius: var(--radius-md);

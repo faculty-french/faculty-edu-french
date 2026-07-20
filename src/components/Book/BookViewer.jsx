@@ -20,8 +20,11 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
     if (!el) return;
 
     const updateScale = () => {
-      const availW = el.clientWidth;
-      const availH = el.clientHeight;
+      // clientWidth/Height include the viewer's padding — subtract it, or the
+      // frame overflows the content box and the sheet gets clipped on phones.
+      const cs = getComputedStyle(el);
+      const availW = el.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      const availH = el.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
       const nextScale = Math.min(availW / SHEET_WIDTH, availH / SHEET_HEIGHT);
       setScale(Number.isFinite(nextScale) && nextScale > 0 ? nextScale : 1);
     };

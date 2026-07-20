@@ -76,13 +76,14 @@
 .book-sheet-frame {
   position: relative;
   overflow: hidden;
+  flex: 0 0 auto;
+  box-shadow: var(--shadow-page);
+  border-radius: 4px;
+  border: 1px solid var(--color-sheet-border);
 }
 
 .book-sheet-scaler {
   transform-origin: top left;
-  box-shadow: var(--shadow-page);
-  border-radius: 4px;
-  border: 1px solid var(--color-sheet-border);
 }
 
 .book-viewer__flipbook {
@@ -126,7 +127,7 @@
 /* Phase tab on the sheet's edge */
 .page__phase-tab {
   position: absolute;
-  top: 0.6rem;
+  top: 3px;
   right: 0;
   font-family: var(--font-sans);
   font-weight: 800;
@@ -490,7 +491,7 @@
 .book-footer__btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
 .book-footer__center { display: flex; flex-direction: column; align-items: center; gap: 0.25rem; min-width: 70px; }
-.book-footer__page-counter { font-size: var(--font-size-xs); color: var(--color-header-text); opacity: 0.85; font-weight: 600; text-align: center; font-variant-numeric: tabular-nums; }
+.book-footer__page-counter { font-size: var(--font-size-xs); color: var(--color-header-text); opacity: 0.85; font-weight: 600; text-align: center; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .book-footer__page-counter--btn {
   background: none;
   border: none;
@@ -498,12 +499,11 @@
   padding: 2px 6px;
   border-radius: 6px;
   font: inherit;
-  color: inherit;
   text-decoration: underline dotted;
   text-underline-offset: 3px;
 }
 .book-footer__page-counter--btn:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--color-toggle-bg);
 }
 .book-footer__input-wrapper {
   display: flex;

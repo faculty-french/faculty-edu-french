@@ -60,8 +60,11 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
             items={block.items || []}
           />
         );
-      case 'instruction':
+      case 'instruction': {
+        // Decorative emoji-only blocks (e.g. "📝") render as an empty box — skip them.
+        if (typeof block.text === 'string' && !/[\p{L}\p{N}]/u.test(block.text)) return null;
         return <p key={index} className="page__instruction" dangerouslySetInnerHTML={{ __html: formatText(block.text) }} />;
+      }
       case 'consigne':
         return <Consigne key={index} text={formatText(block.text)} />;
       case 'microtask':
@@ -70,8 +73,15 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
         return <PhaseBanner key={index} phase={block.phase} title={formatText(block.title)} duration={block.duration} />;
       case 'keywords':
         return <Keywords key={index} title={formatText(block.title)} items={(block.items || []).map(formatText)} />;
-      case 'info-box':
-        return <InfoBox key={index} title={formatText(block.title)} sections={block.sections || []} />;
+      case 'info-box': {
+        // The heading right above sometimes repeats the box title verbatim —
+        // don't render the same text twice in a row.
+        const prev = page.content[index - 1];
+        const hideTitle = !!prev && prev.type === 'heading'
+          && typeof prev.text === 'string' && typeof block.title === 'string'
+          && prev.text.trim() === block.title.trim();
+        return <InfoBox key={index} title={formatText(block.title)} sections={block.sections || []} hideTitle={hideTitle} />;
+      }
       case 'image':
         return (
           <figure key={index} className="page__image">

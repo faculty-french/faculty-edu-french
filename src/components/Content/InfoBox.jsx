@@ -1,7 +1,7 @@
-export default function InfoBox({ title, sections = [] }) {
+export default function InfoBox({ title, sections = [], hideTitle = false }) {
   return (
     <div className="info-box">
-      {title && <h4 className="info-box__title">{title}</h4>}
+      {title && !hideTitle && <h4 className="info-box__title">{title}</h4>}
       {sections.map((section, i) => (
         <div key={i} className="info-box__section">
           {section.heading && <h5 className="info-box__heading">{section.heading}</h5>}
