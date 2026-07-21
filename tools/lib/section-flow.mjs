@@ -223,49 +223,78 @@ export function enforceSectionFlow(pages, lessonId, questions = []) {
     cursor = cursor + (preceding.length > 0 ? 1 : 0) + sectionPages.length;
   }
 
-  // Pack adjacent light micro-task pages 2-up. A "light" page holds ONE open-ended
-  // micro-task activity — only microtask/consigne/question blocks, exactly one
-  // open-ended question, no heading/banner/filler — and fills only ~half a no-scroll
-  // sheet. Two such activities fit one sheet, so fold a light page into the previous
-  // light page (content order preserved). After a merge the page holds 2 questions and
-  // is no longer "light", so a third consecutive light page stays separate (3 -> 2+1).
-  const isOpenQ = (blk) => blk.type === "question" && qType.get(blk.questionId) !== "multiple-choice";
-  const isLightMicro = (pg) => {
+  // Pack a lonely single-question micro-task page onto an adjacent COMPACT page
+  // (before or after) so it stops filling only ~half a no-scroll sheet. To make a
+  // pair fit, open-ended answer boxes are shrunk toward FLOOR lines (size only — the
+  // question text/content is never touched; `lines` lives on the question object, not
+  // the page block, so this affects neither the verbatim gate nor the reorder assert).
+  // A "compact" page carries only microtask/consigne/question(open-ended|vrai-faux)
+  // blocks — never a heading, banner, paragraph, video, info-box, keywords, images, or
+  // MCQ — so the linear height model below is reliable for it (paragraph/media pages
+  // render far denser than the model and are deliberately excluded from merging).
+  const FLOOR = 3;      // smallest answer box we will shrink to (a sensible min for a written answer)
+  const MERGE_CAP = 28; // proven overflow-safe; fitting compact pairs ~25, overflow ~32
+  const qById = new Map((questions || []).map(q => [q.id, q]));
+  const qtypeOf = (id) => qById.get(id) && qById.get(id).type;
+  const isOpen = (id) => { const t = qtypeOf(id); return t !== "multiple-choice" && t !== "vrai-faux"; };
+  const isCompactPage = (pg) => {
     const c = pg.content;
     if (!c.length) return false;
     if (c.some(b => b.type === "phase-banner" || b.type === "heading")) return false;
     if (!c.every(b => b.type === "microtask" || b.type === "consigne" || b.type === "question")) return false;
-    const qs = c.filter(b => b.type === "question");
-    return qs.length === 1 && isOpenQ(qs[0]) && c.some(b => b.type === "microtask");
+    if (c.some(b => b.type === "question" && qtypeOf(b.questionId) === "multiple-choice")) return false;
+    return true;
   };
-  // Rough rendered-height model (in "lines"), calibrated on real pages: a merged pair
-  // that fits the 420x640 sheet estimates ~25; one that overflows estimates ~32. Only
-  // merge when the combined estimate stays at/under MERGE_CAP so heavy pairs (long
-  // prompts / 5-line answer boxes) are left split.
-  const MERGE_CAP = 28;
-  const estLines = (content) => {
+  const isLonely = (pg) => {
+    if (!isCompactPage(pg)) return false;
+    const qs = pg.content.filter(b => b.type === "question");
+    return qs.length === 1 && isOpen(qs[0].questionId) && pg.content.some(b => b.type === "microtask");
+  };
+  const estLines = (content, lineMap) => {
     let t = 0;
     for (const b of content) {
       if (b.type === "microtask") t += 2 + Math.ceil((b.text || "").length / 38);
       else if (b.type === "consigne") t += 1 + Math.ceil((b.text || "").length / 38);
       else if (b.type === "question") {
-        const q = (questions || []).find(x => x.id === b.questionId) || {};
-        t += Math.ceil((q.text || "").length / 34) + (q.lines || 4) + 1;
+        const q = qById.get(b.questionId) || {};
+        const qt = Math.ceil((q.text || "").length / 34);
+        if (q.type === "vrai-faux") t += qt + 2;
+        else t += qt + (lineMap && lineMap.has(b.questionId) ? lineMap.get(b.questionId) : (q.lines || 4)) + 1;
       }
     }
     return t;
+  };
+  // Shrink open-ended boxes (largest first) toward FLOOR until the page fits, or give
+  // up. Returns the id->lines map to apply, or null if it cannot fit even at FLOOR.
+  const tryFit = (content) => {
+    const lines = new Map();
+    for (const b of content) if (b.type === "question" && isOpen(b.questionId)) lines.set(b.questionId, qById.get(b.questionId).lines || 4);
+    while (estLines(content, lines) > MERGE_CAP) {
+      let target = null, max = FLOOR;
+      for (const [id, ln] of lines) if (ln > max) { max = ln; target = id; }
+      if (target === null) return null;
+      lines.set(target, lines.get(target) - 1);
+    }
+    return lines;
   };
   {
     const packed = [];
     for (const pg of work) {
       const prev = packed[packed.length - 1];
-      if (prev && prev.phase === pg.phase && isLightMicro(prev) && isLightMicro(pg) &&
-          estLines(prev.content.concat(pg.content)) <= MERGE_CAP) {
-        prev.content = prev.content.concat(pg.content);
-        changed = true;
-      } else {
-        packed.push(pg);
+      // Merge when prev & pg are both compact, same phase, and at least one is a lonely
+      // single-question page (so we never fuse two already-full pages).
+      if (prev && prev.phase === pg.phase && isCompactPage(prev) && isCompactPage(pg) &&
+          (isLonely(prev) || isLonely(pg))) {
+        const candidate = prev.content.concat(pg.content);
+        const fit = tryFit(candidate);
+        if (fit) {
+          for (const [id, ln] of fit) qById.get(id).lines = ln;
+          prev.content = candidate;
+          changed = true;
+          continue;
+        }
       }
+      packed.push(pg);
     }
     work = packed;
   }

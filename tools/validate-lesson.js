@@ -322,8 +322,8 @@ async function main() {
       if (q.type === 'open-ended') {
         if (typeof q.lines !== 'number') {
           errors.push(`[ERROR] Question "${q.id}" of type "open-ended" is missing numeric "lines" field`);
-        } else if (q.lines < 4) {
-          errors.push(`[ERROR] Question "${q.id}" of type "open-ended" has lines < 4 (found ${q.lines})`);
+        } else if (q.lines < 3) {
+          errors.push(`[ERROR] Question "${q.id}" of type "open-ended" has lines < 3 (found ${q.lines})`);
         }
       }
 
