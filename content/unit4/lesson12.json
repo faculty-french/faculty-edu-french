@@ -3,6 +3,926 @@
   "title": "Faut-il donner des devoirs à l'école ?",
   "unitId": "unit4",
   "unitTitle": "Module 4 : Le sport et la vie scolaire",
-  "pages": [],
-  "questions": []
+  "pages": [
+    {
+      "id": "lesson12-p01",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 3 : OBJECTIFS",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Leçon 3 : Faut-il donner des devoirs à l'école ?",
+          "level": 1
+        },
+        {
+          "type": "paragraph",
+          "text": "Objectif général : À la fin de la leçon « Faut-il donner des devoirs à l'école ? », l'apprenant sera capable de comprendre et de produire un texte écrit cohérent et structuré pour informer et convaincre."
+        },
+        {
+          "type": "paragraph",
+          "text": "À la fin de cette leçon, l'apprenant doit être capable de :"
+        },
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (01 - 11)",
+          "items": [
+            {
+              "num": "01",
+              "text": "Déterminer les idées principales et secondaires d'un texte lu."
+            },
+            {
+              "num": "02",
+              "text": "Identifier les informations détaillées du texte."
+            },
+            {
+              "num": "03",
+              "text": "Résumer correctement un texte lu."
+            },
+            {
+              "num": "04",
+              "text": "Faire des comparaisons entre les problèmes contenus dans le texte et les problèmes semblables dans la vie quotidienne."
+            },
+            {
+              "num": "05",
+              "text": "Porter un jugement d'un texte lu à partir des critères pertinents."
+            },
+            {
+              "num": "06",
+              "text": "Employer des mots adéquats à la situation."
+            },
+            {
+              "num": "07",
+              "text": "Mettre en lien des connaissances antérieures au sujet visé."
+            },
+            {
+              "num": "08",
+              "text": "Argumenter son point de vue."
+            },
+            {
+              "num": "09",
+              "text": "Encourager les apprenants à relever les défis liés à l'apprentissage du français."
+            },
+            {
+              "num": "10",
+              "text": "Stimuler la motivation des apprenants à participer aux activités et à progresser en FLE."
+            },
+            {
+              "num": "11",
+              "text": "Amener les apprenants à profiter les difficultés comme des occasions d'apprentissage et de développement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p02",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 3 : PHASE 1 — OBSERVATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 1,
+          "title": "Pré-action (Activation des connaissances)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Observez les images suivantes, puis prédisez le thème de la leçon."
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q0"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p03",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 3 : QUESTIONS PRÉLIMINAIRES",
+      "content": [
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q1"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q2"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p04",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 3 : LECTURE GUIDÉE",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Lecture guidée du texte (15 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global. (10 minutes)"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p05",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : PHASE 2 — LECTURE (1/4)",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 2,
+          "title": "Action (Compréhension approfondie)",
+          "duration": "60 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte suivant, puis répondez aux questions"
+        },
+        {
+          "type": "heading",
+          "text": "Faut-il donner des devoirs à l'école ? (1/4)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Personnellement, je n'ai jamais aimé faire mes devoirs à l'école. Je les faisais constamment à la dernière minute pendant les intercours et je les ai toujours considérés comme quelque chose de casse pied qui me faisait perdre mon temps. Je crois que le problème des devoirs, c'est que ça n'incite pas forcément à apprendre ni à comprendre ce qu'on a vu pendant un cours. Comme les élèves voient les devoirs comme quelque chose de contraignant, ça ne leur donne pas envie d'apprendre. Le problème, c'est qu'après, ils risquent d'associer l'école à un lieu désagréable qui leur donne des devoirs ennuyeux."
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p06",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : LECTURE (2/4)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Faut-il donner des devoirs à l'école ? (2/4)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Mais d'un autre côté, les devoirs peuvent aussi avoir une certaine utilité. Ils permettent notamment de valider la compréhension des cours. En effet, parfois, c'est en faisant leurs devoirs que les élèves peuvent réaliser qu'il y avait des points du cours qu'ils n'avaient pas compris. Ce qu'ils n'auraient jamais remarqué si on ne leur avait rien donné à faire chez eux."
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p07",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : LECTURE (3/4)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Faut-il donner des devoirs à l'école ? (3/4)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Alors, je suis partagé. Une part de moi pense que ça ne sert à rien. Après tout, beaucoup de pays ne donnent pas de devoir à la maison et les élèves s'en sortent très bien. Et une autre part de moi admet que c'est utile."
+        },
+        {
+          "type": "paragraph",
+          "text": "En tout cas, je ne pense pas qu'il faille donner trop de devoirs aux élèves, surtout s'ils ont déjà travaillé beaucoup d'heures dans la journée. Les devoirs à la maison ne doivent pas servir à remplacer les explications des professeurs. À mon sens, c'est pendant les cours que les élèves devraient retenir la majorité des cours."
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : LECTURE (4/4)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Faut-il donner des devoirs à l'école ? (4/4)",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Enfin, peut-être que certains élèves ont besoin de devoir pour apprendre, tandis que d'autres non. Mais ce serait injuste de donner des devoirs qu'à une partie des élèves, même si ce serait plus logique. Une autre solution serait de donner des devoirs facultatifs et d'encourager les élèves à les faire, en leur donnant une récompense, par exemple, s'ils les ont faits."
+        },
+        {
+          "type": "paragraph",
+          "text": "https://anyfrench.com/lecture/faut-il-donner-des-devoirs-a-lecole/"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHE 1",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 1,
+          "text": "Quelle est l'idée principale de ce texte ?",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "consigne",
+          "text": "Quelle est l'idée principale de ce texte ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q3"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (10 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q4"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q5"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q6"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (10 minutes) (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q7"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (10 minutes) (suite)",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Des informations supplémentaires",
+          "sections": [
+            {
+              "heading": "Présentation du texte explicatif - argumentatif:",
+              "items": [
+                "Ce texte est explicatif-argumentatif, car il explique un phénomène (les devoirs) et présente des arguments pour et contre."
+              ]
+            },
+            {
+              "heading": "Dans ce texte « Faut-il donner des devoirs à l'école », l'auteur :",
+              "items": [
+                "Traiter la question des devoirs à l'école et leur utilité pour les élèves.",
+                "Présente les arguments pour et contre les devoirs.",
+                "S'adresse à des lecteurs (élèves, enseignants, parents) pour les inviter à réfléchir sur le rôle des devoirs dans l'apprentissage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p13",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHES 2 & 3",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 2,
+          "text": "En une seule phrase, écrivez de quoi parle le texte.",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q8"
+        },
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "Relisez le texte et soulignez trois mots ou expressions importantes qui décrivent le problème des devoirs.",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q9"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHE 4",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 4,
+          "text": "Après avoir lu ce texte, indiquez un avantage et un inconvénient des devoirs à l'école, puis donnez votre opinion personnelle en une ou deux phrases.",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q10"
+        },
+        {
+          "type": "microtask",
+          "number": 5,
+          "text": "Discussion en petits groupes",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "consigne",
+          "text": "En petits groupes, discutez et proposez deux solutions pour rendre les devoirs plus intéressants et utiles pour les apprenants."
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q11"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p15",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHE 6 — REFORMULATION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 6,
+          "text": "Reformulez la phrase suivante ?",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "consigne",
+          "text": "Reformulez cette phrase en utilisant vos propres mots."
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p16",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : STRUCTURES À OBSERVER : (5 MINUTES)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer : (5 minutes)",
+          "level": 2
+        },
+        {
+          "type": "info-box",
+          "title": "Structures à observer",
+          "sections": [
+            {
+              "heading": "Structure de comparison :",
+              "items": [
+                "Pour mettre en relation différentes situations ou points de vue :",
+                "Comme les élèves voient les devoirs comme quelque chose de contraignant…",
+                "Après tout, beaucoup de pays ne donnent pas de devoirs…"
+              ]
+            },
+            {
+              "heading": "Structure de suggestion / solution :",
+              "items": [
+                "Pour proposer une solution à un problème :",
+                "Une autre solution serait de…",
+                "Il serait préférable de…",
+                "On pourrait…"
+              ]
+            },
+            {
+              "heading": "Structure d'introduction / conclusion d'une idée :",
+              "items": [
+                "Pour guider le lecteur et organiser le texte :",
+                "Le problème, c'est que…",
+                "Mais le problème est que…",
+                "Enfin…"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p17",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHE 7 — VIDÉO",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 7,
+          "text": "Regardez cette vidéo pour bien comprendre qu'est-ce que signifie le covoit :",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/tIl-zM5uF0A",
+          "caption": "Micro-tâche 7"
+        },
+        {
+          "type": "consigne",
+          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q13"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p18",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MINI-PRODUCTION",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 8,
+          "text": "Mini-production : Résumez ce texte lu en trois phrases ?",
+          "duration": "10 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q14"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p19",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 9,
+          "text": "Discussion en groupes",
+          "duration": "10 minutes"
+        },
+        {
+          "type": "consigne",
+          "text": "Déroulement : Travaillez en petits groupes (3 à 4 étudiants). Discutez autour de la question suivante :"
+        },
+        {
+          "type": "paragraph",
+          "text": "« Selon vous, comment pourrait-on rendre les devoirs à l'école plus utiles et efficace pour tous les élèves ? »"
+        },
+        {
+          "type": "consigne",
+          "text": "Chaque groupe propose des solutions réelles liées à ce phénomène."
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q15"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p20",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Vous participez à une discussion collective en classe sur les devoirs à la maison. Après avoir lu le texte et échangé vos idées avec vos camarades, votre professeur vous demande de présenter votre opinion sur les devoirs et de proposer des idées pour les améliorer."
+        },
+        {
+          "type": "paragraph",
+          "text": "À travers la discussion précédente, écrivez un texte de 5 à 7 phrases dans lequel vous :<br>• Expliquez votre opinion sur les devoirs à la maison.<br>• Donnez un avantage et un inconvénient des devoirs.<br>• Proposez une solution ou une amélioration pour que les devoirs soient plus utiles et intéressants."
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p21",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 3 : RÉDACTION",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l12-q16"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p22",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : PHASE 4 — ÉVALUATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Relisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collèges et corrigez son texte si nécessaire."
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q17"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q18"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p24",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q19"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q20"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p25",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q21"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q22"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p26",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Soumission du devoir",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Vérifier ta repense correcte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes arrivé à la fin de la Leçon 12. Veuillez valider et envoyer vos réponses à votre enseignant en cliquant sur le bouton ci-dessous."
+        },
+        {
+          "type": "submit",
+          "lessonId": "lesson12",
+          "lessonTitle": "Faut-il donner des devoirs à l'école ?"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "l12-q0",
+      "type": "open-ended",
+      "text": "Observez les images suivantes, puis prédisez le thème de la leçon.",
+      "lines": 4
+    },
+    {
+      "id": "l12-q1",
+      "type": "open-ended",
+      "text": "1. Que voyez-vous dans ces images ?",
+      "lines": 4
+    },
+    {
+      "id": "l12-q2",
+      "type": "open-ended",
+      "text": "2. Selon vous, quel est le thème de la leçon ?",
+      "lines": 4
+    },
+    {
+      "id": "l12-q3",
+      "type": "open-ended",
+      "text": "Quelle est l'idée principale de ce texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l12-q4",
+      "type": "open-ended",
+      "text": "1. Quels sont les deux arguments contre les devoirs selon l'auteur ?",
+      "lines": 4
+    },
+    {
+      "id": "l12-q5",
+      "type": "open-ended",
+      "text": "2. Quels sont deux avantages des devoirs mentionnés dans le texte ?",
+      "lines": 4
+    },
+    {
+      "id": "l12-q6",
+      "type": "open-ended",
+      "text": "3. Pourquoi l'auteur propose-t-il de donner des devoirs facultatifs avec une récompense ?",
+      "lines": 4
+    },
+    {
+      "id": "l12-q7",
+      "type": "open-ended",
+      "text": "4. Es-tu plutôt pour ou contre les devoirs à la maison ? Pourquoi ?",
+      "lines": 4
+    },
+    {
+      "id": "l12-q8",
+      "type": "open-ended",
+      "text": "En une seule phrase, écrivez de quoi parle le texte.",
+      "lines": 4
+    },
+    {
+      "id": "l12-q9",
+      "type": "open-ended",
+      "text": "Relisez le texte et soulignez trois mots ou expressions importantes qui décrivent le problème des devoirs.",
+      "lines": 4
+    },
+    {
+      "id": "l12-q10",
+      "type": "open-ended",
+      "text": "Indiquez un avantage et un inconvénient des devoirs à l'école, puis donnez votre opinion personnelle.",
+      "lines": 3
+    },
+    {
+      "id": "l12-q11",
+      "type": "open-ended",
+      "text": "Proposez deux solutions pour rendre les devoirs plus intéressants et utiles.",
+      "lines": 3
+    },
+    {
+      "id": "l12-q12",
+      "type": "open-ended",
+      "text": "« Le problème des devoirs, c'est que ça n'incite pas forcément à apprendre ni à comprendre ce qu'on a vu pendant un cours. »",
+      "lines": 5
+    },
+    {
+      "id": "l12-q13",
+      "type": "open-ended",
+      "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo.",
+      "lines": 5
+    },
+    {
+      "id": "l12-q14",
+      "type": "open-ended",
+      "text": "Résumez ce texte lu en trois phrases ?",
+      "lines": 11
+    },
+    {
+      "id": "l12-q15",
+      "type": "open-ended",
+      "text": "Selon vous, comment pourrait-on rendre les devoirs à l'école plus utiles et efficace pour tous les élèves ?",
+      "lines": 7
+    },
+    {
+      "id": "l12-q16",
+      "type": "open-ended",
+      "text": "Rédigez ici votre texte (5 à 7 phrases).",
+      "lines": 10
+    },
+    {
+      "id": "l12-q17",
+      "type": "open-ended",
+      "text": "Relisez et corrigez votre texte.",
+      "lines": 8
+    },
+    {
+      "id": "l12-q18",
+      "type": "multiple-choice",
+      "text": "1. D'après le texte, quel est le problème des devoirs ?",
+      "answer": "c",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Ils sont trop simples pour les élèves"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Ils se font toujours pendant les intercours"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Ils ne permettent pas forcément de comprendre un cours"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Ils ne sont pas assez difficiles"
+        }
+      ]
+    },
+    {
+      "id": "l12-q19",
+      "type": "multiple-choice",
+      "text": "2. D'après le texte, comment les élèves peuvent percevoir l'école si on leur donne des devoirs ?",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Comme un endroit pour élever leur esprit"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Comme un endroit désagréable"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Comme une prison pour leur esprit"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Comme un endroit fantastique"
+        }
+      ]
+    },
+    {
+      "id": "l12-q20",
+      "type": "multiple-choice",
+      "text": "3. Selon le texte, dans quels cas les devoirs peuvent être utiles ?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Pour vérifier sa compréhension des cours"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Pour remplacer les professeurs"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Pour donner envie d'apprendre davantage"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Pour comprendre les cours"
+        }
+      ]
+    },
+    {
+      "id": "l12-q21",
+      "type": "multiple-choice",
+      "text": "4. S'il fallait donner des devoirs, combien faudrait-il en donner ?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Pas trop de devoirs"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Davantage de devoirs"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Une avalanche de devoirs"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Beaucoup trop de devoirs"
+        }
+      ]
+    },
+    {
+      "id": "l12-q22",
+      "type": "multiple-choice",
+      "text": "5. Quelle alternative propose le narrateur ?",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Des travaux manuels"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Des devoirs facultatifs"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Aucun devoir"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "text": "Punir les élèves qui ne font pas leur devoir"
+        }
+      ]
+    }
+  ]
 }

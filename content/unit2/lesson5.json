@@ -8,11 +8,11 @@
       "id": "lesson5-p01",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 5 : OBJECTIFS (1/2)",
+      "title": "LEÇON 2 : OBJECTIFS (1/2)",
       "content": [
         {
           "type": "heading",
-          "text": "Leçon 5 : L’absence familiale et ses effets sur la vie quotidienne",
+          "text": "Leçon 2 : L’absence familiale et ses effets sur la vie quotidienne",
           "level": 1
         },
         {
@@ -78,7 +78,7 @@
       "id": "lesson5-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 5 : PHASE 1 — IMAGES D'OBSERVATION",
+      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION",
       "content": [
         {
           "type": "phase-banner",
@@ -114,7 +114,7 @@
       "id": "lesson5-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 5 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
           "type": "consigne",
@@ -143,7 +143,7 @@
       "id": "lesson5-p04",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -179,7 +179,7 @@
       "id": "lesson5-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : LECTURE (2/3)",
+      "title": "LEÇON 2 : LECTURE (2/3)",
       "content": [
         {
           "type": "heading",
@@ -196,7 +196,7 @@
       "id": "lesson5-p06",
       "type": "content",
       "phase": 2,
-      "title": "LEÇON 5 : LECTURE (3/3)",
+      "title": "LEÇON 2 : LECTURE (3/3)",
       "content": [
         {
           "type": "heading",
@@ -217,7 +217,7 @@
       "id": "lesson5-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : MOTS-CLÉS",
+      "title": "LEÇON 2 : MOTS-CLÉS",
       "content": [
         {
           "type": "microtask",
@@ -246,7 +246,7 @@
       "id": "lesson5-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : QUESTIONS GUIDÉES (1/3)",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES (1/3)",
       "content": [
         {
           "type": "heading",
@@ -271,7 +271,7 @@
       "id": "lesson5-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : QUESTIONS GUIDÉES (2/3)",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES (2/3)",
       "content": [
         {
           "type": "heading",
@@ -296,7 +296,7 @@
       "id": "lesson5-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : QUESTIONS GUIDÉES (3/3)",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES (3/3)",
       "content": [
         {
           "type": "heading",
@@ -321,7 +321,7 @@
       "id": "lesson5-p11",
       "type": "content",
       "phase": 2,
-      "title": "LEÇON 5 : IDÉE PRINCIPALE DU TEXTE",
+      "title": "LEÇON 2 : IDÉE PRINCIPALE DU TEXTE",
       "content": [
         {
           "type": "microtask",
@@ -339,7 +339,7 @@
       "id": "lesson5-p12",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : TEXTE EXPLICATIF",
+      "title": "LEÇON 2 : TEXTE EXPLICATIF",
       "content": [
         {
           "type": "info-box",
@@ -378,7 +378,7 @@
       "id": "lesson5-p13",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : RÔLE DE LA TECHNOLOGIE ET DE LA SOLITUDE",
+      "title": "LEÇON 2 : RÔLE DE LA TECHNOLOGIE ET DE LA SOLITUDE",
       "content": [
         {
           "type": "microtask",
@@ -406,7 +406,7 @@
       "id": "lesson5-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : RÉSUMÉ ET REFORMULATION",
+      "title": "LEÇON 2 : RÉSUMÉ ET REFORMULATION",
       "content": [
         {
           "type": "microtask",
@@ -438,7 +438,7 @@
       "id": "lesson5-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : STRUCTURES À OBSERVER",
+      "title": "LEÇON 2 : STRUCTURES À OBSERVER",
       "content": [
         {
           "type": "heading",
@@ -487,7 +487,7 @@
       "id": "lesson5-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : VIDÉO DE COMPRÉHENSION",
+      "title": "LEÇON 2 : VIDÉO DE COMPRÉHENSION",
       "content": [
         {
           "type": "microtask",
@@ -510,7 +510,7 @@
       "id": "lesson5-p17",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : RÉSUMÉ VIDÉO ET CONNECTEURS",
+      "title": "LEÇON 2 : RÉSUMÉ VIDÉO ET CONNECTEURS",
       "content": [
         {
           "type": "microtask",
@@ -536,7 +536,7 @@
       "id": "lesson5-p18",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : CONNECTEURS (SUITE)",
+      "title": "LEÇON 2 : CONNECTEURS (SUITE)",
       "content": [
         {
           "type": "question",
@@ -562,7 +562,7 @@
       "id": "lesson5-p19",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 5 : TÂCHE FINALE — PREPARATION",
+      "title": "LEÇON 2 : TÂCHE FINALE — PREPARATION",
       "content": [
         {
           "type": "phase-banner",
@@ -614,7 +614,7 @@
       "id": "lesson5-p20",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 5 : TÂCHE FINALE — CRÉATION",
+      "title": "LEÇON 2 : TÂCHE FINALE — CRÉATION",
       "content": [
         {
           "type": "phase-banner",
@@ -632,7 +632,7 @@
       "id": "lesson5-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 5 : ÉVALUATION & É-ÉVALUATION (1/3)",
+      "title": "LEÇON 2 : ÉVALUATION & É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -643,7 +643,15 @@
         {
           "type": "question",
           "questionId": "l5-q22"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p22",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/2)",
+      "content": [
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -656,19 +664,6 @@
         {
           "type": "question",
           "questionId": "l5-e1"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p22",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 5 : É-ÉVALUATION (2/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -677,10 +672,6 @@
         {
           "type": "question",
           "questionId": "l5-e3"
-        },
-        {
-          "type": "question",
-          "questionId": "l5-e4"
         }
       ]
     },
@@ -688,7 +679,7 @@
       "id": "lesson5-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 5 : É-ÉVALUATION (3/3) & SOUMISSION",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -697,12 +688,24 @@
         },
         {
           "type": "question",
+          "questionId": "l5-e4"
+        },
+        {
+          "type": "question",
           "questionId": "l5-e5"
         },
         {
           "type": "question",
           "questionId": "l5-e6"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p24",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
+      "content": [
         {
           "type": "heading",
           "text": "Soumission du devoir",

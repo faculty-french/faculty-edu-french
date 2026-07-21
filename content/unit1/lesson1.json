@@ -474,11 +474,6 @@
       "title": "LEÇON 1 : STRUCTURES & DISCUSSION",
       "content": [
         {
-          "type": "heading",
-          "text": "Structures à observer",
-          "level": 2
-        },
-        {
           "type": "keywords",
           "title": "Structures linguistiques",
           "items": [
@@ -576,7 +571,15 @@
         {
           "type": "question",
           "questionId": "l1-q16"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p19",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : É-ÉVALUATION : RÉPONDEZ À CES QUESTIONS (1/4)",
+      "content": [
         {
           "type": "heading",
           "text": "É-évaluation : répondez à ces questions",
@@ -585,19 +588,6 @@
         {
           "type": "question",
           "questionId": "l1-e1"
-        }
-      ]
-    },
-    {
-      "id": "lesson1-p19",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (1/4)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation : répondez à ces questions (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -606,10 +596,6 @@
         {
           "type": "question",
           "questionId": "l1-e3"
-        },
-        {
-          "type": "question",
-          "questionId": "l1-e4"
         }
       ]
     },
@@ -617,12 +603,16 @@
       "id": "lesson1-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (2/4)",
+      "title": "LEÇON 1 : É-ÉVALUATION : RÉPONDEZ À CES QUESTIONS (2/4)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation : répondez à ces questions (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e4"
         },
         {
           "type": "question",
@@ -638,7 +628,7 @@
       "id": "lesson1-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (3/4)",
+      "title": "LEÇON 1 : É-ÉVALUATION : RÉPONDEZ À CES QUESTIONS (3/4)",
       "content": [
         {
           "type": "heading",
@@ -659,8 +649,13 @@
       "id": "lesson1-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (4/4) & SOUMISSION",
+      "title": "LEÇON 1 : É-ÉVALUATION : RÉPONDEZ À CES QUESTIONS (4/4)",
       "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation : répondez à ces questions (suite)",
+          "level": 2
+        },
         {
           "type": "question",
           "questionId": "l1-e9"
@@ -668,7 +663,15 @@
         {
           "type": "question",
           "questionId": "l1-e10"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson1-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : SOUMISSION DU DEVOIR",
+      "content": [
         {
           "type": "heading",
           "text": "Soumission du devoir",
