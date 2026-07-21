@@ -17,7 +17,7 @@
 set -euo pipefail
 
 PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-MODEL="Gemini 3.5 Flash (High)"
+MODEL="Gemini 3.6 Flash (High)"
 CONTINUE=()
 PROMPT=""
 

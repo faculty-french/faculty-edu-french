@@ -8,11 +8,11 @@
       "id": "lesson7-p01",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 7 : OBJECTIFS",
+      "title": "LEÇON 1 : OBJECTIFS",
       "content": [
         {
           "type": "heading",
-          "text": "Leçon 7 : Le télétravail",
+          "text": "Leçon 1 : Le télétravail",
           "level": 1
         },
         {
@@ -79,7 +79,7 @@
       "id": "lesson7-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 7 : PHASE 1 — IMAGES D'OBSERVATION",
+      "title": "LEÇON 1 : PHASE 1 — IMAGES D'OBSERVATION",
       "content": [
         {
           "type": "phase-banner",
@@ -115,7 +115,7 @@
       "id": "lesson7-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 7 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
           "type": "consigne",
@@ -148,7 +148,7 @@
       "id": "lesson7-p04",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 1 : PHASE 2 — LECTURE (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -184,7 +184,7 @@
       "id": "lesson7-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : LECTURE (2/3)",
+      "title": "LEÇON 1 : LECTURE (2/3)",
       "content": [
         {
           "type": "heading",
@@ -201,7 +201,7 @@
       "id": "lesson7-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : LECTURE (3/3)",
+      "title": "LEÇON 1 : LECTURE (3/3)",
       "content": [
         {
           "type": "heading",
@@ -222,7 +222,7 @@
       "id": "lesson7-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES",
+      "title": "LEÇON 1 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES",
       "content": [
         {
           "type": "microtask",
@@ -240,7 +240,7 @@
       "id": "lesson7-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
       "content": [
         {
           "type": "heading",
@@ -269,7 +269,7 @@
       "id": "lesson7-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
       "content": [
         {
           "type": "heading",
@@ -290,7 +290,7 @@
       "id": "lesson7-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
       "content": [
         {
           "type": "heading",
@@ -333,7 +333,7 @@
       "id": "lesson7-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : SENS ET PARTIES DES MOTS",
+      "title": "LEÇON 1 : SENS ET PARTIES DES MOTS",
       "content": [
         {
           "type": "microtask",
@@ -369,7 +369,7 @@
       "id": "lesson7-p12",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : EXEMPLES ET CONNECTEURS",
+      "title": "LEÇON 1 : EXEMPLES ET CONNECTEURS",
       "content": [
         {
           "type": "microtask",
@@ -401,7 +401,7 @@
       "id": "lesson7-p13",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : REFORMULATION",
+      "title": "LEÇON 1 : REFORMULATION",
       "content": [
         {
           "type": "microtask",
@@ -423,7 +423,7 @@
       "id": "lesson7-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : STRUCTURE À OBSERVER",
+      "title": "LEÇON 1 : STRUCTURE À OBSERVER",
       "content": [
         {
           "type": "heading",
@@ -462,7 +462,7 @@
       "id": "lesson7-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : VIDÉO DE COMPRÉHENSION",
+      "title": "LEÇON 1 : VIDÉO DE COMPRÉHENSION",
       "content": [
         {
           "type": "microtask",
@@ -489,7 +489,7 @@
       "id": "lesson7-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 7 : MINI-PRODUCTION ET DISCUSSION",
+      "title": "LEÇON 1 : MINI-PRODUCTION ET DISCUSSION",
       "content": [
         {
           "type": "microtask",
@@ -521,7 +521,7 @@
       "id": "lesson7-p17",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 7 : TÂCHE FINALE — PRÉPARATION",
+      "title": "LEÇON 1 : TÂCHE FINALE — PRÉPARATION",
       "content": [
         {
           "type": "phase-banner",
@@ -576,7 +576,7 @@
       "id": "lesson7-p18",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 7 : TÂCHE FINALE — CRÉATION",
+      "title": "LEÇON 1 : TÂCHE FINALE — CRÉATION",
       "content": [
         {
           "type": "phase-banner",
@@ -594,7 +594,7 @@
       "id": "lesson7-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 7 : ÉVALUATION & É-ÉVALUATION (1/4)",
+      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (1/4)",
       "content": [
         {
           "type": "phase-banner",
@@ -612,7 +612,7 @@
       "id": "lesson7-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 7 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 1 : É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "heading",
@@ -641,7 +641,7 @@
       "id": "lesson7-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 7 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 1 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
@@ -662,7 +662,7 @@
       "id": "lesson7-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 7 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 1 : É-ÉVALUATION (3/3)",
       "content": [
         {
           "type": "heading",
@@ -683,7 +683,7 @@
       "id": "lesson7-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 7 : SOUMISSION DU DEVOIR",
+      "title": "LEÇON 1 : SOUMISSION DU DEVOIR",
       "content": [
         {
           "type": "heading",

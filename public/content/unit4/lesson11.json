@@ -8,11 +8,11 @@
       "id": "lesson11-p01",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 11 : OBJECTIFS",
+      "title": "LEÇON 2 : OBJECTIFS",
       "content": [
         {
           "type": "heading",
-          "text": "Leçon 11 : L'intelligence artificielle à l'école : un nouvel outil pédagogique",
+          "text": "Leçon 2 : L'intelligence artificielle à l'école : un nouvel outil pédagogique",
           "level": 1
         },
         {
@@ -79,7 +79,7 @@
       "id": "lesson11-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 11 : PHASE 1 — OBSERVATION",
+      "title": "LEÇON 2 : PHASE 1 — OBSERVATION",
       "content": [
         {
           "type": "phase-banner",
@@ -106,7 +106,7 @@
       "id": "lesson11-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 11 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
           "type": "consigne",
@@ -126,7 +126,7 @@
       "id": "lesson11-p04",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 11 : MICRO-TÂCHE 1 & LECTURE GUIDÉE",
+      "title": "LEÇON 2 : MICRO-TÂCHE 1 & LECTURE GUIDÉE",
       "content": [
         {
           "type": "microtask",
@@ -156,7 +156,7 @@
       "id": "lesson11-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -183,7 +183,7 @@
       "id": "lesson11-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : LECTURE (2/3)",
+      "title": "LEÇON 2 : LECTURE (2/3)",
       "content": [
         {
           "type": "heading",
@@ -200,7 +200,7 @@
       "id": "lesson11-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : LECTURE (3/3)",
+      "title": "LEÇON 2 : LECTURE (3/3)",
       "content": [
         {
           "type": "heading",
@@ -221,7 +221,7 @@
       "id": "lesson11-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES (1/2)",
+      "title": "LEÇON 2 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES (1/2)",
       "content": [
         {
           "type": "microtask",
@@ -247,7 +247,7 @@
       "id": "lesson11-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : QUESTIONS GUIDÉES (2/2)",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES (2/2)",
       "content": [
         {
           "type": "question",
@@ -267,7 +267,7 @@
       "id": "lesson11-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : PRÉSENTATION DU TEXTE",
+      "title": "LEÇON 2 : PRÉSENTATION DU TEXTE",
       "content": [
         {
           "type": "info-box",
@@ -296,7 +296,7 @@
       "id": "lesson11-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : MICRO-TÂCHES 3 & 4",
+      "title": "LEÇON 2 : MICRO-TÂCHES 3 & 4",
       "content": [
         {
           "type": "microtask",
@@ -324,7 +324,7 @@
       "id": "lesson11-p12",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : MICRO-TÂCHE 5 — OPINION",
+      "title": "LEÇON 2 : MICRO-TÂCHE 5 — OPINION",
       "content": [
         {
           "type": "microtask",
@@ -356,7 +356,7 @@
       "id": "lesson11-p13",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : MICRO-TÂCHE 7 — REFORMULATION",
+      "title": "LEÇON 2 : MICRO-TÂCHE 7 — REFORMULATION",
       "content": [
         {
           "type": "microtask",
@@ -378,7 +378,7 @@
       "id": "lesson11-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : MICRO-TÂCHE 8 — VIDÉO",
+      "title": "LEÇON 2 : MICRO-TÂCHE 8 — VIDÉO",
       "content": [
         {
           "type": "microtask",
@@ -405,7 +405,7 @@
       "id": "lesson11-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : STRUCTURES À OBSERVER : (5 MINUTES) (1/2)",
+      "title": "LEÇON 2 : STRUCTURES À OBSERVER : (5 MINUTES) (1/2)",
       "content": [
         {
           "type": "heading",
@@ -449,7 +449,7 @@
       "id": "lesson11-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : STRUCTURES À OBSERVER : (5 MINUTES) (2/2)",
+      "title": "LEÇON 2 : STRUCTURES À OBSERVER : (5 MINUTES) (2/2)",
       "content": [
         {
           "type": "heading",
@@ -494,7 +494,7 @@
       "id": "lesson11-p17",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : MINI-PRODUCTION",
+      "title": "LEÇON 2 : MINI-PRODUCTION",
       "content": [
         {
           "type": "microtask",
@@ -512,7 +512,7 @@
       "id": "lesson11-p18",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 11 : DISCUSSION EN GROUPES",
+      "title": "LEÇON 2 : DISCUSSION EN GROUPES",
       "content": [
         {
           "type": "microtask",
@@ -542,7 +542,7 @@
       "id": "lesson11-p19",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 11 : PHASE 3 — TÂCHE FINALE",
+      "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
       "content": [
         {
           "type": "phase-banner",
@@ -569,7 +569,7 @@
       "id": "lesson11-p20",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 11 : RÉDACTION",
+      "title": "LEÇON 2 : RÉDACTION",
       "content": [
         {
           "type": "question",
@@ -581,7 +581,7 @@
       "id": "lesson11-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 11 : PHASE 4 — ÉVALUATION",
+      "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
       "content": [
         {
           "type": "phase-banner",
@@ -603,7 +603,7 @@
       "id": "lesson11-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 11 : É-ÉVALUATION (1/2)",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "heading",
@@ -624,7 +624,7 @@
       "id": "lesson11-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 11 : É-ÉVALUATION (2/2)",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -645,7 +645,7 @@
       "id": "lesson11-p24",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 11 : SOUMISSION DU DEVOIR",
+      "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
       "content": [
         {
           "type": "heading",

@@ -8,11 +8,11 @@
       "id": "lesson6-p01",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 6 : OBJECTIFS",
+      "title": "LEÇON 3 : OBJECTIFS",
       "content": [
         {
           "type": "heading",
-          "text": "Leçon 6 : Le phénomène des \"influenceurs\" sur les réseaux sociaux",
+          "text": "Leçon 3 : Le phénomène des \"influenceurs\" sur les réseaux sociaux",
           "level": 1
         },
         {
@@ -83,7 +83,7 @@
       "id": "lesson6-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 6 : PHASE 1 — IMAGES D'OBSERVATION",
+      "title": "LEÇON 3 : PHASE 1 — IMAGES D'OBSERVATION",
       "content": [
         {
           "type": "phase-banner",
@@ -119,7 +119,7 @@
       "id": "lesson6-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 6 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 3 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
           "type": "consigne",
@@ -152,7 +152,7 @@
       "id": "lesson6-p04",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 3 : PHASE 2 — LECTURE (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -188,7 +188,7 @@
       "id": "lesson6-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : LECTURE (2/3)",
+      "title": "LEÇON 3 : LECTURE (2/3)",
       "content": [
         {
           "type": "heading",
@@ -205,7 +205,7 @@
       "id": "lesson6-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : LECTURE (3/3) & QUESTIONS GUIDÉES",
+      "title": "LEÇON 3 : LECTURE (3/3) & QUESTIONS GUIDÉES",
       "content": [
         {
           "type": "heading",
@@ -226,7 +226,7 @@
       "id": "lesson6-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
       "content": [
         {
           "type": "heading",
@@ -247,7 +247,7 @@
       "id": "lesson6-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
       "content": [
         {
           "type": "heading",
@@ -268,7 +268,7 @@
       "id": "lesson6-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
       "content": [
         {
           "type": "heading",
@@ -288,7 +288,7 @@
     {
       "id": "lesson6-p10",
       "type": "content",
-      "title": "LEÇON 6 : QUESTIONS GUIDÉES (SUITE) & SYNONYMES",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (SUITE) & SYNONYMES",
       "phase": 2,
       "content": [
         {
@@ -311,7 +311,7 @@
       "id": "lesson6-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : TEXTE EXPLICATIF",
+      "title": "LEÇON 3 : TEXTE EXPLICATIF",
       "content": [
         {
           "type": "info-box",
@@ -347,7 +347,7 @@
     {
       "id": "lesson6-p12",
       "type": "content",
-      "title": "LEÇON 6 : IDÉES ET COMPARAISON",
+      "title": "LEÇON 3 : IDÉES ET COMPARAISON",
       "phase": 2,
       "content": [
         {
@@ -383,7 +383,7 @@
     {
       "id": "lesson6-p13",
       "type": "content",
-      "title": "LEÇON 6 : PHRASES ET REFORMULATION",
+      "title": "LEÇON 3 : PHRASES ET REFORMULATION",
       "phase": 2,
       "content": [
         {
@@ -416,7 +416,7 @@
       "id": "lesson6-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : STRUCTURES À OBSERVER",
+      "title": "LEÇON 3 : STRUCTURES À OBSERVER",
       "content": [
         {
           "type": "heading",
@@ -454,7 +454,7 @@
       "id": "lesson6-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : VIDÉO DE COMPRÉHENSION",
+      "title": "LEÇON 3 : VIDÉO DE COMPRÉHENSION",
       "content": [
         {
           "type": "microtask",
@@ -481,7 +481,7 @@
       "id": "lesson6-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 6 : MINI-PRODUCTION ET DISCUSSION",
+      "title": "LEÇON 3 : MINI-PRODUCTION ET DISCUSSION",
       "content": [
         {
           "type": "microtask",
@@ -513,7 +513,7 @@
       "id": "lesson6-p17",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 6 : TÂCHE FINALE — PRÉPARATION",
+      "title": "LEÇON 3 : TÂCHE FINALE — PRÉPARATION",
       "content": [
         {
           "type": "phase-banner",
@@ -568,7 +568,7 @@
       "id": "lesson6-p18",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 6 : TÂCHE FINALE — CRÉATION",
+      "title": "LEÇON 3 : TÂCHE FINALE — CRÉATION",
       "content": [
         {
           "type": "phase-banner",
@@ -586,7 +586,7 @@
       "id": "lesson6-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 6 : ÉVALUATION & É-ÉVALUATION (1/4)",
+      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (1/4)",
       "content": [
         {
           "type": "phase-banner",
@@ -604,7 +604,7 @@
       "id": "lesson6-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 6 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "heading",
@@ -633,7 +633,7 @@
       "id": "lesson6-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 6 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
@@ -658,7 +658,7 @@
       "id": "lesson6-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 6 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
       "content": [
         {
           "type": "heading",
@@ -682,7 +682,7 @@
     {
       "id": "lesson6-p23",
       "type": "content",
-      "title": "LEÇON 6 : SOUMISSION DU DEVOIR",
+      "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
       "phase": 4,
       "content": [
         {

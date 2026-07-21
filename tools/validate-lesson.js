@@ -109,6 +109,10 @@ async function main() {
     errors.push(`[ERROR] Lesson id "${lesson.id}" must match pattern "lesson{N}" where {N} is a number`);
   }
   const N = lessonIdMatch ? lessonIdMatch[1] : null;
+  // Displayed lesson number restarts at 1 within each module of 3 lessons
+  // (global 1..3 -> 1..3, 4..6 -> 1..3, etc.). Page ids stay GLOBAL (uses N);
+  // only the human-facing "LEÇON {D}" title label uses this.
+  const D = N ? String(((parseInt(N, 10) - 1) % 3) + 1) : null;
 
   // --- 2. Page sequence and metadata checks ---
   let lastPhase = -1;
@@ -132,7 +136,7 @@ async function main() {
         if (page.title !== page.title.toUpperCase()) {
           errors.push(`[ERROR] [${page.id}] Page title "${page.title}" must be UPPERCASE`);
         }
-        const prefix = N ? `LEÇON ${N} : ` : 'LEÇON ';
+        const prefix = D ? `LEÇON ${D} : ` : 'LEÇON ';
         if (!page.title.startsWith(prefix)) {
           errors.push(`[ERROR] [${page.id}] Page title "${page.title}" must start with "${prefix}"`);
         }

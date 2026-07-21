@@ -8,11 +8,11 @@
       "id": "lesson9-p01",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 9 : OBJECTIFS",
+      "title": "LEÇON 3 : OBJECTIFS",
       "content": [
         {
           "type": "heading",
-          "text": "Leçon 9 : Le pot de lait de Gita",
+          "text": "Leçon 3 : Le pot de lait de Gita",
           "level": 1
         },
         {
@@ -83,7 +83,7 @@
       "id": "lesson9-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 9 : PHASE 1 — OBSERVATION",
+      "title": "LEÇON 3 : PHASE 1 — OBSERVATION",
       "content": [
         {
           "type": "phase-banner",
@@ -119,7 +119,7 @@
       "id": "lesson9-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 9 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 3 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
           "type": "consigne",
@@ -148,7 +148,7 @@
       "id": "lesson9-p04",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 9 : MICRO-TÂCHE 2 & LECTURE GUIDÉE",
+      "title": "LEÇON 3 : MICRO-TÂCHE 2 & LECTURE GUIDÉE",
       "content": [
         {
           "type": "microtask",
@@ -174,7 +174,7 @@
       "id": "lesson9-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 3 : PHASE 2 — LECTURE (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -201,7 +201,7 @@
       "id": "lesson9-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : LECTURE (2/3)",
+      "title": "LEÇON 3 : LECTURE (2/3)",
       "content": [
         {
           "type": "heading",
@@ -218,7 +218,7 @@
       "id": "lesson9-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : LECTURE (3/3)",
+      "title": "LEÇON 3 : LECTURE (3/3)",
       "content": [
         {
           "type": "heading",
@@ -239,7 +239,7 @@
       "id": "lesson9-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : IDÉE GÉNÉRALE & QUESTIONS GUIDÉES (1/3)",
+      "title": "LEÇON 3 : IDÉE GÉNÉRALE & QUESTIONS GUIDÉES (1/3)",
       "content": [
         {
           "type": "microtask",
@@ -273,7 +273,7 @@
       "id": "lesson9-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : QUESTIONS GUIDÉES (2/3)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (2/3)",
       "content": [
         {
           "type": "question",
@@ -293,7 +293,7 @@
       "id": "lesson9-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : QUESTIONS GUIDÉES (3/3) & PRÉSENTATION",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (3/3) & PRÉSENTATION",
       "content": [
         {
           "type": "question",
@@ -333,7 +333,7 @@
       "id": "lesson9-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : MICRO-TÂCHES 4 À 6",
+      "title": "LEÇON 3 : MICRO-TÂCHES 4 À 6",
       "content": [
         {
           "type": "microtask",
@@ -371,7 +371,7 @@
       "id": "lesson9-p12",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : MICRO-TÂCHES 7 & 8",
+      "title": "LEÇON 3 : MICRO-TÂCHES 7 & 8",
       "content": [
         {
           "type": "microtask",
@@ -407,7 +407,7 @@
       "id": "lesson9-p13",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : MICRO-TÂCHE 9 & STRUCTURE À OBSERVER (1/2)",
+      "title": "LEÇON 3 : MICRO-TÂCHE 9 & STRUCTURE À OBSERVER (1/2)",
       "content": [
         {
           "type": "microtask",
@@ -429,7 +429,7 @@
       "id": "lesson9-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : STRUCTURE À OBSERVER : (1/2)",
+      "title": "LEÇON 3 : STRUCTURE À OBSERVER : (1/2)",
       "content": [
         {
           "type": "heading",
@@ -454,7 +454,7 @@
       "id": "lesson9-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : STRUCTURE À OBSERVER : (2/2)",
+      "title": "LEÇON 3 : STRUCTURE À OBSERVER : (2/2)",
       "content": [
         {
           "type": "heading",
@@ -494,7 +494,7 @@
       "id": "lesson9-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : MICRO-TÂCHE 10 — VIDÉO",
+      "title": "LEÇON 3 : MICRO-TÂCHE 10 — VIDÉO",
       "content": [
         {
           "type": "microtask",
@@ -521,7 +521,7 @@
       "id": "lesson9-p17",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : MINI-PRODUCTION",
+      "title": "LEÇON 3 : MINI-PRODUCTION",
       "content": [
         {
           "type": "microtask",
@@ -539,7 +539,7 @@
       "id": "lesson9-p18",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 9 : DISCUSSION EN GROUPES",
+      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
       "content": [
         {
           "type": "microtask",
@@ -569,7 +569,7 @@
       "id": "lesson9-p19",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 9 : PHASE 3 — TÂCHE FINALE",
+      "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE",
       "content": [
         {
           "type": "phase-banner",
@@ -596,7 +596,7 @@
       "id": "lesson9-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 9 : PHASE 4 — ÉVALUATION",
+      "title": "LEÇON 3 : PHASE 4 — ÉVALUATION",
       "content": [
         {
           "type": "phase-banner",
@@ -618,7 +618,7 @@
       "id": "lesson9-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 9 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "heading",
@@ -647,7 +647,7 @@
       "id": "lesson9-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 9 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
@@ -668,7 +668,7 @@
       "id": "lesson9-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 9 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
       "content": [
         {
           "type": "heading",
@@ -689,7 +689,7 @@
       "id": "lesson9-p24",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 9 : SOUMISSION DU DEVOIR",
+      "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
       "content": [
         {
           "type": "heading",

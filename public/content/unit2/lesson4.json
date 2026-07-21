@@ -8,11 +8,11 @@
       "id": "lesson4-p01",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 4 : LA VIE DANS LE PASSÉ : SANS TÉLÉPHONE, SANS INTERNET",
+      "title": "LEÇON 1 : LA VIE DANS LE PASSÉ : SANS TÉLÉPHONE, SANS INTERNET",
       "content": [
         {
           "type": "heading",
-          "text": "Leçon 4 : La vie dans le passé : sans téléphone, sans Internet",
+          "text": "Leçon 1 : La vie dans le passé : sans téléphone, sans Internet",
           "level": 1
         },
         {
@@ -66,7 +66,7 @@
       "id": "lesson4-p02",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 4 : OBJECTIFS (SUITE)",
+      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
       "content": [
         {
           "type": "objectives",
@@ -104,7 +104,7 @@
       "id": "lesson4-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 4 : PHASE 1 — IMAGES D'OBSERVATION",
+      "title": "LEÇON 1 : PHASE 1 — IMAGES D'OBSERVATION",
       "content": [
         {
           "type": "phase-banner",
@@ -144,7 +144,7 @@
       "id": "lesson4-p04",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
           "type": "consigne",
@@ -173,7 +173,7 @@
       "id": "lesson4-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : PHASE 2 — LECTURE (1/2)",
+      "title": "LEÇON 1 : PHASE 2 — LECTURE (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -209,7 +209,7 @@
       "id": "lesson4-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : LECTURE (2/2)",
+      "title": "LEÇON 1 : LECTURE (2/2)",
       "content": [
         {
           "type": "heading",
@@ -234,7 +234,7 @@
       "id": "lesson4-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : ACTIVITÉS DU PASSÉ & QUESTIONS GUIDÉES",
+      "title": "LEÇON 1 : ACTIVITÉS DU PASSÉ & QUESTIONS GUIDÉES",
       "content": [
         {
           "type": "microtask",
@@ -252,7 +252,7 @@
       "id": "lesson4-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (1/4)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (1/4)",
       "content": [
         {
           "type": "heading",
@@ -273,7 +273,7 @@
       "id": "lesson4-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (2/4)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (2/4)",
       "content": [
         {
           "type": "heading",
@@ -298,7 +298,7 @@
       "id": "lesson4-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (3/4)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (3/4)",
       "content": [
         {
           "type": "heading",
@@ -323,7 +323,7 @@
       "id": "lesson4-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (4/4)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (4/4)",
       "content": [
         {
           "type": "heading",
@@ -366,7 +366,7 @@
       "id": "lesson4-p12",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : AVANTAGES ET INCONVÉNIENTS",
+      "title": "LEÇON 1 : AVANTAGES ET INCONVÉNIENTS",
       "content": [
         {
           "type": "microtask",
@@ -404,7 +404,7 @@
       "id": "lesson4-p13",
       "type": "content",
       "phase": 2,
-      "title": "LEÇON 4 : CONJUGAISON — L’IMPARFAIT",
+      "title": "LEÇON 1 : CONJUGAISON — L’IMPARFAIT",
       "content": [
         {
           "type": "microtask",
@@ -434,7 +434,7 @@
       "id": "lesson4-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : EFFORTS ET REFORMULATION",
+      "title": "LEÇON 1 : EFFORTS ET REFORMULATION",
       "content": [
         {
           "type": "microtask",
@@ -466,7 +466,7 @@
       "id": "lesson4-p15",
       "type": "content",
       "phase": 2,
-      "title": "LEÇON 4 : MINI-PRODUCTION & STRUCTURES (1/2)",
+      "title": "LEÇON 1 : MINI-PRODUCTION & STRUCTURES (1/2)",
       "content": [
         {
           "type": "microtask",
@@ -484,7 +484,7 @@
       "id": "lesson4-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : STRUCTURES À OBSERVER (1/2)",
+      "title": "LEÇON 1 : STRUCTURES À OBSERVER (1/2)",
       "content": [
         {
           "type": "heading",
@@ -528,7 +528,7 @@
       "id": "lesson4-p17",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : STRUCTURES À OBSERVER (2/2)",
+      "title": "LEÇON 1 : STRUCTURES À OBSERVER (2/2)",
       "content": [
         {
           "type": "heading",
@@ -572,7 +572,7 @@
       "id": "lesson4-p18",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : VIDÉO DE GRAMMAIRE",
+      "title": "LEÇON 1 : VIDÉO DE GRAMMAIRE",
       "content": [
         {
           "type": "heading",
@@ -590,7 +590,7 @@
       "id": "lesson4-p19",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : MICRO-TÂCHE 10",
+      "title": "LEÇON 1 : MICRO-TÂCHE 10",
       "content": [
         {
           "type": "microtask",
@@ -609,7 +609,7 @@
       "id": "lesson4-p20",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : COMPRÉHENSION VIDÉO ET DISCUSSION",
+      "title": "LEÇON 1 : COMPRÉHENSION VIDÉO ET DISCUSSION",
       "content": [
         {
           "type": "question",
@@ -631,7 +631,7 @@
       "id": "lesson4-p21",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 4 : TÂCHE FINALE — OUTILS ET ELEMENTS",
+      "title": "LEÇON 1 : TÂCHE FINALE — OUTILS ET ELEMENTS",
       "content": [
         {
           "type": "phase-banner",
@@ -683,7 +683,7 @@
       "id": "lesson4-p22",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 4 : TÂCHE FINALE — ARTICLE",
+      "title": "LEÇON 1 : TÂCHE FINALE — ARTICLE",
       "content": [
         {
           "type": "phase-banner",
@@ -705,7 +705,7 @@
       "id": "lesson4-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : ÉVALUATION & É-ÉVALUATION (1/3)",
+      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -723,7 +723,7 @@
       "id": "lesson4-p24",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (1/2)",
+      "title": "LEÇON 1 : É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "heading",
@@ -748,7 +748,7 @@
       "id": "lesson4-p25",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (2/2)",
+      "title": "LEÇON 1 : É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -773,7 +773,7 @@
       "id": "lesson4-p26",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : SOUMISSION DU DEVOIR",
+      "title": "LEÇON 1 : SOUMISSION DU DEVOIR",
       "content": [
         {
           "type": "heading",

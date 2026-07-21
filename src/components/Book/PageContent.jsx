@@ -11,6 +11,7 @@ import IndexPage from '../Content/IndexPage';
 import SubmitButton from '../Interactive/SubmitButton';
 import BookCover from '../Content/BookCover';
 import ModuleDivider from '../Content/ModuleDivider';
+import LessonIntro from '../Content/LessonIntro';
 import React from 'react';
 
 const PHASE_LABELS = { 1: 'Phase 1', 2: 'Phase 2', 3: 'Phase 3', 4: 'Phase 4' };
@@ -142,6 +143,8 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
         );
       case 'module-divider':
         return <ModuleDivider key={index} module={block.module} title={formatText(block.title)} lessons={block.lessons || []} />;
+      case 'lesson-intro':
+        return <LessonIntro key={index} {...block} />;
       case 'index':
         return <IndexPage key={index} units={block.units} onNavigate={block.onNavigate} />;
       case 'divider':

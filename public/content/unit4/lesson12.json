@@ -8,11 +8,11 @@
       "id": "lesson12-p01",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 12 : OBJECTIFS",
+      "title": "LEÇON 3 : OBJECTIFS",
       "content": [
         {
           "type": "heading",
-          "text": "Leçon 12 : Faut-il donner des devoirs à l'école ?",
+          "text": "Leçon 3 : Faut-il donner des devoirs à l'école ?",
           "level": 1
         },
         {
@@ -79,7 +79,7 @@
       "id": "lesson12-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 12 : PHASE 1 — OBSERVATION",
+      "title": "LEÇON 3 : PHASE 1 — OBSERVATION",
       "content": [
         {
           "type": "phase-banner",
@@ -106,7 +106,7 @@
       "id": "lesson12-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 12 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 3 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
           "type": "consigne",
@@ -126,7 +126,7 @@
       "id": "lesson12-p04",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 12 : LECTURE GUIDÉE",
+      "title": "LEÇON 3 : LECTURE GUIDÉE",
       "content": [
         {
           "type": "heading",
@@ -143,7 +143,7 @@
       "id": "lesson12-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : PHASE 2 — LECTURE (1/4)",
+      "title": "LEÇON 3 : PHASE 2 — LECTURE (1/4)",
       "content": [
         {
           "type": "phase-banner",
@@ -170,7 +170,7 @@
       "id": "lesson12-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : LECTURE (2/4)",
+      "title": "LEÇON 3 : LECTURE (2/4)",
       "content": [
         {
           "type": "heading",
@@ -187,7 +187,7 @@
       "id": "lesson12-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : LECTURE (3/4)",
+      "title": "LEÇON 3 : LECTURE (3/4)",
       "content": [
         {
           "type": "heading",
@@ -208,7 +208,7 @@
       "id": "lesson12-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : LECTURE (4/4)",
+      "title": "LEÇON 3 : LECTURE (4/4)",
       "content": [
         {
           "type": "heading",
@@ -229,7 +229,7 @@
       "id": "lesson12-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : MICRO-TÂCHE 1",
+      "title": "LEÇON 3 : MICRO-TÂCHE 1",
       "content": [
         {
           "type": "microtask",
@@ -251,7 +251,7 @@
       "id": "lesson12-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
       "content": [
         {
           "type": "heading",
@@ -280,7 +280,7 @@
       "id": "lesson12-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
       "content": [
         {
           "type": "heading",
@@ -297,7 +297,7 @@
       "id": "lesson12-p12",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
       "content": [
         {
           "type": "heading",
@@ -330,7 +330,7 @@
       "id": "lesson12-p13",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : MICRO-TÂCHES 2 & 3",
+      "title": "LEÇON 3 : MICRO-TÂCHES 2 & 3",
       "content": [
         {
           "type": "microtask",
@@ -358,7 +358,7 @@
       "id": "lesson12-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : MICRO-TÂCHE 4",
+      "title": "LEÇON 3 : MICRO-TÂCHE 4",
       "content": [
         {
           "type": "microtask",
@@ -390,7 +390,7 @@
       "id": "lesson12-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : MICRO-TÂCHE 6 — REFORMULATION",
+      "title": "LEÇON 3 : MICRO-TÂCHE 6 — REFORMULATION",
       "content": [
         {
           "type": "microtask",
@@ -412,7 +412,7 @@
       "id": "lesson12-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : STRUCTURES À OBSERVER : (5 MINUTES)",
+      "title": "LEÇON 3 : STRUCTURES À OBSERVER : (5 MINUTES)",
       "content": [
         {
           "type": "heading",
@@ -457,7 +457,7 @@
       "id": "lesson12-p17",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : MICRO-TÂCHE 7 — VIDÉO",
+      "title": "LEÇON 3 : MICRO-TÂCHE 7 — VIDÉO",
       "content": [
         {
           "type": "microtask",
@@ -484,7 +484,7 @@
       "id": "lesson12-p18",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : MINI-PRODUCTION",
+      "title": "LEÇON 3 : MINI-PRODUCTION",
       "content": [
         {
           "type": "microtask",
@@ -502,7 +502,7 @@
       "id": "lesson12-p19",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 12 : DISCUSSION EN GROUPES",
+      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
       "content": [
         {
           "type": "microtask",
@@ -532,7 +532,7 @@
       "id": "lesson12-p20",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 12 : PHASE 3 — TÂCHE FINALE",
+      "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE",
       "content": [
         {
           "type": "phase-banner",
@@ -559,7 +559,7 @@
       "id": "lesson12-p21",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 12 : RÉDACTION",
+      "title": "LEÇON 3 : RÉDACTION",
       "content": [
         {
           "type": "question",
@@ -571,7 +571,7 @@
       "id": "lesson12-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 12 : PHASE 4 — ÉVALUATION",
+      "title": "LEÇON 3 : PHASE 4 — ÉVALUATION",
       "content": [
         {
           "type": "phase-banner",
@@ -593,7 +593,7 @@
       "id": "lesson12-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 12 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "heading",
@@ -610,7 +610,7 @@
       "id": "lesson12-p24",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 12 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
@@ -631,7 +631,7 @@
       "id": "lesson12-p25",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 12 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
       "content": [
         {
           "type": "heading",
@@ -652,7 +652,7 @@
       "id": "lesson12-p26",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 12 : SOUMISSION DU DEVOIR",
+      "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
       "content": [
         {
           "type": "heading",

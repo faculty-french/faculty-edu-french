@@ -104,6 +104,12 @@ export async function loadBook() {
   if (!bookRes.ok) throw new Error('Erreur de chargement du livre.');
   const bookData = await bookRes.json();
 
+  let lessonIntros = {};
+  try {
+    const introRes = await fetch(`${import.meta.env.BASE_URL}content/lesson-intros.json`);
+    if (introRes.ok) lessonIntros = await introRes.json();
+  } catch { lessonIntros = {}; }
+
   const frontMatterPages = Array.isArray(bookData.pages) ? bookData.pages : [];
   const frontMatterQuestions = Array.isArray(bookData.questions) ? bookData.questions : [];
 
@@ -148,6 +154,18 @@ export async function loadBook() {
           title: slot.unitTitle,
           lessons: (slot.unitLessons || []).map(id => ({ id, title: lessonTitles[id] || id }))
         }]
+      });
+    }
+
+    const intro = lessonIntros[slot.lessonId];
+    if (intro) {
+      allPages.push({
+        id: `${slot.lessonId}-intro`,
+        type: 'content',
+        layout: 'lesson-intro',
+        module: moduleNum ? Number(moduleNum) : undefined,
+        title: intro.title,
+        content: [{ type: 'lesson-intro', ...intro }]
       });
     }
 
