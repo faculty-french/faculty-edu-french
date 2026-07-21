@@ -108,11 +108,19 @@ export function enforceSectionFlow(pages, lessonId, questions = []) {
     // Page height is budgeted by weight (a multiple-choice question is ~2x an
     // open-ended one and fills a page fast) AND capped by a raw question count.
     // Weights/budget calibrated to the pages that pass vs. overflow the 420x640
-    // sheet: heading≈0, consigne=1, open-ended/vrai-faux=1, MCQ=2, BUDGET=4.
-    const BUDGET = 4;
+    // sheet: heading≈0, consigne=1, open-ended/vrai-faux=1, MCQ=2. The first page
+    // carries the full-size section title so it gets a tighter budget (3); later
+    // pages carry a compact "(suite)" running head, so they fit a bit more (4).
+    // First page carries the full-size title (budget 4); continued pages a compact
+    // running head (budget 6). A short open-ended question = 1, so ~3 pack per page;
+    // an MCQ = 3 (tall), so 1 fits under the full title, 2 under the compact one.
+    const budgetFor = () => (emitted.length === 0 ? 4 : 6);
     const weightOf = (blk) => {
-      if (blk.type === "question") return qType.get(blk.questionId) === "multiple-choice" ? 2 : 1;
-      if (blk.type === "consigne") return 1;
+      if (blk.type === "question") return qType.get(blk.questionId) === "multiple-choice" ? 3 : 1;
+      // A consigne is a single short instruction line — negligible height next to a
+      // question's answer box / MCQ option list. Give it weight 0 so a run of MCQs
+      // packs 2-per continued page instead of being split 1-per-page by interleaved
+      // consignes. (The countCap still bounds raw question density.)
       return 0;
     };
     const emitted = [];
@@ -132,13 +140,21 @@ export function enforceSectionFlow(pages, lessonId, questions = []) {
         flush();
         startPage();
       } else if (blk.type === "consigne") {
-        if (curWeight + 1 > BUDGET && hasBodyBlock(cur)) { flush(); startPage(); }
+        // Weight 0: a consigne rides along with the question(s) it introduces and
+        // never forces a page break on its own.
         cur.push(blk);
-        curWeight += 1;
       } else if (blk.type === "question") {
         const w = weightOf(blk);
-        const countCap = emitted.length === 0 ? 2 : 3;
-        if ((curWeight + w > BUDGET || curQ >= countCap) && hasBodyBlock(cur)) { flush(); startPage(); }
+        const countCap = 3;
+        if ((curWeight + w > budgetFor() || curQ >= countCap) && hasBodyBlock(cur)) {
+          // A consigne immediately preceding this question introduces it — carry it
+          // to the new page so it never strands on the page break.
+          const carried = [];
+          while (cur.length && cur[cur.length - 1].type === "consigne") carried.unshift(cur.pop());
+          flush();
+          startPage();
+          cur.push(...carried);
+        }
         cur.push(blk);
         curWeight += w;
         curQ += 1;
@@ -147,6 +163,26 @@ export function enforceSectionFlow(pages, lessonId, questions = []) {
       }
     }
     flush();
+
+    // Rebalance a lonely trailing page so questions spread evenly (3+3+1 -> 3+2+2)
+    // rather than leaving a near-empty final page. Only moves whole question blocks
+    // between adjacent pages (order preserved), never grows a page past its max.
+    // GUARD: only pages made purely of heading/consigne/question may be rebalanced.
+    // A SOLO page (info-box/video/…) carries a block that MUST keep its position in
+    // the content order; pulling a question onto it would reorder the section.
+    const countQ = (pg) => pg.filter(b => b.type === "question").length;
+    const isCleanQPage = (pg) => pg.every(b => b.type === "heading" || b.type === "consigne" || b.type === "question");
+    while (emitted.length >= 2 &&
+           isCleanQPage(emitted[emitted.length - 1]) &&
+           isCleanQPage(emitted[emitted.length - 2]) &&
+           countQ(emitted[emitted.length - 1]) < countQ(emitted[emitted.length - 2]) - 1) {
+      const prev = emitted[emitted.length - 2];
+      const last = emitted[emitted.length - 1];
+      const qi = prev.map(b => b.type).lastIndexOf("question");
+      const moved = prev.splice(qi, 1)[0];
+      const insertPos = last.findIndex(b => b.type === "question");
+      last.splice(insertPos === -1 ? last.length : insertPos, 0, moved);
+    }
 
     for (let idx = 0; idx < emitted.length; idx++) {
       emitted[idx][0] = { ...H, text: idx === 0 ? B : B + " (suite)" };
@@ -187,6 +223,53 @@ export function enforceSectionFlow(pages, lessonId, questions = []) {
     cursor = cursor + (preceding.length > 0 ? 1 : 0) + sectionPages.length;
   }
 
+  // Pack adjacent light micro-task pages 2-up. A "light" page holds ONE open-ended
+  // micro-task activity — only microtask/consigne/question blocks, exactly one
+  // open-ended question, no heading/banner/filler — and fills only ~half a no-scroll
+  // sheet. Two such activities fit one sheet, so fold a light page into the previous
+  // light page (content order preserved). After a merge the page holds 2 questions and
+  // is no longer "light", so a third consecutive light page stays separate (3 -> 2+1).
+  const isOpenQ = (blk) => blk.type === "question" && qType.get(blk.questionId) !== "multiple-choice";
+  const isLightMicro = (pg) => {
+    const c = pg.content;
+    if (!c.length) return false;
+    if (c.some(b => b.type === "phase-banner" || b.type === "heading")) return false;
+    if (!c.every(b => b.type === "microtask" || b.type === "consigne" || b.type === "question")) return false;
+    const qs = c.filter(b => b.type === "question");
+    return qs.length === 1 && isOpenQ(qs[0]) && c.some(b => b.type === "microtask");
+  };
+  // Rough rendered-height model (in "lines"), calibrated on real pages: a merged pair
+  // that fits the 420x640 sheet estimates ~25; one that overflows estimates ~32. Only
+  // merge when the combined estimate stays at/under MERGE_CAP so heavy pairs (long
+  // prompts / 5-line answer boxes) are left split.
+  const MERGE_CAP = 28;
+  const estLines = (content) => {
+    let t = 0;
+    for (const b of content) {
+      if (b.type === "microtask") t += 2 + Math.ceil((b.text || "").length / 38);
+      else if (b.type === "consigne") t += 1 + Math.ceil((b.text || "").length / 38);
+      else if (b.type === "question") {
+        const q = (questions || []).find(x => x.id === b.questionId) || {};
+        t += Math.ceil((q.text || "").length / 34) + (q.lines || 4) + 1;
+      }
+    }
+    return t;
+  };
+  {
+    const packed = [];
+    for (const pg of work) {
+      const prev = packed[packed.length - 1];
+      if (prev && prev.phase === pg.phase && isLightMicro(prev) && isLightMicro(pg) &&
+          estLines(prev.content.concat(pg.content)) <= MERGE_CAP) {
+        prev.content = prev.content.concat(pg.content);
+        changed = true;
+      } else {
+        packed.push(pg);
+      }
+    }
+    work = packed;
+  }
+
   // Renumber page ids contiguously — only if we actually reflowed a section, so a
   // lesson with no qualifying sections (e.g. Leçon zéro) is left completely untouched.
   if (changed) {
@@ -195,11 +278,13 @@ export function enforceSectionFlow(pages, lessonId, questions = []) {
     }
   }
 
-  // Integrity net: no non-heading content block may be added, dropped, or altered.
-  const inBlocks = getNonHeadingBlocks(pages).map(b => JSON.stringify(b)).sort();
-  const outBlocks = getNonHeadingBlocks(work).map(b => JSON.stringify(b)).sort();
+  // Integrity net: no non-heading content block may be added, dropped, altered, OR
+  // REORDERED. Compared in document order (not sorted) so a page-boundary move that
+  // swaps a question past a SOLO block (e.g. an info-box) is caught here, not later.
+  const inBlocks = getNonHeadingBlocks(pages).map(b => JSON.stringify(b));
+  const outBlocks = getNonHeadingBlocks(work).map(b => JSON.stringify(b));
   assert.strictEqual(inBlocks.length, outBlocks.length, "Non-heading block count changed during reflow");
-  assert.deepStrictEqual(inBlocks, outBlocks, "Non-heading block content changed during reflow");
+  assert.deepStrictEqual(inBlocks, outBlocks, "Non-heading block content or order changed during reflow");
 
   return work;
 }

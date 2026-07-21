@@ -252,7 +252,7 @@
       "id": "lesson4-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (1/5)",
+      "title": "LEÇON 4 : QUESTIONS GUIDÉES (1/4)",
       "content": [
         {
           "type": "heading",
@@ -266,10 +266,6 @@
         {
           "type": "question",
           "questionId": "l4-q5"
-        },
-        {
-          "type": "consigne",
-          "text": "Choisissez la bonne réponse :"
         }
       ]
     },
@@ -277,12 +273,16 @@
       "id": "lesson4-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (2/5)",
+      "title": "LEÇON 4 : QUESTIONS GUIDÉES (2/4)",
       "content": [
         {
           "type": "heading",
           "text": "Questions guidées (suite)",
           "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Choisissez la bonne réponse :"
         },
         {
           "type": "question",
@@ -298,7 +298,7 @@
       "id": "lesson4-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (3/5)",
+      "title": "LEÇON 4 : QUESTIONS GUIDÉES (3/4)",
       "content": [
         {
           "type": "heading",
@@ -312,19 +312,6 @@
         {
           "type": "question",
           "questionId": "l4-q8"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p11",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (4/5)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Questions guidées (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -333,10 +320,10 @@
       ]
     },
     {
-      "id": "lesson4-p12",
+      "id": "lesson4-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 4 : QUESTIONS GUIDÉES (5/5)",
+      "title": "LEÇON 4 : QUESTIONS GUIDÉES (4/4)",
       "content": [
         {
           "type": "heading",
@@ -376,7 +363,7 @@
       ]
     },
     {
-      "id": "lesson4-p13",
+      "id": "lesson4-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : AVANTAGES ET INCONVÉNIENTS",
@@ -414,7 +401,7 @@
       ]
     },
     {
-      "id": "lesson4-p14",
+      "id": "lesson4-p13",
       "type": "content",
       "phase": 2,
       "title": "LEÇON 4 : CONJUGAISON — L’IMPARFAIT",
@@ -444,7 +431,7 @@
       ]
     },
     {
-      "id": "lesson4-p15",
+      "id": "lesson4-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : EFFORTS ET REFORMULATION",
@@ -476,7 +463,7 @@
       ]
     },
     {
-      "id": "lesson4-p16",
+      "id": "lesson4-p15",
       "type": "content",
       "phase": 2,
       "title": "LEÇON 4 : MINI-PRODUCTION & STRUCTURES (1/2)",
@@ -494,7 +481,7 @@
       ]
     },
     {
-      "id": "lesson4-p17",
+      "id": "lesson4-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : STRUCTURES À OBSERVER (1/2)",
@@ -538,7 +525,7 @@
       ]
     },
     {
-      "id": "lesson4-p18",
+      "id": "lesson4-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : STRUCTURES À OBSERVER (2/2)",
@@ -582,7 +569,7 @@
       ]
     },
     {
-      "id": "lesson4-p19",
+      "id": "lesson4-p18",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : VIDÉO DE GRAMMAIRE",
@@ -600,7 +587,7 @@
       ]
     },
     {
-      "id": "lesson4-p20",
+      "id": "lesson4-p19",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : MICRO-TÂCHE 10",
@@ -619,7 +606,7 @@
       ]
     },
     {
-      "id": "lesson4-p21",
+      "id": "lesson4-p20",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 4 : COMPRÉHENSION VIDÉO ET DISCUSSION",
@@ -641,7 +628,7 @@
       ]
     },
     {
-      "id": "lesson4-p22",
+      "id": "lesson4-p21",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 4 : TÂCHE FINALE — OUTILS ET ELEMENTS",
@@ -693,7 +680,7 @@
       ]
     },
     {
-      "id": "lesson4-p23",
+      "id": "lesson4-p22",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 4 : TÂCHE FINALE — ARTICLE",
@@ -715,7 +702,7 @@
       ]
     },
     {
-      "id": "lesson4-p24",
+      "id": "lesson4-p23",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 4 : ÉVALUATION & É-ÉVALUATION (1/3)",
@@ -733,10 +720,10 @@
       ]
     },
     {
-      "id": "lesson4-p25",
+      "id": "lesson4-p24",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 4 : É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "heading",
@@ -750,23 +737,23 @@
         {
           "type": "question",
           "questionId": "l4-e2"
+        },
+        {
+          "type": "question",
+          "questionId": "l4-e3"
         }
       ]
     },
     {
-      "id": "lesson4-p26",
+      "id": "lesson4-p25",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 4 : É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l4-e3"
         },
         {
           "type": "question",
@@ -775,19 +762,6 @@
         {
           "type": "question",
           "questionId": "l4-e5"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p27",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 4 : É-ÉVALUATION (3/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -796,7 +770,7 @@
       ]
     },
     {
-      "id": "lesson4-p28",
+      "id": "lesson4-p26",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 4 : SOUMISSION DU DEVOIR",

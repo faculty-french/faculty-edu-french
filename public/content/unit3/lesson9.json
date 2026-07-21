@@ -636,6 +636,10 @@
         {
           "type": "question",
           "questionId": "l9-q24"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q25"
         }
       ]
     },
@@ -649,10 +653,6 @@
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l9-q25"
         },
         {
           "type": "question",

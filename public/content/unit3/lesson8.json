@@ -262,6 +262,10 @@
         {
           "type": "question",
           "questionId": "l8-vf2"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-vf3"
         }
       ]
     },
@@ -275,10 +279,6 @@
           "type": "heading",
           "text": "Questions guidées (5 minutes) (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l8-vf3"
         },
         {
           "type": "question",

@@ -617,6 +617,10 @@
         {
           "type": "question",
           "questionId": "l10-q23"
+        },
+        {
+          "type": "question",
+          "questionId": "l10-q24"
         }
       ]
     },
@@ -630,10 +634,6 @@
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l10-q24"
         },
         {
           "type": "question",
@@ -670,7 +670,7 @@
       "id": "lesson10-p26",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 10 : VRAI OU FAUX (1/2)",
+      "title": "LEÇON 10 : É-ÉVALUATION (3/3) & VRAI/FAUX",
       "content": [
         {
           "type": "heading",
@@ -691,7 +691,7 @@
       "id": "lesson10-p27",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 10 : VRAI OU FAUX (2/2) & SOUMISSION",
+      "title": "LEÇON 10 : VRAI/FAUX & SOUMISSION",
       "content": [
         {
           "type": "question",

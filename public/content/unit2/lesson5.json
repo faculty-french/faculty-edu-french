@@ -246,7 +246,7 @@
       "id": "lesson5-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : QUESTIONS GUIDÉES (1/4)",
+      "title": "LEÇON 5 : QUESTIONS GUIDÉES (1/3)",
       "content": [
         {
           "type": "heading",
@@ -271,7 +271,7 @@
       "id": "lesson5-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : QUESTIONS GUIDÉES (2/4)",
+      "title": "LEÇON 5 : QUESTIONS GUIDÉES (2/3)",
       "content": [
         {
           "type": "heading",
@@ -285,6 +285,10 @@
         {
           "type": "question",
           "questionId": "l5-q6"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q7"
         }
       ]
     },
@@ -292,33 +296,16 @@
       "id": "lesson5-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 5 : QUESTIONS GUIDÉES (3/4)",
+      "title": "LEÇON 5 : QUESTIONS GUIDÉES (3/3)",
       "content": [
         {
           "type": "heading",
           "text": "Questions guidées (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l5-q7"
         },
         {
           "type": "consigne",
           "text": "Choisissez la bonne réponse :"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p11",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 5 : QUESTIONS GUIDÉES (4/4)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Questions guidées (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -331,7 +318,7 @@
       ]
     },
     {
-      "id": "lesson5-p12",
+      "id": "lesson5-p11",
       "type": "content",
       "phase": 2,
       "title": "LEÇON 5 : IDÉE PRINCIPALE DU TEXTE",
@@ -349,7 +336,7 @@
       ]
     },
     {
-      "id": "lesson5-p13",
+      "id": "lesson5-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : TEXTE EXPLICATIF",
@@ -388,7 +375,7 @@
       ]
     },
     {
-      "id": "lesson5-p14",
+      "id": "lesson5-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : RÔLE DE LA TECHNOLOGIE ET DE LA SOLITUDE",
@@ -416,7 +403,7 @@
       ]
     },
     {
-      "id": "lesson5-p15",
+      "id": "lesson5-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : RÉSUMÉ ET REFORMULATION",
@@ -448,7 +435,7 @@
       ]
     },
     {
-      "id": "lesson5-p16",
+      "id": "lesson5-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : STRUCTURES À OBSERVER",
@@ -497,7 +484,7 @@
       ]
     },
     {
-      "id": "lesson5-p17",
+      "id": "lesson5-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : VIDÉO DE COMPRÉHENSION",
@@ -520,7 +507,7 @@
       ]
     },
     {
-      "id": "lesson5-p18",
+      "id": "lesson5-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : RÉSUMÉ VIDÉO ET CONNECTEURS",
@@ -546,7 +533,7 @@
       ]
     },
     {
-      "id": "lesson5-p19",
+      "id": "lesson5-p18",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 5 : CONNECTEURS (SUITE)",
@@ -572,7 +559,7 @@
       ]
     },
     {
-      "id": "lesson5-p20",
+      "id": "lesson5-p19",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 5 : TÂCHE FINALE — PREPARATION",
@@ -624,7 +611,7 @@
       ]
     },
     {
-      "id": "lesson5-p21",
+      "id": "lesson5-p20",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 5 : TÂCHE FINALE — CRÉATION",
@@ -642,7 +629,7 @@
       ]
     },
     {
-      "id": "lesson5-p22",
+      "id": "lesson5-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 5 : ÉVALUATION & É-ÉVALUATION (1/3)",
@@ -660,10 +647,10 @@
       ]
     },
     {
-      "id": "lesson5-p23",
+      "id": "lesson5-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 5 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 5 : É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "heading",
@@ -681,23 +668,23 @@
         {
           "type": "question",
           "questionId": "l5-e2"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e3"
         }
       ]
     },
     {
-      "id": "lesson5-p24",
+      "id": "lesson5-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 5 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 5 : É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l5-e3"
         },
         {
           "type": "question",
@@ -706,19 +693,6 @@
         {
           "type": "question",
           "questionId": "l5-e5"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p25",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 5 : É-ÉVALUATION (3/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -727,7 +701,7 @@
       ]
     },
     {
-      "id": "lesson5-p26",
+      "id": "lesson5-p24",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 5 : SOUMISSION DU DEVOIR",

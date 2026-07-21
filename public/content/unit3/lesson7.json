@@ -258,6 +258,10 @@
         {
           "type": "question",
           "questionId": "l7-vf2"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-vf3"
         }
       ]
     },
@@ -271,10 +275,6 @@
           "type": "heading",
           "text": "Questions guidées (10 minutes) (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l7-vf3"
         },
         {
           "type": "question",
@@ -630,6 +630,10 @@
         {
           "type": "question",
           "questionId": "l7-e2"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e3"
         }
       ]
     },
@@ -643,10 +647,6 @@
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l7-e3"
         },
         {
           "type": "question",
