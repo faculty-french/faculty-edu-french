@@ -1,6 +1,6 @@
 export const CONFIG = {
   // RELAY_URL is public by design; secrets and subscribers live securely in the Worker
-  RELAY_URL: import.meta.env.VITE_RELAY_URL || 'https://faculty-bot-relay.workers.dev',
+  RELAY_URL: import.meta.env.VITE_RELAY_URL || 'https://faculty-bot-relay.georgeadelpro.workers.dev',
   BOOK_TITLE: "Le livret de l'étudiant",
   BOOK_AUTHOR: "Ola Yahia Fangary Ali",
   TOTAL_PAGES: 564,

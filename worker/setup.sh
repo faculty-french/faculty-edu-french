@@ -67,7 +67,17 @@ printf '%s' "$HOOK_RES" | grep -q '"ok":true' || { echo "error: setWebhook faile
 CONFIG="$ROOT_DIR/src/config/config.js"
 if ! grep -q "$WORKER_URL" "$CONFIG"; then
   echo "==> Pointing the website at $WORKER_URL"
-  sed -i -E "s|(RELAY_URL: import.meta.env.VITE_RELAY_URL \|\| ')[^']*(')|\1${WORKER_URL}\2|" "$CONFIG"
+  # Replace only the quoted fallback URL on the RELAY_URL line. Done in node because
+  # the pattern itself contains "||" and "/", which collide with sed's delimiters.
+  node -e '
+    const fs = require("fs");
+    const [file, url] = process.argv.slice(1);
+    const src = fs.readFileSync(file, "utf8");
+    const out = src.replace(/(RELAY_URL:[^\n]*\|\|\s*")[^"]*(")/, `$1${url}$2`)
+                   .replace(/(RELAY_URL:[^\n]*\|\|\s*'"'"')[^'"'"']*('"'"')/, `$1${url}$2`);
+    if (out === src) { console.error("warning: RELAY_URL not patched; set it by hand in " + file); process.exit(0); }
+    fs.writeFileSync(file, out);
+  ' "$CONFIG" "$WORKER_URL"
   grep -n 'RELAY_URL' "$CONFIG"
 fi
 

@@ -4,4 +4,4 @@ compatibility_date = "2024-01-01"
 
 [[kv_namespaces]]
 binding = "SUBSCRIBERS"
-id = "<FILL-IN-AFTER-kv-namespace-create>"
+id = "a92f77ccea1340aba0972f8c97e90865"
