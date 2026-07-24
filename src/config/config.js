@@ -1,6 +1,6 @@
 export const CONFIG = {
-  TELEGRAM_BOT_TOKEN: "YOUR_BOT_TOKEN",
-  TELEGRAM_CHAT_ID: "YOUR_CHAT_ID",
+  // RELAY_URL is public by design; secrets and subscribers live securely in the Worker
+  RELAY_URL: import.meta.env.VITE_RELAY_URL || 'https://faculty-bot-relay.workers.dev',
   BOOK_TITLE: "Le livret de l'étudiant",
   BOOK_AUTHOR: "Ola Yahia Fangary Ali",
   TOTAL_PAGES: 564,

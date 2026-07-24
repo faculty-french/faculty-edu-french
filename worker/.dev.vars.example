@@ -1,0 +1,6 @@
+# Local development environment secrets example for Cloudflare Worker.
+# Copy this file to .dev.vars for local testing with `wrangler dev`.
+# WARNING: worker/.dev.vars is gitignored and MUST NEVER BE COMMITTED.
+
+TELEGRAM_BOT_TOKEN="<TELEGRAM_BOT_TOKEN>"
+TELEGRAM_WEBHOOK_SECRET="<TELEGRAM_WEBHOOK_SECRET>"

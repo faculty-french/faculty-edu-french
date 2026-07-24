@@ -1,39 +1,38 @@
 import { CONFIG } from '../config/config';
-import { formatDateFr, splitMessage } from './utils';
 
 export async function sendToTelegram(studentName, lessonTitle, questions, answers) {
-  const header = `📚 *Soumission de devoir*\n👤 Étudiant: ${studentName}\n📖 Leçon: ${lessonTitle}\n📅 Date: ${formatDateFr()}\n\n`;
+  const payload = {
+    studentName,
+    lessonId: questions[0]?.lessonId || '',
+    lessonTitle,
+    submittedAt: new Date().toISOString(),
+    answers: questions.map((q, i) => ({
+      index: i + 1,
+      type: q.type || 'open-ended',
+      question: q.text || '',
+      answer: answers[q.id]?.value || ''
+    }))
+  };
 
-  let body = '';
-  questions.forEach((q, i) => {
-    const answer = answers[q.id]?.value || '—';
-    const emoji = q.type === 'open-ended' ? '✍️' : '✅';
-    body += `*Question ${i + 1}:* ${q.text}\n${emoji} Réponse: ${answer}\n\n`;
-  });
-
-  body += `---\nTotal: ${questions.length} questions`;
-
-  const fullMessage = header + body;
-  const parts = splitMessage(fullMessage);
-
-  for (let i = 0; i < parts.length; i++) {
-    const response = await fetch(
-      `https://api.telegram.org/bot${CONFIG.TELEGRAM_BOT_TOKEN}/sendMessage`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          chat_id: CONFIG.TELEGRAM_CHAT_ID,
-          text: parts[i],
-          parse_mode: 'Markdown'
-        })
-      }
-    );
-
-    if (!response.ok) {
-      const errorData = await response.json().catch(() => ({}));
-      throw new Error(errorData.description || `Erreur HTTP ${response.status}`);
+  let response;
+  try {
+    response = await fetch(`${CONFIG.RELAY_URL}/submit`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: AbortSignal.timeout(20000)
+    });
+  } catch (err) {
+    if (err.name === 'TimeoutError' || err.name === 'AbortError') {
+      throw new Error('Délai d\'attente dépassé (20s). Veuillez vérifier votre connexion internet et réessayer.');
     }
+    throw new Error('Impossible de contacter le serveur de relais. Veuillez vérifier votre connexion.');
+  }
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    const message = errorData.error || errorData.warning || `Erreur serveur (${response.status})`;
+    throw new Error(message);
   }
 
   return true;

@@ -29,3 +29,10 @@ tools/*.png
 tools/cover-screenshot.png
 tools/screenshot-cover.js
 tools/brief-*.md
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+worker/.dev.vars
+

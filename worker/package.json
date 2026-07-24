@@ -1,0 +1,12 @@
+{
+  "name": "faculty-bot-relay",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node test-split.mjs && node test-relay.mjs",
+    "test:split": "node test-split.mjs",
+    "test:relay": "node test-relay.mjs",
+    "deploy": "wrangler deploy"
+  }
+}
