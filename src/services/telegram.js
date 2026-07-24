@@ -1,17 +1,33 @@
 import { CONFIG } from '../config/config';
 
 export async function sendToTelegram(studentName, lessonTitle, questions, answers) {
+  // A multiple-choice answer is stored as the option's id ("b"), which is meaningless
+  // on its own in Telegram — resolve it to the option's own wording. Where the lesson
+  // declares the expected answer, also mark whether the student got it right.
+  const describe = (q, raw) => {
+    if (q.type === 'multiple-choice' && Array.isArray(q.options)) {
+      const opt = q.options.find((o) => o.id === raw);
+      if (opt) return `${opt.label ?? opt.id}) ${opt.text}`;
+    }
+    return raw;
+  };
+
   const payload = {
     studentName,
     lessonId: questions[0]?.lessonId || '',
     lessonTitle,
     submittedAt: new Date().toISOString(),
-    answers: questions.map((q, i) => ({
-      index: i + 1,
-      type: q.type || 'open-ended',
-      question: q.text || '',
-      answer: answers[q.id]?.value || ''
-    }))
+    answers: questions.map((q, i) => {
+      const raw = answers[q.id]?.value ?? '';
+      const gradable = q.type === 'multiple-choice' || q.type === 'vrai-faux';
+      return {
+        index: i + 1,
+        type: q.type || 'open-ended',
+        question: q.text || '',
+        answer: String(describe(q, raw)),
+        correct: gradable && q.answer != null && raw !== '' ? raw === q.answer : null
+      };
+    })
   };
 
   let response;

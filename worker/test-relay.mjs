@@ -270,6 +270,38 @@ try {
     passed++;
   }
 
+  // ---- Test 9: choice questions are reported readably and scored
+  {
+    const kv = makeKV(); const env = envFor(kv);
+    installFetchMock(new Map(), () => env);
+    await subscribe(kv, env, 777, 'Prof');
+
+    const c = makeCtx();
+    const sent = installFetchMock(new Map(), () => env);
+    await worker.fetch(submitReq({
+      studentName: 'Nour', lessonTitle: 'Leçon 2', submittedAt: new Date().toISOString(),
+      answers: [
+        { index: 1, type: 'open-ended', question: 'Décrivez l\'image.', answer: 'Un parc.', correct: null },
+        { index: 2, type: 'multiple-choice', question: 'Les espaces verts améliorent…', answer: 'b) la qualité de l’air', correct: true },
+        { index: 3, type: 'multiple-choice', question: 'Autre question ?', answer: 'a) la pollution', correct: false },
+        { index: 4, type: 'vrai-faux', question: 'Les arbres produisent de l\'oxygène.', answer: 'vrai', correct: true },
+        { index: 5, type: 'multiple-choice', question: 'Sans corrigé ?', answer: 'c) test', correct: null },
+      ],
+    }), env, c);
+    await c.drain();
+
+    const text = sent.map((m) => m.text).join('');
+    assert(text.includes('✍️ Un parc.'), 'written answer keeps the pen marker');
+    assert(text.includes('✅ b) la qualité de l’air'), 'a correct choice shows its wording, not just its id');
+    assert(text.includes('❌ a) la pollution'), 'an incorrect choice is marked wrong');
+    assert(text.includes('✅ vrai'), 'vrai-faux is graded too');
+    assert(text.includes('📝 c) test'), 'a choice with no declared answer is neutral');
+    // graded = #2, #3, #4 (#5 has no declared answer); correct = #2, #4
+    assert(text.includes('questions à choix : 2/3'), `score line missing or wrong in: ${text.slice(-120)}`);
+    console.log('[PASS] Test 9: choice answers show their wording and are scored 2/3.');
+    passed++;
+  }
+
   console.log(`\nALL ${passed} RELAY TESTS PASSED!`);
 } catch (err) {
   console.error(`\n[FAIL] after ${passed} passing test(s):`, err);

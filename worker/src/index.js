@@ -132,18 +132,29 @@ function formatReport(data) {
   report += `📖 Leçon : ${esc(lessonTitle || 'Non spécifiée')}\n`;
   report += `📅 ${esc(dateStr)}\n\n`;
 
+  let graded = 0;
+  let correct = 0;
+
   answers.forEach((ans, i) => {
     const idx = Number.isFinite(ans.index) ? ans.index : i + 1;
     const qText = esc(ans.question);
     const rawAns = (ans.answer || '').trim();
     const ansText = rawAns ? esc(rawAns) : '—';
-    const emoji = ans.type === 'open-ended' ? '✍️' : '✅';
+
+    // ✍️ written answer · ✅/❌ a graded choice · 📝 a choice with no declared answer
+    let emoji = '✍️';
+    if (ans.type !== 'open-ended') {
+      if (ans.correct === true) { emoji = '✅'; graded++; correct++; }
+      else if (ans.correct === false) { emoji = '❌'; graded++; }
+      else emoji = '📝';
+    }
 
     report += `<b>${idx}.</b> ${qText}\n`;
     report += `${emoji} ${ansText}\n\n`;
   });
 
   report += `———\n${answers.length} question(s)`;
+  if (graded > 0) report += ` · questions à choix : ${correct}/${graded}`;
 
   return report;
 }
@@ -413,13 +424,13 @@ export default {
       }
 
       const contentLength = parseInt(request.headers.get('Content-Length') || '0', 10);
-      if (contentLength > 65536) {
-        return responseJSON({ ok: false, error: 'Taille de requête trop grande (max 64 KB).' }, 400, request);
+      if (contentLength > 262144) {
+        return responseJSON({ ok: false, error: 'Taille de requête trop grande (max 256 KB).' }, 400, request);
       }
 
       const rawBody = await request.text();
-      if (rawBody.length > 65536) {
-        return responseJSON({ ok: false, error: 'Taille de requête trop grande (max 64 KB).' }, 400, request);
+      if (rawBody.length > 262144) {
+        return responseJSON({ ok: false, error: 'Taille de requête trop grande (max 256 KB).' }, 400, request);
       }
 
       let body;
