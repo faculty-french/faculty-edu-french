@@ -37,16 +37,7 @@
 .mind-map__canvas {
   position: relative;
   width: 100%;
-  height: 176px;
-}
-
-.mind-map__svg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 1;
+  height: 240px;
 }
 
 .mind-map__grid {
@@ -83,17 +74,80 @@
 }
 
 .mind-map__center-icon {
-  font-size: 1.35rem;
+  font-size: 1.05rem;
   line-height: 1;
   margin-bottom: 2px;
 }
 
 .mind-map__center-label {
   font-family: var(--font-sans);
-  font-size: 0.82rem;
+  font-size: 0.62rem;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
+}
+
+/* ---------- Orbit mode ----------
+   The four branches travel around the central node along a shared ellipse. The
+   ellipse is sized in JS from the measured canvas so the pills can never cross the
+   sheet edges (the sheet clips at 420x640 and must not scroll). offset-rotate: 0deg
+   keeps every pill upright while it moves. */
+.mind-map__canvas--orbit .mind-map__grid {
+  display: block;
+  position: absolute;
+  inset: 0;
+}
+
+.mind-map__canvas--orbit .mind-map__center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 4px;
+  /* Pills sweep behind the hub — that is what an orbit looks like. */
+  z-index: 3;
+}
+
+.mind-map__canvas--orbit .mind-map__branch {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 132px;
+  height: 46px;
+  z-index: 2;
+  offset-rotate: 0deg;
+  animation: mind-map-orbit var(--orbit-duration, 18s) linear infinite;
+  animation-play-state: var(--orbit-play, running);
+  will-change: offset-distance;
+}
+
+@keyframes mind-map-orbit {
+  from { offset-distance: 0%; }
+  to { offset-distance: 100%; }
+}
+
+/* Faint trace of the shared path, so the movement reads as an orbit. */
+.mind-map__ring {
+  position: absolute;
+  border: 1.5px dashed var(--color-border);
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+/* A moving target is hard to hit — the orbit stops on hover/press, and the
+   component pauses it outright while the editing panel is open. */
+.mind-map__canvas--orbit:hover .mind-map__branch,
+.mind-map__canvas--orbit .mind-map__branch:active,
+.mind-map__canvas--orbit .mind-map__branch:focus-visible {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mind-map__canvas--orbit .mind-map__branch { animation-play-state: paused; }
 }
 
 /* The branch pill has no room for an icon next to a label like « Inconvénients »

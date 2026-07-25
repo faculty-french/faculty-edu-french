@@ -1,22 +1,27 @@
 import { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 
-const TONE_COLORS = {
-  green: 'var(--phase-2)',
-  red: 'var(--margin-red)',
-  blue: 'var(--phase-1)',
-  orange: 'var(--phase-3)',
-};
+// The four branches orbit the central node. Geometry is measured rather than
+// hard-coded so the ellipse always fits the sheet: the pills must never cross the
+// edges of the canvas (the sheet clips at 420x640 and must not scroll) and must
+// clear the central node as they pass above and below it.
+const CANVAS_H = 240;
+const PILL_W = 132;
+const PILL_H = 46;
+const CENTER_D = 80;
+const ORBIT_SECONDS = 18;
 
-// Four fixed slots around the central node: grid placement + the Bézier curve that
-// links the centre of the canvas to that slot. The SVG uses a 0-100 viewBox with
-// preserveAspectRatio="none", so the curves follow whatever size the canvas takes.
-const SLOTS = [
-  { gridArea: '1 / 1 / 2 / 2', path: 'M 50 50 C 40 50, 30 25, 22 25' },
-  { gridArea: '1 / 3 / 2 / 4', path: 'M 50 50 C 60 50, 70 25, 78 25' },
-  { gridArea: '2 / 1 / 3 / 2', path: 'M 50 50 C 40 75, 30 75, 22 75' },
-  { gridArea: '2 / 3 / 3 / 4', path: 'M 50 50 C 60 75, 70 75, 78 75' },
-];
+// Motion path support (Safari got it in 16). Without it the pills fall back to a
+// static ring, which is why their placement is a transform on top of a real layout.
+const SUPPORTS_MOTION_PATH =
+  typeof CSS !== 'undefined' && CSS.supports?.('offset-path', 'path("M 0 0 L 1 1")');
+
+// A circle, not an ellipse: offset-distance advances by arc length, so only on a
+// circle do four pills started a quarter apart stay a quarter apart — on an ellipse
+// they bunch up at the flat ends and overlap each other.
+function circlePath(cx, cy, r) {
+  return `path("M ${cx - r} ${cy} A ${r} ${r} 0 1 1 ${cx + r} ${cy} A ${r} ${r} 0 1 1 ${cx - r} ${cy}")`;
+}
 
 export default function MindMap({ id, center, caption, hint, branches = [] }) {
   const [data, setData] = useState(() => {
@@ -89,24 +94,44 @@ export default function MindMap({ id, center, caption, hint, branches = [] }) {
       0
     );
 
-  const slots = branches.slice(0, SLOTS.length);
+  const slots = branches.slice(0, 4);
+
+  // Measured orbit geometry (the sheet is a fixed CSS box, but the width still
+  // depends on the page padding, so it is read from the DOM rather than assumed).
+  const canvasRef = useRef(null);
+  const [width, setWidth] = useState(0);
+  useEffect(() => {
+    const el = canvasRef.current;
+    if (!el) return;
+    const measure = () => setWidth(el.clientWidth);
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  const cx = width / 2;
+  const cy = CANVAS_H / 2;
+  // The largest circle that keeps a whole pill inside the canvas, horizontally and
+  // vertically. A quarter turn apart, two pills are then r apart vertically, which
+  // is well over a pill's height — they never cover each other.
+  const r = Math.max(60, Math.min(cx - PILL_W / 2 - 6, CANVAS_H / 2 - PILL_H / 2 - 4));
+  const orbitReady = width > 0 && SUPPORTS_MOTION_PATH;
 
   return (
     <div className="mind-map" onPointerDown={stopEvent} onMouseDown={stopEvent} onTouchStart={stopEvent}>
-      <div className="mind-map__canvas">
-        <svg className="mind-map__svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-          {slots.map((branch, i) => (
-            <path
-              key={branch.id}
-              d={SLOTS[i].path}
-              stroke={TONE_COLORS[branch.tone] || 'var(--ink-soft)'}
-              strokeWidth="3"
-              fill="none"
-              strokeLinecap="round"
-              vectorEffect="non-scaling-stroke"
-            />
-          ))}
-        </svg>
+      <div
+        ref={canvasRef}
+        className={`mind-map__canvas${orbitReady ? ' mind-map__canvas--orbit' : ''}`}
+        style={activeBranch ? { '--orbit-play': 'paused' } : undefined}
+      >
+        {orbitReady && (
+          <div
+            className="mind-map__ring"
+            aria-hidden="true"
+            style={{ left: cx - r, top: cy - r, width: r * 2, height: r * 2 }}
+          />
+        )}
 
         <div className="mind-map__grid">
           {slots.map((branch, i) => {
@@ -117,7 +142,16 @@ export default function MindMap({ id, center, caption, hint, branches = [] }) {
                 key={branch.id}
                 type="button"
                 className={`mind-map__branch mind-map__branch--${branch.tone}`}
-                style={{ gridArea: SLOTS[i].gridArea }}
+                style={
+                  orbitReady
+                    ? {
+                        offsetPath: circlePath(cx, cy, r),
+                        // Evenly spaced on the ellipse: a negative delay starts the
+                        // animation part-way through instead of bunching them up.
+                        animationDelay: `${-(i / slots.length) * ORBIT_SECONDS}s`,
+                      }
+                    : { gridArea: ['1 / 1 / 2 / 2', '1 / 3 / 2 / 4', '2 / 1 / 3 / 2', '2 / 3 / 3 / 4'][i] }
+                }
                 onClick={(e) => {
                   stopEvent(e);
                   setActiveBranchIndex(i);
@@ -138,7 +172,10 @@ export default function MindMap({ id, center, caption, hint, branches = [] }) {
             );
           })}
 
-          <div className="mind-map__center" style={{ gridArea: '1 / 2 / 3 / 3' }}>
+          <div
+            className="mind-map__center"
+            style={orbitReady ? undefined : { gridArea: '1 / 2 / 3 / 3' }}
+          >
             <span className="mind-map__center-icon" role="img" aria-label="voiture">🚗</span>
             <span className="mind-map__center-label">{center}</span>
           </div>

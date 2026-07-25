@@ -90,8 +90,41 @@ try {
   assert.ok(!metrics.err, metrics.err);
   assert.ok(metrics.diff <= 2, `FAIL 2: wrapper overflowed by ${metrics.diff}px (must be <= 2)`);
   assert.ok(metrics.diffX <= 2, `FAIL 2: wrapper overflowed horizontally by ${metrics.diffX}px — a branch pill is wider than the sheet`);
-  assert.ok(metrics.mmHeight <= 200, `FAIL 2: mind-map height is ${metrics.mmHeight}px (must be <= 200px)`);
-  console.log(`OK 2: no overflow (${metrics.diff}px vertical, ${metrics.diffX}px horizontal), mind-map height ${Math.round(metrics.mmHeight)}px <= 200px`);
+  assert.ok(metrics.mmHeight <= 300, `FAIL 2: mind-map height is ${metrics.mmHeight}px (must be <= 300px)`);
+  console.log(`OK 2: no overflow (${metrics.diff}px vertical, ${metrics.diffX}px horizontal), mind-map height ${Math.round(metrics.mmHeight)}px <= 300px`);
+
+  // Assertion 2b: the branches orbit the centre — they must stay inside the canvas
+  // for the whole revolution, or the sheet would clip a pill mid-flight.
+  const sample = () => page.evaluate(() => {
+    const pageEl = document.querySelector('[data-page-id="lesson3-p18"]');
+    const canvas = pageEl.querySelector('.mind-map__canvas');
+    const c = canvas.getBoundingClientRect();
+    return {
+      orbiting: canvas.className.includes('--orbit'),
+      pills: [...pageEl.querySelectorAll('.mind-map__branch')].map((b) => {
+        const r = b.getBoundingClientRect();
+        return {
+          x: Math.round(r.left - c.left),
+          y: Math.round(r.top - c.top),
+          inside: r.left >= c.left - 1 && r.right <= c.right + 1 && r.top >= c.top - 1 && r.bottom <= c.bottom + 1,
+        };
+      }),
+    };
+  });
+
+  const first = await sample();
+  assert.ok(first.orbiting, 'FAIL 2b: the orbit class is missing — branches are not animated');
+  let moved = false;
+  for (let i = 0; i < 6; i++) {
+    await new Promise((r) => setTimeout(r, 1500));
+    const s = await sample();
+    const outside = s.pills.filter((p) => !p.inside);
+    assert.strictEqual(outside.length, 0,
+      `FAIL 2b: a branch left the canvas mid-orbit: ${JSON.stringify(outside)}`);
+    if (s.pills.some((p, k) => Math.abs(p.x - first.pills[k].x) > 5 || Math.abs(p.y - first.pills[k].y) > 5)) moved = true;
+  }
+  assert.ok(moved, 'FAIL 2b: the branches never moved — the orbit animation is not running');
+  console.log('OK 2b: branches orbit continuously and stay inside the canvas');
 
   // Assertion 3: Tap Inconvénients opens panel without turning page
   const pageBefore = await page.evaluate(() => localStorage.getItem('book_current_page_book'));
