@@ -51,15 +51,18 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
     const el = contentRef.current;
     if (!el) return;
 
-    if (import.meta.env.DEV) {
+    // Also on in production for admins: moving a block can push a page past the
+    // fixed 420x640 sheet, and the admin must see which page stopped fitting.
+    if (import.meta.env.DEV || isAdmin) {
       const isOverflowing = el.scrollHeight - el.clientHeight > 2;
       setOverflowing(isOverflowing);
-      if (isOverflowing) {
-        // eslint-disable-next-line no-console
+      if (isOverflowing && import.meta.env.DEV) {
         console.warn('OVERFLOW page', page.id);
       }
+    } else if (overflowing) {
+      setOverflowing(false);
     }
-  }, [page.id, page.content, highlights, canHighlight]);
+  }, [page.id, page.content, highlights, canHighlight, isAdmin, overflowing]);
 
   // Highlights for this page, resolved during render so they are part of React's output.
   // Keys are strings so composite boxes can address each of their text leaves separately.

@@ -162,6 +162,47 @@ function seedFiles() {
   console.log('OK 4: bad lesson shapes and bad passwords are rejected');
 }
 
+// ---- 4b. structural guards for moved blocks
+{
+  const env = makeEnv();
+  installGithubMock(seedFiles());
+  const withBlocks = (content, questions = LESSON.questions) => ({
+    ...LESSON,
+    questions,
+    pages: [{ id: 'lesson3-p01', type: 'content', title: 'T', content }],
+  });
+  const bad = [
+    ['bloc nul', withBlocks([null])],
+    ['bloc sans type', withBlocks([{ text: 'x' }])],
+    ['tableau au lieu de bloc', withBlocks([['heading']])],
+    ['question orpheline', withBlocks([{ type: 'question', questionId: 'l3-does-not-exist' }])],
+    ['question dupliquée', withBlocks([
+      { type: 'question', questionId: 'l3-q1' },
+      { type: 'question', questionId: 'l3-q1' },
+    ])],
+  ];
+  for (const [name, lesson] of bad) {
+    const res = await worker.fetch(post('/admin/save', { password: PASSWORD, path: 'unit1/lesson3.json', lesson }), env, ctx);
+    assert.strictEqual(res.status, 400, `must be rejected: ${name}`);
+  }
+  // duplicate page ids would break page addressing
+  const dupPages = { ...LESSON, pages: [LESSON.pages[0], { ...LESSON.pages[0], content: [] }] };
+  const dupRes = await worker.fetch(post('/admin/save', { password: PASSWORD, path: 'unit1/lesson3.json', lesson: dupPages }), env, ctx);
+  assert.strictEqual(dupRes.status, 400, 'duplicate page ids must be rejected');
+
+  // a legitimately moved question block (page 2 now owns it) is accepted
+  const movedOk = {
+    ...LESSON,
+    pages: [
+      { id: 'lesson3-p01', type: 'content', title: 'T', content: [] },
+      { id: 'lesson3-p02', type: 'content', title: 'T2', content: [{ type: 'question', questionId: 'l3-q1' }] },
+    ],
+  };
+  const okRes = await worker.fetch(post('/admin/save', { password: PASSWORD, path: 'unit1/lesson3.json', lesson: movedOk }), env, ctx);
+  assert.strictEqual(okRes.status, 200, 'a moved question block must be accepted');
+  console.log('OK 4b: broken blocks, orphan/duplicate questions and duplicate page ids rejected; a real move accepted');
+}
+
 // ---- 5. successful save commits to both branches, UTF-8 survives base64
 {
   const env = makeEnv();

@@ -92,7 +92,14 @@ try {
       p.sourceFile === 'unit1/lesson3.json' && (p.content || []).some((b) => b.type === 'paragraph' && b.text));
     const p = book.pages[idx];
     const block = p.content.find((b) => b.type === 'paragraph' && b.text);
-    return { idx, pageId: p.id, sourceIndex: p.sourceIndex, originalText: block.text };
+    const lesson = await (await fetch(new URL('content/unit1/lesson3.json', document.baseURI).href)).json();
+    return {
+      idx, pageId: p.id, sourceIndex: p.sourceIndex, originalText: block.text,
+      blockCount: lesson.pages[p.sourceIndex].content.length,
+      targetBlockCount: lesson.pages[p.sourceIndex + 1].content.length,
+      inventory: lesson.pages.flatMap((pg) => pg.content).map((b) => b.type).sort(),
+      questionsJson: JSON.stringify(lesson.questions),
+    };
   });
   assert.ok(target.idx > 0, 'no lesson3 page with a paragraph found');
   console.log(`target: ${target.pageId} (book index ${target.idx}, source index ${target.sourceIndex})`);
@@ -152,6 +159,33 @@ try {
     () => [...document.querySelectorAll('.admin-field__textarea')].length > 0,
     { timeout: 10000 }
   );
+
+  // ---- 6. block cards, reorder and move to another page
+  const cards = await page.evaluate(() => {
+    const els = [...document.querySelectorAll('.admin-block')];
+    return els.map((el) => ({
+      name: el.querySelector('.admin-block__name').textContent,
+      type: el.dataset.blockType,
+    }));
+  });
+  assert.ok(cards.length >= 2, `expected several block cards, got ${cards.length}`);
+  assert.ok(cards[0].name.startsWith('1.'), 'block cards are numbered');
+  console.log(`OK 6: editor shows ${cards.length} block cards (${cards.map((c) => c.type).join(', ')})`);
+
+  // reorder: move the first block down, then back up — the card order must follow
+  const orderNow = () => page.evaluate(() =>
+    [...document.querySelectorAll('.admin-block')].map((el) => el.dataset.blockType));
+  const before = await orderNow();
+  await page.click('.admin-block:nth-of-type(1) .admin-block__btn:nth-of-type(2)'); // ↓
+  await new Promise((r) => setTimeout(r, 200));
+  const afterDown = await orderNow();
+  assert.strictEqual(afterDown[0], before[1], 'the second block moved up');
+  assert.strictEqual(afterDown[1], before[0], 'the first block moved down');
+  await page.click('.admin-block:nth-of-type(2) .admin-block__btn:nth-of-type(1)'); // ↑ back
+  await new Promise((r) => setTimeout(r, 200));
+  assert.deepStrictEqual(await orderNow(), before, 'reorder is reversible');
+  console.log('OK 7: ↑/↓ reorder blocks inside the page and are reversible');
+
   const fieldHandle = await page.evaluateHandle((original) => {
     return [...document.querySelectorAll('.admin-field__textarea')].find((t) => t.value === original);
   }, target.originalText);
@@ -160,6 +194,21 @@ try {
   await fieldHandle.asElement().evaluate((el) => { el.focus(); el.select(); });
   await page.keyboard.press('Backspace');
   await fieldHandle.asElement().type(EDITED);
+
+  // move the LAST block of the page to the next page of the same lesson
+  const movedType = await page.evaluate(() => {
+    const cards = [...document.querySelectorAll('.admin-block')];
+    const last = cards[cards.length - 1];
+    const select = last.querySelector('.admin-block__move');
+    const target = [...select.options].find((o) => o.value !== '');
+    select.value = target.value;
+    select.dispatchEvent(new Event('change', { bubbles: true }));
+    return { type: last.dataset.blockType, toIndex: Number(target.value) };
+  });
+  await page.waitForSelector('#admin-moves', { timeout: 5000 });
+  const cardsAfterMove = await page.$$eval('.admin-block', (els) => els.length);
+  assert.strictEqual(cardsAfterMove, cards.length - 1, 'the moved block left this page');
+  console.log(`OK 8: moved the last block (${movedType.type}) to lesson page ${movedType.toIndex}`);
 
   await page.click('#admin-submit-edits');
   await page.waitForSelector('#admin-save-ok', { timeout: 10000 });
@@ -173,6 +222,18 @@ try {
   const stillOriginal = JSON.stringify(body.lesson).includes(target.originalText.slice(0, 40));
   assert.ok(!stillOriginal || target.originalText === EDITED, 'original text should have been replaced on that block');
   console.log('OK 3: save posted the full lesson with the edited paragraph in place');
+
+  // the move must be in the same payload, and nothing may have been lost
+  const inventory = (lesson) => lesson.pages.flatMap((p) => p.content).map((b) => b.type).sort();
+  assert.strictEqual(body.lesson.pages[target.sourceIndex].content.length, target.blockCount - 1,
+    'the source page should have one block fewer');
+  assert.strictEqual(body.lesson.pages[movedType.toIndex].content.length, target.targetBlockCount + 1,
+    'the target page should have one block more');
+  assert.deepStrictEqual(inventory(body.lesson), target.inventory,
+    'a move must not create, drop or retype any block');
+  assert.strictEqual(JSON.stringify(body.lesson.questions), target.questionsJson,
+    'a move must not touch the questions array');
+  console.log('OK 9: the posted lesson carries the move — same blocks, different pages, questions untouched');
 
   // ---- 4. after the auto-reload, the override renders the edited text
   await page.waitForFunction(() => !document.querySelector('.admin-card--editor'), { timeout: 15000 });

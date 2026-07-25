@@ -184,3 +184,101 @@
   color: var(--color-success);
   font-weight: 700;
 }
+
+/* ---------- Block cards inside the editor ---------- */
+.admin-block {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  background: var(--color-surface);
+}
+
+.admin-block__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.admin-block__name {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--phase-3);
+}
+
+.admin-block__actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.admin-block__btn {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-elevated);
+  color: var(--color-text);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.admin-block__btn:hover:not(:disabled) { border-color: var(--phase-3); color: var(--phase-3); }
+.admin-block__btn:disabled { opacity: 0.35; cursor: default; }
+
+.admin-block__move {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  padding: 7px 8px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-elevated);
+  color: var(--color-text);
+  max-width: 190px;
+}
+
+.admin-block__empty {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.admin-moves {
+  border: 1px solid var(--phase-3);
+  background: var(--phase-3-tint);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+.admin-moves ul { margin: 4px 0 4px 1.1rem; padding: 0; }
+.admin-moves__warn { display: block; font-size: var(--font-size-xs); color: var(--color-text-secondary); }
+
+/* Admins see which pages no longer fit the sheet after a move.
+   (The red outline itself already exists as a dev authoring aid in book.css.) */
+.page--overflow::after {
+  content: '⚠️ Cette page déborde';
+  position: absolute;
+  left: 50%;
+  bottom: 6px;
+  transform: translateX(-50%);
+  background: var(--color-error);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+  z-index: 25;
+}

@@ -198,12 +198,37 @@ async function verifyAdmin(env, request, password) {
 function validateLessonShape(lesson) {
   if (!lesson || typeof lesson !== 'object' || Array.isArray(lesson)) return 'leçon invalide';
   if (!Array.isArray(lesson.pages) || lesson.pages.length === 0) return 'pages manquantes';
+  if (lesson.questions !== undefined && !Array.isArray(lesson.questions)) return 'questions invalides';
+
+  const questionIds = new Set((lesson.questions || []).map((q) => q && q.id).filter(Boolean));
+  const seenPageIds = new Set();
+  const usedQuestionIds = new Set();
+
   for (const p of lesson.pages) {
     if (!p || typeof p.id !== 'string' || !Array.isArray(p.content)) {
       return `page invalide (${(p && p.id) || '?'})`;
     }
+    if (seenPageIds.has(p.id)) return `identifiant de page en double (${p.id})`;
+    seenPageIds.add(p.id);
+
+    for (const block of p.content) {
+      // The editor can move blocks between pages, so every block that arrives
+      // here must still be a real block — and a question block must still point
+      // at a question that exists, or the page would render a hole.
+      if (!block || typeof block !== 'object' || Array.isArray(block) || typeof block.type !== 'string') {
+        return `bloc invalide sur ${p.id}`;
+      }
+      if (block.type === 'question') {
+        if (typeof block.questionId !== 'string' || !questionIds.has(block.questionId)) {
+          return `question introuvable (${block.questionId || '?'}) sur ${p.id}`;
+        }
+        if (usedQuestionIds.has(block.questionId)) {
+          return `question ${block.questionId} utilisée deux fois`;
+        }
+        usedQuestionIds.add(block.questionId);
+      }
+    }
   }
-  if (lesson.questions !== undefined && !Array.isArray(lesson.questions)) return 'questions invalides';
   return null;
 }
 
