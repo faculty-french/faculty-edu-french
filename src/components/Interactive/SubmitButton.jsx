@@ -91,23 +91,35 @@ export default function SubmitButton({
         {status === 'loading' ? 'Envoi en cours...' : 'Soumettre mes réponses'}
       </button>
 
-      {status === 'invalid' && (
-        <div className="validation-notification">
-          <h4 className="validation-notification__title">
-            ⚠️ {missingQuestions.length} question(s) sans réponse
-          </h4>
-          <p className="page__paragraph" style={{ fontSize: 'var(--font-size-sm)', marginBottom: 'var(--spacing-xs)' }}>
-            Répondez aux questions suivantes, puis appuyez de nouveau sur le bouton :
-          </p>
-          <div className="validation-notification__chips">
-            {missingQuestions.map((q) => (
-              <span key={q.questionId} className="validation-notification__chip" title={q.text}>
-                {q.index}
-              </span>
-            ))}
+      {status === 'invalid' && (() => {
+        // Every question of the lesson is shown: answered ones green, unanswered ones
+        // in the warning colour — the student sees progress, not only what is missing.
+        const missingIds = new Set(missingQuestions.map((q) => q.questionId));
+        return (
+          <div className="validation-notification">
+            <h4 className="validation-notification__title">
+              ⚠️ {missingQuestions.length} question(s) sans réponse
+            </h4>
+            <p className="page__paragraph" style={{ fontSize: 'var(--font-size-sm)', marginBottom: 'var(--spacing-xs)' }}>
+              Répondez aux questions suivantes, puis appuyez de nouveau sur le bouton :
+            </p>
+            <div className="validation-notification__chips">
+              {questions.map((q, idx) => {
+                const done = !missingIds.has(q.id);
+                return (
+                  <span
+                    key={q.id}
+                    className={`validation-notification__chip${done ? ' validation-notification__chip--done' : ''}`}
+                    title={done ? `Répondu — ${q.text}` : q.text}
+                  >
+                    {idx + 1}
+                  </span>
+                );
+              })}
+            </div>
           </div>
-        </div>
-      )}
+        );
+      })()}
 
       {status === 'error' && (
         <div className="validation-notification" style={{ borderColor: 'var(--color-error)', background: 'var(--color-error-bg)' }}>
