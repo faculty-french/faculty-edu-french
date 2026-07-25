@@ -1,0 +1,351 @@
+/* ============================================
+   MindMap Component Styles
+   ============================================ */
+
+/* Tone theme definitions */
+.mind-map__branch--green,
+.mind-map-panel__card--green {
+  --tone: var(--phase-2);
+  --tone-tint: var(--phase-2-tint);
+}
+
+.mind-map__branch--red,
+.mind-map-panel__card--red {
+  --tone: var(--margin-red);
+  --tone-tint: var(--color-error-bg);
+}
+
+.mind-map__branch--blue,
+.mind-map-panel__card--blue {
+  --tone: var(--phase-1);
+  --tone-tint: var(--phase-1-tint);
+}
+
+.mind-map__branch--orange,
+.mind-map-panel__card--orange {
+  --tone: var(--phase-3);
+  --tone-tint: var(--phase-3-tint);
+}
+
+/* MindMap root container in the page sheet */
+.mind-map {
+  position: relative;
+  width: 100%;
+  margin-bottom: var(--spacing-xs);
+}
+
+.mind-map__canvas {
+  position: relative;
+  width: 100%;
+  height: 176px;
+}
+
+.mind-map__svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.mind-map__grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.6fr) minmax(0, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+/* Central Node */
+.mind-map__center {
+  background: var(--phase-1);
+  color: #ffffff;
+  border-radius: var(--radius-full);
+  padding: 6px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: var(--font-size-xs);
+  line-height: 1.1;
+  width: 100%;
+  height: 86%;
+  box-shadow: var(--shadow-sm);
+  z-index: 2;
+  user-select: none;
+}
+
+.mind-map__center-icon {
+  font-size: 1.35rem;
+  line-height: 1;
+  margin-bottom: 2px;
+}
+
+.mind-map__center-label {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* The branch pill has no room for an icon next to a label like « Inconvénients »
+   and a badge — the icon stays in the panel header. */
+.mind-map__branch .mind-map__branch-icon { display: none; }
+
+/* Branch Buttons */
+.mind-map__branch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  padding: 6px 9px;
+  min-width: 0;
+  border-radius: var(--radius-full);
+  background: var(--tone-tint);
+  border: 2px solid var(--tone);
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 0.7rem;
+  min-height: 46px;
+  width: 100%;
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mind-map__branch:hover,
+.mind-map__branch:active {
+  transform: scale(1.02);
+}
+
+.mind-map__branch-icon {
+  font-size: 0.92rem;
+  flex-shrink: 0;
+}
+
+.mind-map__branch-label {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  overflow: hidden;
+  /* The pill is two lines tall: wrap long labels instead of cutting them off. */
+  white-space: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+  font-family: var(--font-sans);
+  line-height: 1.05;
+  font-weight: 700;
+}
+
+/* Badge n/3 */
+.mind-map__badge {
+  background: transparent;
+  color: var(--tone);
+  border: 1px solid var(--tone);
+  border-radius: var(--radius-full);
+  font-size: 0.66rem;
+  font-weight: 800;
+  padding: 1px 4px;
+  flex-shrink: 0;
+  min-width: 22px;
+  text-align: center;
+  line-height: 1;
+}
+
+.mind-map__badge--full {
+  background: var(--tone);
+  color: #ffffff;
+}
+
+/* Captions below mind map */
+.mind-map__caption {
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--color-text-secondary);
+  margin-top: 3px;
+  line-height: 1.2;
+}
+
+.mind-map__hint {
+  text-align: center;
+  font-size: 0.68rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+  line-height: 1.2;
+  margin-top: 1px;
+}
+
+/* Portal Panel / Drawer Modal */
+.mind-map-panel__backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: var(--spacing-md);
+  animation: fadeIn var(--transition-fast) ease;
+}
+
+.mind-map-panel__card {
+  width: min(420px, calc(100vw - 2rem));
+  max-height: 82vh;
+  background: var(--paper);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slideUp var(--transition-fast) ease;
+}
+
+.mind-map-panel__header {
+  background: var(--tone);
+  color: #ffffff;
+  padding: var(--spacing-sm) var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  flex-shrink: 0;
+}
+
+.mind-map-panel__title {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.mind-map-panel__title h3 {
+  color: #ffffff;
+  font-size: var(--font-size-base);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  margin: 0;
+}
+
+.mind-map-panel__icon {
+  font-size: 1.2rem;
+}
+
+.mind-map-panel__close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: background var(--transition-fast);
+  margin: -8px -8px -8px 0;
+}
+
+.mind-map-panel__close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.mind-map-panel__body {
+  padding: var(--spacing-md);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  -webkit-overflow-scrolling: touch;
+}
+
+.mind-map-panel__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mind-map-panel__label {
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.mind-map-panel__input {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 12px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-elevated);
+  color: var(--color-text);
+  transition: border-color var(--transition-fast);
+  outline: none;
+}
+
+.mind-map-panel__input:focus {
+  border-color: var(--tone);
+}
+
+.mind-map-panel__input--filled {
+  border-color: var(--tone);
+}
+
+.mind-map-panel__footer {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-xs);
+  flex-shrink: 0;
+}
+
+.mind-map-panel__nav {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.mind-map-panel__nav-btn {
+  padding: 8px 12px;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--color-text);
+  background: var(--tone-tint);
+  border: 1px solid var(--tone);
+  border-radius: var(--radius-md);
+  transition: opacity var(--transition-fast);
+  cursor: pointer;
+  min-height: 40px;
+}
+
+.mind-map-panel__nav-btn:hover {
+  opacity: 0.85;
+}
+
+.mind-map-panel__done-btn {
+  padding: 8px 16px;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: #ffffff;
+  background: var(--tone);
+  border: none;
+  border-radius: var(--radius-md);
+  transition: opacity var(--transition-fast);
+  cursor: pointer;
+  min-height: 40px;
+}
+
+.mind-map-panel__done-btn:hover {
+  opacity: 0.9;
+}

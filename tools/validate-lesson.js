@@ -160,7 +160,7 @@ async function main() {
       const allowedBlockTypes = [
         'heading', 'paragraph', 'divider', 'phase-banner', 'consigne', 
         'microtask', 'keywords', 'info-box', 'objectives', 'images-row', 
-        'video', 'question', 'submit'
+        'video', 'question', 'submit', 'mind-map'
       ];
       
       if (Array.isArray(page.content)) {
@@ -288,6 +288,45 @@ async function main() {
               }
               if (typeof block.lessonTitle !== 'string' || block.lessonTitle.trim() === '') {
                 errors.push(`[ERROR] [${page.id}] submit block at index ${bIdx} must have non-empty "lessonTitle"`);
+              }
+              break;
+            case 'mind-map':
+              if (typeof block.id !== 'string' || block.id.trim() === '') {
+                errors.push(`[ERROR] [${page.id}] mind-map block at index ${bIdx} must have non-empty "id"`);
+              }
+              if (typeof block.center !== 'string' || block.center.trim() === '') {
+                errors.push(`[ERROR] [${page.id}] mind-map block at index ${bIdx} must have non-empty "center"`);
+              }
+              if (!Array.isArray(block.branches) || block.branches.length === 0) {
+                errors.push(`[ERROR] [${page.id}] mind-map block at index ${bIdx} must have non-empty "branches" array`);
+              } else {
+                const validTones = ['green', 'red', 'blue', 'orange'];
+                block.branches.forEach((br, brIdx) => {
+                  if (typeof br.id !== 'string' || br.id.trim() === '') {
+                    errors.push(`[ERROR] [${page.id}] mind-map branch at index ${brIdx} (block ${bIdx}) must have non-empty "id"`);
+                  }
+                  if (typeof br.label !== 'string' || br.label.trim() === '') {
+                    errors.push(`[ERROR] [${page.id}] mind-map branch at index ${brIdx} (block ${bIdx}) must have non-empty "label"`);
+                  }
+                  if (!validTones.includes(br.tone)) {
+                    errors.push(`[ERROR] [${page.id}] mind-map branch at index ${brIdx} (block ${bIdx}) has invalid tone "${br.tone}" (must be green, red, blue or orange)`);
+                  }
+                  if (!Array.isArray(br.items) || br.items.length === 0) {
+                    errors.push(`[ERROR] [${page.id}] mind-map branch at index ${brIdx} (block ${bIdx}) must have non-empty "items" array`);
+                  } else {
+                    br.items.forEach((item, itemIdx) => {
+                      if (typeof item.id !== 'string' || item.id.trim() === '') {
+                        errors.push(`[ERROR] [${page.id}] mind-map branch item at index ${itemIdx} (branch ${brIdx}, block ${bIdx}) must have non-empty "id"`);
+                      }
+                      if (typeof item.label !== 'string' || item.label.trim() === '') {
+                        errors.push(`[ERROR] [${page.id}] mind-map branch item at index ${itemIdx} (branch ${brIdx}, block ${bIdx}) must have non-empty "label"`);
+                      }
+                      if ('example' in item && (typeof item.example !== 'string' || item.example.trim() === '')) {
+                        errors.push(`[ERROR] [${page.id}] mind-map branch item at index ${itemIdx} (branch ${brIdx}, block ${bIdx}) example must be a non-empty string if present`);
+                      }
+                    });
+                  }
+                });
               }
               break;
           }

@@ -6,6 +6,7 @@ import NamePrompt from './components/Layout/NamePrompt';
 import './styles/index.css';
 import './styles/book.css';
 import './styles/questions.css';
+import './styles/mindmap.css';
 import './styles/responsive.css';
 
 function App() {

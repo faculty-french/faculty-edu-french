@@ -12,6 +12,7 @@ import SubmitButton from '../Interactive/SubmitButton';
 import BookCover from '../Content/BookCover';
 import ModuleDivider from '../Content/ModuleDivider';
 import LessonIntro from '../Content/LessonIntro';
+import MindMap from '../Content/MindMap';
 import React from 'react';
 import { useHighlighter } from '../../context/HighlighterContext';
 import { highlightHtml, getTextOffsetInBlock } from '../../utils/highlightUtils';
@@ -188,6 +189,8 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
             ))}
           </div>
         );
+      case 'mind-map':
+        return <MindMap key={index} {...block} />;
       case 'video':
         return <VideoPlayer key={index} videoUrl={block.videoUrl} caption={formatText(block.caption)} />;
       case 'question': {
