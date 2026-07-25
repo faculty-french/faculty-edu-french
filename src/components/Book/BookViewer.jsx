@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect, forwardRef, useImperativeHandle, useRef } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import PageContent from './PageContent';
+import { useHighlighter } from '../../context/HighlighterContext';
 
 // Fixed logical "sheet" size. Every page is authored against this box; the
 // whole book area is scaled with a CSS transform to fit whatever viewport
@@ -12,8 +13,10 @@ export const SHEET_HEIGHT = 640;
 const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers, validateAnswers, markSubmitted, isSubmitted, onPageChange, initialPage = 0 }, ref) => {
   const bookRef = useRef(null);
   const frameRef = useRef(null);
+  const sheetFrameRef = useRef(null);
   const [scale, setScale] = useState(1);
   const [currentPage, setCurrentPage] = useState(initialPage);
+  const { isHighlightMode } = useHighlighter();
 
   useEffect(() => {
     const el = frameRef.current;
@@ -38,6 +41,28 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
       window.removeEventListener('resize', updateScale);
     };
   }, []);
+
+  useEffect(() => {
+    const el = sheetFrameRef.current;
+    if (!el) return;
+
+    const stopFlipInHighlightMode = (e) => {
+      if (isHighlightMode) {
+        e.stopPropagation();
+      }
+    };
+
+    const opts = { capture: true };
+    el.addEventListener('pointerdown', stopFlipInHighlightMode, opts);
+    el.addEventListener('touchstart', stopFlipInHighlightMode, opts);
+    el.addEventListener('mousedown', stopFlipInHighlightMode, opts);
+
+    return () => {
+      el.removeEventListener('pointerdown', stopFlipInHighlightMode, opts);
+      el.removeEventListener('touchstart', stopFlipInHighlightMode, opts);
+      el.removeEventListener('mousedown', stopFlipInHighlightMode, opts);
+    };
+  }, [isHighlightMode]);
 
   useImperativeHandle(ref, () => ({
     flipNext: () => {
@@ -75,6 +100,7 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
     <div className="book-viewer" ref={frameRef}>
       <div
         className="book-sheet-frame"
+        ref={sheetFrameRef}
         style={{ width: SHEET_WIDTH * scale, height: SHEET_HEIGHT * scale }}
       >
         <div

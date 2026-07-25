@@ -15,10 +15,10 @@ function normalizeItem(item) {
   return { num: '', text: '' };
 }
 
-export default function ObjectivesBox({ title, items }) {
+export default function ObjectivesBox({ title, items, 'data-block-index': blockIndex }) {
   const normalized = (items || []).map(normalizeItem);
   return (
-    <div className="objectives-box">
+    <div className="objectives-box" data-block-index={blockIndex}>
       <h3 className="objectives-box__title" dangerouslySetInnerHTML={{ __html: title || 'Objectifs de cette leçon' }} />
       <ul className="objectives-box__list">
         {normalized.map((item, i) => (
@@ -31,3 +31,4 @@ export default function ObjectivesBox({ title, items }) {
     </div>
   );
 }
+

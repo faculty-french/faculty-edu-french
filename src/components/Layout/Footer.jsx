@@ -1,8 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
+import { useHighlighter } from '../../context/HighlighterContext';
 
 const PHASES = [1, 2, 3, 4];
 
 export default function Footer({ currentPage, totalPages, phase, onPrev, onNext, onGoToPage }) {
+  const { isHighlightMode, toggleHighlightMode } = useHighlighter();
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('book_theme') || 'light';
   });
@@ -104,6 +106,16 @@ export default function Footer({ currentPage, totalPages, phase, onPrev, onNext,
         id="btn-next-page"
       >
         Suivant ›
+      </button>
+      <button
+        type="button"
+        className={`highlight-toggle ${isHighlightMode ? 'highlight-toggle--active' : ''}`}
+        onClick={toggleHighlightMode}
+        aria-label="Surligneur"
+        id="btn-highlight-toggle"
+        title="Surligneur"
+      >
+        🖍️
       </button>
       <button
         className="theme-toggle"

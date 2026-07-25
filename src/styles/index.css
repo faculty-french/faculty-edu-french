@@ -67,6 +67,8 @@
   --color-toggle-hover-bg: rgba(0, 0, 0, 0.12);
   --color-rail-dot: rgba(0, 0, 0, 0.1);
   --color-sheet-border: var(--color-border);
+  --color-highlight: #fef08a;
+  --color-highlight-text: inherit;
 
   /* Typography */
   --font-display: 'Young Serif', Georgia, 'Times New Roman', serif;
@@ -137,6 +139,8 @@
   --color-rail-dot: rgba(255, 255, 255, 0.2);
   --color-sheet-border: rgba(255, 255, 255, 0.12);
   --shadow-page: 0 10px 40px rgba(0, 0, 0, 0.45);
+  --color-highlight: #ca8a04;
+  --color-highlight-text: #10141e;
 }
 
 /* ---------- Reset ---------- */

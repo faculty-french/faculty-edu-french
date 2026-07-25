@@ -13,10 +13,20 @@ import BookCover from '../Content/BookCover';
 import ModuleDivider from '../Content/ModuleDivider';
 import LessonIntro from '../Content/LessonIntro';
 import React from 'react';
+import { useHighlighter } from '../../context/HighlighterContext';
+import { highlightHtml, getTextOffsetInBlock } from '../../utils/highlightUtils';
 
 const PHASE_LABELS = { 1: 'Phase 1', 2: 'Phase 2', 3: 'Phase 3', 4: 'Phase 4' };
 
+// Decorative pages — covers, lesson "pages de garde", module dividers, the Sommaire.
+// They are designed compositions rather than study text, and their blocks are rendered
+// by components that do not carry highlightable text nodes, so a highlight stored
+// against them would be saved but never painted.
+const NON_HIGHLIGHTABLE_LAYOUTS = new Set(['cover', 'academic-cover', 'lesson-intro', 'divider', 'index']);
+
 const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, answers, validateAnswers, markSubmitted, isSubmitted }, ref) => {
+  const { isHighlightMode, highlights, addHighlights, removeHighlight } = useHighlighter();
+
   const studentName = React.useMemo(() => {
     try {
       const profile = localStorage.getItem('book_student_profile');
@@ -26,18 +36,92 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
 
   const contentRef = React.useRef(null);
   const [overflowing, setOverflowing] = React.useState(false);
+  const canHighlight = !NON_HIGHLIGHTABLE_LAYOUTS.has(page.layout);
 
   React.useLayoutEffect(() => {
-    if (!import.meta.env.DEV) return;
     const el = contentRef.current;
     if (!el) return;
-    const isOverflowing = el.scrollHeight - el.clientHeight > 2;
-    setOverflowing(isOverflowing);
-    if (isOverflowing) {
-      // eslint-disable-next-line no-console
-      console.warn('OVERFLOW page', page.id);
+
+    if (import.meta.env.DEV) {
+      const isOverflowing = el.scrollHeight - el.clientHeight > 2;
+      setOverflowing(isOverflowing);
+      if (isOverflowing) {
+        // eslint-disable-next-line no-console
+        console.warn('OVERFLOW page', page.id);
+      }
     }
-  });
+  }, [page.id, page.content, highlights, canHighlight]);
+
+  // Highlights for this page, resolved during render so they are part of React's output.
+  const pageRanges = canHighlight ? (highlights[page.id] || []) : [];
+  const withHighlights = (index, html) =>
+    highlightHtml(html, pageRanges.filter(r => r.block === index), page.id, index);
+
+  const handlePointerUp = React.useCallback((e) => {
+    if (!isHighlightMode || !canHighlight) return;
+
+    const mark = e.target.closest?.('mark.hl');
+    if (mark && mark.dataset.pageId && mark.dataset.blockIndex != null) {
+      const pId = mark.dataset.pageId;
+      const bIdx = Number(mark.dataset.blockIndex);
+      const hlStart = Number(mark.dataset.hlStart);
+      const hlEnd = Number(mark.dataset.hlEnd);
+      removeHighlight(pId, bIdx, hlStart, hlEnd);
+      window.getSelection()?.removeAllRanges();
+      return;
+    }
+
+    setTimeout(() => {
+      const selection = window.getSelection();
+      if (!selection || selection.isCollapsed || selection.rangeCount === 0) return;
+
+      const range = selection.getRangeAt(0);
+      const selectedText = range.toString().trim();
+      if (!selectedText) return;
+
+      const pageWrapper = contentRef.current;
+      if (!pageWrapper) return;
+
+      const blockElements = Array.from(pageWrapper.querySelectorAll('[data-block-index]'));
+      const newRanges = [];
+
+      for (const blockEl of blockElements) {
+        if (!range.intersectsNode(blockEl)) continue;
+
+        const blockIndex = Number(blockEl.dataset.blockIndex);
+        const textLen = blockEl.textContent.length;
+        if (textLen === 0) continue;
+
+        let startOffset = 0;
+        let endOffset = textLen;
+
+        if (blockEl.contains(range.startContainer)) {
+          startOffset = getTextOffsetInBlock(blockEl, range.startContainer, range.startOffset);
+        }
+        if (blockEl.contains(range.endContainer)) {
+          endOffset = getTextOffsetInBlock(blockEl, range.endContainer, range.endOffset);
+        }
+
+        startOffset = Math.max(0, Math.min(textLen, startOffset));
+        endOffset = Math.max(0, Math.min(textLen, endOffset));
+
+        if (startOffset > endOffset) {
+          const temp = startOffset;
+          startOffset = endOffset;
+          endOffset = temp;
+        }
+
+        if (startOffset < endOffset) {
+          newRanges.push({ block: blockIndex, start: startOffset, end: endOffset });
+        }
+      }
+
+      if (newRanges.length > 0) {
+        addHighlights(page.id, newRanges);
+        selection.removeAllRanges();
+      }
+    }, 20);
+  }, [isHighlightMode, canHighlight, page.id, addHighlights, removeHighlight]);
 
   const formatText = (text) => {
     if (typeof text !== 'string') return text;
@@ -48,16 +132,14 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
     switch (block.type) {
       case 'heading': {
         const Tag = `h${block.level || 2}`;
-        // A repeated "(suite)" section heading is a running head, not a primary
-        // title — render it compactly so it doesn't cost a full heading's height.
         const isContinuation = typeof block.text === 'string' && block.text.trimEnd().endsWith('(suite)');
         const cls = `page__heading page__heading--${block.level || 2}${isContinuation ? ' page__heading--continuation' : ''}`;
-        return <Tag key={index} className={cls} dangerouslySetInnerHTML={{ __html: formatText(block.text) }} />;
+        return <Tag key={index} data-block-index={index} className={cls} dangerouslySetInnerHTML={{ __html: withHighlights(index, formatText(block.text)) }} />;
       }
       case 'paragraph':
-        return <ReadingPassage key={index} text={formatText(block.text)} />;
+        return <ReadingPassage key={index} data-block-index={index} text={withHighlights(index, formatText(block.text))} />;
       case 'quote':
-        return <blockquote key={index} className="page__quote" dangerouslySetInnerHTML={{ __html: formatText(block.text) }} />;
+        return <blockquote key={index} data-block-index={index} className="page__quote" dangerouslySetInnerHTML={{ __html: withHighlights(index, formatText(block.text)) }} />;
       case 'objectives':
         return (
           <ObjectivesBox
@@ -67,21 +149,18 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
           />
         );
       case 'instruction': {
-        // Decorative emoji-only blocks (e.g. "📝") render as an empty box — skip them.
         if (typeof block.text === 'string' && !/[\p{L}\p{N}]/u.test(block.text)) return null;
-        return <p key={index} className="page__instruction" dangerouslySetInnerHTML={{ __html: formatText(block.text) }} />;
+        return <p key={index} data-block-index={index} className="page__instruction" dangerouslySetInnerHTML={{ __html: withHighlights(index, formatText(block.text)) }} />;
       }
       case 'consigne':
-        return <Consigne key={index} text={formatText(block.text)} />;
+        return <Consigne key={index} data-block-index={index} text={withHighlights(index, formatText(block.text))} />;
       case 'microtask':
-        return <Microtask key={index} number={block.number} text={formatText(block.text)} duration={block.duration} />;
+        return <Microtask key={index} data-block-index={index} number={block.number} text={withHighlights(index, formatText(block.text))} duration={block.duration} />;
       case 'phase-banner':
         return <PhaseBanner key={index} phase={block.phase} title={formatText(block.title)} duration={block.duration} />;
       case 'keywords':
         return <Keywords key={index} title={formatText(block.title)} items={(block.items || []).map(formatText)} />;
       case 'info-box': {
-        // The heading right above sometimes repeats the box title verbatim —
-        // don't render the same text twice in a row.
         const prev = page.content[index - 1];
         const hideTitle = !!prev && prev.type === 'heading'
           && typeof prev.text === 'string' && typeof block.title === 'string'
@@ -111,8 +190,6 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
       case 'question': {
         const question = questions?.find(q => q.id === block.questionId);
         if (!question) return null;
-        // The introducing microtask/consigne already displays this exact text —
-        // don't render it a second time inside the answer block.
         const prev = page.content[index - 1];
         const hideText = !!prev && (prev.type === 'microtask' || prev.type === 'consigne')
           && typeof prev.text === 'string' && typeof question.text === 'string'
@@ -183,7 +260,11 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
       {page.phase > 0 && (
         <span className={`page__phase-tab page__phase-tab--${page.phase}`}>{PHASE_LABELS[page.phase]}</span>
       )}
-      <div className="page__content-wrapper" ref={contentRef}>
+      <div
+        className="page__content-wrapper"
+        ref={contentRef}
+        onPointerUp={handlePointerUp}
+      >
         {page.content.map((block, i) => renderBlock(block, i))}
       </div>
       {page.pageNumber && (

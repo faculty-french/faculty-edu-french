@@ -5,6 +5,7 @@ import { useProgress } from '../hooks/useProgress';
 import BookViewer from '../components/Book/BookViewer';
 import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
+import { HighlighterProvider } from '../context/HighlighterContext';
 
 export default function UnifiedBook() {
   const [bookData, setBookData] = useState(null);
@@ -86,35 +87,38 @@ export default function UnifiedBook() {
   const headerTitle = currentPageData?.title || bookData.title;
 
   return (
-    <div className="book-shell">
-      <Header
-        lessonTitle={headerTitle.toUpperCase()}
-        pageNumber={currentPageData?.pageNumber || currentPage + 1}
-        totalPages={pagesWithNav.length}
-      />
-      
-      <BookViewer
-        ref={viewerRef}
-        pages={pagesWithNav}
-        questions={bookData.questions}
-        getAnswer={getAnswer}
-        setAnswer={setAnswer}
-        answers={answers}
-        validateAnswers={validateAnswers}
-        markSubmitted={markSubmitted}
-        isSubmitted={isSubmitted}
-        onPageChange={handlePageChange}
-        initialPage={currentPage}
-      />
+    <HighlighterProvider>
+      <div className="book-shell">
+        <Header
+          lessonTitle={headerTitle.toUpperCase()}
+          pageNumber={currentPageData?.pageNumber || currentPage + 1}
+          totalPages={pagesWithNav.length}
+        />
+        
+        <BookViewer
+          ref={viewerRef}
+          pages={pagesWithNav}
+          questions={bookData.questions}
+          getAnswer={getAnswer}
+          setAnswer={setAnswer}
+          answers={answers}
+          validateAnswers={validateAnswers}
+          markSubmitted={markSubmitted}
+          isSubmitted={isSubmitted}
+          onPageChange={handlePageChange}
+          initialPage={currentPage}
+        />
 
-      <Footer
-        currentPage={currentPage}
-        totalPages={pagesWithNav.length}
-        phase={currentPageData?.phase || 0}
-        onPrev={() => viewerRef.current?.flipPrev()}
-        onNext={() => viewerRef.current?.flipNext()}
-        onGoToPage={handleNavigate}
-      />
-    </div>
+        <Footer
+          currentPage={currentPage}
+          totalPages={pagesWithNav.length}
+          phase={currentPageData?.phase || 0}
+          onPrev={() => viewerRef.current?.flipPrev()}
+          onNext={() => viewerRef.current?.flipNext()}
+          onGoToPage={handleNavigate}
+        />
+      </div>
+    </HighlighterProvider>
   );
 }
+

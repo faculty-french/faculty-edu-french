@@ -18,7 +18,7 @@
   .book-footer { min-height: 36px; padding: 2px var(--spacing-md); }
   .book-footer__btn { min-height: 32px; padding: var(--spacing-xs) var(--spacing-md); }
   .book-footer__center { gap: 2px; }
-  .theme-toggle { width: 30px; height: 30px; }
+  .theme-toggle, .highlight-toggle { width: 30px; height: 30px; }
 }
 
 @media (min-width: 1024px) {

@@ -1,6 +1,6 @@
-export default function InfoBox({ title, sections = [], hideTitle = false }) {
+export default function InfoBox({ title, sections = [], hideTitle = false, 'data-block-index': blockIndex }) {
   return (
-    <div className="info-box">
+    <div className="info-box" data-block-index={blockIndex}>
       {title && !hideTitle && <h4 className="info-box__title">{title}</h4>}
       {sections.map((section, i) => (
         <div key={i} className="info-box__section">
@@ -17,3 +17,4 @@ export default function InfoBox({ title, sections = [], hideTitle = false }) {
     </div>
   );
 }
+
