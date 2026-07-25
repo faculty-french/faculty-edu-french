@@ -12,8 +12,9 @@ export default function UnifiedBook() {
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(0);
   
-  // For now, we namespace all answers under "lesson1" since it's a mock unified book.
-  // In a full implementation, you might need a different storage key strategy.
+  // Every lesson's answers share one storage bucket, which is safe because question ids
+  // are unique book-wide (l1-q0, l2-q0, …). Submission state is NOT shared: SubmitButton
+  // passes its own lessonId to markSubmitted/isSubmitted.
   const { answers, getAnswer, setAnswer, validateAnswers, markSubmitted, isSubmitted } = useAnswers('lesson1');
   const { getCurrentPage, setCurrentPage: saveCurrentPage } = useProgress();
   const viewerRef = useRef(null);

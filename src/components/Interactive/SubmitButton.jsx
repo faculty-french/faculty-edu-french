@@ -18,11 +18,11 @@ export default function SubmitButton({
   const stopEvent = (e) => e.stopPropagation();
 
   useEffect(() => {
-    if (isSubmitted && isSubmitted()) {
+    if (isSubmitted && isSubmitted(lessonId)) {
       setAlreadySubmitted(true);
       setStatus('success');
     }
-  }, [isSubmitted]);
+  }, [isSubmitted, lessonId]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -52,7 +52,7 @@ export default function SubmitButton({
       const currentAnswers = validation.answers || answers;
       await sendToTelegram(studentName, lessonTitle, questions, currentAnswers);
       
-      markSubmitted();
+      markSubmitted(lessonId);
       setAlreadySubmitted(true);
       setStatus('success');
     } catch (err) {

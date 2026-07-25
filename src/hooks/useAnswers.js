@@ -75,17 +75,20 @@ export function useAnswers(lessonId) {
     return { isComplete: missing.length === 0, missing, answers: answersRef.current };
   }, []);
 
-  const markSubmitted = useCallback(() => {
+  // The unified book pools every lesson's answers under one storage key, so submission
+  // state must be recorded per lesson explicitly — otherwise submitting one lesson marks
+  // all twelve as already submitted.
+  const markSubmitted = useCallback((submittedLessonId = lessonId) => {
     try {
-      localStorage.setItem(`book_submission_${lessonId}`, JSON.stringify({
+      localStorage.setItem(`book_submission_${submittedLessonId}`, JSON.stringify({
         submitted: true, at: new Date().toISOString()
       }));
     } catch (e) { console.error('Failed to mark submitted:', e); }
   }, [lessonId]);
 
-  const isSubmitted = useCallback(() => {
+  const isSubmitted = useCallback((submittedLessonId = lessonId) => {
     try {
-      const data = localStorage.getItem(`book_submission_${lessonId}`);
+      const data = localStorage.getItem(`book_submission_${submittedLessonId}`);
       return data ? JSON.parse(data).submitted : false;
     } catch { return false; }
   }, [lessonId]);

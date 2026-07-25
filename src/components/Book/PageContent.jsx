@@ -155,7 +155,7 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
             key={index}
             lessonId={block.lessonId}
             lessonTitle={block.lessonTitle}
-            questions={questions}
+            questions={(questions || []).filter(q => q.lessonId === block.lessonId)}
             answers={answers}
             validateAnswers={validateAnswers}
             markSubmitted={markSubmitted}

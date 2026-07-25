@@ -171,7 +171,10 @@ export async function loadBook() {
 
     lessonPageIndex[slot.lessonId] = allPages.length;
     allPages.push(...pages.map(p => (moduleNum ? { ...p, module: Number(moduleNum) } : p)));
-    allQuestions.push(...questions);
+    // Tag each question with the lesson it came from. The whole book's questions are
+    // pooled into one array, so the submit page needs this to validate and send only
+    // its own lesson's questions rather than all of them.
+    allQuestions.push(...questions.map(q => ({ ...q, lessonId: slot.lessonId })));
   });
 
   const patchedPages = patchIndexBlocks(allPages, lessonPageIndex);
