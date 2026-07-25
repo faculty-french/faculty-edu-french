@@ -708,14 +708,14 @@
       "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
       "content": [
         {
+          "type": "consigne",
+          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
+        },
+        {
           "type": "phase-banner",
           "phase": 3,
           "title": "Post-action (Tâche finale)",
           "duration": "20 min"
-        },
-        {
-          "type": "consigne",
-          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
         },
         {
           "type": "question",
