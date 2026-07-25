@@ -6,6 +6,7 @@ import BookViewer from '../components/Book/BookViewer';
 import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
 import { HighlighterProvider } from '../context/HighlighterContext';
+import { AdminProvider } from '../context/AdminContext';
 
 export default function UnifiedBook() {
   const [bookData, setBookData] = useState(null);
@@ -87,6 +88,7 @@ export default function UnifiedBook() {
   const headerTitle = currentPageData?.title || bookData.title;
 
   return (
+    <AdminProvider>
     <HighlighterProvider>
       <div className="book-shell">
         <Header
@@ -119,6 +121,7 @@ export default function UnifiedBook() {
         />
       </div>
     </HighlighterProvider>
+    </AdminProvider>
   );
 }
 

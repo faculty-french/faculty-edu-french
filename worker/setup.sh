@@ -23,6 +23,8 @@ command -v wrangler >/dev/null 2>&1 || { echo "error: wrangler not found. Run: n
 get_var() { sed -n "s/^$1=\"\{0,1\}\([^\"]*\)\"\{0,1\}$/\1/p" "$ENV_FILE" | head -1; }
 BOT_TOKEN="$(get_var TELEGRAM_BOT_TOKEN)"
 WEBHOOK_SECRET="$(get_var TELEGRAM_WEBHOOK_SECRET)"
+ADMIN_PASSWORD="$(get_var ADMIN_PASSWORD)"
+GITHUB_TOKEN="$(get_var GITHUB_TOKEN)"
 
 [[ -n "$BOT_TOKEN"      ]] || { echo "error: TELEGRAM_BOT_TOKEN missing from $ENV_FILE" >&2; exit 1; }
 [[ -n "$WEBHOOK_SECRET" ]] || { echo "error: TELEGRAM_WEBHOOK_SECRET missing from $ENV_FILE" >&2; exit 1; }
@@ -46,6 +48,15 @@ echo "==> Uploading encrypted secrets"
 printf '%s' "$BOT_TOKEN"      | wrangler secret put TELEGRAM_BOT_TOKEN      >/dev/null
 printf '%s' "$WEBHOOK_SECRET" | wrangler secret put TELEGRAM_WEBHOOK_SECRET >/dev/null
 echo "    TELEGRAM_BOT_TOKEN and TELEGRAM_WEBHOOK_SECRET stored on Cloudflare"
+# Admin editing (optional — only stored when present in .dev.vars)
+if [[ -n "$ADMIN_PASSWORD" ]]; then
+  printf '%s' "$ADMIN_PASSWORD" | wrangler secret put ADMIN_PASSWORD >/dev/null
+  echo "    ADMIN_PASSWORD stored on Cloudflare"
+fi
+if [[ -n "$GITHUB_TOKEN" ]]; then
+  printf '%s' "$GITHUB_TOKEN" | wrangler secret put GITHUB_TOKEN >/dev/null
+  echo "    GITHUB_TOKEN stored on Cloudflare"
+fi
 
 # --------------------------------------------------------------------- deploy
 echo "==> Deploying Worker"

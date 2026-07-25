@@ -15,6 +15,8 @@ import LessonIntro from '../Content/LessonIntro';
 import MindMap from '../Content/MindMap';
 import React from 'react';
 import { useHighlighter } from '../../context/HighlighterContext';
+import { useAdmin } from '../../context/AdminContext';
+import PageEditor from '../Admin/PageEditor';
 import { highlightHtml, getTextOffsetInBlock } from '../../utils/highlightUtils';
 
 const PHASE_LABELS = { 1: 'Phase 1', 2: 'Phase 2', 3: 'Phase 3', 4: 'Phase 4' };
@@ -27,6 +29,12 @@ const NON_HIGHLIGHTABLE_LAYOUTS = new Set(['cover', 'academic-cover', 'lesson-in
 
 const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, answers, validateAnswers, markSubmitted, isSubmitted }, ref) => {
   const { isHighlightMode, highlights, addHighlights, removeHighlight } = useHighlighter();
+  const { isAdmin } = useAdmin();
+  const [editorOpen, setEditorOpen] = React.useState(false);
+  // page-flip preventDefaults touchstart, so the compatibility click never fires
+  // on phones — the edit button opens on pointerup, like the mind-map branches.
+  const editPressRef = React.useRef(false);
+  const canEdit = isAdmin && !!page.sourceFile && Number.isInteger(page.sourceIndex);
 
   const studentName = React.useMemo(() => {
     try {
@@ -266,6 +274,27 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
       {page.phase > 0 && (
         <span className={`page__phase-tab page__phase-tab--${page.phase}`}>{PHASE_LABELS[page.phase]}</span>
       )}
+      {canEdit && (
+        <button
+          type="button"
+          className="admin-edit-btn"
+          title="Modifier cette page"
+          aria-label="Modifier cette page"
+          onPointerDown={(e) => { e.stopPropagation(); editPressRef.current = true; }}
+          onPointerUp={(e) => {
+            e.stopPropagation();
+            if (editPressRef.current) setEditorOpen(true);
+            editPressRef.current = false;
+          }}
+          onPointerCancel={() => { editPressRef.current = false; }}
+          onMouseDown={(e) => e.stopPropagation()}
+          onTouchStart={(e) => e.stopPropagation()}
+          onClick={(e) => { e.stopPropagation(); setEditorOpen(true); }}
+        >
+          ✏️
+        </button>
+      )}
+      {editorOpen && <PageEditor page={page} onClose={() => setEditorOpen(false)} />}
       <div
         className="page__content-wrapper"
         ref={contentRef}

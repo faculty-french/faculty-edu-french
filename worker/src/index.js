@@ -159,6 +159,107 @@ function formatReport(data) {
   return report;
 }
 
+// ---------------------------------------------------------------------------
+// Admin content editing.
+//
+// The site is static (GitHub Pages): anything shipped to the browser is public,
+// so neither the GitHub token nor the admin password can live in the bundle.
+// Both are Worker secrets; the browser sends the password with each admin call
+// and this Worker is the only place it is checked. On save, the Worker commits
+// the edited lesson JSON to GitHub with the contents API — to gh-pages
+// (content/…, which the deployed app fetches at runtime, so the edit goes live
+// without a rebuild) and to the source branch (public/content/…, so the next
+// build does not silently revert it).
+// ---------------------------------------------------------------------------
+
+const GITHUB_REPO = 'faculty-french/faculty-edu-french';
+const CONTENT_TARGETS = [
+  { branch: 'gh-pages', prefix: 'content/' },
+  { branch: '001-interactive-pdf-webbook', prefix: 'public/content/' },
+];
+const ADMIN_PATH_RE = /^unit[0-4]\/lesson\d{1,2}\.json$/;
+const ADMIN_BODY_LIMIT = 900000; // lesson JSON is ~tens of KB; anything near this is not a lesson
+
+// 10 wrong passwords per IP per hour. Successful logins do not consume the budget.
+async function verifyAdmin(env, request, password) {
+  const ip = request.headers.get('CF-Connecting-IP') || '127.0.0.1';
+  const key = `rlad:${ip}:${Math.floor(Date.now() / 3600000)}`;
+  const failures = parseInt((await env.SUBSCRIBERS?.get(key)) || '0', 10);
+  if (failures >= 10) {
+    return { ok: false, status: 429, error: 'Trop de tentatives. Réessayez dans une heure.' };
+  }
+  if (!env.ADMIN_PASSWORD || !secureCompare(String(password ?? ''), env.ADMIN_PASSWORD)) {
+    await env.SUBSCRIBERS?.put(key, String(failures + 1), { expirationTtl: 3600 });
+    return { ok: false, status: 401, error: 'Mot de passe incorrect.' };
+  }
+  return { ok: true };
+}
+
+function validateLessonShape(lesson) {
+  if (!lesson || typeof lesson !== 'object' || Array.isArray(lesson)) return 'leçon invalide';
+  if (!Array.isArray(lesson.pages) || lesson.pages.length === 0) return 'pages manquantes';
+  for (const p of lesson.pages) {
+    if (!p || typeof p.id !== 'string' || !Array.isArray(p.content)) {
+      return `page invalide (${(p && p.id) || '?'})`;
+    }
+  }
+  if (lesson.questions !== undefined && !Array.isArray(lesson.questions)) return 'questions invalides';
+  return null;
+}
+
+// btoa only takes latin1; UTF-8 text (the lessons are French) must go through
+// bytes, chunked because String.fromCharCode(...bytes) overflows the arg limit.
+function b64EncodeUtf8(str) {
+  const bytes = new TextEncoder().encode(str);
+  let bin = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) {
+    bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  }
+  return btoa(bin);
+}
+
+async function githubApi(env, method, path, body) {
+  const res = await fetch(`https://api.github.com${path}`, {
+    method,
+    headers: {
+      'Authorization': `Bearer ${env.GITHUB_TOKEN}`,
+      'Accept': 'application/vnd.github+json',
+      'User-Agent': 'faculty-bot-relay',
+      ...(body ? { 'Content-Type': 'application/json' } : {}),
+    },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  let data = null;
+  try { data = await res.json(); } catch { /* some responses have no body */ }
+  return { status: res.status, data };
+}
+
+async function commitFile(env, branch, filePath, base64Content, message) {
+  const apiPath = `/repos/${GITHUB_REPO}/contents/${encodeURI(filePath)}`;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const head = await githubApi(env, 'GET', `${apiPath}?ref=${branch}`);
+    if (head.status !== 200 || !head.data?.sha) {
+      // Only files that already exist may be edited — the admin edits lessons,
+      // she does not create arbitrary files in the repository.
+      return { ok: false, error: `fichier introuvable sur ${branch} (HTTP ${head.status})` };
+    }
+    const put = await githubApi(env, 'PUT', apiPath, {
+      message,
+      content: base64Content,
+      sha: head.data.sha,
+      branch,
+    });
+    if (put.status === 200 || put.status === 201) {
+      return { ok: true, sha: put.data?.commit?.sha };
+    }
+    if (put.status !== 409) {
+      return { ok: false, error: `échec du commit sur ${branch} (HTTP ${put.status})` };
+    }
+    // 409 = the sha moved under us (another push landed) — refetch once and retry.
+  }
+  return { ok: false, error: `conflit persistant sur ${branch}` };
+}
+
 async function checkRateLimit(env, ip) {
   if (!env.SUBSCRIBERS) return true;
   const hourBucket = Math.floor(Date.now() / 3600000);
@@ -504,6 +605,70 @@ export default {
         queued: tail.length,
         parts: parts.length
       }, 200, request);
+    }
+
+    if (request.method === 'POST' && (url.pathname === '/admin/login' || url.pathname === '/admin/save')) {
+      // Same server-side origin enforcement as /submit.
+      const origin = request.headers.get('Origin');
+      if (!origin || !ALLOWED_ORIGINS.has(origin)) {
+        return responseJSON({ ok: false, error: 'Origine non autorisée.' }, 403, request);
+      }
+
+      const rawBody = await request.text();
+      if (rawBody.length > ADMIN_BODY_LIMIT) {
+        return responseJSON({ ok: false, error: 'Requête trop volumineuse.' }, 400, request);
+      }
+      let body;
+      try {
+        body = JSON.parse(rawBody);
+      } catch {
+        return responseJSON({ ok: false, error: 'Format JSON invalide.' }, 400, request);
+      }
+
+      const auth = await verifyAdmin(env, request, body.password);
+      if (!auth.ok) {
+        return responseJSON({ ok: false, error: auth.error }, auth.status, request);
+      }
+
+      if (url.pathname === '/admin/login') {
+        return responseJSON({ ok: true }, 200, request);
+      }
+
+      // /admin/save
+      if (typeof body.path !== 'string' || !ADMIN_PATH_RE.test(body.path)) {
+        return responseJSON({ ok: false, error: 'Chemin de leçon non autorisé.' }, 400, request);
+      }
+      const shapeError = validateLessonShape(body.lesson);
+      if (shapeError) {
+        return responseJSON({ ok: false, error: `Contenu invalide : ${shapeError}.` }, 400, request);
+      }
+
+      const serialized = JSON.stringify(body.lesson, null, 2) + '\n';
+      const base64 = b64EncodeUtf8(serialized);
+      const message = `Admin edit: ${body.path} (éditeur du site)`;
+
+      const commits = [];
+      for (const target of CONTENT_TARGETS) {
+        const result = await commitFile(env, target.branch, target.prefix + body.path, base64, message);
+        if (!result.ok) {
+          return responseJSON({
+            ok: false,
+            error: `Échec de publication : ${result.error}.`,
+            commits, // whatever already landed, so a partial state is visible
+          }, 502, request);
+        }
+        commits.push({ branch: target.branch, sha: result.sha });
+      }
+
+      // GitHub Pages sometimes skips the automatic build after an API push —
+      // nudge it explicitly, best-effort.
+      if (ctx && ctx.waitUntil) {
+        ctx.waitUntil(
+          githubApi(env, 'POST', `/repos/${GITHUB_REPO}/pages/builds`).catch(() => {})
+        );
+      }
+
+      return responseJSON({ ok: true, commits }, 200, request);
     }
 
     return responseJSON({ error: 'Not Found' }, 404, request);

@@ -1,10 +1,14 @@
 import { useState, useEffect, useRef } from 'react';
 import { useHighlighter } from '../../context/HighlighterContext';
+import { useAdmin } from '../../context/AdminContext';
+import AdminLogin from '../Admin/AdminLogin';
 
 const PHASES = [1, 2, 3, 4];
 
 export default function Footer({ currentPage, totalPages, phase, onPrev, onNext, onGoToPage }) {
   const { isHighlightMode, toggleHighlightMode, undo, canUndo } = useHighlighter();
+  const { isAdmin, logout } = useAdmin();
+  const [loginOpen, setLoginOpen] = useState(false);
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('book_theme') || 'light';
   });
@@ -139,6 +143,17 @@ export default function Footer({ currentPage, totalPages, phase, onPrev, onNext,
       >
         {theme === 'light' ? '🌙' : '☀️'}
       </button>
+      <button
+        type="button"
+        className={`admin-toggle ${isAdmin ? 'admin-toggle--active' : ''}`}
+        id="btn-admin-toggle"
+        title={isAdmin ? 'Quitter le mode administrateur' : 'Mode administrateur'}
+        aria-label={isAdmin ? 'Quitter le mode administrateur' : 'Mode administrateur'}
+        onClick={() => (isAdmin ? logout() : setLoginOpen(true))}
+      >
+        ⚙️
+      </button>
+      {loginOpen && <AdminLogin onClose={() => setLoginOpen(false)} />}
     </footer>
   );
 }

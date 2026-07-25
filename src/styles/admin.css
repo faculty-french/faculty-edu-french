@@ -1,0 +1,207 @@
+/* ============================================
+   ADMIN MODE — login, per-page editor, toggles
+   ============================================ */
+
+/* Footer toggle (matches .theme-toggle sizing) */
+.admin-toggle {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background: var(--paper);
+  border: 1px solid var(--color-border);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin-toggle:hover { border-color: var(--ink); }
+.admin-toggle--active {
+  background: var(--phase-3-tint);
+  border-color: var(--phase-3);
+  box-shadow: 0 0 0 2px var(--phase-3-tint);
+}
+
+/* Floating "edit this page" button on each sheet (admin only). Absolutely
+   positioned: it must not change the page's layout — the sheet is a fixed
+   420x640 with overflow hidden and zero scroll tolerance. */
+.admin-edit-btn {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--phase-3);
+  background: var(--paper);
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin-edit-btn:hover { transform: scale(1.06); }
+
+/* Overlays (portalled to document.body — outside the transformed sheets) */
+.admin-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: var(--spacing-md);
+  animation: fadeIn var(--transition-fast) ease;
+}
+
+.admin-card {
+  width: min(520px, calc(100vw - 2rem));
+  max-height: 86vh;
+  background: var(--paper);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slideUp var(--transition-fast) ease;
+}
+.admin-card--login { width: min(380px, calc(100vw - 2rem)); }
+
+.admin-card__header {
+  background: var(--phase-3);
+  color: #fff;
+  padding: var(--spacing-sm) var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  flex-shrink: 0;
+}
+.admin-card__header h3 {
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.admin-card__close {
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  margin: -8px -8px -8px 0;
+  flex-shrink: 0;
+}
+.admin-card__close:hover { background: rgba(255, 255, 255, 0.2); }
+
+.admin-card__body {
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+.admin-card__body--scroll {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.admin-card__footer {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--spacing-sm);
+  flex-shrink: 0;
+}
+
+.admin-editor__count {
+  margin-right: auto;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  font-family: var(--font-sans);
+}
+
+.admin-field { display: flex; flex-direction: column; gap: 4px; }
+.admin-field--changed .admin-field__label::after {
+  content: ' ●';
+  color: var(--phase-3);
+}
+.admin-field__label {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.admin-field__input {
+  width: 100%;
+  font-size: 16px; /* iOS zooms into anything smaller on focus */
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  padding: 10px 12px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-elevated);
+  transition: border-color var(--transition-fast);
+  outline: none;
+}
+.admin-field__input:focus { border-color: var(--phase-3); }
+.admin-field--changed .admin-field__input { border-color: var(--phase-3); }
+.admin-field__textarea { resize: vertical; line-height: 1.45; }
+
+.admin-btn {
+  padding: 10px 16px;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  min-height: 44px;
+  transition: opacity var(--transition-fast);
+  border: none;
+}
+.admin-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.admin-btn--primary { background: var(--phase-3); color: #fff; }
+.admin-btn--primary:hover:not(:disabled) { opacity: 0.9; }
+.admin-btn--ghost {
+  background: var(--phase-3-tint);
+  color: var(--color-text);
+  border: 1px solid var(--phase-3);
+}
+
+.admin-error {
+  color: var(--color-error);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  margin: 0;
+}
+
+.admin-editor__status {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+.admin-editor__status--ok {
+  color: var(--color-success);
+  font-weight: 700;
+}

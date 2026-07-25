@@ -2,9 +2,37 @@ import { CONFIG } from '../config/config';
 
 const cache = {};
 
+// After an admin edit is published, GitHub Pages can keep serving the previous
+// JSON for ~10 minutes. The editor stores the freshly saved lesson here so the
+// admin (and this device) sees the edit immediately; the entry expires once the
+// CDN has certainly caught up.
+const ADMIN_OVERRIDES_KEY = 'book_admin_overrides';
+const ADMIN_OVERRIDE_TTL = 15 * 60 * 1000;
+
+function adminOverrideFor(path) {
+  try {
+    const all = JSON.parse(localStorage.getItem(ADMIN_OVERRIDES_KEY) || '{}');
+    const entry = all[path];
+    if (entry && entry.lesson && Date.now() - entry.savedAt < ADMIN_OVERRIDE_TTL) {
+      return entry.lesson;
+    }
+    if (entry) {
+      delete all[path];
+      localStorage.setItem(ADMIN_OVERRIDES_KEY, JSON.stringify(all));
+    }
+  } catch { /* corrupt storage — behave as if absent */ }
+  return null;
+}
+
 export async function loadLesson(unitId, lessonId) {
   const key = `${unitId}/${lessonId}`;
   if (cache[key]) return cache[key];
+
+  const override = adminOverrideFor(`${unitId}/${lessonId}.json`);
+  if (override) {
+    cache[key] = override;
+    return override;
+  }
 
   const url = `${import.meta.env.BASE_URL}content/${unitId}/${lessonId}.json`;
 
@@ -174,7 +202,14 @@ export async function loadBook() {
       });
     }
 
-    allPages.push(...pages.map(p => (moduleNum ? { ...p, module: Number(moduleNum) } : p)));
+    // sourceFile/sourceIndex let the admin editor map a rendered page back to
+    // its slot in the lesson JSON file it came from.
+    allPages.push(...pages.map((p, pi) => ({
+      ...p,
+      ...(moduleNum ? { module: Number(moduleNum) } : {}),
+      sourceFile: `${slot.unitId}/${slot.lessonId}.json`,
+      sourceIndex: pi,
+    })));
     // Tag each question with the lesson it came from. The whole book's questions are
     // pooled into one array, so the submit page needs this to validate and send only
     // its own lesson's questions rather than all of them.

@@ -4,3 +4,8 @@
 
 TELEGRAM_BOT_TOKEN="<TELEGRAM_BOT_TOKEN>"
 TELEGRAM_WEBHOOK_SECRET="<TELEGRAM_WEBHOOK_SECRET>"
+
+# Admin content editing (optional). ADMIN_PASSWORD is what the site's ⚙️ prompt
+# checks against; GITHUB_TOKEN needs `contents: write` on this repository only.
+ADMIN_PASSWORD="<ADMIN_PASSWORD>"
+GITHUB_TOKEN="<GITHUB_TOKEN>"
