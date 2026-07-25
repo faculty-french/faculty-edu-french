@@ -1245,6 +1245,29 @@
   box-shadow: 0 0 8px rgba(234, 179, 8, 0.6);
 }
 
+.highlight-undo {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-toggle-bg);
+  transition: all var(--transition-fast);
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+}
+.highlight-undo:hover:not(:disabled) {
+  background: var(--color-toggle-hover-bg);
+  transform: scale(1.1);
+}
+.highlight-undo:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
 [data-highlight="on"] .book-sheet-frame,
 [data-highlight="on"] .page__content-wrapper {
   touch-action: pan-y;

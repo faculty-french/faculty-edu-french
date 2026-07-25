@@ -40,6 +40,19 @@ export function getTextOffsetInBlock(blockEl, container, offset) {
 }
 
 /**
+ * Escapes text that used to be rendered as plain React children but now goes through
+ * dangerouslySetInnerHTML so it can carry highlight marks. Escaping keeps the rendered
+ * characters identical, and leaves textContent — which highlight offsets are measured
+ * against — unchanged.
+ */
+export function escapeHtml(text) {
+  return String(text ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+/**
  * Returns `html` with the given ranges wrapped in <mark class="hl">, as a string.
  *
  * Highlights are produced during render and handed to React rather than painted onto

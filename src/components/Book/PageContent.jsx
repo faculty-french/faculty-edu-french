@@ -53,9 +53,10 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
   }, [page.id, page.content, highlights, canHighlight]);
 
   // Highlights for this page, resolved during render so they are part of React's output.
+  // Keys are strings so composite boxes can address each of their text leaves separately.
   const pageRanges = canHighlight ? (highlights[page.id] || []) : [];
-  const withHighlights = (index, html) =>
-    highlightHtml(html, pageRanges.filter(r => r.block === index), page.id, index);
+  const withHighlights = (key, html) =>
+    highlightHtml(html, pageRanges.filter(r => String(r.block) === String(key)), page.id, key);
 
   const handlePointerUp = React.useCallback((e) => {
     if (!isHighlightMode || !canHighlight) return;
@@ -63,7 +64,7 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
     const mark = e.target.closest?.('mark.hl');
     if (mark && mark.dataset.pageId && mark.dataset.blockIndex != null) {
       const pId = mark.dataset.pageId;
-      const bIdx = Number(mark.dataset.blockIndex);
+      const bIdx = mark.dataset.blockIndex;
       const hlStart = Number(mark.dataset.hlStart);
       const hlEnd = Number(mark.dataset.hlEnd);
       removeHighlight(pId, bIdx, hlStart, hlEnd);
@@ -88,7 +89,7 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
       for (const blockEl of blockElements) {
         if (!range.intersectsNode(blockEl)) continue;
 
-        const blockIndex = Number(blockEl.dataset.blockIndex);
+        const blockKey = blockEl.dataset.blockIndex;
         const textLen = blockEl.textContent.length;
         if (textLen === 0) continue;
 
@@ -112,7 +113,7 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
         }
 
         if (startOffset < endOffset) {
-          newRanges.push({ block: blockIndex, start: startOffset, end: endOffset });
+          newRanges.push({ block: blockKey, start: startOffset, end: endOffset });
         }
       }
 
@@ -144,6 +145,8 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
         return (
           <ObjectivesBox
             key={index}
+            blockKey={index}
+            hl={withHighlights}
             title={formatText(block.title || block.text)}
             items={block.items || []}
           />
@@ -159,13 +162,13 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
       case 'phase-banner':
         return <PhaseBanner key={index} phase={block.phase} title={formatText(block.title)} duration={block.duration} />;
       case 'keywords':
-        return <Keywords key={index} title={formatText(block.title)} items={(block.items || []).map(formatText)} />;
+        return <Keywords key={index} blockKey={index} hl={withHighlights} title={formatText(block.title)} items={(block.items || []).map(formatText)} />;
       case 'info-box': {
         const prev = page.content[index - 1];
         const hideTitle = !!prev && prev.type === 'heading'
           && typeof prev.text === 'string' && typeof block.title === 'string'
           && prev.text.trim() === block.title.trim();
-        return <InfoBox key={index} title={formatText(block.title)} sections={block.sections || []} hideTitle={hideTitle} />;
+        return <InfoBox key={index} blockKey={index} hl={withHighlights} title={formatText(block.title)} sections={block.sections || []} hideTitle={hideTitle} />;
       }
       case 'image':
         return (

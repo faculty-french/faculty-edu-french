@@ -347,8 +347,74 @@ async function main() {
     assert.ok(overflowDiff <= 2, `Assertion 6 FAIL: Page overflow diff is ${overflowDiff} > 2`);
     console.log(`✓ Assertion 6 PASS: Highlighted page content wrapper overflow diff is ${overflowDiff} <= 2.`);
 
+    // -------------------------------------------------------------
+    // Assertion 7: text inside a composite box (objectifs / info-box / mots-clés)
+    // can be highlighted. Those boxes address each text leaf separately, so a
+    // regression here means offsets are being measured against the whole box again.
+    // -------------------------------------------------------------
+    await page.evaluate(() => localStorage.removeItem('book_highlights'));
+    await page.reload({ waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('.page', { timeout: 20000 });
+    await new Promise(r => setTimeout(r, 1200));
+
+    // Surligneur mode is not persisted, so the reload turned it off again.
+    if (await page.evaluate(() => document.body.dataset.highlight) !== 'on') {
+      await page.click('#btn-highlight-toggle');
+      await new Promise(r => setTimeout(r, 300));
+    }
+
+    const foundBox = await page.evaluate(async () => {
+      const leaf = document.querySelector(
+        '.objectives-box__text[data-block-index], .info-box__item[data-block-index], .keywords__chip[data-block-index]'
+      );
+      if (!leaf) return { ok: false, reason: 'no composite-box leaf carries a block key' };
+      // Bring its page on screen so the interaction is realistic.
+      leaf.scrollIntoView?.();
+      const walk = document.createTreeWalker(leaf, NodeFilter.SHOW_TEXT, null);
+      const node = walk.nextNode();
+      if (!node || node.nodeValue.trim().length < 4) return { ok: false, reason: 'leaf has no usable text' };
+      const range = document.createRange();
+      range.setStart(node, 0);
+      range.setEnd(node, Math.min(8, node.nodeValue.length));
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      leaf.dispatchEvent(new PointerEvent('pointerup', { bubbles: true }));
+      return { ok: true, key: leaf.dataset.blockIndex, cls: leaf.className };
+    });
+    assert.ok(foundBox.ok, `Assertion 7 FAIL: ${foundBox.reason}`);
+    await new Promise(r => setTimeout(r, 400));
+
+    const boxMarks = await page.evaluate(() => document.querySelectorAll(
+      '.objectives-box mark.hl, .info-box mark.hl, .keywords mark.hl'
+    ).length);
+    assert.ok(boxMarks > 0, `Assertion 7 FAIL: no highlight rendered inside the composite box (key ${foundBox.key})`);
+    console.log(`✓ Assertion 7 PASS: composite box highlightable (leaf key "${foundBox.key}", ${boxMarks} mark(s)).`);
+
+    // -------------------------------------------------------------
+    // Assertion 8: undo reverts the last highlight
+    // -------------------------------------------------------------
+    const countStored = () => page.evaluate(() => {
+      const raw = localStorage.getItem('book_highlights');
+      if (!raw) return 0;
+      return Object.values(JSON.parse(raw)).reduce((n, arr) => n + (arr?.length || 0), 0);
+    });
+
+    const before = await page.evaluate(() => document.querySelectorAll('mark.hl').length);
+    const storedBefore = await countStored();
+    assert.ok(before > 0, 'Assertion 8 FAIL: nothing highlighted to undo');
+
+    await page.click('#btn-highlight-undo');
+    await new Promise(r => setTimeout(r, 500));
+
+    const after = await page.evaluate(() => document.querySelectorAll('mark.hl').length);
+    const storedAfter = await countStored();
+    assert.ok(after < before, `Assertion 8 FAIL: undo did not remove the highlight from the page (${before} -> ${after})`);
+    assert.ok(storedAfter < storedBefore, `Assertion 8 FAIL: undo was not persisted (${storedBefore} -> ${storedAfter} stored range(s))`);
+    console.log(`✓ Assertion 8 PASS: undo reverted the last highlight (${before} -> ${after} on page, ${storedBefore} -> ${storedAfter} stored).`);
+
     await browser.close();
-    console.log('\nALL 6 MOBILE HIGHLIGHTER ASSERTIONS PASSED!\n');
+    console.log('\nALL 8 MOBILE HIGHLIGHTER ASSERTIONS PASSED!\n');
     process.exit(0);
 
   } catch (err) {

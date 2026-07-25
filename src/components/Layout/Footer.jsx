@@ -4,7 +4,7 @@ import { useHighlighter } from '../../context/HighlighterContext';
 const PHASES = [1, 2, 3, 4];
 
 export default function Footer({ currentPage, totalPages, phase, onPrev, onNext, onGoToPage }) {
-  const { isHighlightMode, toggleHighlightMode } = useHighlighter();
+  const { isHighlightMode, toggleHighlightMode, undo, canUndo } = useHighlighter();
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('book_theme') || 'light';
   });
@@ -117,6 +117,20 @@ export default function Footer({ currentPage, totalPages, phase, onPrev, onNext,
       >
         🖍️
       </button>
+      {/* Only offered while surligneur mode is on — it undoes highlighting, nothing else. */}
+      {isHighlightMode && (
+        <button
+          type="button"
+          className="highlight-undo"
+          onClick={undo}
+          disabled={!canUndo}
+          aria-label="Annuler le dernier surlignage"
+          id="btn-highlight-undo"
+          title="Annuler le dernier surlignage"
+        >
+          ↩️
+        </button>
+      )}
       <button
         className="theme-toggle"
         onClick={toggleTheme}
