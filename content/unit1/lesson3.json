@@ -551,11 +551,55 @@
           "duration": "10 min"
         },
         {
-          "type": "images-row",
-          "images": [
+          "type": "mind-map",
+          "id": "l3-covoiturage",
+          "center": "Le covoiturage",
+          "caption": "Carte mentale : le covoiturage",
+          "hint": "Appuyez sur une branche pour ajouter vos idées",
+          "branches": [
             {
-              "imageUrl": "images/lessons/lesson3-mindmap.png",
-              "caption": "Carte mentale : le covoiturage"
+              "id": "avantages",
+              "label": "Avantages",
+              "tone": "green",
+              "icon": "🌿",
+              "items": [
+                { "id": "ecologique", "label": "Écologique", "example": "Moins de CO₂" },
+                { "id": "economique", "label": "Économique", "example": "Économies d’essence" },
+                { "id": "social", "label": "Social", "example": "Rencontrer des étudiants" }
+              ]
+            },
+            {
+              "id": "inconvenients",
+              "label": "Inconvénients",
+              "tone": "red",
+              "icon": "⚠️",
+              "items": [
+                { "id": "organisation", "label": "Difficulté d’organisation" },
+                { "id": "horaires", "label": "Horaires rigides" },
+                { "id": "confiance", "label": "Manque de confiance" }
+              ]
+            },
+            {
+              "id": "solutions",
+              "label": "Solutions",
+              "tone": "blue",
+              "icon": "💡",
+              "items": [
+                { "id": "application", "label": "Application mobile" },
+                { "id": "groupe", "label": "Groupe universitaire" },
+                { "id": "regles", "label": "Règles de sécurité" }
+              ]
+            },
+            {
+              "id": "actions",
+              "label": "Actions possibles",
+              "tone": "orange",
+              "icon": "🚀",
+              "items": [
+                { "id": "idee1", "label": "Idée 1" },
+                { "id": "idee2", "label": "Idée 2" },
+                { "id": "idee3", "label": "Idée 3" }
+              ]
             }
           ]
         },
