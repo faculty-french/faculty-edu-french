@@ -70,7 +70,9 @@
   background: var(--paper); border: 2px solid var(--color-border); border-radius: var(--radius-md);
   cursor: pointer; transition: all var(--transition-fast); min-height: 40px; user-select: none;
 }
-.mcq-option:hover { border-color: var(--phase-1); background: var(--color-primary-bg); }
+.mcq-option:not(.mcq-option--locked):hover { border-color: var(--phase-1); background: var(--color-primary-bg); }
+/* Once an option is chosen the answer is final — stop inviting further clicks. */
+.mcq-option--locked { cursor: default; }
 .mcq-option--selected { border-color: var(--phase-1); background: var(--color-primary-bg); }
 .mcq-option--correct { border-color: var(--feedback-correct); background: var(--color-success-bg); }
 .mcq-option--incorrect { border-color: var(--color-error); background: var(--color-error-bg); }
@@ -95,7 +97,8 @@
   text-align: center; cursor: pointer; background: var(--paper); color: var(--ink-soft);
   transition: all var(--transition-fast); min-height: 40px; user-select: none;
 }
-.vrai-faux-btn:hover { border-color: var(--ink); color: var(--ink); }
+.vrai-faux-btn:not(.vrai-faux-btn--locked):hover { border-color: var(--ink); color: var(--ink); }
+.vrai-faux-btn--locked { cursor: default; }
 .vrai-faux-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 .vrai-faux-btn--selected-vrai,
 .vrai-faux-btn--selected-faux {

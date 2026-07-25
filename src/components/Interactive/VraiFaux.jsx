@@ -34,21 +34,25 @@ export default function VraiFaux({ question, value, onChange }) {
       <p className="question-block__text">{question.text}</p>
       <div className="vrai-faux-options">
         <button
-          className={`vrai-faux-btn ${vraiClass}`}
-          onClick={() => onChange(question.id, 'vrai')}
+          className={`vrai-faux-btn ${vraiClass}${hasSelected ? ' vrai-faux-btn--locked' : ''}`}
+          onClick={() => { if (!hasSelected) onChange(question.id, 'vrai'); }}
           onPointerDown={stopEvent}
           onMouseDown={stopEvent}
           onTouchStart={stopEvent}
+          aria-disabled={hasSelected}
+          aria-pressed={value === 'vrai'}
           type="button"
         >
           ✓ Vrai
         </button>
         <button
-          className={`vrai-faux-btn ${fauxClass}`}
-          onClick={() => onChange(question.id, 'faux')}
+          className={`vrai-faux-btn ${fauxClass}${hasSelected ? ' vrai-faux-btn--locked' : ''}`}
+          onClick={() => { if (!hasSelected) onChange(question.id, 'faux'); }}
           onPointerDown={stopEvent}
           onMouseDown={stopEvent}
           onTouchStart={stopEvent}
+          aria-disabled={hasSelected}
+          aria-pressed={value === 'faux'}
           type="button"
         >
           ✗ Faux

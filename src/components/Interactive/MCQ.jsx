@@ -2,6 +2,8 @@ export default function MCQ({ question, value, onChange }) {
   const stopEvent = (e) => e.stopPropagation();
 
   const hasAnswer = question.answer !== undefined && question.answer !== null;
+  // The first choice is final: the correct option is revealed on selection, so letting
+  // the student switch afterwards would just be copying the answer.
   const hasSelected = value !== undefined && value !== null && value !== '';
 
   return (
@@ -31,11 +33,13 @@ export default function MCQ({ question, value, onChange }) {
           return (
             <button
               key={option.id}
-              className={`mcq-option ${stateClass}`}
-              onClick={() => onChange(question.id, option.id)}
+              className={`mcq-option ${stateClass}${hasSelected ? ' mcq-option--locked' : ''}`}
+              onClick={() => { if (!hasSelected) onChange(question.id, option.id); }}
               onPointerDown={stopEvent}
               onMouseDown={stopEvent}
               onTouchStart={stopEvent}
+              aria-disabled={hasSelected}
+              aria-pressed={isSelected}
               type="button"
             >
               <span className="mcq-option__label">{option.label}</span>
