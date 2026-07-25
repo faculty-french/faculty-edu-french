@@ -2,27 +2,6 @@
    ADMIN MODE — login, per-page editor, toggles
    ============================================ */
 
-/* Footer toggle (matches .theme-toggle sizing) */
-.admin-toggle {
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-full);
-  background: var(--paper);
-  border: 1px solid var(--color-border);
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: all var(--transition-fast);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.admin-toggle:hover { border-color: var(--ink); }
-.admin-toggle--active {
-  background: var(--phase-3-tint);
-  border-color: var(--phase-3);
-  box-shadow: 0 0 0 2px var(--phase-3-tint);
-}
-
 /* Floating "edit this page" button on each sheet (admin only). Absolutely
    positioned: it must not change the page's layout — the sheet is a fixed
    420x640 with overflow hidden and zero scroll tolerance. */

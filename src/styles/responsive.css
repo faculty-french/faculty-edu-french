@@ -18,7 +18,38 @@
   .book-footer { min-height: 36px; padding: 2px var(--spacing-md); }
   .book-footer__btn { min-height: 32px; padding: var(--spacing-xs) var(--spacing-md); }
   .book-footer__center { gap: 2px; }
-  .theme-toggle, .highlight-toggle, .highlight-undo { width: 30px; height: 30px; }
+  .footer-tool { width: 30px; height: 30px; }
+}
+
+/* Narrow phones: the footer holds two pill buttons, the counter and up to four
+   tool buttons — without this it overflows and the pills get clipped. */
+@media (max-width: 560px) {
+  .book-footer { gap: var(--spacing-sm); padding: var(--spacing-xs) var(--spacing-sm); }
+  .book-footer__nav { gap: var(--spacing-xs); }
+  .book-footer__btn { padding: var(--spacing-xs) var(--spacing-sm); font-size: 0.72rem; }
+  .book-footer__center { min-width: 58px; }
+  .book-footer__side { gap: 0.2rem; }
+  .footer-tool { width: 34px; height: 34px; }
+  .footer-tool svg { width: 17px; height: 17px; }
+}
+
+@media (max-width: 400px) {
+  /* Labels give way to the arrows; the tools stay tappable. */
+  /* Round like the tool buttons instead of tall ovals. */
+  .book-footer__btn {
+    font-size: 0;
+    gap: 0;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0;
+  }
+  .book-footer__center { min-width: 52px; }
+  .book-footer { gap: var(--spacing-md); }
+  .book-footer__btn::after { font-size: 0.95rem; font-weight: 700; }
+  #btn-prev-page::after { content: '‹'; }
+  #btn-next-page::after { content: '›'; }
 }
 
 @media (min-width: 1024px) {
