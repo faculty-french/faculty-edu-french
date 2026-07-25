@@ -157,14 +157,14 @@
           "level": 2
         },
         {
-          "type": "consigne",
-          "text": "Lisez le texte suivant, puis répondez aux questions."
-        },
-        {
           "type": "microtask",
           "number": 1,
           "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global.",
           "duration": "10 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte suivant, puis répondez aux questions."
         }
       ]
     },
