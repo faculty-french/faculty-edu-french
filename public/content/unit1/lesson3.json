@@ -320,12 +320,6 @@
         {
           "type": "question",
           "questionId": "l3-q10"
-        },
-        {
-          "type": "phase-banner",
-          "phase": 4,
-          "title": "Évaluation des produits des étudiants",
-          "duration": "10 min"
         }
       ]
     },
@@ -364,6 +358,12 @@
               ]
             }
           ]
+        },
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
         }
       ]
     },
