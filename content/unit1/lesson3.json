@@ -708,18 +708,24 @@
       "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
       "content": [
         {
-          "type": "consigne",
-          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
-        },
-        {
           "type": "phase-banner",
           "phase": 3,
           "title": "Post-action (Tâche finale)",
           "duration": "20 min"
         },
         {
+          "type": "consigne",
+          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
+        },
+        {
           "type": "question",
           "questionId": "l3-q19"
+        },
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
         }
       ]
     },
@@ -729,12 +735,6 @@
       "type": "content",
       "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (1/4)",
       "content": [
-        {
-          "type": "phase-banner",
-          "phase": 4,
-          "title": "Évaluation des produits des étudiants",
-          "duration": "10 min"
-        },
         {
           "type": "question",
           "questionId": "l3-q20"
