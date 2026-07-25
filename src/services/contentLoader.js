@@ -157,6 +157,11 @@ export async function loadBook() {
       });
     }
 
+    // Record the lesson's position BEFORE its cover page is added, so the Sommaire
+    // opens on the cover rather than skipping straight to the first content page.
+    // Lessons without a cover fall through to that first page unchanged.
+    lessonPageIndex[slot.lessonId] = allPages.length;
+
     const intro = lessonIntros[slot.lessonId];
     if (intro) {
       allPages.push({
@@ -169,7 +174,6 @@ export async function loadBook() {
       });
     }
 
-    lessonPageIndex[slot.lessonId] = allPages.length;
     allPages.push(...pages.map(p => (moduleNum ? { ...p, module: Number(moduleNum) } : p)));
     // Tag each question with the lesson it came from. The whole book's questions are
     // pooled into one array, so the submit page needs this to validate and send only
