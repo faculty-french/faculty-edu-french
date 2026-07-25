@@ -173,8 +173,20 @@
 .validation-notification {
   padding: 0.6rem; background: var(--color-warning-bg); border: 1px solid var(--color-warning);
   border-radius: var(--radius-md); margin: 0.4rem 0; animation: slideUp var(--transition-base);
+  /* The sheet is a fixed 420x640 with overflow hidden: the notification must never be
+     able to push the submit button (rendered above it) out of the page, so the box
+     itself is capped and scrolls internally in the worst case. */
+  max-height: 200px; overflow-y: auto;
 }
 .validation-notification__title { font-family: var(--font-sans); font-weight: 800; font-size: 0.8rem; color: var(--color-warning); margin-bottom: var(--spacing-sm); }
+.validation-notification__chips { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.validation-notification__chip {
+  min-width: 26px; height: 26px; padding: 0 0.4rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--paper); border: 1px solid var(--color-warning); border-radius: var(--radius-full);
+  font-family: var(--font-sans); font-weight: 800; font-size: 0.72rem; color: var(--color-warning);
+}
+/* Legacy list styling kept for the error notification body */
 .validation-notification__list { list-style: none; padding: 0; }
 .validation-notification__item { padding: var(--spacing-xs) 0; font-size: 0.75rem; color: var(--color-text-secondary); }
 .validation-notification__item::before { content: '⚠️ '; }

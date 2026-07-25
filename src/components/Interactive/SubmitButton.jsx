@@ -74,21 +74,38 @@ export default function SubmitButton({
     );
   }
 
+  // The button renders BEFORE any notification, and the missing-question list is
+  // compact (numbers, not full texts) with a capped height. The page is a fixed
+  // 420x640 sheet with overflow:hidden — a full-text list of 30+ missing questions
+  // used to push the button below the clip edge, leaving no way to retry without
+  // reloading the site.
   return (
     <div className="submit-container" onPointerDown={stopEvent} onMouseDown={stopEvent} onTouchStart={stopEvent}>
+      <button
+        className={`submit-btn ${status === 'loading' ? 'submit-btn--loading' : ''}`}
+        onClick={handleSubmit}
+        disabled={status === 'loading'}
+        type="button"
+        id={`submit-btn-${lessonId}`}
+      >
+        {status === 'loading' ? 'Envoi en cours...' : 'Soumettre mes réponses'}
+      </button>
+
       {status === 'invalid' && (
         <div className="validation-notification">
-          <h4 className="validation-notification__title">⚠️ Questions non résolues</h4>
+          <h4 className="validation-notification__title">
+            ⚠️ {missingQuestions.length} question(s) sans réponse
+          </h4>
           <p className="page__paragraph" style={{ fontSize: 'var(--font-size-sm)', marginBottom: 'var(--spacing-xs)' }}>
-            Veuillez répondre à toutes les questions avant de soumettre :
+            Répondez aux questions suivantes, puis appuyez de nouveau sur le bouton :
           </p>
-          <ul className="validation-notification__list">
+          <div className="validation-notification__chips">
             {missingQuestions.map((q) => (
-              <li key={q.questionId} className="validation-notification__item">
-                Question {q.index} : "{q.text.substring(0, 50)}..."
-              </li>
+              <span key={q.questionId} className="validation-notification__chip" title={q.text}>
+                {q.index}
+              </span>
             ))}
-          </ul>
+          </div>
         </div>
       )}
 
@@ -100,16 +117,6 @@ export default function SubmitButton({
           </p>
         </div>
       )}
-
-      <button
-        className={`submit-btn ${status === 'loading' ? 'submit-btn--loading' : ''}`}
-        onClick={handleSubmit}
-        disabled={status === 'loading'}
-        type="button"
-        id={`submit-btn-${lessonId}`}
-      >
-        {status === 'loading' ? 'Envoi en cours...' : 'Soumettre mes réponses'}
-      </button>
     </div>
   );
 }
