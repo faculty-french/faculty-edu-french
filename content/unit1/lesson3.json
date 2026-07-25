@@ -20,7 +20,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Objectif général : À la fin de la leçon « Le covoiturage », l’apprenant sera capable de comprendre un texte explicatif et de produire un texte écrit cohérent et structuré pour informer et convaincre."
+          "text": "Objectif général : À la fin de la leçon « Le covoiturage », l’apprenant sera capable de comprendre un texte explicatif et de produire un texte écrit cohérent et structuré pour informer et convaincre. [test-admin-édition]"
         },
         {
           "type": "paragraph",
@@ -563,9 +563,21 @@
               "tone": "green",
               "icon": "🌿",
               "items": [
-                { "id": "ecologique", "label": "Écologique", "example": "Moins de CO₂" },
-                { "id": "economique", "label": "Économique", "example": "Économies d’essence" },
-                { "id": "social", "label": "Social", "example": "Rencontrer des étudiants" }
+                {
+                  "id": "ecologique",
+                  "label": "Écologique",
+                  "example": "Moins de CO₂"
+                },
+                {
+                  "id": "economique",
+                  "label": "Économique",
+                  "example": "Économies d’essence"
+                },
+                {
+                  "id": "social",
+                  "label": "Social",
+                  "example": "Rencontrer des étudiants"
+                }
               ]
             },
             {
@@ -574,9 +586,18 @@
               "tone": "red",
               "icon": "⚠️",
               "items": [
-                { "id": "organisation", "label": "Difficulté d’organisation" },
-                { "id": "horaires", "label": "Horaires rigides" },
-                { "id": "confiance", "label": "Manque de confiance" }
+                {
+                  "id": "organisation",
+                  "label": "Difficulté d’organisation"
+                },
+                {
+                  "id": "horaires",
+                  "label": "Horaires rigides"
+                },
+                {
+                  "id": "confiance",
+                  "label": "Manque de confiance"
+                }
               ]
             },
             {
@@ -585,9 +606,18 @@
               "tone": "blue",
               "icon": "💡",
               "items": [
-                { "id": "application", "label": "Application mobile" },
-                { "id": "groupe", "label": "Groupe universitaire" },
-                { "id": "regles", "label": "Règles de sécurité" }
+                {
+                  "id": "application",
+                  "label": "Application mobile"
+                },
+                {
+                  "id": "groupe",
+                  "label": "Groupe universitaire"
+                },
+                {
+                  "id": "regles",
+                  "label": "Règles de sécurité"
+                }
               ]
             },
             {
@@ -596,9 +626,18 @@
               "tone": "orange",
               "icon": "🚀",
               "items": [
-                { "id": "idee1", "label": "Idée 1" },
-                { "id": "idee2", "label": "Idée 2" },
-                { "id": "idee3", "label": "Idée 3" }
+                {
+                  "id": "idee1",
+                  "label": "Idée 1"
+                },
+                {
+                  "id": "idee2",
+                  "label": "Idée 2"
+                },
+                {
+                  "id": "idee3",
+                  "label": "Idée 3"
+                }
               ]
             }
           ]
