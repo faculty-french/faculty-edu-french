@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
+import { usePrintMode } from '../../context/PrintContext';
 
 // The four branches orbit the central node. Geometry is measured rather than
 // hard-coded so the ellipse always fits the sheet: the pills must never cross the
@@ -24,6 +25,9 @@ function circlePath(cx, cy, r) {
 }
 
 export default function MindMap({ id, center, caption, hint, branches = [] }) {
+  // On paper the orbit is frozen wherever the animation happened to be, which puts
+  // the pills at arbitrary — sometimes overlapping — angles. Print the static ring.
+  const printMode = usePrintMode();
   const [data, setData] = useState(() => {
     try {
       const saved = localStorage.getItem(`book_mindmap_${id}`);
@@ -116,7 +120,7 @@ export default function MindMap({ id, center, caption, hint, branches = [] }) {
   // vertically. A quarter turn apart, two pills are then r apart vertically, which
   // is well over a pill's height — they never cover each other.
   const r = Math.max(60, Math.min(cx - PILL_W / 2 - 6, CANVAS_H / 2 - PILL_H / 2 - 4));
-  const orbitReady = width > 0 && SUPPORTS_MOTION_PATH;
+  const orbitReady = width > 0 && SUPPORTS_MOTION_PATH && !printMode;
 
   return (
     <div className="mind-map" onPointerDown={stopEvent} onMouseDown={stopEvent} onTouchStart={stopEvent}>

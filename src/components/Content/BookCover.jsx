@@ -1,3 +1,6 @@
+import { useRef } from 'react';
+import { PRINT_REQUEST_EVENT } from '../../context/PrintContext';
+
 export default function BookCover({
   eyebrow,
   title,
@@ -8,6 +11,12 @@ export default function BookCover({
   year,
   welcome,
 }) {
+  // page-flip preventDefaults touchstart on the sheet, so the compatibility click
+  // never fires on phones — the button opens on pointerup, like the mind-map branches.
+  const pressRef = useRef(null);
+  const stop = (e) => e.stopPropagation();
+  const requestPrint = () => window.dispatchEvent(new CustomEvent(PRINT_REQUEST_EVENT));
+
   return (
     <div className="book-cover">
       {/* Decorative vertical spectrum spine on the left edge */}
@@ -78,6 +87,28 @@ export default function BookCover({
 
         </div>
       </div>
+
+      <button
+        type="button"
+        id="btn-print-cover"
+        className="book-cover__print"
+        title="Imprimer le livret (PDF)"
+        onPointerDown={(e) => { stop(e); pressRef.current = { x: e.clientX, y: e.clientY }; }}
+        onPointerUp={(e) => {
+          stop(e);
+          const press = pressRef.current;
+          pressRef.current = null;
+          if (!press) return;
+          if (Math.abs(e.clientX - press.x) > 12 || Math.abs(e.clientY - press.y) > 12) return;
+          requestPrint();
+        }}
+        onPointerCancel={() => { pressRef.current = null; }}
+        onMouseDown={stop}
+        onTouchStart={stop}
+        onClick={(e) => { stop(e); requestPrint(); }}
+      >
+        🖨️ Imprimer le livret
+      </button>
     </div>
   );
 }

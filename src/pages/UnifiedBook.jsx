@@ -7,6 +7,7 @@ import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
 import { HighlighterProvider } from '../context/HighlighterContext';
 import { AdminProvider } from '../context/AdminContext';
+import PrintButton from '../components/Print/PrintButton';
 
 export default function UnifiedBook() {
   const [bookData, setBookData] = useState(null);
@@ -95,6 +96,13 @@ export default function UnifiedBook() {
           lessonTitle={headerTitle.toUpperCase()}
           pageNumber={currentPageData?.pageNumber || currentPage + 1}
           totalPages={pagesWithNav.length}
+          actions={
+            <PrintButton
+              pages={pagesWithNav}
+              questions={bookData.questions}
+              getAnswer={getAnswer}
+            />
+          }
         />
         
         <BookViewer
