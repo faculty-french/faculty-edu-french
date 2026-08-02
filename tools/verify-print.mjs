@@ -172,6 +172,20 @@ async function main() {
     check(swaps.submitHidden, '7c. the submission button is not printed');
     check(swaps.theme === 'light', '7d. printing forces the light palette');
 
+    // A `transparent` stop is transparent *black*: the ruling then exports as a
+    // rasterised tiling pattern behind a luminosity soft mask, and PDF viewers that
+    // mis-render that mask paint the whole answer zone as one grey block instead of
+    // 1px rules — on some pages but not others, which is what made it hard to see.
+    const ruling = await page.evaluate(() => {
+      const el = document.querySelector('.print-root .open-ended__lines');
+      if (!el) return null;
+      const bg = getComputedStyle(el).backgroundImage;
+      return { bg, transparentStops: (bg.match(/rgba\(0,\s*0,\s*0,\s*0\)/g) || []).length };
+    });
+    check(ruling && ruling.bg.includes('repeating-linear-gradient') && ruling.transparentStops === 0,
+      '7e. the Seyès ruling has no transparent stop (no soft mask in the PDF)',
+      ruling ? `${ruling.transparentStops} transparent stop(s)` : 'no answer zone found');
+
     // ---- 8. the real thing: an A4 PDF with exactly one PDF page per book page
     const pdf = await page.pdf({
       printBackground: true,

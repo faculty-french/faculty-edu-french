@@ -15,10 +15,17 @@
   display: flex;
   flex-direction: column;
   background-color: var(--paper);
+  /* The stops are opaque on purpose. `transparent` is transparent *black*, so the
+     gradient carries an alpha channel and the browser exports it to PDF as a
+     rasterised tiling pattern behind a luminosity soft mask; several PDF viewers
+     render that mask as one smooth ramp instead of the 1px rules, which turns the
+     answer zone into a grey block on paper. Painting the paper colour instead —
+     visually identical, the element already has it as its background-color — keeps
+     the ruling a plain opaque pattern that every viewer draws correctly. */
   background-image: repeating-linear-gradient(
     to bottom,
-    transparent 0,
-    transparent calc(var(--line-h) - 1px),
+    var(--paper) 0,
+    var(--paper) calc(var(--line-h) - 1px),
     var(--seyes-line) calc(var(--line-h) - 1px),
     var(--seyes-line) var(--line-h)
   );
