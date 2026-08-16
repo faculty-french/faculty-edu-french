@@ -87,7 +87,7 @@
       "id": "lesson2-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION",
+      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -116,15 +116,7 @@
               "caption": "Image 2"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p03",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES (1/2)",
-      "content": [
+        },
         {
           "type": "consigne",
           "text": "Répondez aux questions suivantes :"
@@ -132,6 +124,19 @@
         {
           "type": "question",
           "questionId": "l2-q0"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p03",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "I. Introduction et motivation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -140,15 +145,7 @@
         {
           "type": "question",
           "questionId": "l2-q2"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p04",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES (2/2)",
-      "content": [
+        },
         {
           "type": "consigne",
           "text": "Répondez à la question :"
@@ -156,7 +153,15 @@
         {
           "type": "question",
           "questionId": "l2-q3"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p04",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
+      "content": [
         {
           "type": "microtask",
           "number": 1,
@@ -172,7 +177,7 @@
       "id": "lesson2-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -210,13 +215,8 @@
       "id": "lesson2-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : LECTURE (2/2)",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE (2/2)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Les espaces verts (suite)",
-          "level": 3
-        },
         {
           "type": "paragraph",
           "text": "Beaucoup de personnes aiment passer leur temps libre dans les espaces verts. Les enfants y jouent, les adultes font des pique-niques ou lisent un livre, et les personnes âgées s’y promènent pour rester en forme. Ces endroits sont aussi utiles pour les animaux et les insectes, comme les oiseaux et les abeilles, qui y trouvent de la nourriture et un habitat naturel. Sans les espaces verts, la vie en ville serait beaucoup moins agréable."
@@ -236,7 +236,7 @@
       "id": "lesson2-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : QUESTIONS GUIDÉES (1/2)",
+      "title": "LEÇON 2 : LECTURE",
       "content": [
         {
           "type": "heading",
@@ -250,6 +250,10 @@
         {
           "type": "question",
           "questionId": "l2-q5"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q6"
         }
       ]
     },
@@ -257,16 +261,12 @@
       "id": "lesson2-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : QUESTIONS GUIDÉES (2/2)",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES",
       "content": [
         {
           "type": "heading",
           "text": "Questions guidées (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q6"
         },
         {
           "type": "consigne",
@@ -275,6 +275,16 @@
         {
           "type": "question",
           "questionId": "l2-q7"
+        },
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "Trouvez dans le texte trois activités qu’on peut faire dans un espace vert ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q8"
         }
       ]
     },
@@ -286,16 +296,6 @@
       "content": [
         {
           "type": "microtask",
-          "number": 3,
-          "text": "Trouvez dans le texte trois activités qu’on peut faire dans un espace vert ?",
-          "duration": "5 min"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q8"
-        },
-        {
-          "type": "microtask",
           "number": 4,
           "text": "Trouvez l’idée générale du texte ?",
           "duration": "5 min"
@@ -303,15 +303,7 @@
         {
           "type": "question",
           "questionId": "l2-q9"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p10",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : TEXTE EXPLICATIF",
-      "content": [
+        },
         {
           "type": "info-box",
           "title": "Présentation du texte explicatif",
@@ -345,10 +337,10 @@
       ]
     },
     {
-      "id": "lesson2-p11",
+      "id": "lesson2-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : RÉSUMÉ & PHRASES DIFFICILES",
+      "title": "LEÇON 2 : TEXTE EXPLICATIF",
       "content": [
         {
           "type": "microtask",
@@ -369,15 +361,7 @@
         {
           "type": "question",
           "questionId": "l2-q11"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p12",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : VRAI OU FAUX",
-      "content": [
+        },
         {
           "type": "consigne",
           "text": "Mettez vrai ou faux devant chaque phrase :"
@@ -389,6 +373,19 @@
         {
           "type": "question",
           "questionId": "l2-vf2"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : RÉSUMÉ & PHRASES DIFFICILES",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -397,15 +394,7 @@
         {
           "type": "question",
           "questionId": "l2-vf4"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p13",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : REFORMULATION & MINI-PRODUCTION",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 7,
@@ -419,7 +408,15 @@
         {
           "type": "question",
           "questionId": "l2-q12"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : REFORMULATION & MINI-PRODUCTION",
+      "content": [
         {
           "type": "microtask",
           "number": 8,
@@ -437,7 +434,7 @@
       ]
     },
     {
-      "id": "lesson2-p14",
+      "id": "lesson2-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES À OBSERVER",
@@ -473,9 +470,10 @@
       ]
     },
     {
-      "id": "lesson2-p15",
-      "title": "LEÇON 2 : VIDÉO DE LA LEÇON",
+      "id": "lesson2-p14",
+      "phase": 2,
       "type": "content",
+      "title": "LEÇON 2 : VIDÉO DE LA LEÇON",
       "content": [
         {
           "type": "microtask",
@@ -496,11 +494,10 @@
           "type": "question",
           "questionId": "l2-q17"
         }
-      ],
-      "phase": 2
+      ]
     },
     {
-      "id": "lesson2-p16",
+      "id": "lesson2-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES & DISCUSSION",
@@ -522,7 +519,7 @@
       ]
     },
     {
-      "id": "lesson2-p17",
+      "id": "lesson2-p16",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
@@ -575,7 +572,7 @@
       ]
     },
     {
-      "id": "lesson2-p18",
+      "id": "lesson2-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : TÂCHE FINALE — ARTICLE",
@@ -610,7 +607,7 @@
       ]
     },
     {
-      "id": "lesson2-p19",
+      "id": "lesson2-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
@@ -624,15 +621,7 @@
         {
           "type": "question",
           "questionId": "l2-q16"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p20",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (1/5)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -645,23 +634,23 @@
         {
           "type": "question",
           "questionId": "l2-e2"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-e3"
         }
       ]
     },
     {
-      "id": "lesson2-p21",
+      "id": "lesson2-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (2/5)",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e3"
         },
         {
           "type": "question",
@@ -678,10 +667,10 @@
       ]
     },
     {
-      "id": "lesson2-p22",
+      "id": "lesson2-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (3/5)",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
@@ -703,10 +692,10 @@
       ]
     },
     {
-      "id": "lesson2-p23",
+      "id": "lesson2-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (4/5)",
+      "title": "LEÇON 2 : É-ÉVALUATION (3/3)",
       "content": [
         {
           "type": "heading",
@@ -720,19 +709,6 @@
         {
           "type": "question",
           "questionId": "l2-e11"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p24",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (5/5)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -745,7 +721,7 @@
       ]
     },
     {
-      "id": "lesson2-p25",
+      "id": "lesson2-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : SOUMISSION DU DEVOIR",

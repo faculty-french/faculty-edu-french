@@ -122,6 +122,11 @@
       "title": "LEÇON 3 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
+          "type": "heading",
+          "text": "Introduction et Motivation (suite)",
+          "level": 2
+        },
+        {
           "type": "consigne",
           "text": "Répondez aux questions suivantes :"
         },
@@ -132,15 +137,7 @@
         {
           "type": "question",
           "questionId": "l12-q2"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p04",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 3 : LECTURE GUIDÉE",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Lecture guidée du texte (15 minutes)",
@@ -153,10 +150,10 @@
       ]
     },
     {
-      "id": "lesson12-p05",
+      "id": "lesson12-p04",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : PHASE 2 — LECTURE (1/4)",
+      "title": "LEÇON 3 : PHASE 2 — LECTURE",
       "content": [
         {
           "type": "phase-banner",
@@ -176,19 +173,6 @@
         {
           "type": "paragraph",
           "text": "Personnellement, je n'ai jamais aimé faire mes devoirs à l'école. Je les faisais constamment à la dernière minute pendant les intercours et je les ai toujours considérés comme quelque chose de casse pied qui me faisait perdre mon temps. Je crois que le problème des devoirs, c'est que ça n'incite pas forcément à apprendre ni à comprendre ce qu'on a vu pendant un cours. Comme les élèves voient les devoirs comme quelque chose de contraignant, ça ne leur donne pas envie d'apprendre. Le problème, c'est qu'après, ils risquent d'associer l'école à un lieu désagréable qui leur donne des devoirs ennuyeux."
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p06",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : LECTURE (2/4)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Faut-il donner des devoirs à l'école ? (2/4)",
-          "level": 2
         },
         {
           "type": "paragraph",
@@ -197,16 +181,11 @@
       ]
     },
     {
-      "id": "lesson12-p07",
+      "id": "lesson12-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : LECTURE (3/4)",
+      "title": "LEÇON 3 : LECTURE",
       "content": [
-        {
-          "type": "heading",
-          "text": "Faut-il donner des devoirs à l'école ? (3/4)",
-          "level": 2
-        },
         {
           "type": "paragraph",
           "text": "Alors, je suis partagé. Une part de moi pense que ça ne sert à rien. Après tout, beaucoup de pays ne donnent pas de devoir à la maison et les élèves s'en sortent très bien. Et une autre part de moi admet que c'est utile."
@@ -214,19 +193,6 @@
         {
           "type": "paragraph",
           "text": "En tout cas, je ne pense pas qu'il faille donner trop de devoirs aux élèves, surtout s'ils ont déjà travaillé beaucoup d'heures dans la journée. Les devoirs à la maison ne doivent pas servir à remplacer les explications des professeurs. À mon sens, c'est pendant les cours que les élèves devraient retenir la majorité des cours."
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p08",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : LECTURE (4/4)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Faut-il donner des devoirs à l'école ? (4/4)",
-          "level": 2
         },
         {
           "type": "paragraph",
@@ -240,10 +206,10 @@
       ]
     },
     {
-      "id": "lesson12-p09",
+      "id": "lesson12-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 1",
+      "title": "LEÇON 3 : MICRO-TÂCHE 1 (1/2)",
       "content": [
         {
           "type": "microtask",
@@ -258,15 +224,7 @@
         {
           "type": "question",
           "questionId": "l12-q3"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p10",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Questions guidées (10 minutes)",
@@ -279,22 +237,14 @@
         {
           "type": "question",
           "questionId": "l12-q4"
-        },
-        {
-          "type": "question",
-          "questionId": "l12-q5"
-        },
-        {
-          "type": "question",
-          "questionId": "l12-q6"
         }
       ]
     },
     {
-      "id": "lesson12-p11",
+      "id": "lesson12-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
+      "title": "LEÇON 3 : MICRO-TÂCHE 1 (2/2)",
       "content": [
         {
           "type": "heading",
@@ -303,15 +253,23 @@
         },
         {
           "type": "question",
+          "questionId": "l12-q5"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q6"
+        },
+        {
+          "type": "question",
           "questionId": "l12-q7"
         }
       ]
     },
     {
-      "id": "lesson12-p12",
+      "id": "lesson12-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES)",
       "content": [
         {
           "type": "heading",
@@ -337,15 +295,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p13",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHES 2 & 3",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 2,
@@ -355,7 +305,15 @@
         {
           "type": "question",
           "questionId": "l12-q8"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHES 2 & 3",
+      "content": [
         {
           "type": "microtask",
           "number": 3,
@@ -365,15 +323,7 @@
         {
           "type": "question",
           "questionId": "l12-q9"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p14",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 4",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 4,
@@ -383,7 +333,15 @@
         {
           "type": "question",
           "questionId": "l12-q10"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHE 4",
+      "content": [
         {
           "type": "microtask",
           "number": 5,
@@ -401,7 +359,7 @@
       ]
     },
     {
-      "id": "lesson12-p15",
+      "id": "lesson12-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MICRO-TÂCHE 6 — REFORMULATION",
@@ -423,7 +381,7 @@
       ]
     },
     {
-      "id": "lesson12-p16",
+      "id": "lesson12-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : STRUCTURES À OBSERVER : (5 MINUTES)",
@@ -468,7 +426,7 @@
       ]
     },
     {
-      "id": "lesson12-p17",
+      "id": "lesson12-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MICRO-TÂCHE 7 — VIDÉO",
@@ -495,7 +453,7 @@
       ]
     },
     {
-      "id": "lesson12-p18",
+      "id": "lesson12-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MINI-PRODUCTION",
@@ -509,15 +467,7 @@
         {
           "type": "question",
           "questionId": "l12-q14"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p19",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 9,
@@ -531,6 +481,19 @@
         {
           "type": "paragraph",
           "text": "« Selon vous, comment pourrait-on rendre les devoirs à l'école plus utiles et efficace pour tous les élèves ? »"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p15",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer : (5 minutes) (suite)",
+          "level": 2
         },
         {
           "type": "consigne",
@@ -543,10 +506,10 @@
       ]
     },
     {
-      "id": "lesson12-p20",
+      "id": "lesson12-p16",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE",
+      "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -570,11 +533,16 @@
       ]
     },
     {
-      "id": "lesson12-p21",
+      "id": "lesson12-p17",
       "phase": 3,
       "type": "content",
-      "title": "LEÇON 3 : RÉDACTION",
+      "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE (2/2)",
       "content": [
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale) (suite)",
+          "level": 2
+        },
         {
           "type": "question",
           "questionId": "l12-q16"
@@ -582,7 +550,7 @@
       ]
     },
     {
-      "id": "lesson12-p22",
+      "id": "lesson12-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : PHASE 4 — ÉVALUATION",
@@ -604,10 +572,10 @@
       ]
     },
     {
-      "id": "lesson12-p23",
+      "id": "lesson12-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (1/5)",
       "content": [
         {
           "type": "heading",
@@ -621,10 +589,10 @@
       ]
     },
     {
-      "id": "lesson12-p24",
+      "id": "lesson12-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (2/5)",
       "content": [
         {
           "type": "heading",
@@ -634,6 +602,19 @@
         {
           "type": "question",
           "questionId": "l12-q19"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p21",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : É-ÉVALUATION (3/5)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -642,10 +623,10 @@
       ]
     },
     {
-      "id": "lesson12-p25",
+      "id": "lesson12-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (4/5)",
       "content": [
         {
           "type": "heading",
@@ -655,6 +636,19 @@
         {
           "type": "question",
           "questionId": "l12-q21"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p23",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : É-ÉVALUATION (5/5)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -663,7 +657,7 @@
       ]
     },
     {
-      "id": "lesson12-p26",
+      "id": "lesson12-p24",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : SOUMISSION DU DEVOIR",

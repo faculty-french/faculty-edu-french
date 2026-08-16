@@ -79,7 +79,7 @@
       "id": "lesson11-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 1 — OBSERVATION",
+      "title": "LEÇON 2 : PHASE 1 — OBSERVATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -119,7 +119,7 @@
       "id": "lesson11-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 2 : PHASE 1 — OBSERVATION (2/2)",
       "content": [
         {
           "type": "consigne",
@@ -128,6 +128,11 @@
         {
           "type": "question",
           "questionId": "l11-q1"
+        },
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -139,8 +144,13 @@
       "id": "lesson11-p04",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : MICRO-TÂCHE 1 & LECTURE GUIDÉE",
+      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
       "content": [
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation (suite)",
+          "level": 2
+        },
         {
           "type": "microtask",
           "number": 1,
@@ -169,7 +179,7 @@
       "id": "lesson11-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE",
       "content": [
         {
           "type": "phase-banner",
@@ -196,29 +206,11 @@
       "id": "lesson11-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : LECTURE (2/3)",
+      "title": "LEÇON 2 : LECTURE",
       "content": [
-        {
-          "type": "heading",
-          "text": "L'intelligence artificielle à l'école : un nouvel outil pédagogique (2/3)",
-          "level": 2
-        },
         {
           "type": "paragraph",
           "text": "Cependant, cette innovation présente aussi des inconvénients majeurs. Le premier risque est que l'IA rende les élèves passifs. Si les outils donnent des réponses trop rapidement, les élèves pourraient cesser de réfléchir par eux-mêmes. Un autre problème est l'inégalité d'accès. Toutes les écoles n'ont pas le même équipement technologique, ce qui peut créer des différences entre les établissements. Enfin, il existe des questions éthiques importantes. La protection des données personnelles des élèves et la fiabilité des informations fournies par l'IA nécessitent une vigilance constante."
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p07",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : LECTURE (3/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "L'intelligence artificielle à l'école : un nouvel outil pédagogique (3/3)",
-          "level": 2
         },
         {
           "type": "paragraph",
@@ -232,7 +224,7 @@
       ]
     },
     {
-      "id": "lesson11-p08",
+      "id": "lesson11-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES (1/2)",
@@ -254,18 +246,23 @@
         {
           "type": "question",
           "questionId": "l11-q5"
+        },
+        {
+          "type": "question",
+          "questionId": "l11-q6"
         }
       ]
     },
     {
-      "id": "lesson11-p09",
+      "id": "lesson11-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : QUESTIONS GUIDÉES (2/2)",
+      "title": "LEÇON 2 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES (2/2)",
       "content": [
         {
-          "type": "question",
-          "questionId": "l11-q6"
+          "type": "heading",
+          "text": "L'intelligence artificielle à l'école : un nouvel outil pédagogique (suite)",
+          "level": 3
         },
         {
           "type": "question",
@@ -278,11 +275,16 @@
       ]
     },
     {
-      "id": "lesson11-p10",
+      "id": "lesson11-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : PRÉSENTATION DU TEXTE",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES",
       "content": [
+        {
+          "type": "heading",
+          "text": "L'intelligence artificielle à l'école : un nouvel outil pédagogique (suite)",
+          "level": 3
+        },
         {
           "type": "info-box",
           "title": "Des informations supplémentaires",
@@ -303,15 +305,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p11",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : MICRO-TÂCHES 3 & 4",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 3,
@@ -321,7 +315,15 @@
         {
           "type": "question",
           "questionId": "l11-q9"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson11-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : MICRO-TÂCHES 3 & 4",
+      "content": [
         {
           "type": "microtask",
           "number": 4,
@@ -331,15 +333,7 @@
         {
           "type": "question",
           "questionId": "l11-q10"
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p12",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : MICRO-TÂCHE 5 — OPINION",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 5,
@@ -353,7 +347,15 @@
         {
           "type": "question",
           "questionId": "l11-q11"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson11-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : MICRO-TÂCHE 5 — OPINION",
+      "content": [
         {
           "type": "microtask",
           "number": 6,
@@ -363,15 +365,7 @@
         {
           "type": "question",
           "questionId": "l11-q12"
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p13",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : MICRO-TÂCHE 7 — REFORMULATION",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 7,
@@ -385,20 +379,20 @@
         {
           "type": "question",
           "questionId": "l11-q13"
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p14",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : MICRO-TÂCHE 8 — VIDÉO",
-      "content": [
+        },
         {
           "type": "link",
           "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
           "label": "📄 Explications et exercices : Les connecteurs logiques"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson11-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : MICRO-TÂCHE 8 — VIDÉO",
+      "content": [
         {
           "type": "microtask",
           "number": 8,
@@ -421,7 +415,7 @@
       ]
     },
     {
-      "id": "lesson11-p15",
+      "id": "lesson11-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES À OBSERVER : (5 MINUTES) (1/2)",
@@ -465,7 +459,7 @@
       ]
     },
     {
-      "id": "lesson11-p16",
+      "id": "lesson11-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES À OBSERVER : (5 MINUTES) (2/2)",
@@ -510,7 +504,7 @@
       ]
     },
     {
-      "id": "lesson11-p17",
+      "id": "lesson11-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MINI-PRODUCTION",
@@ -524,15 +518,7 @@
         {
           "type": "question",
           "questionId": "l11-q15"
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p18",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : DISCUSSION EN GROUPES",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 10,
@@ -546,6 +532,19 @@
         {
           "type": "paragraph",
           "text": "« Quelles actions concrètes pourriez-vous faire pour utiliser l'intelligence artificielle de manière responsable à l'école ? »"
+        }
+      ]
+    },
+    {
+      "id": "lesson11-p16",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : DISCUSSION EN GROUPES",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer : (5 minutes) (suite)",
+          "level": 2
         },
         {
           "type": "consigne",
@@ -558,7 +557,7 @@
       ]
     },
     {
-      "id": "lesson11-p19",
+      "id": "lesson11-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
@@ -581,15 +580,7 @@
         {
           "type": "paragraph",
           "text": "Où tu expliques :<br>• Comment tu utiliserais l'IA pour apprendre mieux.<br>• Quels problèmes pourraient apparaître.<br>• Ce que tu ferais pour que l'IA soit utile et sûre."
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p20",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 2 : RÉDACTION",
-      "content": [
+        },
         {
           "type": "question",
           "questionId": "l11-q17"
@@ -597,7 +588,7 @@
       ]
     },
     {
-      "id": "lesson11-p21",
+      "id": "lesson11-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
@@ -615,15 +606,7 @@
         {
           "type": "question",
           "questionId": "l11-q18"
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p22",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (1/2)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -632,23 +615,23 @@
         {
           "type": "question",
           "questionId": "l11-q19"
-        },
-        {
-          "type": "question",
-          "questionId": "l11-q20"
         }
       ]
     },
     {
-      "id": "lesson11-p23",
+      "id": "lesson11-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (2/2)",
+      "title": "LEÇON 2 : É-ÉVALUATION",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l11-q20"
         },
         {
           "type": "question",
@@ -661,7 +644,7 @@
       ]
     },
     {
-      "id": "lesson11-p24",
+      "id": "lesson11-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : SOUMISSION DU DEVOIR",

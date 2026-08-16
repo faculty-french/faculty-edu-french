@@ -108,6 +108,14 @@
         {
           "type": "question",
           "questionId": "l7-q0"
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l7-q1"
         }
       ]
     },
@@ -118,12 +126,9 @@
       "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
-          "type": "consigne",
-          "text": "Répondez aux questions suivantes :"
-        },
-        {
-          "type": "question",
-          "questionId": "l7-q1"
+          "type": "heading",
+          "text": "Introduction et Motivation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -148,7 +153,7 @@
       "id": "lesson7-p04",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 1 : PHASE 2 — LECTURE",
       "content": [
         {
           "type": "phase-banner",
@@ -184,16 +189,15 @@
       "id": "lesson7-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : LECTURE (2/3)",
+      "title": "LEÇON 1 : LECTURE (1/2)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Le télétravail (2/3)",
-          "level": 2
-        },
         {
           "type": "paragraph",
           "text": "Le télétravail présente de nombreux avantages. Tout d'abord, il permet de gagner du temps en évitant les trajets quotidiens. Ensuite, il offre une plus grande flexibilité dans l'organisation du travail. Les salariés peuvent ainsi mieux concilier leur vie professionnelle et leur vie personnelle. Enfin, le télétravail peut contribuer à réduire l'empreinte écologique en limitant les déplacements Cependant, cette nouvelle façon de travailler n'est pas sans poser de problèmes Le principal inconvénient est sans doute l'isolement que peuvent ressentir certains télétravailleurs, privés des échanges avec leurs collègues. De plus, il est parfois difficile de séparer vie professionnelle et vie personnelle lorsque l'on travaille à domicile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le télétravail est une réalité pour de plus en plus de personnes, il est important de souligner que cette pratique ne convient pas à tous les métiers. Certains emplois nécessitent une présence physique et des interactions régulières avec les collègues. De plus, le télétravail soulève de nombreuses questions, notamment termes d'aménagement du temps de travail et d'évaluation des performances. Les entreprises et les salariés doivent donc apprendre à s'adapter à cette nouvelle organisation du travail pour en tirer le meilleur parti."
         }
       ]
     },
@@ -201,30 +205,13 @@
       "id": "lesson7-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : LECTURE (3/3)",
+      "title": "LEÇON 1 : LECTURE (2/2)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Le télétravail (3/3)",
-          "level": 2
-        },
-        {
-          "type": "paragraph",
-          "text": "Si le télétravail est une réalité pour de plus en plus de personnes, il est important de souligner que cette pratique ne convient pas à tous les métiers. Certains emplois nécessitent une présence physique et des interactions régulières avec les collègues. De plus, le télétravail soulève de nombreuses questions, notamment termes d'aménagement du temps de travail et d'évaluation des performances. Les entreprises et les salariés doivent donc apprendre à s'adapter à cette nouvelle organisation du travail pour en tirer le meilleur parti."
-        },
         {
           "type": "link",
           "url": "/articles/m3_l1_article.html",
           "label": "📄 Ouvrir l'article interactif : Le télétravail"
-        }
-      ]
-    },
-    {
-      "id": "lesson7-p07",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 2,
@@ -234,15 +221,7 @@
         {
           "type": "question",
           "questionId": "l7-q4"
-        }
-      ]
-    },
-    {
-      "id": "lesson7-p08",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : QUESTIONS GUIDÉES (10 MINUTES) (1/3)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Questions guidées (10 minutes)",
@@ -259,23 +238,23 @@
         {
           "type": "question",
           "questionId": "l7-vf2"
-        },
-        {
-          "type": "question",
-          "questionId": "l7-vf3"
         }
       ]
     },
     {
-      "id": "lesson7-p09",
+      "id": "lesson7-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : QUESTIONS GUIDÉES (10 MINUTES) (2/3)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (10 MINUTES) (1/2)",
       "content": [
         {
           "type": "heading",
           "text": "Questions guidées (10 minutes) (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l7-vf3"
         },
         {
           "type": "question",
@@ -288,10 +267,10 @@
       ]
     },
     {
-      "id": "lesson7-p10",
+      "id": "lesson7-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES (10 MINUTES) (2/2)",
       "content": [
         {
           "type": "heading",
@@ -331,7 +310,7 @@
       ]
     },
     {
-      "id": "lesson7-p11",
+      "id": "lesson7-p09",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : SENS ET PARTIES DES MOTS",
@@ -367,7 +346,7 @@
       ]
     },
     {
-      "id": "lesson7-p12",
+      "id": "lesson7-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : EXEMPLES ET CONNECTEURS",
@@ -399,7 +378,7 @@
       ]
     },
     {
-      "id": "lesson7-p13",
+      "id": "lesson7-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : REFORMULATION",
@@ -421,7 +400,7 @@
       ]
     },
     {
-      "id": "lesson7-p14",
+      "id": "lesson7-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : STRUCTURE À OBSERVER",
@@ -460,7 +439,7 @@
       ]
     },
     {
-      "id": "lesson7-p15",
+      "id": "lesson7-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : VIDÉO DE COMPRÉHENSION",
@@ -483,20 +462,20 @@
         {
           "type": "question",
           "questionId": "l7-q10"
-        }
-      ]
-    },
-    {
-      "id": "lesson7-p16",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : MINI-PRODUCTION ET DISCUSSION",
-      "content": [
+        },
         {
           "type": "link",
           "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
           "label": "🔗 En savoir plus sur les connecteurs logiques"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : MINI-PRODUCTION ET DISCUSSION",
+      "content": [
         {
           "type": "microtask",
           "number": 9,
@@ -524,7 +503,7 @@
       ]
     },
     {
-      "id": "lesson7-p17",
+      "id": "lesson7-p15",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : TÂCHE FINALE — PRÉPARATION",
@@ -579,11 +558,16 @@
       ]
     },
     {
-      "id": "lesson7-p18",
+      "id": "lesson7-p16",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : TÂCHE FINALE — CRÉATION",
       "content": [
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale) (suite)",
+          "level": 2
+        },
         {
           "type": "question",
           "questionId": "l7-q13"
@@ -591,10 +575,10 @@
       ]
     },
     {
-      "id": "lesson7-p19",
+      "id": "lesson7-p17",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (1/4)",
+      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -605,15 +589,7 @@
         {
           "type": "question",
           "questionId": "l7-q14"
-        }
-      ]
-    },
-    {
-      "id": "lesson7-p20",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (1/3)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -626,6 +602,19 @@
         {
           "type": "question",
           "questionId": "l7-e1"
+        }
+      ]
+    },
+    {
+      "id": "lesson7-p18",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -634,40 +623,27 @@
         {
           "type": "question",
           "questionId": "l7-e3"
-        }
-      ]
-    },
-    {
-      "id": "lesson7-p21",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (2/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
           "questionId": "l7-e4"
-        },
-        {
-          "type": "question",
-          "questionId": "l7-e5"
         }
       ]
     },
     {
-      "id": "lesson7-p22",
+      "id": "lesson7-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 1 : É-ÉVALUATION",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l7-e5"
         },
         {
           "type": "question",
@@ -680,7 +656,7 @@
       ]
     },
     {
-      "id": "lesson7-p23",
+      "id": "lesson7-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : SOUMISSION DU DEVOIR",

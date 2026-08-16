@@ -79,7 +79,7 @@
       "id": "lesson10-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 1 — OBSERVATION",
+      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -119,7 +119,7 @@
       "id": "lesson10-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
+      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (2/2)",
       "content": [
         {
           "type": "consigne",
@@ -128,6 +128,11 @@
         {
           "type": "question",
           "questionId": "l10-q1"
+        },
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -139,8 +144,13 @@
       "id": "lesson10-p04",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 1 : MICRO-TÂCHE 1 & LECTURE GUIDÉE",
+      "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
       "content": [
+        {
+          "type": "heading",
+          "text": "Introduction et Motivation (suite)",
+          "level": 2
+        },
         {
           "type": "microtask",
           "number": 1,
@@ -169,7 +179,7 @@
       "id": "lesson10-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 1 : PHASE 2 — LECTURE",
       "content": [
         {
           "type": "phase-banner",
@@ -196,13 +206,8 @@
       "id": "lesson10-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : LECTURE (2/3)",
+      "title": "LEÇON 1 : LECTURE (1/3)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Mohammed Salah : Le Pharaon du Football (2/3)",
-          "level": 2
-        },
         {
           "type": "paragraph",
           "text": "En 2012, Salah part en Suisse jouer pour le FC Bâle. Il marque dès son premier match ! Mais sa vraie gloire commence en Italie. Après un passage difficile à Chelsea, il rejoint l'AS Roma. Là, il devient une star : 19 buts en une saison ! Puis Liverpool le recrute en 2017. Et là, miracle : il bat des records ! 32 buts en une saison, un trophée de champion d'Angleterre, et une Ligue des champions gagnée en marquant un but en finale. Les fans de Liverpool l'adorent : un jour, il paye l'essence de tous les clients d'une station-service ! Un enfant court après sa voiture… et trébuche contre un lampadaire. Salah s'arrête, le console et prend une photo avec lui."
@@ -213,13 +218,8 @@
       "id": "lesson10-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : LECTURE (3/3)",
+      "title": "LEÇON 1 : LECTURE (2/3)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Mohammed Salah : Le Pharaon du Football (3/3)",
-          "level": 2
-        },
         {
           "type": "paragraph",
           "text": "Salah n'oublie jamais son pays. En Égypte, il est un vrai super-héros : il donne de l'argent pour construire des écoles, des hôpitaux, et même une usine de traitement des eaux dans son village. Chaque mois, 450 familles pauvres reçoivent son aide grâce à sa fondation. Quand il mène une campagne contre la drogue, les appels d'urgence augmentent de 400 % ! Un médecin raconte : \"Un jeune est venu à l'hôpital à 4 heures du matin, voulant arrêter la drogue… juste parce qu'il admire Salah ! En 2018, lors des élections présidentielles, des Égyptiens écrivent son nom sur leurs bulletins de vote alors qu'il n'est même pas candidat ! \"Il nous donne tant, c'est notre façon de le remercier\", explique un jeune."
@@ -228,15 +228,7 @@
           "type": "link",
           "url": "/articles/m4_l1/index.html",
           "label": "📄 Article interactif : Mohamed Salah"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p08",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES (1/2)",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 2,
@@ -246,6 +238,19 @@
         {
           "type": "question",
           "questionId": "l10-q4"
+        }
+      ]
+    },
+    {
+      "id": "lesson10-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : LECTURE (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Mohammed Salah : Le Pharaon du Football (suite)",
+          "level": 3
         },
         {
           "type": "consigne",
@@ -258,6 +263,10 @@
         {
           "type": "question",
           "questionId": "l10-q6"
+        },
+        {
+          "type": "question",
+          "questionId": "l10-q7"
         }
       ]
     },
@@ -265,11 +274,12 @@
       "id": "lesson10-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : QUESTIONS GUIDÉES (2/2)",
+      "title": "LEÇON 1 : QUESTIONS GUIDÉES",
       "content": [
         {
-          "type": "question",
-          "questionId": "l10-q7"
+          "type": "heading",
+          "text": "Mohammed Salah : Le Pharaon du Football (suite)",
+          "level": 3
         },
         {
           "type": "question",
@@ -287,6 +297,11 @@
       "type": "content",
       "title": "LEÇON 1 : PRÉSENTATION DU TEXTE",
       "content": [
+        {
+          "type": "heading",
+          "text": "Mohammed Salah : Le Pharaon du Football (suite)",
+          "level": 3
+        },
         {
           "type": "info-box",
           "title": "Des informations supplémentaires",
@@ -308,6 +323,16 @@
               ]
             }
           ]
+        },
+        {
+          "type": "microtask",
+          "number": 3,
+          "text": "Expliquez l'expression suivante selon le contexte : « un vrai super-héros »",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l10-q10"
         }
       ]
     },
@@ -319,16 +344,6 @@
       "content": [
         {
           "type": "microtask",
-          "number": 3,
-          "text": "Expliquez l'expression suivante selon le contexte : « un vrai super-héros »",
-          "duration": "5 minutes"
-        },
-        {
-          "type": "question",
-          "questionId": "l10-q10"
-        },
-        {
-          "type": "microtask",
           "number": 4,
           "text": "Donnez deux exemples d'actions positives faites par Mohamed Salah.",
           "duration": "5 minutes"
@@ -336,6 +351,16 @@
         {
           "type": "question",
           "questionId": "l10-q11"
+        },
+        {
+          "type": "microtask",
+          "number": 5,
+          "text": "Pourquoi peut-on dire que Mohamed Salah est un modèle pour les jeunes ? Justifiez votre réponse à l'aide d'éléments du texte.",
+          "duration": "5 minutes"
+        },
+        {
+          "type": "question",
+          "questionId": "l10-q12"
         }
       ]
     },
@@ -347,16 +372,6 @@
       "content": [
         {
           "type": "microtask",
-          "number": 5,
-          "text": "Pourquoi peut-on dire que Mohamed Salah est un modèle pour les jeunes ? Justifiez votre réponse à l'aide d'éléments du texte.",
-          "duration": "5 minutes"
-        },
-        {
-          "type": "question",
-          "questionId": "l10-q12"
-        },
-        {
-          "type": "microtask",
           "number": 6,
           "text": "Imaginez que vous êtes un jeune qui admire Mohamed Salah. Proposez une action concrète que vous pourriez faire pour aider les autres de votre ville.",
           "duration": "5 minutes"
@@ -364,15 +379,7 @@
         {
           "type": "question",
           "questionId": "l10-q13"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p13",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : MICRO-TÂCHE 7 — PONCTUATION",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 7,
@@ -386,19 +393,24 @@
         {
           "type": "paragraph",
           "text": "1. Salah est un grand joueur il aide son pays<br>2. pourquoi les fans l'aiment<br>3. il dit je veux aider les pauvres"
-        },
-        {
-          "type": "question",
-          "questionId": "l10-q14"
         }
       ]
     },
     {
-      "id": "lesson10-p14",
+      "id": "lesson10-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MICRO-TÂCHE 8 — MAJUSCULES",
       "content": [
+        {
+          "type": "heading",
+          "text": "Mohammed Salah : Le Pharaon du Football (suite)",
+          "level": 3
+        },
+        {
+          "type": "question",
+          "questionId": "l10-q14"
+        },
         {
           "type": "microtask",
           "number": 8,
@@ -416,7 +428,7 @@
       ]
     },
     {
-      "id": "lesson10-p15",
+      "id": "lesson10-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MICRO-TÂCHE 9 — VIDÉO",
@@ -443,7 +455,7 @@
       ]
     },
     {
-      "id": "lesson10-p16",
+      "id": "lesson10-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MICRO-TÂCHE 10 — REFORMULATION",
@@ -461,15 +473,7 @@
         {
           "type": "question",
           "questionId": "l10-q17"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p17",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : STRUCTURE À OBSERVER :",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Structure à observer :",
@@ -497,20 +501,20 @@
               ]
             }
           ]
-        },
-        {
-          "type": "link",
-          "url": "https://francais.lingolia.com/fr/grammaire/les-temps/imparfaitpasse-compose",
-          "label": "📄 Explications et exercices : Imparfait ou passé composé"
         }
       ]
     },
     {
-      "id": "lesson10-p18",
+      "id": "lesson10-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MINI-PRODUCTION",
       "content": [
+        {
+          "type": "link",
+          "url": "https://francais.lingolia.com/fr/grammaire/les-temps/imparfaitpasse-compose",
+          "label": "📄 Explications et exercices : Imparfait ou passé composé"
+        },
         {
           "type": "microtask",
           "number": 11,
@@ -524,7 +528,7 @@
       ]
     },
     {
-      "id": "lesson10-p19",
+      "id": "lesson10-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : DISCUSSION EN GROUPES",
@@ -554,7 +558,7 @@
       ]
     },
     {
-      "id": "lesson10-p20",
+      "id": "lesson10-p18",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : PHASE 3 — TÂCHE FINALE",
@@ -581,11 +585,16 @@
       ]
     },
     {
-      "id": "lesson10-p21",
+      "id": "lesson10-p19",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : RÉDACTION",
       "content": [
+        {
+          "type": "heading",
+          "text": "Tâche finale (avec modèle + aide lexicale) (suite)",
+          "level": 2
+        },
         {
           "type": "question",
           "questionId": "l10-q20"
@@ -593,10 +602,10 @@
       ]
     },
     {
-      "id": "lesson10-p22",
+      "id": "lesson10-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION",
+      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -615,10 +624,10 @@
       ]
     },
     {
-      "id": "lesson10-p23",
+      "id": "lesson10-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -644,10 +653,10 @@
       ]
     },
     {
-      "id": "lesson10-p24",
+      "id": "lesson10-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 1 : É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "heading",
@@ -661,14 +670,18 @@
         {
           "type": "question",
           "questionId": "l10-q26"
+        },
+        {
+          "type": "question",
+          "questionId": "l10-q27"
         }
       ]
     },
     {
-      "id": "lesson10-p25",
+      "id": "lesson10-p23",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 1 : É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -677,20 +690,8 @@
         },
         {
           "type": "question",
-          "questionId": "l10-q27"
-        },
-        {
-          "type": "question",
           "questionId": "l10-q28"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p26",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION (3/3) & VRAI/FAUX",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Mettez Vrai ou Faux devant chaque phrase :",
@@ -707,7 +708,7 @@
       ]
     },
     {
-      "id": "lesson10-p27",
+      "id": "lesson10-p24",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : VRAI/FAUX & SOUMISSION",

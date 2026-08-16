@@ -115,6 +115,14 @@
         {
           "type": "question",
           "questionId": "l3-q0"
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes:"
+        },
+        {
+          "type": "question",
+          "questionId": "l3-q1"
         }
       ]
     },
@@ -125,12 +133,9 @@
       "title": "LEÇON 3 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
-          "type": "consigne",
-          "text": "Répondez aux questions suivantes:"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q1"
+          "type": "heading",
+          "text": "Introduction et Motivation (5 minutes) (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -151,7 +156,7 @@
       "id": "lesson3-p04",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 3 : PHASE 2 — LECTURE",
       "content": [
         {
           "type": "phase-banner",
@@ -187,13 +192,8 @@
       "id": "lesson3-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : LECTURE (2/3)",
+      "title": "LEÇON 3 : LECTURE (1/3)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Le covoiturage : voyager ensemble pour une vie plus simple (2/3)",
-          "level": 3
-        },
         {
           "type": "paragraph",
           "text": "Beaucoup de gens racontent leurs expériences positives. Par exemple, Antoine, un étudiant de Nantes, dit qu’il a découvert cette pratique grâce à une application mobile : « J’ai tout de suite aimé l’ambiance dans la voiture. On discute, on écoute de la musique, et le trajet paraît plus court. » Pour lui, le covoiturage est une manière agréable de faire des rencontres tout en économisant de l’argent. D’autres apprécient surtout le côté écologique : en remplissant une seule voiture au lieu de trois, on émet beaucoup moins de CO₂. Selon le ministère de la Transition écologique, chaque année, plusieurs millions de trajets sont réalisés ainsi, ce qui prouve que cette habitude entre vraiment dans le quotidien des Français."
@@ -204,13 +204,8 @@
       "id": "lesson3-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : LECTURE (3/3)",
+      "title": "LEÇON 3 : LECTURE (2/3)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Le covoiturage : voyager ensemble pour une vie plus simple (3/3)",
-          "level": 3
-        },
         {
           "type": "paragraph",
           "text": "Mais il ne faut pas oublier les petits inconvénients. Parfois, les horaires ne sont pas respectés ou les trajets changent au dernier moment. Il arrive aussi qu’on ne s’entende pas avec les autres passagers. Certaines personnes préfèrent conduire seules, par confort ou par besoin d’intimité. Pourtant, malgré ces petits problèmes, le covoiturage reste une solution moderne et responsable. Il montre qu’on peut changer nos habitudes de transport sans perdre notre liberté. Voyager ensemble, c’est aussi apprendre à partager, à faire confiance et à penser un peu plus à la planète."
@@ -226,7 +221,7 @@
       "id": "lesson3-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (1/2)",
+      "title": "LEÇON 3 : LECTURE (3/3)",
       "content": [
         {
           "type": "heading",
@@ -240,6 +235,10 @@
         {
           "type": "question",
           "questionId": "l3-q4"
+        },
+        {
+          "type": "question",
+          "questionId": "l3-q5"
         }
       ]
     },
@@ -247,16 +246,12 @@
       "id": "lesson3-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (2/2)",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES",
       "content": [
         {
           "type": "heading",
           "text": "Questions guidées (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q5"
         },
         {
           "type": "consigne",
@@ -265,15 +260,7 @@
         {
           "type": "question",
           "questionId": "l3-q6"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p09",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHES D'ANALYSE (1/2)",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 2,
@@ -283,7 +270,15 @@
         {
           "type": "question",
           "questionId": "l3-q7"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHES D'ANALYSE",
+      "content": [
         {
           "type": "microtask",
           "number": 3,
@@ -293,15 +288,7 @@
         {
           "type": "question",
           "questionId": "l3-q8"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p10",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHES D'ANALYSE (2/2)",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 4,
@@ -325,11 +312,16 @@
       ]
     },
     {
-      "id": "lesson3-p11",
+      "id": "lesson3-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : TEXTE EXPLICATIF",
       "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (suite)",
+          "level": 2
+        },
         {
           "type": "info-box",
           "title": "Des informations enrichissantes",
@@ -365,15 +357,7 @@
           "phase": 4,
           "title": "Évaluation des produits des étudiants",
           "duration": "10 min"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p12",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : VRAI OU FAUX",
-      "content": [
+        },
         {
           "type": "consigne",
           "text": "Mettez vrai ou faux devant chaque phrase :"
@@ -381,7 +365,15 @@
         {
           "type": "question",
           "questionId": "l3-vf1"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : VRAI OU FAUX",
+      "content": [
         {
           "type": "question",
           "questionId": "l3-vf2"
@@ -393,15 +385,7 @@
         {
           "type": "question",
           "questionId": "l3-vf4"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p13",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : CORRECTION DE PHRASES (1/2)",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 6,
@@ -415,19 +399,19 @@
         {
           "type": "question",
           "questionId": "l3-q12"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q13"
         }
       ]
     },
     {
-      "id": "lesson3-p14",
+      "id": "lesson3-p12",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : CORRECTION (2/2) & REFORMULATION",
+      "title": "LEÇON 3 : CORRECTION DE PHRASES",
       "content": [
+        {
+          "type": "question",
+          "questionId": "l3-q13"
+        },
         {
           "type": "question",
           "questionId": "l3-q14"
@@ -449,10 +433,10 @@
       ]
     },
     {
-      "id": "lesson3-p15",
+      "id": "lesson3-p13",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : MINI-PRODUCTION",
+      "title": "LEÇON 3 : MINI-PRODUCTION (1/2)",
       "content": [
         {
           "type": "microtask",
@@ -476,10 +460,10 @@
       ]
     },
     {
-      "id": "lesson3-p16",
+      "id": "lesson3-p14",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : STRUCTURES À OBSERVER",
+      "title": "LEÇON 3 : MINI-PRODUCTION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -524,10 +508,10 @@
       ]
     },
     {
-      "id": "lesson3-p17",
+      "id": "lesson3-p15",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : VIDÉO ET RÉSUMÉ",
+      "title": "LEÇON 3 : VIDÉO ET RÉSUMÉ (1/2)",
       "content": [
         {
           "type": "microtask",
@@ -543,19 +527,24 @@
         {
           "type": "link",
           "url": "https://toutenfrancais.tv/fle-covoiturage-a2"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q17"
         }
       ]
     },
     {
-      "id": "lesson3-p18",
+      "id": "lesson3-p16",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
+      "title": "LEÇON 3 : VIDÉO ET RÉSUMÉ (2/2)",
       "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l3-q17"
+        },
         {
           "type": "microtask",
           "number": 10,
@@ -653,6 +642,19 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p17",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structures à observer (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -661,7 +663,7 @@
       ]
     },
     {
-      "id": "lesson3-p19",
+      "id": "lesson3-p18",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE",
@@ -714,7 +716,7 @@
       ]
     },
     {
-      "id": "lesson3-p20",
+      "id": "lesson3-p19",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
@@ -736,23 +738,15 @@
       ]
     },
     {
-      "id": "lesson3-p21",
+      "id": "lesson3-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (1/4)",
+      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION",
       "content": [
         {
           "type": "question",
           "questionId": "l3-q20"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p22",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -769,23 +763,23 @@
         {
           "type": "question",
           "questionId": "l3-e2"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-e3"
         }
       ]
     },
     {
-      "id": "lesson3-p23",
+      "id": "lesson3-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l3-e3"
         },
         {
           "type": "question",
@@ -794,23 +788,23 @@
         {
           "type": "question",
           "questionId": "l3-e5"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-e6"
         }
       ]
     },
     {
-      "id": "lesson3-p24",
+      "id": "lesson3-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l3-e6"
         },
         {
           "type": "question",
@@ -823,7 +817,7 @@
       ]
     },
     {
-      "id": "lesson3-p25",
+      "id": "lesson3-p23",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
