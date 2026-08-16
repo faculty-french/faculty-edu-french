@@ -587,7 +587,7 @@
       "id": "lesson6-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (1/3)",
+      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -607,15 +607,7 @@
         {
           "type": "consigne",
           "text": "Répondez à ces questions :"
-        }
-      ]
-    },
-    {
-      "id": "lesson6-p20",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (2/3)",
-      "content": [
+        },
         {
           "type": "question",
           "questionId": "l6-e1"
@@ -627,10 +619,10 @@
       ]
     },
     {
-      "id": "lesson6-p21",
+      "id": "lesson6-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (3/3)",
+      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -656,7 +648,7 @@
       ]
     },
     {
-      "id": "lesson6-p22",
+      "id": "lesson6-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : É-ÉVALUATION",
@@ -681,7 +673,7 @@
       ]
     },
     {
-      "id": "lesson6-p23",
+      "id": "lesson6-p22",
       "type": "content",
       "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
       "phase": 4,
@@ -936,7 +928,7 @@
       "id": "l6-e1",
       "type": "open-ended",
       "text": "1- Qui sont les influenceurs selon le texte ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l6-e2",

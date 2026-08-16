@@ -79,7 +79,7 @@
       "id": "lesson11-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 1 — OBSERVATION (1/3)",
+      "title": "LEÇON 2 : PHASE 1 — OBSERVATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -112,15 +112,7 @@
         {
           "type": "question",
           "questionId": "l11-q0"
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p03",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 2 : PHASE 1 — OBSERVATION (2/3)",
-      "content": [
+        },
         {
           "type": "consigne",
           "text": "Répondez aux questions suivantes :"
@@ -132,10 +124,10 @@
       ]
     },
     {
-      "id": "lesson11-p04",
+      "id": "lesson11-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 1 — OBSERVATION (3/3)",
+      "title": "LEÇON 2 : PHASE 1 — OBSERVATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -171,7 +163,7 @@
       ]
     },
     {
-      "id": "lesson11-p05",
+      "id": "lesson11-p04",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : PHASE 2 — LECTURE",
@@ -198,7 +190,7 @@
       ]
     },
     {
-      "id": "lesson11-p06",
+      "id": "lesson11-p05",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : LECTURE",
@@ -219,7 +211,7 @@
       ]
     },
     {
-      "id": "lesson11-p07",
+      "id": "lesson11-p06",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES (1/2)",
@@ -249,7 +241,7 @@
       ]
     },
     {
-      "id": "lesson11-p08",
+      "id": "lesson11-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : IDÉE PRINCIPALE & QUESTIONS GUIDÉES (2/2)",
@@ -270,7 +262,7 @@
       ]
     },
     {
-      "id": "lesson11-p09",
+      "id": "lesson11-p08",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS GUIDÉES",
@@ -314,7 +306,7 @@
       ]
     },
     {
-      "id": "lesson11-p10",
+      "id": "lesson11-p09",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MICRO-TÂCHES 3 & 4",
@@ -346,7 +338,7 @@
       ]
     },
     {
-      "id": "lesson11-p11",
+      "id": "lesson11-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MICRO-TÂCHE 5 — OPINION",
@@ -383,7 +375,7 @@
       ]
     },
     {
-      "id": "lesson11-p12",
+      "id": "lesson11-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MICRO-TÂCHE 8 — VIDÉO",
@@ -410,7 +402,7 @@
       ]
     },
     {
-      "id": "lesson11-p13",
+      "id": "lesson11-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES À OBSERVER : (5 MINUTES) (1/2)",
@@ -454,7 +446,7 @@
       ]
     },
     {
-      "id": "lesson11-p14",
+      "id": "lesson11-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES À OBSERVER : (5 MINUTES) (2/2)",
@@ -499,7 +491,7 @@
       ]
     },
     {
-      "id": "lesson11-p15",
+      "id": "lesson11-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MINI-PRODUCTION",
@@ -527,15 +519,7 @@
         {
           "type": "paragraph",
           "text": "« Quelles actions concrètes pourriez-vous faire pour utiliser l'intelligence artificielle de manière responsable à l'école ? »"
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p16",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : DISCUSSION EN GROUPES",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Structures à observer : (5 minutes) (suite)",
@@ -552,7 +536,7 @@
       ]
     },
     {
-      "id": "lesson11-p17",
+      "id": "lesson11-p15",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
@@ -583,7 +567,7 @@
       ]
     },
     {
-      "id": "lesson11-p18",
+      "id": "lesson11-p16",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
@@ -614,7 +598,7 @@
       ]
     },
     {
-      "id": "lesson11-p19",
+      "id": "lesson11-p17",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION",
@@ -639,7 +623,7 @@
       ]
     },
     {
-      "id": "lesson11-p20",
+      "id": "lesson11-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
@@ -676,7 +660,7 @@
       "id": "l11-q1",
       "type": "open-ended",
       "text": "1. Que voyez-vous dans ces images ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l11-q2",
@@ -760,13 +744,13 @@
       "id": "l11-q15",
       "type": "open-ended",
       "text": "Résumez ce texte lu en trois phrases ?",
-      "lines": 11
+      "lines": 2
     },
     {
       "id": "l11-q16",
       "type": "open-ended",
       "text": "Quelles actions concrètes pourriez-vous faire pour utiliser l'intelligence artificielle de manière responsable à l'école ?",
-      "lines": 7
+      "lines": 2
     },
     {
       "id": "l11-q17",

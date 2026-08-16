@@ -689,7 +689,7 @@
       "id": "lesson4-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (1/3)",
+      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -705,15 +705,7 @@
           "type": "heading",
           "text": "É-évaluation",
           "level": 2
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p22",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (2/3)",
-      "content": [
+        },
         {
           "type": "question",
           "questionId": "l4-e1"
@@ -725,10 +717,10 @@
       ]
     },
     {
-      "id": "lesson4-p23",
+      "id": "lesson4-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (3/3)",
+      "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -754,7 +746,7 @@
       ]
     },
     {
-      "id": "lesson4-p24",
+      "id": "lesson4-p23",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : SOUMISSION DU DEVOIR",
@@ -1002,7 +994,7 @@
       "id": "l4-q22",
       "type": "open-ended",
       "text": "Lisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collèges et corrigez son texte si nécessaire.",
-      "lines": 6
+      "lines": 5
     },
     {
       "id": "l4-e1",
