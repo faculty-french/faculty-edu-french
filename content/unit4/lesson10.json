@@ -497,6 +497,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "link",
+          "url": "https://francais.lingolia.com/fr/grammaire/les-temps/imparfaitpasse-compose",
+          "label": "📄 Explications et exercices : Imparfait ou passé composé"
         }
       ]
     },
@@ -506,11 +511,6 @@
       "type": "content",
       "title": "LEÇON 1 : MINI-PRODUCTION",
       "content": [
-        {
-          "type": "link",
-          "url": "https://francais.lingolia.com/fr/grammaire/les-temps/imparfaitpasse-compose",
-          "label": "📄 Explications et exercices : Imparfait ou passé composé"
-        },
         {
           "type": "microtask",
           "number": 11,
