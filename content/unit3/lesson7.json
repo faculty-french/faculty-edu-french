@@ -213,8 +213,9 @@
           "text": "Si le télétravail est une réalité pour de plus en plus de personnes, il est important de souligner que cette pratique ne convient pas à tous les métiers. Certains emplois nécessitent une présence physique et des interactions régulières avec les collègues. De plus, le télétravail soulève de nombreuses questions, notamment termes d'aménagement du temps de travail et d'évaluation des performances. Les entreprises et les salariés doivent donc apprendre à s'adapter à cette nouvelle organisation du travail pour en tirer le meilleur parti."
         },
         {
-          "type": "paragraph",
-          "text": "https://www.bien-ecrire.com"
+          "type": "link",
+          "url": "/articles/m3_l1_article.html",
+          "label": "📄 Ouvrir l'article interactif : Le télétravail"
         }
       ]
     },
@@ -491,6 +492,11 @@
       "type": "content",
       "title": "LEÇON 1 : MINI-PRODUCTION ET DISCUSSION",
       "content": [
+        {
+          "type": "link",
+          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
+          "label": "🔗 En savoir plus sur les connecteurs logiques"
+        },
         {
           "type": "microtask",
           "number": 9,

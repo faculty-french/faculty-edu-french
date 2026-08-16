@@ -212,8 +212,9 @@
           "text": "Salah n'oublie jamais son pays. En Égypte, il est un vrai super-héros : il donne de l'argent pour construire des écoles, des hôpitaux, et même une usine de traitement des eaux dans son village. Chaque mois, 450 familles pauvres reçoivent son aide grâce à sa fondation. Quand il mène une campagne contre la drogue, les appels d'urgence augmentent de 400 % ! Un médecin raconte : \"Un jeune est venu à l'hôpital à 4 heures du matin, voulant arrêter la drogue… juste parce qu'il admire Salah ! En 2018, lors des élections présidentielles, des Égyptiens écrivent son nom sur leurs bulletins de vote alors qu'il n'est même pas candidat ! \"Il nous donne tant, c'est notre façon de le remercier\", explique un jeune."
         },
         {
-          "type": "paragraph",
-          "text": "https://www.bien-ecrire.com"
+          "type": "link",
+          "url": "/articles/m4_l1/index.html",
+          "label": "📄 Article interactif : Mohamed Salah"
         }
       ]
     },
@@ -492,6 +493,11 @@
       "type": "content",
       "title": "LEÇON 1 : MINI-PRODUCTION",
       "content": [
+        {
+          "type": "link",
+          "url": "https://francais.lingolia.com/fr/grammaire/les-temps/imparfaitpasse-compose",
+          "label": "📄 Explications et exercices : Imparfait ou passé composé"
+        },
         {
           "type": "microtask",
           "number": 11,

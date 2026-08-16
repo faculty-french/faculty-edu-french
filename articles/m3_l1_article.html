@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le télétravail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* استخدام خط مقارب للخط اليدوي الموجود في الصورة */
+            font-family: 'Comic Neue', cursive, sans-serif;
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .page-container {
+            width: 100%;
+            max-width: 900px;
+            background-color: #295C37;
+            /* اللون الأخضر الداكن الجديد */
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* الأشكال المتموجة العلوية */
+        .wavy-top {
+            width: 100%;
+            height: 40px;
+            background: #295C37;
+            position: absolute;
+            top: -30px;
+            left: 0;
+            mask-image: radial-gradient(circle at 40px 0, transparent 40px, black 41px);
+            mask-size: 80px 100%;
+            mask-position: bottom;
+            -webkit-mask-image: radial-gradient(circle at 40px 0px, transparent 40px, black 41px);
+            -webkit-mask-size: 80px 100%;
+            -webkit-mask-position: bottom;
+        }
+
+        /* الأشكال المتموجة السفلية */
+        .wavy-bottom {
+            width: 100%;
+            height: 40px;
+            background: #295C37;
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+            mask-image: radial-gradient(circle at 40px 40px, transparent 40px, black 41px);
+            mask-size: 80px 100%;
+            mask-position: top;
+            -webkit-mask-image: radial-gradient(circle at 40px 40px, transparent 40px, black 41px);
+            -webkit-mask-size: 80px 100%;
+            -webkit-mask-position: top;
+        }
+
+        .inner-page {
+            background-color: white;
+            margin: 15px;
+            padding: 25px 30px;
+            border: 2px solid #295C37;
+            position: relative;
+        }
+
+        /* الإطار الداخلي المزدوج */
+        .inner-page::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            right: -6px;
+            bottom: -6px;
+            border: 1px solid #295C37;
+            pointer-events: none;
+        }
+
+        /* النقاط في الزوايا */
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: #295C37;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .dot-tl {
+            top: -5px;
+            left: -5px;
+        }
+
+        .dot-tr {
+            top: -5px;
+            right: -5px;
+        }
+
+        .dot-bl {
+            bottom: -5px;
+            left: -5px;
+        }
+
+        .dot-br {
+            bottom: -5px;
+            right: -5px;
+        }
+
+        .text-primary {
+            color: #295C37;
+        }
+
+        .bg-primary {
+            background-color: #295C37;
+        }
+
+        .border-primary {
+            border-color: #295C37;
+        }
+
+        .paragraph {
+            text-indent: 1.5rem;
+            text-align: justify;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+            font-size: 1.05rem;
+            /* تكبير الخط قليلاً ليتناسب مع Comic Neue */
+        }
+
+        .question-box {
+            position: relative;
+            border: 2px solid #295C37;
+            padding: 1.5rem 1rem 1rem 1rem;
+            flex: 1;
+        }
+
+        .question-header {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-color: #295C37;
+            color: white;
+            font-weight: bold;
+            padding: 0.1rem 0.5rem;
+            text-decoration: underline;
+            font-size: 1.1rem;
+        }
+
+        .footer-line-container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: #295C37;
+            z-index: 1;
+        }
+
+        .footer-text {
+            background-color: white;
+            z-index: 2;
+            padding: 0 10px;
+            font-weight: bold;
+            color: #295C37;
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .cross-icon {
+            display: inline-block;
+            position: relative;
+            width: 14px;
+            height: 14px;
+        }
+
+        .cross-icon::before,
+        .cross-icon::after {
+            content: '';
+            position: absolute;
+            background-color: #295C37;
+        }
+
+        .cross-icon::before {
+            top: 6px;
+            left: 0;
+            width: 14px;
+            height: 2px;
+        }
+
+        .cross-icon::after {
+            top: 0;
+            left: 6px;
+            width: 2px;
+            height: 14px;
+        }
+
+        ol {
+            list-style-type: decimal;
+            padding-left: 1.5rem;
+        }
+
+        ol li {
+            margin-bottom: 0.35rem;
+            font-size: 1.05rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-container">
+        <!-- SVG الزخرفي العلوي -->
+        <svg class="absolute top-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,40 Q100,0 200,40 T400,40 T600,40 T800,40 T1000,40 T1200,40 L1200,40 L1200,40 L0,40 Z"
+                fill="#295C37" />
+        </svg>
+
+        <div class="inner-page">
+            <!-- نقاط الزوايا -->
+            <div class="dot dot-tl"></div>
+            <div class="dot dot-tr"></div>
+            <div class="dot dot-bl"></div>
+            <div class="dot dot-br"></div>
+
+            <!-- العنوان العلوي -->
+            <div class="flex justify-between items-end mb-3">
+                <div class="flex items-center">
+                    <span class="text-primary text-2xl mr-2 leading-none">&bull;</span>
+                    <h2 class="text-primary font-bold text-xl underline underline-offset-4 decoration-2">Lisez ce texte
+                        puis répondez aux questions :</h2>
+                </div>
+            </div>
+
+            <!-- صندوق المحتوى والمقالة -->
+            <div class="border-2 border-primary p-3 mb-4">
+                <h1 class="text-center font-bold text-xl mb-4">Le télétravail, une nouvelle façon de travailler</h1>
+
+                <!-- تقسيم النص إلى عمودين كما في الصورة -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                    <!-- العمود الأيسر -->
+                    <div>
+                        <p class="paragraph">
+                            Depuis quelques années, une nouvelle manière de travailler a fait son apparition : le
+                            télétravail. Cela signifie que les employés n'ont plus besoin de se rendre dans un bureau
+                            tous les jours. Grâce à leur ordinateur et à une connexion internet, ils peuvent effectuer
+                            leurs tâches depuis chez eux. Cette pratique, encore peu répandue il y a quelques années,
+                            s'est considérablement développée, notamment avec la crise sanitaire du Covid-19 qui a
+                            contraint de nombreuses entreprises à adapter leurs modes de fonctionnement.
+                        </p>
+
+                        <p class="paragraph">
+                            Le télétravail présente de nombreux avantages. Tout d'abord, il permet de gagner du temps en
+                            évitant les trajets quotidiens. Ensuite, il offre une plus grande flexibilité dans
+                            l'organisation du travail. Les salariés peuvent ainsi mieux concilier leur vie
+                            professionnelle et leur vie personnelle. Enfin, le télétravail peut contribuer à réduire
+                            l'empreinte écologique en limitant les déplacements. Cependant, cette nouvelle façon de
+                            travailler n'est pas sans poser de problèmes. Le principal inconvénient est sans doute
+                            l'isolement que peuvent ressentir certains télétravailleurs, privés
+                        </p>
+                    </div>
+
+                    <!-- العمود الأيمن -->
+                    <div>
+                        <!-- الصورة -->
+                        <img src="image_f52653.jpg" alt="Le télétravail"
+                            class="w-full mb-2 border border-gray-300 rounded shadow-sm object-cover"
+                            style="height: 160px; object-position: center top;">
+
+                        <!-- استكمال الفقرة الثانية بدون مسافة بادئة -->
+                        <p class="paragraph" style="text-indent: 0;">
+                            des échanges avec leurs collègues. De plus, il est parfois difficile de séparer vie
+                            professionnelle et vie personnelle lorsque l'on travaille à domicile.
+                        </p>
+
+                        <p class="paragraph mt-3">
+                            Si le télétravail est une réalité pour de plus en plus de personnes, il est important de
+                            souligner que cette pratique ne convient pas à tous les métiers. Certains emplois
+                            nécessitent une présence physique et des interactions régulières avec les collègues. De
+                            plus, le télétravail soulève de nombreuses questions, notamment en termes d'aménagement du
+                            temps de travail et d'évaluation des performances. Les entreprises et les salariés doivent
+                            donc apprendre à s'adapter à cette nouvelle organisation du travail pour en tirer le
+                            meilleur parti.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- قسم الأسئلة -->
+            <div class="flex flex-col md:flex-row gap-4 mt-6">
+                <!-- المربع الأول -->
+                <div class="question-box">
+                    <div class="question-header">1) Répondez aux questions :</div>
+                    <ol>
+                        <li>Qu'est-ce que le télétravail ?</li>
+                        <li>Pourquoi le télétravail s'est-il développé rapidement ces dernières années ?</li>
+                        <li>Quels sont les avantages du télétravail mentionnés dans le texte ?</li>
+                        <li>Quels sont les inconvénients du télétravail ?</li>
+                    </ol>
+                </div>
+
+                <!-- المربع الثاني -->
+                <div class="question-box">
+                    <div class="question-header">2) Mettez Vrai ☑ ou Faux ☒ :</div>
+                    <ol>
+                        <li>Le télétravail aide à réduire l'empreinte écologique en limitant les déplacements.</li>
+                        <li>Tous les employés trouvent que le télétravail est facile à gérer.</li>
+                        <li>Tous les métiers peuvent être faits en télétravail.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- التذييل (Footer) -->
+            <div class="footer-line-container">
+                <div class="footer-line"></div>
+                <div class="footer-text pl-0">
+                    <span class="cross-icon mr-3"></span>
+                    La langue française
+                </div>
+                <div class="footer-text pr-0">
+                    Bien écrire
+                    <span class="cross-icon ml-3"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SVG الزخرفي السفلي -->
+        <svg class="absolute bottom-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,0 Q100,40 200,0 T400,0 T600,0 T800,0 T1000,0 T1200,0 L1200,0 L1200,0 L0,0 Z" fill="#295C37" />
+        </svg>
+    </div>
+
+</body>
+
+</html>

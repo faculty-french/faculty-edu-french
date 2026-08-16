@@ -217,8 +217,9 @@
           "text": "Cependant, cette influence peut aussi avoir des effets négatifs. La promotion excessive de produits commerciaux peut pousser à la consommation inutile et créer une confusion entre conseil sincère et publicité. Certains contenus valorisent une image irréaliste du succès, de la beauté ou de la richesse, ce qui peut provoquer un sentiment de frustration chez les abonnés. Le manque de recul face aux informations diffusées pose également problème, car tout influenceur n'est pas un expert. Face à ce phénomène, il semble essentiel de développer un esprit critique afin de distinguer le divertissement, l'information fiable et les intérêts économiques cachés derrière certaines publications."
         },
         {
-          "type": "paragraph",
-          "text": "https://www.bien-ecrire.com"
+          "type": "link",
+          "url": "/articles/lesson3-text.html",
+          "label": "📄 Article interactif : Le phénomène des influenceurs"
         }
       ]
     },

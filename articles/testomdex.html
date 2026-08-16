@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La vie dans le passé</title>
+    <style>
+        /* إعدادات الصفحة والخلفية البنية لمحاكاة الإطار الخارجي */
+        body {
+            background-color: #4a2c11;
+            margin: 0;
+            padding: 30px 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* حاوية المستند الأبيض */
+        .document {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 850px;
+            padding: 5px;
+            border: 4px solid #3b2210;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* الإطار الداخلي الرقيق */
+        .document-inner {
+            border: 1px solid #3b2210;
+            padding: 25px 30px;
+            position: relative;
+        }
+
+        /* الجزء العلوي (التعليمات) */
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        ul.instruction {
+            margin: 0;
+            padding-left: 20px;
+            color: #3b2210;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        ul.instruction span {
+            text-decoration: underline;
+        }
+
+        .badge {
+            background-color: #5c3a21;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+
+        /* مربع النص القرائي */
+        .reading-box {
+            border: 2px solid #3b2210;
+            padding: 15px 20px 20px 20px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        /* تنسيق الأعمدة للنص */
+        .columns {
+            display: flex;
+            gap: 25px;
+        }
+
+        .col {
+            flex: 1;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+            font-size: 15px;
+            line-height: 1.45;
+            text-indent: 20px;
+        }
+
+        /* تنسيق الصورة */
+        .image-box {
+            width: 100%;
+            height: 180px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            background-color: #e6dfd8;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* قسم الأسئلة */
+        .questions-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .q-box {
+            flex: 1;
+            border: 2px solid #3b2210;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .q-header {
+            background-color: #4a2c11;
+            color: white;
+            font-weight: bold;
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        .q-header span {
+            text-decoration: underline;
+        }
+
+        .q-content {
+            padding: 12px 15px;
+            font-size: 15px;
+        }
+
+        .q-content ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .q-content li {
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        /* التذييل (الفوتر) */
+        .footer-row {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .footer-text {
+            font-weight: bold;
+            font-size: 16px;
+            color: #3b2210;
+        }
+
+        .footer-line {
+            flex-grow: 1;
+            height: 2px;
+            background-color: #3b2210;
+            margin: 0 15px;
+        }
+
+        /* نقاط زخرفية صغيرة على الأطراف كما في التصميم */
+        .dot {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background-color: #3b2210;
+            border-radius: 50%;
+        }
+
+        .dot.top-left {
+            top: 20px;
+            left: -4px;
+        }
+
+        .dot.top-right {
+            top: 20px;
+            right: -4px;
+        }
+
+        .dot.bottom-left {
+            bottom: 20px;
+            left: -4px;
+        }
+
+        .dot.bottom-right {
+            bottom: 20px;
+            right: -4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="document">
+        <div class="document-inner">
+            <!-- نقاط زخرفية للإطار الداخلي -->
+            <div class="dot top-left"></div>
+            <div class="dot top-right"></div>
+            <div class="dot bottom-left"></div>
+            <div class="dot bottom-right"></div>
+
+            <!-- صف التعليمات العلوي -->
+            <div class="header-row">
+                <ul class="instruction">
+                    <li><span>Lisez ce texte puis répondez aux questions :</span></li>
+                </ul>
+                <div class="badge">B1</div>
+            </div>
+
+            <!-- إطار النص القرائي -->
+            <div class="reading-box">
+                <h2 class="title">La vie dans le passé : sans téléphone, sans Internet</h2>
+
+                <div class="columns">
+                    <!-- العمود الأول -->
+                    <div class="col">
+                        <p>La vie dans le passé était très différente de celle que nous connaissons maintenant,
+                            notamment en raison de l'absence du téléphone portable et d'Internet. La communication se
+                            faisait principalement par lettres, par téléphone fixe ou lors de rencontres directes.
+                            Écrire une lettre demandait du temps et de la patience, car la réponse n'arrivait qu'après
+                            plusieurs jours. Les informations circulaient plus lentement, par les journaux, la radio ou
+                            la télévision. Cette situation obligeait les personnes à attendre et à mieux organiser leur
+                            quotidien.</p>
+
+                        <p>Sans Internet, l'accès au savoir passait par les livres, les bibliothèques et les
+                            enseignants. Les recherches scolaires demandaient un véritable effort, car il fallait
+                            consulter plusieurs ouvrages pour trouver une information. Les loisirs étaient aussi
+                            différents : les gens passaient plus de temps à discuter, à lire ou à pratiquer des
+                            activités en plein air. Les relations humaines étaient souvent plus directes, car les
+                            échanges se faisaient en face</p>
+                    </div>
+
+                    <!-- العمود الثاني -->
+                    <div class="col">
+                        <div class="image-box">
+                            <!-- صورة تعبيرية مطابقة لأجواء الصورة الأصلية -->
+                            <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=600&auto=format&fit=crop"
+                                alt="Femme lisant un livre dans le passé">
+                        </div>
+
+                        <p style="text-indent: 0;">à face. Cette vie favorisait parfois une meilleure concentration et
+                            une attention plus longue.</p>
+
+                        <p>Cependant, la vie sans téléphone ni Internet présentait aussi des limites. Les urgences
+                            étaient plus difficiles à gérer et le contact avec des personnes éloignées restait
+                            compliqué. Les démarches administratives prenaient plus de temps et certaines informations
+                            étaient difficiles à obtenir. Malgré ces contraintes, beaucoup de personnes gardent le
+                            souvenir d'une vie plus simple, rythmée par des échanges réels et une présence plus forte
+                            dans la vie quotidienne.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- صف الأسئلة -->
+            <div class="questions-row">
+                <!-- المربع الأول -->
+                <div class="q-box">
+                    <div class="q-header">
+                        <span>1) Répondez aux questions :</span>
+                    </div>
+                    <div class="q-content">
+                        <ol>
+                            <li>Comment les personnes communiquaient-elles dans le passé ?</li>
+                            <li>Pourquoi la communication demandait-elle de la patience ?</li>
+                            <li>Où les gens trouvaient-ils les informations ?</li>
+                            <li>Quel avantage de la vie sans Internet est mentionné ?</li>
+                            <li>Quelle difficulté est liée à l'absence de téléphone portable ?</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- المربع الثاني -->
+                <div class="q-box">
+                    <div class="q-header">
+                        <span>2) Mettez Vrai ☑ ou Faux ☒ :</span>
+                    </div>
+                    <div class="q-content">
+                        <ol>
+                            <li>Les lettres étaient un moyen courant de communication.</li>
+                            <li>Les informations circulaient très rapidement.</li>
+                            <li>Les bibliothèques jouaient un rôle important pour l'apprentissage.</li>
+                            <li>La vie dans le passé était présentée comme parfaite.</li>
+                            <li>Les relations humaines étaient souvent plus directes.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- التذييل السفلي -->
+            <div class="footer-row">
+                <div class="footer-text">La langue française</div>
+                <div class="footer-line"></div>
+                <div class="footer-text">Bien écrire</div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -223,6 +223,11 @@
         {
           "type": "paragraph",
           "text": "Mais je reste plutôt optimiste, les choses commencent à changer, bien que trop lentement à mon goût. De toute façon, je ne suis pas un modèle non plus et je sais que je pollue énormément malgré mes petits gestes."
+        },
+        {
+          "type": "link",
+          "url": "https://anyfrench.com/lecture/agir-contre-le-rechauffement-climatique",
+          "label": "🔗 Source de l'article"
         }
       ]
     },

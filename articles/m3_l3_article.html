@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le pot de lait de Gita</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            /* خط واضح وأنيق ومقارب للصورة */
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        /* اللون الأساسي للتصميم */
+        :root {
+            --primary-color: #527E3B;
+        }
+
+        .page-container {
+            width: 100%;
+            max-width: 900px;
+            background-color: var(--primary-color);
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* الأشكال المتموجة العلوية */
+        .wavy-top {
+            width: 100%;
+            height: 40px;
+            background: var(--primary-color);
+            position: absolute;
+            top: -30px;
+            left: 0;
+            mask-image: radial-gradient(circle at 40px 0, transparent 40px, black 41px);
+            mask-size: 80px 100%;
+            mask-position: bottom;
+            -webkit-mask-image: radial-gradient(circle at 40px 0px, transparent 40px, black 41px);
+            -webkit-mask-size: 80px 100%;
+            -webkit-mask-position: bottom;
+        }
+
+        /* الأشكال المتموجة السفلية */
+        .wavy-bottom {
+            width: 100%;
+            height: 40px;
+            background: var(--primary-color);
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+            mask-image: radial-gradient(circle at 40px 40px, transparent 40px, black 41px);
+            mask-size: 80px 100%;
+            mask-position: top;
+            -webkit-mask-image: radial-gradient(circle at 40px 40px, transparent 40px, black 41px);
+            -webkit-mask-size: 80px 100%;
+            -webkit-mask-position: top;
+        }
+
+        .inner-page {
+            background-color: white;
+            margin: 15px;
+            padding: 25px 30px;
+            border: 2px solid var(--primary-color);
+            position: relative;
+        }
+
+        /* الإطار الداخلي المزدوج */
+        .inner-page::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            right: -6px;
+            bottom: -6px;
+            border: 1px solid var(--primary-color);
+            pointer-events: none;
+        }
+
+        /* النقاط في الزوايا */
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .dot-tl {
+            top: -5px;
+            left: -5px;
+        }
+
+        .dot-tr {
+            top: -5px;
+            right: -5px;
+        }
+
+        .dot-bl {
+            bottom: -5px;
+            left: -5px;
+        }
+
+        .dot-br {
+            bottom: -5px;
+            right: -5px;
+        }
+
+        .text-primary {
+            color: var(--primary-color);
+        }
+
+        .bg-primary {
+            background-color: var(--primary-color);
+        }
+
+        .border-primary {
+            border-color: var(--primary-color);
+        }
+
+        .paragraph {
+            text-indent: 1.5rem;
+            text-align: justify;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+            font-size: 1rem;
+        }
+
+        .question-box {
+            position: relative;
+            border: 2px solid var(--primary-color);
+            padding: 1.5rem 1rem 1rem 1rem;
+        }
+
+        .question-header {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            padding: 0.1rem 0.5rem;
+            text-decoration: underline;
+            font-size: 1.1rem;
+        }
+
+        .footer-line-container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: var(--primary-color);
+            z-index: 1;
+        }
+
+        .footer-text {
+            background-color: white;
+            z-index: 2;
+            padding: 0 10px;
+            font-weight: bold;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .cross-icon {
+            display: inline-block;
+            position: relative;
+            width: 14px;
+            height: 14px;
+        }
+
+        .cross-icon::before,
+        .cross-icon::after {
+            content: '';
+            position: absolute;
+            background-color: var(--primary-color);
+        }
+
+        .cross-icon::before {
+            top: 6px;
+            left: 0;
+            width: 14px;
+            height: 2px;
+        }
+
+        .cross-icon::after {
+            top: 0;
+            left: 6px;
+            width: 2px;
+            height: 14px;
+        }
+
+        ol {
+            list-style-type: decimal;
+            padding-left: 1.5rem;
+        }
+
+        ol li {
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-container">
+        <!-- الأشكال المتموجة العلوية -->
+        <svg class="absolute top-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,40 Q100,0 200,40 T400,40 T600,40 T800,40 T1000,40 T1200,40 L1200,40 L1200,40 L0,40 Z"
+                fill="var(--primary-color)" />
+        </svg>
+
+        <div class="inner-page">
+            <!-- نقاط الزوايا -->
+            <div class="dot dot-tl"></div>
+            <div class="dot dot-tr"></div>
+            <div class="dot dot-bl"></div>
+            <div class="dot dot-br"></div>
+
+            <!-- العنوان العلوي والبادجات -->
+            <div class="flex justify-between items-end mb-3">
+                <div class="flex items-center">
+                    <span class="text-primary text-2xl mr-2 leading-none">&bull;</span>
+                    <h2 class="text-primary font-bold text-xl underline underline-offset-4 decoration-2">Lisez ce texte
+                        puis répondez aux questions :</h2>
+                </div>
+                <!-- إضافة البادجين B1 و CM1 -->
+                <div class="flex gap-2">
+                    <div class="bg-primary text-white font-black text-xl px-3 py-1 rounded shadow-sm">B1</div>
+                    <div class="bg-primary text-white font-black text-xl px-3 py-1 rounded shadow-sm">CM1</div>
+                </div>
+            </div>
+
+            <!-- صندوق المحتوى والمقالة -->
+            <div class="border-2 border-primary p-3 mb-4">
+                <h1 class="text-center font-bold text-xl mb-4">Le pot de lait de Gita</h1>
+
+                <!-- تقسيم النص إلى عمودين -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                    <!-- العمود الأيسر -->
+                    <div>
+                        <p class="paragraph">
+                            Il était une fois une jeune fille nommée Gita, qui vivait avec sa grand-mère dans une petite
+                            maison de campagne. Tous les matins, elle trayait les vaches et portait un grand pot de lait
+                            au marché du village. Elle aimait marcher le long du chemin, entourée des oiseaux et des
+                            fleurs. Ce jour-là, le soleil brillait fort et Gita était de bonne humeur. Sa grand-mère lui
+                            dit avant de partir : « Sois prudente, ma fille, et pense à bien tenir ton pot de lait. »
+                            Gita hocha la tête, mais, à peine sortie, elle se mit à rêver. Elle pensait à tout ce
+                            qu'elle pourrait acheter avec l'argent qu'elle gagnerait.
+                        </p>
+
+                        <p class="paragraph">
+                            En marchant, Gita imagina une vie magnifique. « Avec l'argent du lait, je vais acheter une
+                            poule. Cette poule pondra des œufs. Je vendrai les œufs et j'aurai assez pour acheter une
+                            vache. Avec le lait de cette vache, j'aurai encore plus d'argent. Je pourrai acheter une
+                            belle robe bleue et aller à la fête du village. Qui sait ? Peut-être qu'un prince me
+                            remarquera ! » Gita riait en pensant à tout cela.
+                        </p>
+                    </div>
+
+                    <!-- العمود الأيمن -->
+                    <div>
+                        <!-- الصورة (تم إدراج اسم الصورة المرفوعة كما طلبت) -->
+                        <img src="image_372d5b.jpg" alt="Le pot de lait de Gita"
+                            class="w-full mb-3 border border-gray-300 rounded shadow-sm object-cover"
+                            style="height: 140px; object-position: center top;">
+
+                        <p class="paragraph">
+                            Mais, toute à ses rêves, elle oubliait son pot. Elle leva la tête fièrement, fit un grand
+                            pas... et ploc ! le pot tomba par terre. Le lait se renversa, coula sur la route, et tous
+                            ses beaux rêves disparurent d'un seul coup.
+                        </p>
+
+                        <p class="paragraph">
+                            Gita resta là, sans bouger, le cœur serré. Elle pensa à sa grand-mère et sentit la honte la
+                            gagner. Elle avait perdu le lait, l'argent et la confiance de sa famille. Quand elle rentra
+                            à la maison, sa grand-mère l'écouta sans colère et dit doucement : « Tu vois, ma petite, il
+                            faut d'abord travailler avant de rêver. Les beaux projets naissent de la patience. » Gita
+                            essuya ses larmes et promit de ne plus rêver sans effort. Le lendemain, elle retourna au
+                            marché, plus prudente, un nouveau pot sur la tête et un vrai sourire sur les lèvres : cette
+                            fois, elle savait que le courage et la patience valent mieux que les rêves sans travail.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- قسم الأسئلة العلوية (1 و 2) -->
+            <div class="flex flex-col md:flex-row gap-4 mt-6">
+                <!-- المربع الأول -->
+                <div class="question-box flex-1">
+                    <div class="question-header">1) Répondez aux questions :</div>
+                    <ol>
+                        <li>Que portait Gita sur la tête ?</li>
+                        <li>Où allait-elle avec ce pot ?</li>
+                        <li>Que voulait-elle acheter avec l'argent du lait ?</li>
+                        <li>Pourquoi le pot tombe-t-il ?</li>
+                        <li>Quelle leçon apprend-elle à la fin ?</li>
+                    </ol>
+                </div>
+
+                <!-- المربع الثاني -->
+                <div class="question-box flex-1">
+                    <div class="question-header">2) Mettez Vrai ☑ ou Faux ☒ :</div>
+                    <ol>
+                        <li>Gita vivait avec sa tante.</li>
+                        <li>Elle rêvait d'acheter des animaux et des habits.</li>
+                        <li>Le pot tombe parce qu'un oiseau le fait tomber.</li>
+                        <li>Sa grand-mère la punit sévèrement.</li>
+                        <li>À la fin, Gita comprend qu'il faut être patiente et travailleuse.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- المربع الثالث (التعبير الكتابي) - يأخذ العرض بالكامل -->
+            <div class="question-box w-full mt-4 !pt-8">
+                <div class="question-header">3) Production écrite :</div>
+                <p class="text-center text-[1.1rem] px-4 font-medium">
+                    Raconte un rêve que tu aimerais réaliser un jour et explique comment tu pourrais y arriver.
+                </p>
+            </div>
+
+            <!-- التذييل (Footer) -->
+            <div class="footer-line-container mt-8">
+                <div class="footer-line"></div>
+                <div class="footer-text pl-0">
+                    <span class="cross-icon mr-3"></span>
+                    La langue française
+                </div>
+                <div class="footer-text pr-0">
+                    Bien écrire
+                    <span class="cross-icon ml-3"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- الأشكال المتموجة السفلية -->
+        <svg class="absolute bottom-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,0 Q100,40 200,0 T400,0 T600,0 T800,0 T1000,0 T1200,0 L1200,0 L1200,40 L0,0 Z"
+                fill="var(--primary-color)" />
+        </svg>
+    </div>
+
+</body>
+
+</html>

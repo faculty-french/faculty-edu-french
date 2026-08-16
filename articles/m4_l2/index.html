@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'intelligence artificielle à l'école</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        :root {
+            --primary-color: #443C53;
+            /* اللون الأرجواني الداكن المائل للأزرق من الصورة */
+        }
+
+        .page-container {
+            width: 100%;
+            max-width: 900px;
+            background-color: var(--primary-color);
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .inner-page {
+            background-color: white;
+            margin: 15px;
+            padding: 25px 30px;
+            border: 2px solid var(--primary-color);
+            position: relative;
+        }
+
+        .inner-page::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            right: -6px;
+            bottom: -6px;
+            border: 1px solid var(--primary-color);
+            pointer-events: none;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .dot-tl {
+            top: -5px;
+            left: -5px;
+        }
+
+        .dot-tr {
+            top: -5px;
+            right: -5px;
+        }
+
+        .dot-bl {
+            bottom: -5px;
+            left: -5px;
+        }
+
+        .dot-br {
+            bottom: -5px;
+            right: -5px;
+        }
+
+        .text-primary {
+            color: var(--primary-color);
+        }
+
+        .bg-primary {
+            background-color: var(--primary-color);
+        }
+
+        .border-primary {
+            border-color: var(--primary-color);
+        }
+
+        .paragraph {
+            text-indent: 1.5rem;
+            text-align: justify;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+            font-size: 0.95rem;
+        }
+
+        .question-box {
+            position: relative;
+            border: 2px solid var(--primary-color);
+            padding: 1.5rem 1rem 1rem 1rem;
+            flex: 1;
+        }
+
+        .question-header {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            padding: 0.1rem 0.5rem;
+            text-decoration: underline;
+            font-size: 1.05rem;
+        }
+
+        .footer-line-container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: var(--primary-color);
+            z-index: 1;
+        }
+
+        .footer-text {
+            background-color: white;
+            z-index: 2;
+            padding: 0 10px;
+            font-weight: bold;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .cross-icon {
+            display: inline-block;
+            position: relative;
+            width: 14px;
+            height: 14px;
+        }
+
+        .cross-icon::before,
+        .cross-icon::after {
+            content: '';
+            position: absolute;
+            background-color: var(--primary-color);
+        }
+
+        .cross-icon::before {
+            top: 6px;
+            left: 0;
+            width: 14px;
+            height: 2px;
+        }
+
+        .cross-icon::after {
+            top: 0;
+            left: 6px;
+            width: 2px;
+            height: 14px;
+        }
+
+        ol {
+            list-style-type: decimal;
+            padding-left: 1.5rem;
+        }
+
+        ol li {
+            margin-bottom: 0.35rem;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-container">
+        <!-- زخرفة علوية متموجة -->
+        <svg class="absolute top-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,40 Q100,0 200,40 T400,40 T600,40 T800,40 T1000,40 T1200,40 L1200,40 L1200,40 L0,40 Z"
+                fill="var(--primary-color)" />
+        </svg>
+
+        <div class="inner-page">
+            <div class="dot dot-tl"></div>
+            <div class="dot dot-tr"></div>
+            <div class="dot dot-bl"></div>
+            <div class="dot dot-br"></div>
+
+            <!-- الهيدر -->
+            <div class="flex justify-between items-center mb-3">
+                <div class="flex items-center">
+                    <span class="text-primary text-2xl mr-2 leading-none">&bull;</span>
+                    <h2 class="text-primary font-bold text-xl underline underline-offset-4 decoration-2">Lisez ce texte
+                        puis répondez aux questions :</h2>
+                </div>
+                <div class="bg-primary text-white font-black text-xl px-3 py-1 rounded shadow-sm">
+                    B1
+                </div>
+            </div>
+
+            <!-- المقالة -->
+            <div class="border-2 border-primary p-3 mb-4">
+                <h1 class="text-center font-bold text-lg mb-4">L'intelligence artificielle à l'école : un nouvel outil
+                    pédagogique</h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <!-- العمود الأيسر -->
+                    <div>
+                        <p class="paragraph">
+                            L'intelligence artificielle (IA) fait son entrée dans les salles de classe. Pour les
+                            enseignants, cette technologie représente un soutien précieux. Elle peut générer des
+                            exercices, proposer des idées pour les cours ou aider à analyser les difficultés des élèves.
+                            Cela libère du temps pour l'enseignant, qui peut alors se concentrer sur l'accompagnement
+                            individuel. De plus, l'IA permet de personnaliser les apprentissages. Elle peut adapter le
+                            contenu et le rythme des activités en fonction des besoins spécifiques de chaque élève,
+                            offrant un parcours éducatif plus flexible.
+                        </p>
+                        <p class="paragraph">
+                            Cependant, cette innovation présente aussi des inconvénients majeurs. Le premier risque est
+                            que l'IA rende les élèves passifs. Si les outils donnent des réponses trop rapidement, les
+                            élèves pourraient cesser de réfléchir par eux-mêmes. Un autre problème est l'inégalité
+                            d'accès. Toutes les écoles n'ont pas le même équipement technologique, ce qui peut créer des
+                            différences entre les
+                        </p>
+                    </div>
+
+                    <!-- العمود الأيمن -->
+                    <div>
+                        <img src="image_27a79b.png" alt="L'intelligence artificielle à l'école"
+                            class="w-full mb-3 border border-gray-300 rounded shadow-sm object-cover"
+                            style="height: 140px; object-position: center top;">
+
+                        <p class="paragraph" style="text-indent: 0;">
+                            établissements. Enfin, il existe des questions éthiques importantes. La protection des
+                            données personnelles des élèves et la fiabilité des informations fournies par l'IA
+                            nécessitent une vigilance constante.
+                        </p>
+                        <p class="paragraph">
+                            Pour que l'intelligence artificielle soit un véritable progrès à l'école, un cadre
+                            d'utilisation est nécessaire. Les enseignants doivent recevoir une formation pour maîtriser
+                            ces outils et guider leurs élèves. Les élèves, de leur côté, doivent apprendre à utiliser
+                            l'IA de manière critique et responsable. L'objectif n'est pas de remplacer le professeur,
+                            mais de l'assister. L'école doit rester un lieu où l'on apprend à penser, pas seulement à
+                            obtenir des réponses. Avec des règles claires, l'IA peut devenir un allié pour une éducation
+                            plus moderne et plus adaptée.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- قسم الأسئلة -->
+            <div class="flex flex-col md:flex-row gap-4 mt-6">
+                <!-- المربع 1 -->
+                <div class="question-box">
+                    <div class="question-header">1) Répondez aux questions :</div>
+                    <ol>
+                        <li>Quel est l'avantage principal de l'IA pour les enseignants ?</li>
+                        <li>Quel est le premier risque de l'IA pour les élèves ?</li>
+                        <li>Pourquoi l'IA peut-elle créer des inégalités entre les écoles ?</li>
+                        <li>Quelle condition est nécessaire pour que l'IA soit un progrès à l'école ?</li>
+                        <li>Quel est le rôle du professeur que l'IA ne doit pas remplacer ?</li>
+                    </ol>
+                </div>
+
+                <!-- المربع 2 -->
+                <div class="question-box">
+                    <div class="question-header">2) Mettez Vrai ☑ ou Faux ☒ :</div>
+                    <ol>
+                        <li>L'IA peut adapter les exercices au niveau de chaque élève.</li>
+                        <li>Toutes les écoles ont le même accès aux outils d'intelligence artificielle.</li>
+                        <li>L'IA doit remplacer les enseignants.</li>
+                        <li>La protection des données des élèves est une préoccupation éthique soulevée.</li>
+                        <li>Les élèves doivent apprendre à utiliser l'IA sans réflexion critique.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- التذييل -->
+            <div class="footer-line-container">
+                <div class="footer-line"></div>
+                <div class="footer-text pl-0">
+                    <span class="cross-icon mr-3"></span>
+                    La langue française
+                </div>
+                <div class="footer-text pr-0">
+                    Bien écrire
+                    <span class="cross-icon ml-3"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- زخرفة سفلية متموجة -->
+        <svg class="absolute bottom-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,0 Q100,40 200,0 T400,0 T600,0 T800,0 T1000,0 T1200,0 L1200,0 L1200,40 L0,0 Z"
+                fill="var(--primary-color)" />
+        </svg>
+    </div>
+
+</body>
+
+</html>

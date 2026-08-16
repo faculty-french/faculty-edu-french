@@ -212,8 +212,9 @@
           "text": "Pour que l'intelligence artificielle soit un véritable progrès à l'école, un cadre d'utilisation est nécessaire. Les enseignants doivent recevoir une formation pour maîtriser ces outils et guider leurs élèves. Les élèves, de leur côté, doivent apprendre à utiliser l'IA de manière critique et responsible. L'objectif n'est pas de remplacer le professeur, mais de l'assister. L'école doit rester un lieu où l'on apprend à penser, pas seulement à obtenir des réponses. Avec des règles claires, l'IA peut devenir un allié pour une éducation plus moderne et plus adaptée."
         },
         {
-          "type": "paragraph",
-          "text": "https://www.bien-ecrire.com"
+          "type": "link",
+          "url": "/articles/m4_l2/index.html",
+          "label": "📄 Article interactif : L'intelligence artificielle à l'école"
         }
       ]
     },
@@ -380,6 +381,11 @@
       "type": "content",
       "title": "LEÇON 2 : MICRO-TÂCHE 8 — VIDÉO",
       "content": [
+        {
+          "type": "link",
+          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
+          "label": "📄 Explications et exercices : Les connecteurs logiques"
+        },
         {
           "type": "microtask",
           "number": 8,
