@@ -78,6 +78,45 @@
       ]
     },
     {
+      "id": "developer-credits-2b",
+      "type": "content",
+      "layout": "developer-credits",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "BUILT & DEVELOPED BY"
+        },
+        {
+          "type": "heading",
+          "text": "George Adel",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "Software Developer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Design & development of this interactive e-book — the realistic page-flip reading experience, the interactive activities, the Telegram delivery of answers and the built-in content editor."
+        },
+        {
+          "type": "link",
+          "url": "https://github.com/george1-adel",
+          "label": "GitHub — george1-adel"
+        },
+        {
+          "type": "link",
+          "url": "https://wa.me/201278936828",
+          "label": "WhatsApp — 01278936828"
+        },
+        {
+          "type": "link",
+          "url": "https://x.com/george_adel_1",
+          "label": "X — @george_adel_1"
+        }
+      ]
+    },
+    {
       "id": "index-page-3a",
       "pageNumber": 3,
       "type": "content",
