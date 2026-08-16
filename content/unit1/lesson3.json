@@ -192,11 +192,15 @@
       "id": "lesson3-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : LECTURE (1/3)",
+      "title": "LEÇON 3 : LECTURE (1/2)",
       "content": [
         {
           "type": "paragraph",
           "text": "Beaucoup de gens racontent leurs expériences positives. Par exemple, Antoine, un étudiant de Nantes, dit qu’il a découvert cette pratique grâce à une application mobile : « J’ai tout de suite aimé l’ambiance dans la voiture. On discute, on écoute de la musique, et le trajet paraît plus court. » Pour lui, le covoiturage est une manière agréable de faire des rencontres tout en économisant de l’argent. D’autres apprécient surtout le côté écologique : en remplissant une seule voiture au lieu de trois, on émet beaucoup moins de CO₂. Selon le ministère de la Transition écologique, chaque année, plusieurs millions de trajets sont réalisés ainsi, ce qui prouve que cette habitude entre vraiment dans le quotidien des Français."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mais il ne faut pas oublier les petits inconvénients. Parfois, les horaires ne sont pas respectés ou les trajets changent au dernier moment. Il arrive aussi qu’on ne s’entende pas avec les autres passagers. Certaines personnes préfèrent conduire seules, par confort ou par besoin d’intimité. Pourtant, malgré ces petits problèmes, le covoiturage reste une solution moderne et responsable. Il montre qu’on peut changer nos habitudes de transport sans perdre notre liberté. Voyager ensemble, c’est aussi apprendre à partager, à faire confiance et à penser un peu plus à la planète."
         }
       ]
     },
@@ -204,25 +208,13 @@
       "id": "lesson3-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : LECTURE (2/3)",
+      "title": "LEÇON 3 : LECTURE (2/2)",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "Mais il ne faut pas oublier les petits inconvénients. Parfois, les horaires ne sont pas respectés ou les trajets changent au dernier moment. Il arrive aussi qu’on ne s’entende pas avec les autres passagers. Certaines personnes préfèrent conduire seules, par confort ou par besoin d’intimité. Pourtant, malgré ces petits problèmes, le covoiturage reste une solution moderne et responsable. Il montre qu’on peut changer nos habitudes de transport sans perdre notre liberté. Voyager ensemble, c’est aussi apprendre à partager, à faire confiance et à penser un peu plus à la planète."
-        },
         {
           "type": "link",
           "url": "/articles/m1_l3_article.html",
           "label": "📄 Source de l'article"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p07",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : LECTURE (3/3)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Questions guidées",
@@ -243,7 +235,7 @@
       ]
     },
     {
-      "id": "lesson3-p08",
+      "id": "lesson3-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : QUESTIONS GUIDÉES",
@@ -274,7 +266,7 @@
       ]
     },
     {
-      "id": "lesson3-p09",
+      "id": "lesson3-p08",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MICRO-TÂCHES D'ANALYSE",
@@ -312,7 +304,7 @@
       ]
     },
     {
-      "id": "lesson3-p10",
+      "id": "lesson3-p09",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : TEXTE EXPLICATIF",
@@ -369,7 +361,7 @@
       ]
     },
     {
-      "id": "lesson3-p11",
+      "id": "lesson3-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : VRAI OU FAUX",
@@ -403,7 +395,7 @@
       ]
     },
     {
-      "id": "lesson3-p12",
+      "id": "lesson3-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : CORRECTION DE PHRASES",
@@ -425,19 +417,19 @@
         {
           "type": "consigne",
           "text": "Reformulez cette phrase en utilisant vos propres mots."
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q15"
         }
       ]
     },
     {
-      "id": "lesson3-p13",
+      "id": "lesson3-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MINI-PRODUCTION (1/2)",
       "content": [
+        {
+          "type": "question",
+          "questionId": "l3-q15"
+        },
         {
           "type": "microtask",
           "number": 8,
@@ -460,7 +452,7 @@
       ]
     },
     {
-      "id": "lesson3-p14",
+      "id": "lesson3-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MINI-PRODUCTION (2/2)",
@@ -508,7 +500,7 @@
       ]
     },
     {
-      "id": "lesson3-p15",
+      "id": "lesson3-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : VIDÉO ET RÉSUMÉ (1/2)",
@@ -527,24 +519,19 @@
         {
           "type": "link",
           "url": "https://toutenfrancais.tv/fle-covoiturage-a2"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p16",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : VIDÉO ET RÉSUMÉ (2/2)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Structures à observer (suite)",
-          "level": 2
         },
         {
           "type": "question",
           "questionId": "l3-q17"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p15",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : VIDÉO ET RÉSUMÉ (2/2)",
+      "content": [
         {
           "type": "microtask",
           "number": 10,
@@ -642,19 +629,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p17",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Structures à observer (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -663,7 +637,7 @@
       ]
     },
     {
-      "id": "lesson3-p18",
+      "id": "lesson3-p16",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE",
@@ -716,7 +690,7 @@
       ]
     },
     {
-      "id": "lesson3-p19",
+      "id": "lesson3-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
@@ -738,7 +712,7 @@
       ]
     },
     {
-      "id": "lesson3-p20",
+      "id": "lesson3-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION",
@@ -767,7 +741,7 @@
       ]
     },
     {
-      "id": "lesson3-p21",
+      "id": "lesson3-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : É-ÉVALUATION (1/2)",
@@ -788,11 +762,15 @@
         {
           "type": "question",
           "questionId": "l3-e5"
+        },
+        {
+          "type": "question",
+          "questionId": "l3-e6"
         }
       ]
     },
     {
-      "id": "lesson3-p22",
+      "id": "lesson3-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : É-ÉVALUATION (2/2)",
@@ -801,10 +779,6 @@
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l3-e6"
         },
         {
           "type": "question",
@@ -817,7 +791,7 @@
       ]
     },
     {
-      "id": "lesson3-p23",
+      "id": "lesson3-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
