@@ -234,10 +234,6 @@
         {
           "type": "question",
           "questionId": "l7-vf1"
-        },
-        {
-          "type": "question",
-          "questionId": "l7-vf2"
         }
       ]
     },
@@ -251,6 +247,10 @@
           "type": "heading",
           "text": "Questions guidées (10 minutes) (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l7-vf2"
         },
         {
           "type": "question",
@@ -644,15 +644,7 @@
         {
           "type": "question",
           "questionId": "l7-e7"
-        }
-      ]
-    },
-    {
-      "id": "lesson7-p19",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : SOUMISSION DU DEVOIR",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",
@@ -823,19 +815,19 @@
       "id": "l7-e5",
       "type": "open-ended",
       "text": "5. Préférez-vous le télétravail ou le travail en présentiel ? Justifiez-en 2–3 lignes.",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l7-e6",
       "type": "open-ended",
       "text": "6. Proposez d'autres avantages et inconvénients du télétravail.",
-      "lines": 4
+      "lines": 2
     },
     {
       "id": "l7-e7",
       "type": "open-ended",
       "text": "7. Précisez les métiers qui ne peuvent pas travailler en ligne ? Donnez un exemple.",
-      "lines": 4
+      "lines": 2
     }
   ]
 }

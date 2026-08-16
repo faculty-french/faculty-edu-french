@@ -744,7 +744,7 @@
       "id": "lesson3-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (1/2)",
+      "title": "LEÇON 3 : É-ÉVALUATION",
       "content": [
         {
           "type": "heading",
@@ -773,7 +773,7 @@
       "id": "lesson3-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (2/2)",
+      "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
       "content": [
         {
           "type": "heading",
@@ -787,15 +787,7 @@
         {
           "type": "question",
           "questionId": "l3-e8"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p21",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",

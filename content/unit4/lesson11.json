@@ -619,15 +619,7 @@
         {
           "type": "question",
           "questionId": "l11-q22"
-        }
-      ]
-    },
-    {
-      "id": "lesson11-p18",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",
@@ -774,19 +766,19 @@
       "id": "l11-q20",
       "type": "open-ended",
       "text": "2. Quel est le premier risque de l'IA pour les élèves ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l11-q21",
       "type": "open-ended",
       "text": "3. Pourquoi l'IA peut-elle créer des inégalités entre les écoles ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l11-q22",
       "type": "open-ended",
       "text": "4. Quel est le rôle du professeur que l'IA ne doit pas remplacer ?",
-      "lines": 4
+      "lines": 2
     }
   ]
 }
