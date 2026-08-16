@@ -448,9 +448,10 @@
           "questionId": "l1-q12"
         },
         {
-          "type": "video",
-          "videoUrl": "https://www.youtube.com/embed/WsILHnwc4As",
-          "caption": "Le réchauffement climatique expliqué aux enfants"
+          "type": "microtask",
+          "number": 8,
+          "text": "Regardez cette vidéo pour bien comprendre le changement climatique : comprendre ses causes et ses conséquences pour mieux réagir.",
+          "duration": "5 min"
         }
       ]
     },
@@ -461,10 +462,9 @@
       "title": "LEÇON 1 : VIDÉO ÉDUCATIVE",
       "content": [
         {
-          "type": "microtask",
-          "number": 8,
-          "text": "Regardez cette vidéo pour bien comprendre le changement climatique : comprendre ses causes et ses conséquences pour mieux réagir.",
-          "duration": "5 min"
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/WsILHnwc4As",
+          "caption": "Le réchauffement climatique expliqué aux enfants"
         },
         {
           "type": "question",
