@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'absence familiale</title>
+    <style>
+        /* إعدادات الصفحة والخلفية الزرقاء الداكنة لمحاكاة الإطار الخارجي */
+        body {
+            background-color: #1a3e59;
+            margin: 0;
+            padding: 30px 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* حاوية المستند الأبيض */
+        .document {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 850px;
+            padding: 5px;
+            border: 4px solid #2a5573;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* الإطار الداخلي الرقيق */
+        .document-inner {
+            border: 1px solid #2a5573;
+            padding: 25px 30px;
+            position: relative;
+        }
+
+        /* الجزء العلوي (التعليمات) */
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        ul.instruction {
+            margin: 0;
+            padding-left: 20px;
+            color: #2a5573;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        ul.instruction span {
+            text-decoration: underline;
+        }
+
+        .badge {
+            background-color: #2a5573;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+
+        /* مربع النص القرائي */
+        .reading-box {
+            border: 2px solid #2a5573;
+            padding: 15px 20px 20px 20px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        /* تنسيق الأعمدة للنص */
+        .columns {
+            display: flex;
+            gap: 25px;
+        }
+
+        .col {
+            flex: 1;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+            font-size: 14.5px;
+            line-height: 1.45;
+            text-indent: 20px;
+        }
+
+        /* تنسيق حاوية الصورة */
+        .image-box {
+            width: 100%;
+            height: 150px;
+            border: 1px solid #ccc;
+            margin-bottom: 12px;
+            overflow: hidden;
+            background-color: #0f1722;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* قسم الأسئلة */
+        .questions-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .q-box {
+            flex: 1;
+            border: 2px solid #2a5573;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .q-header {
+            background-color: #2a5573;
+            color: white;
+            font-weight: bold;
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        .q-header span {
+            text-decoration: underline;
+        }
+
+        .q-content {
+            padding: 12px 15px;
+            font-size: 14.5px;
+        }
+
+        .q-content ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .q-content li {
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        /* التذييل (الفوتر) */
+        .footer-row {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .footer-text {
+            font-weight: bold;
+            font-size: 16px;
+            color: #2a5573;
+        }
+
+        .footer-line {
+            flex-grow: 1;
+            height: 2px;
+            background-color: #2a5573;
+            margin: 0 15px;
+        }
+
+        /* نقاط زخرفية صغيرة على الأطراف */
+        .dot {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background-color: #2a5573;
+            border-radius: 50%;
+        }
+
+        .dot.top-left {
+            top: 20px;
+            left: -4px;
+        }
+
+        .dot.top-right {
+            top: 20px;
+            right: -4px;
+        }
+
+        .dot.bottom-left {
+            bottom: 20px;
+            left: -4px;
+        }
+
+        .dot.bottom-right {
+            bottom: 20px;
+            right: -4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="document">
+        <div class="document-inner">
+            <!-- نقاط زخرفية للإطار الداخلي -->
+            <div class="dot top-left"></div>
+            <div class="dot top-right"></div>
+            <div class="dot bottom-left"></div>
+            <div class="dot bottom-right"></div>
+
+            <!-- صف التعليمات العلوي -->
+            <div class="header-row">
+                <ul class="instruction">
+                    <li><span>Lisez ce texte puis répondez aux questions :</span></li>
+                </ul>
+                <div class="badge">B1</div>
+            </div>
+
+            <!-- إطار النص القرائي -->
+            <div class="reading-box">
+                <h2 class="title">L'absence familiale et ses effets sur la vie quotidienne</h2>
+
+                <div class="columns">
+                    <!-- العمود الأول -->
+                    <div class="col">
+                        <p>La solitude est une réalité silencieuse qui touche de nombreuses personnes lorsque les
+                            familles vivent loin les unes des autres. Les raisons de cet éloignement sont variées :
+                            travail à l'étranger, études, migrations ou choix de vie. Quand les liens familiaux reposent
+                            surtout sur les appels et les messages, la relation change. La présence physique, les gestes
+                            simples et les discussions spontanées disparaissent peu à peu. Cette distance peut créer un
+                            sentiment de vide, surtout chez les personnes âgées ou celles qui vivent seules. Même
+                            entouré par la technologie, l'être humain peut ressentir un manque profond de relations
+                            humaines réelles.</p>
+
+                        <p>Cette situation a souvent des conséquences sur l'équilibre émotionnel. La solitude prolongée
+                            peut provoquer de la tristesse, une perte de motivation et parfois un repli sur soi.
+                            Certaines personnes hésitent à parler de leur mal-être par peur de déranger ou par honte.
+                            Les fêtes, les anniversaires ou les moments difficiles renforcent ce sentiment d'absence
+                            familiale. Sans un soutien proche, il devient plus difficile de partager ses émotions</p>
+                    </div>
+
+                    <!-- العمود الثاني -->
+                    <div class="col">
+                        <div class="image-box">
+                            <!-- صورة مرسومة بالأكواد (SVG) لضمان ظهورها دائمًا -->
+                            <svg viewBox="0 0 400 150" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                <!-- خلفية الغرفة ليلاً -->
+                                <rect width="400" height="150" fill="#0f1722" />
+                                <!-- نافذة كبيرة -->
+                                <rect x="20" y="10" width="360" height="100" fill="#1e2d40" stroke="#0a0f16"
+                                    stroke-width="4" />
+                                <!-- القمر -->
+                                <circle cx="340" cy="40" r="12" fill="#e2e8f0" />
+                                <!-- مباني المدينة في الخلفية -->
+                                <rect x="30" y="70" width="40" height="40" fill="#0a0f16" />
+                                <rect x="80" y="50" width="50" height="60" fill="#0a0f16" />
+                                <rect x="140" y="80" width="30" height="30" fill="#0a0f16" />
+                                <rect x="280" y="60" width="50" height="50" fill="#0a0f16" />
+                                <!-- مكتب -->
+                                <rect x="180" y="130" width="160" height="20" fill="#15110d" />
+                                <!-- شخص جالس (صورة ظلية) -->
+                                <path d="M 230 130 C 230 90, 270 90, 270 130 Z" fill="#2d3748" />
+                                <circle cx="250" cy="85" r="14" fill="#2d3748" />
+                                <!-- شاشة اللابتوب المضيئة -->
+                                <rect x="290" y="110" width="25" height="18" fill="#63b3ed" />
+                                <!-- توهج الشاشة -->
+                                <polygon points="290,130 315,130 302,110" fill="#ebf8ff" opacity="0.2" />
+                            </svg>
+                        </div>
+
+                        <p style="text-indent: 0;">ou de demander de l'aide. Les spécialistes expliquent que le lien
+                            social joue un rôle essentiel dans la santé mentale et le sentiment de sécurité.</p>
+
+                        <p>Face à cette réalité, plusieurs solutions peuvent aider à réduire la solitude. Maintenir un
+                            contact régulier avec la famille, même à distance, reste important. Les associations, les
+                            activités culturelles et le bénévolat permettent aussi de créer de nouveaux liens sociaux.
+                            Certaines villes développent des espaces de rencontre pour rompre l'isolement, notamment
+                            pour les seniors. Ces initiatives montrent que la solidarité et l'attention aux autres
+                            peuvent compenser l'éloignement familial. La lutte contre la solitude passe par des actions
+                            simples, mais humaines, qui redonnent une place centrale au lien social.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- صف الأسئلة -->
+            <div class="questions-row">
+                <!-- المربع الأول -->
+                <div class="q-box">
+                    <div class="q-header">
+                        <span>1) Répondez aux questions :</span>
+                    </div>
+                    <div class="q-content">
+                        <ol>
+                            <li>Pourquoi les familles peuvent-elles vivre loin les unes des autres ?</li>
+                            <li>Quels sentiments la distance familiale peut-elle provoquer ?</li>
+                            <li>Pourquoi certaines personnes ne parlent-elles pas de leur mal-être ?</li>
+                            <li>Quelles solutions sont proposées pour réduire la solitude ?</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- المربع الثاني -->
+                <div class="q-box">
+                    <div class="q-header">
+                        <span>2) Mettez Vrai ☑ ou Faux ☒ :</span>
+                    </div>
+                    <div class="q-content">
+                        <ol>
+                            <li>La technologie remplace complètement la présence familiale.</li>
+                            <li>La solitude peut avoir un impact sur la santé mentale.</li>
+                            <li>Les fêtes rendent la solitude moins visible.</li>
+                            <li>La solitude concerne uniquement les personnes âgées.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- التذييل السفلي -->
+            <div class="footer-row">
+                <div class="footer-text">La langue française</div>
+                <div class="footer-line"></div>
+                <div class="footer-text">Bien écrire</div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

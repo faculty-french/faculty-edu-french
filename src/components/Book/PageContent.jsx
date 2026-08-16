@@ -204,6 +204,19 @@ const PageContent = React.forwardRef(({ page, questions, getAnswer, setAnswer, a
         return <MindMap key={index} {...block} />;
       case 'video':
         return <VideoPlayer key={index} videoUrl={block.videoUrl} caption={formatText(block.caption)} />;
+      case 'link': {
+        const url = block.url || block.content;
+        if (!url) return null;
+        const internal = url.startsWith('/');
+        const href = internal ? import.meta.env.BASE_URL + url.replace(/^\//, '') : url;
+        const label = (block.label || '').replace(/^📄|^🔗/, '').trim()
+          || (internal ? 'Ouvrir le texte' : 'Lien externe');
+        return (
+          <a key={index} className="page__link-button" href={href} target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">{internal ? '📄' : '🔗'}</span> {label}
+          </a>
+        );
+      }
       case 'question': {
         const question = questions?.find(q => q.id === block.questionId);
         if (!question) return null;

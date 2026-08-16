@@ -216,8 +216,9 @@
           "text": "Mais il ne faut pas oublier les petits inconvénients. Parfois, les horaires ne sont pas respectés ou les trajets changent au dernier moment. Il arrive aussi qu’on ne s’entende pas avec les autres passagers. Certaines personnes préfèrent conduire seules, par confort ou par besoin d’intimité. Pourtant, malgré ces petits problèmes, le covoiturage reste une solution moderne et responsable. Il montre qu’on peut changer nos habitudes de transport sans perdre notre liberté. Voyager ensemble, c’est aussi apprendre à partager, à faire confiance et à penser un peu plus à la planète."
         },
         {
-          "type": "paragraph",
-          "text": "https://www.bien-ecrire.com"
+          "type": "link",
+          "url": "/articles/m1_l3_article.html",
+          "label": "📄 Source de l'article"
         }
       ]
     },
@@ -320,6 +321,12 @@
         {
           "type": "question",
           "questionId": "l3-q10"
+        },
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
         }
       ]
     },
@@ -358,12 +365,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "phase-banner",
-          "phase": 4,
-          "title": "Évaluation des produits des étudiants",
-          "duration": "10 min"
         }
       ]
     },
@@ -535,8 +536,8 @@
           "duration": "5 min"
         },
         {
-          "type": "paragraph",
-          "text": "https://toutenfrancais.tv/fle-covoiturage-a2"
+          "type": "link",
+          "url": "https://toutenfrancais.tv/fle-covoiturage-a2"
         },
         {
           "type": "question",

@@ -225,8 +225,9 @@
           "text": "Cette situation est assez paradoxale. En fait, je crois que nombreux d'entre nous ont besoin d'être un peu frustrés au travail pendant la journée pour mieux apprécier ces petits moments une fois à la maison. Alors, le travail peut contribuer au bonheur même si on ne s'en rend pas toujours compte."
         },
         {
-          "type": "paragraph",
-          "text": "https://anyfrench.com/lecture/le-travail-contribue-t-il-au-bonheur"
+          "type": "link",
+          "url": "https://anyfrench.com/lecture/le-travail-contribue-t-il-au-bonheur",
+          "label": "Source : anyfrench.com"
         },
         {
           "type": "microtask",
@@ -534,6 +535,11 @@
       "type": "content",
       "title": "LEÇON 2 : MINI-PRODUCTION ET DISCUSSION",
       "content": [
+        {
+          "type": "link",
+          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
+          "label": "🔗 En savoir plus sur les connecteurs logiques"
+        },
         {
           "type": "microtask",
           "number": 10,

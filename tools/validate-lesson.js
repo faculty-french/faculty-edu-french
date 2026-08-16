@@ -160,7 +160,7 @@ async function main() {
       const allowedBlockTypes = [
         'heading', 'paragraph', 'divider', 'phase-banner', 'consigne', 
         'microtask', 'keywords', 'info-box', 'objectives', 'images-row', 
-        'video', 'question', 'submit', 'mind-map'
+        'video', 'question', 'submit', 'mind-map', 'link'
       ];
       
       if (Array.isArray(page.content)) {

@@ -208,8 +208,8 @@
           "text": "Face à cette réalité, plusieurs solutions peuvent aider à réduire la solitude. Maintenir un contact régulier avec la famille, même à distance, reste important. Les associations, les activités culturelles et le bénévolat permettent aussi de créer de nouveaux liens sociaux. Certaines villes développent des espaces de rencontre pour rompre l’isolement, notamment pour les seniors. Ces initiatives montrent que la solidarité et l’attention aux autres peuvent compenser l’éloignement familial. La lutte contre la solitude passe par des actions simples, mais humaines, qui redonnent une place centrale au lien social."
         },
         {
-          "type": "paragraph",
-          "text": "https://www.bien-ecrire.com"
+          "type": "link",
+          "url": "/articles/lesson2-text.html"
         }
       ]
     },

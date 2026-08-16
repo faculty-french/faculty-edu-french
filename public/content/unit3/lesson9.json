@@ -230,8 +230,9 @@
           "text": "Gita resta là, sans bouger, le cœur serré. Elle pensa à sa grand-mère et sentit la honte la gagner. Elle avait perdu le lait, l'argent et la confiance de sa famille. Quand elle rentra à la maison, sa grand-mère l'écouta sans colère et dit doucement : « Tu vois, ma petite, il faut d'abord travailler avant de rêver. Les beaux projets naissent de la patience. » Gita essuya ses larmes et promit de ne plus rêver sans effort. Le lendemain, elle retourna au marché, plus prudente, un nouveau pot sur la tête et un vrai sourire sur les lèvres : cette fois, elle savait que le courage et la patience valent mieux que les rêves sans travail."
         },
         {
-          "type": "paragraph",
-          "text": "https://www.bien-ecrire.com"
+          "type": "link",
+          "url": "/articles/m3_l3_article.html",
+          "label": "📄 Article interactif : Le pot de lait de Gita"
         }
       ]
     },
@@ -496,6 +497,11 @@
       "type": "content",
       "title": "LEÇON 3 : MICRO-TÂCHE 10 — VIDÉO",
       "content": [
+        {
+          "type": "link",
+          "url": "https://www.kartable.fr/ressources/francais/cours/les-connecteurs-3/49846",
+          "label": "🔗 En savoir plus sur les connecteurs logiques"
+        },
         {
           "type": "microtask",
           "number": 10,

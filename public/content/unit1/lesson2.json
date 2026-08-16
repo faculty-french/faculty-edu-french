@@ -224,6 +224,11 @@
         {
           "type": "paragraph",
           "text": "Malheureusement, dans certaines villes, les espaces verts disparaissent à cause de la construction de bâtiments ou de routes. Les gouvernements et les citoyens doivent agir pour protéger et créer plus de zones vertes. Planter des arbres, nettoyer les parcs et organiser des activités écologiques sont des solutions simples mais efficaces. Si tout le monde participe, les villes pourront devenir plus vertes et plus saines pour les générations futures."
+        },
+        {
+          "type": "link",
+          "url": "/articles/m1_l2_article.html",
+          "label": "📄 Source de l'article"
         }
       ]
     },

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Espaces Verts - Worksheet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Comic Neue', cursive, sans-serif;
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        :root {
+            --primary-color: #527E3B; /* اللون الأخضر العشبي من الصورة */
+        }
+
+        .page-container {
+            width: 100%;
+            max-width: 900px;
+            background-color: var(--primary-color);
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .inner-page {
+            background-color: white;
+            margin: 15px;
+            padding: 25px 30px;
+            border: 2px solid var(--primary-color);
+            position: relative;
+        }
+
+        .inner-page::before {
+            content: '';
+            position: absolute;
+            top: -6px; left: -6px; right: -6px; bottom: -6px;
+            border: 1px solid var(--primary-color);
+            pointer-events: none;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            position: absolute;
+        }
+        .dot-tl { top: -5px; left: -5px; }
+        .dot-tr { top: -5px; right: -5px; }
+        .dot-bl { bottom: -5px; left: -5px; }
+        .dot-br { bottom: -5px; right: -5px; }
+
+        .text-primary { color: var(--primary-color); }
+        .bg-primary { background-color: var(--primary-color); }
+        .border-primary { border-color: var(--primary-color); }
+
+        .paragraph {
+            text-indent: 1.5rem;
+            text-align: justify;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+            font-size: 1.05rem;
+        }
+
+        .question-box {
+            position: relative;
+            border: 2px solid var(--primary-color);
+            padding: 1.5rem 1rem 1rem 1rem;
+            flex: 1;
+        }
+
+        .question-header {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            padding: 0.1rem 0.5rem;
+            text-decoration: underline;
+            font-size: 1.1rem;
+        }
+
+        .footer-line-container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: var(--primary-color);
+            z-index: 1;
+        }
+
+        .footer-text {
+            background-color: white;
+            z-index: 2;
+            padding: 0 10px;
+            font-weight: bold;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .cross-icon {
+            display: inline-block;
+            position: relative;
+            width: 14px;
+            height: 14px;
+        }
+        .cross-icon::before, .cross-icon::after {
+            content: '';
+            position: absolute;
+            background-color: var(--primary-color);
+        }
+        .cross-icon::before { top: 6px; left: 0; width: 14px; height: 2px; }
+        .cross-icon::after { top: 0; left: 6px; width: 2px; height: 14px; }
+        
+        ol {
+            list-style-type: decimal;
+            padding-left: 1.5rem;
+        }
+        
+        ol li {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        <!-- زخرفة علوية متموجة خضراء -->
+        <svg class="absolute top-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,40 Q100,0 200,40 T400,40 T600,40 T800,40 T1000,40 T1200,40 L1200,40 L1200,40 L0,40 Z" fill="var(--primary-color)"/>
+        </svg>
+
+        <div class="inner-page">
+            <div class="dot dot-tl"></div>
+            <div class="dot dot-tr"></div>
+            <div class="dot dot-bl"></div>
+            <div class="dot dot-br"></div>
+
+            <!-- الهيدر -->
+            <div class="flex items-center mb-3">
+                <span class="text-primary text-2xl mr-2 leading-none">&bull;</span>
+                <h2 class="text-primary font-bold text-xl underline underline-offset-4 decoration-2">Lisez ce texte puis répondez aux questions :</h2>
+            </div>
+
+            <!-- محتوى المقالة -->
+            <div class="border-2 border-primary p-3 mb-4">
+                <h1 class="text-center font-bold text-xl mb-4">Les Espaces Verts</h1>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <!-- العمود الأيسر -->
+                    <div>
+                        <p class="paragraph">
+                            Les espaces verts sont des endroits naturels en ville où l'on trouve des arbres, des pelouses et des fleurs. Ces lieux, comme les parcs, les jardins publics ou les forêts urbaines, sont très importants pour les habitants. Ils permettent de se détendre, de faire du sport ou simplement de profiter de la nature. Dans les grandes villes, les espaces verts améliorent la qualité de l'air et réduisent la pollution.
+                        </p>
+                        <p class="paragraph">
+                            Beaucoup de personnes aiment passer leur temps libre dans les espaces verts. Les enfants y jouent, les adultes font des pique-niques ou lisent un livre, et les personnes âgées s'y promènent pour rester en forme. Ces endroits sont aussi utiles for les animaux et les insectes, comme les oiseaux et les abeilles, qui y trouvent de la nourriture et un habitat naturel. Sans les espaces verts, la vie en ville serait beaucoup moins agréable.
+                        </p>
+                    </div>
+                    
+                    <!-- العمود الأيمن -->
+                    <div>
+                        <img src="images/img-400.jpg" 
+                             alt="Les Espaces Verts illustration" 
+                             class="w-full mb-3 border border-gray-300 rounded shadow-sm object-cover"
+                             style="height: 160px; object-position: center;">
+                        
+                        <p class="paragraph" style="text-indent: 0;">
+                            Malheureusement, dans certaines villes, les espaces verts disparaissent à cause de la construction de bâtiments ou de routes. Les gouvernements et les citoyens doivent agir pour protéger et créer plus de zones vertes.
+                        </p>
+                        <p class="paragraph" style="text-indent: 0;">
+                            Planter des arbres, nettoyer les parcs et organiser des activités écologiques sont des solutions simples mais efficaces. Si tout le monde participe, les villes pourront devenir plus vertes et plus saines pour les générations futures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- قسم الأسئلة -->
+            <div class="flex flex-col md:flex-row gap-4 mt-6">
+                <!-- المربع 1 -->
+                <div class="question-box">
+                    <div class="question-header">1) Répondez aux questions :</div>
+                    <ol>
+                        <li>Quels sont les avantages des espaces verts en ville ?</li>
+                        <li>Que font les adultes dans les espaces verts ?</li>
+                        <li>Pourquoi les espaces verts sont-ils importants pour les animaux ?</li>
+                        <li>Quelles sont les causes de la disparition des espaces verts ?</li>
+                        <li>Comment peut-on protéger les espaces verts ?</li>
+                    </ol>
+                </div>
+
+                <!-- المربع 2 -->
+                <div class="question-box">
+                    <div class="question-header">2) Mettez Vrai ☑ ou Faux ☒ :</div>
+                    <ol>
+                        <li>Les espaces verts ne servent qu'à décorer la ville.</li>
+                        <li>Les enfants peuvent jouer dans les espaces verts.</li>
+                        <li>Les abeilles ne vivent pas dans les espaces verts.</li>
+                        <li>La construction de routes peut réduire les espaces verts.</li>
+                        <li>Les citoyens ne peuvent rien faire pour protéger les espaces verts.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- المربع 3 (التعبير الكتابي) -->
+            <div class="question-box w-full mt-4 !pt-8">
+                <div class="question-header">3) Production écrite :</div>
+                <p class="text-center text-[1.05rem] px-4 font-medium leading-relaxed">
+                    Vous aimez passer du temps dans un espace vert près de chez vous ? Décrivez cet endroit (parc, jardin, forêt...) et expliquez pourquoi vous aimez y aller. (60-80 mots)
+                </p>
+            </div>
+
+            <!-- التذييل -->
+            <div class="footer-line-container mt-8">
+                <div class="footer-line"></div>
+                <div class="footer-text pl-0">
+                    <span class="cross-icon mr-3"></span>
+                    La langue française
+                </div>
+                <div class="footer-text pr-0">
+                    Bien écrire
+                    <span class="cross-icon ml-3"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- زخرفة سفلية متموجة خضراء -->
+        <svg class="absolute bottom-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,0 Q100,40 200,0 T400,0 T600,0 T800,0 T1000,0 T1200,0 L1200,0 L1200,40 L0,0 Z" fill="var(--primary-color)"/>
+        </svg>
+    </div>
+
+</body>
+</html>

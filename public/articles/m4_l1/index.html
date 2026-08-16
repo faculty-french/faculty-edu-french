@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Salah - Le Pharaon du Football</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        :root {
+            --primary-color: #527E3B;
+            /* نفس درجة الأخضر في الصورة */
+        }
+
+        .page-container {
+            width: 100%;
+            max-width: 900px;
+            background-color: var(--primary-color);
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .inner-page {
+            background-color: white;
+            margin: 15px;
+            padding: 25px 30px;
+            border: 2px solid var(--primary-color);
+            position: relative;
+        }
+
+        .inner-page::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            right: -6px;
+            bottom: -6px;
+            border: 1px solid var(--primary-color);
+            pointer-events: none;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .dot-tl {
+            top: -5px;
+            left: -5px;
+        }
+
+        .dot-tr {
+            top: -5px;
+            right: -5px;
+        }
+
+        .dot-bl {
+            bottom: -5px;
+            left: -5px;
+        }
+
+        .dot-br {
+            bottom: -5px;
+            right: -5px;
+        }
+
+        .text-primary {
+            color: var(--primary-color);
+        }
+
+        .bg-primary {
+            background-color: var(--primary-color);
+        }
+
+        .border-primary {
+            border-color: var(--primary-color);
+        }
+
+        .paragraph {
+            text-indent: 1.5rem;
+            text-align: justify;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+            font-size: 1rem;
+        }
+
+        .question-box {
+            position: relative;
+            border: 2px solid var(--primary-color);
+            padding: 1.5rem 1rem 1rem 1rem;
+            flex: 1;
+        }
+
+        .question-header {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            padding: 0.1rem 0.5rem;
+            text-decoration: underline;
+            font-size: 1.1rem;
+        }
+
+        .footer-line-container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: var(--primary-color);
+            z-index: 1;
+        }
+
+        .footer-text {
+            background-color: white;
+            z-index: 2;
+            padding: 0 10px;
+            font-weight: bold;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .cross-icon {
+            display: inline-block;
+            position: relative;
+            width: 14px;
+            height: 14px;
+        }
+
+        .cross-icon::before,
+        .cross-icon::after {
+            content: '';
+            position: absolute;
+            background-color: var(--primary-color);
+        }
+
+        .cross-icon::before {
+            top: 6px;
+            left: 0;
+            width: 14px;
+            height: 2px;
+        }
+
+        .cross-icon::after {
+            top: 0;
+            left: 6px;
+            width: 2px;
+            height: 14px;
+        }
+
+        ol {
+            list-style-type: decimal;
+            padding-left: 1.5rem;
+        }
+
+        ol li {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-container">
+        <!-- SVG الزخرفي العلوي -->
+        <svg class="absolute top-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,40 Q100,0 200,40 T400,40 T600,40 T800,40 T1000,40 T1200,40 L1200,40 L1200,40 L0,40 Z"
+                fill="var(--primary-color)" />
+        </svg>
+
+        <div class="inner-page">
+            <div class="dot dot-tl"></div>
+            <div class="dot dot-tr"></div>
+            <div class="dot dot-bl"></div>
+            <div class="dot dot-br"></div>
+
+            <!-- العنوان العلوي -->
+            <div class="flex items-center mb-3">
+                <span class="text-primary text-2xl mr-2 leading-none">&bull;</span>
+                <h2 class="text-primary font-bold text-xl underline underline-offset-4 decoration-2">Lisez ce texte puis
+                    répondez aux questions :</h2>
+            </div>
+
+            <!-- محتوى المقالة -->
+            <div class="border-2 border-primary p-3 mb-4">
+                <h1 class="text-center font-bold text-xl mb-4">Mohamed Salah : Le Pharaon du Football</h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <!-- العمود الأيسر -->
+                    <div>
+                        <p class="paragraph">
+                            Mohamed Salah naît en 1992 dans un petit village appelé Nagrig, près de Basyoun. Enfant, il
+                            rêve de devenir footballeur comme ses idoles, Zinédine Zidane et Ronaldo. Chaque jour, il
+                            voyage des heures en bus pour s'entraîner au Caire avec son premier club, El Mokawloon, puis
+                            retourne à l'école l'après-midi. À 17 ans, il est le plus jeune joueur du championnat
+                            égyptien ! Ses parents sont fiers, mais sa mère refuse que son petit frère suive le même
+                            chemin : "C'est trop difficile", dit-elle.
+                        </p>
+                        <p class="paragraph">
+                            En 2012, Salah part en Suisse jouer pour le FC Bâle. Il marque dès son premier match ! Mais
+                            sa vraie gloire commence en Italie. Après un passage difficile à Chelsea (où l'entraîneur
+                            José Mourinho ne le laisse pas jouer), il rejoint l'AS Roma. Là, il devient une star : 19
+                            buts en une saison ! Puis Liverpool le recrute en 2017. Et là, miracle : il bat des records
+                            ! 32 buts en une saison, un trophée de champion d'Angleterre, et une Ligue des champions
+                            gagnée en marquant un but en finale. Les fans de Liverpool l'adorent : un jour, il paye
+                            l'essence de tous les clients d'une station-service ! Un enfant court après sa voiture... et
+                        </p>
+                    </div>
+
+                    <!-- العمود الأيمن -->
+                    <div>
+                        <img src="image_275520.jpg" alt="Mohamed Salah"
+                            class="w-full mb-3 border border-gray-300 rounded shadow-sm object-cover"
+                            style="height: 160px; object-position: center top;">
+
+                        <p class="paragraph" style="text-indent: 0;">
+                            trébuche contre un lampadaire. Salah s'arrête, le console et prend une photo avec lui.
+                        </p>
+                        <p class="paragraph">
+                            Salah n'oublie jamais son pays. En Égypte, il est un vrai super-héros : il donne de l'argent
+                            pour construire des écoles, des hôpitaux, et même une usine de traitement des eaux dans son
+                            village. Chaque mois, 450 familles pauvres reçoivent son aide grâce à sa fondation. Quand il
+                            mène une campagne contre la drogue, les appels d'urgence augmentent de 400 % ! Un médecin
+                            raconte : "Un jeune est venu à l'hôpital à 4 heures du matin, voulant arrêter la drogue...
+                            juste parce qu'il admire Salah !". En 2018, lors des élections présidentielles, des
+                            Égyptiens écrivent son nom sur leurs bulletins de vote alors qu'il n'est même pas candidat !
+                            "Il nous donne tant, c'est notre façon de le remercier", explique un jeune.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- قسم الأسئلة -->
+            <div class="flex flex-col md:flex-row gap-4 mt-6">
+                <!-- المربع 1 -->
+                <div class="question-box">
+                    <div class="question-header">1) Répondez aux questions :</div>
+                    <ol>
+                        <li>Où est né Mohamed Salah ?</li>
+                        <li>Quel club a recruté Salah en 2017 ?</li>
+                        <li>Que fait Salah pour aider son village en Égypte ?</li>
+                        <li>Qu'a fait Salah pour un enfant qui a trébuché contre un lampadaire ?</li>
+                        <li>Pourquoi dit-on que Salah est un "super-héros" en Égypte ?</li>
+                    </ol>
+                </div>
+
+                <!-- المربع 2 -->
+                <div class="question-box">
+                    <div class="question-header">2) Mettez Vrai ☑ ou Faux ☒ :</div>
+                    <ol>
+                        <li>Salah a commencé sa carrière au Caire avec El Mokawloon.</li>
+                        <li>À Chelsea, Salah était titulaire dans l'équipe.</li>
+                        <li>Il a marqué 19 buts en une saison avec l'AS Roma.</li>
+                        <li>Sa fondation aide 100 familles par mois.</li>
+                        <li>Salah a payé l'essence de tous les clients dans une station-service.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- التذييل -->
+            <div class="footer-line-container">
+                <div class="footer-line"></div>
+                <div class="footer-text pl-0">
+                    <span class="cross-icon mr-3"></span>
+                    La langue française
+                </div>
+                <div class="footer-text pr-0">
+                    Bien écrire
+                    <span class="cross-icon ml-3"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- SVG الزخرفي السفلي -->
+        <svg class="absolute bottom-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,0 Q100,40 200,0 T400,0 T600,0 T800,0 T1000,0 T1200,0 L1200,0 L1200,40 L0,0 Z"
+                fill="var(--primary-color)" />
+        </svg>
+    </div>
+
+</body>
+
+</html>

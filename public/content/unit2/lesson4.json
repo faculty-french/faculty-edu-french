@@ -225,8 +225,8 @@
           "text": "Cependant, la vie sans téléphone ni internet présentait aussi des limites. Les urgences étaient plus difficiles à gérer et le contact avec des personnes éloignées restait compliqué. Les démarches administratives prenaient plus de temps et certaines informations étaient difficiles à obtenir. Malgré ces contraintes, beaucoup de personnes gardent le souvenir d’une vie plus simple, rythmée par des échanges réels et une présence plus forte dans la vie quotidienne."
         },
         {
-          "type": "paragraph",
-          "text": "https://www.bien-ecrire.com"
+          "type": "link",
+          "url": "/articles/testomdex.html"
         }
       ]
     },

@@ -23,6 +23,7 @@ const BLOCK_LABELS = {
   'info-box': 'Encadré',
   'images-row': 'Images',
   video: 'Vidéo',
+  link: 'Lien',
   'mind-map': 'Carte mentale',
   question: 'Question',
   submit: 'Bouton d\'envoi',
@@ -99,6 +100,10 @@ export function extractEditableFields(lesson, pageIndex) {
         break;
       case 'video':
         add(`Bloc ${n} — Légende de la vidéo`, [...base, 'caption'], block.caption);
+        break;
+      case 'link':
+        add(`Bloc ${n} — Texte du lien`, [...base, 'label'], block.label);
+        add(`Bloc ${n} — Adresse du lien`, [...base, 'url'], block.url, { kind: 'short' });
         break;
       case 'mind-map':
         add(`Bloc ${n} — Carte mentale : centre`, [...base, 'center'], block.center);

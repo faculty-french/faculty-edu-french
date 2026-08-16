@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le phénomène des influenceurs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .page-container {
+            width: 100%;
+            max-width: 900px;
+            background-color: #114B68;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Wavy Top Border */
+        .wavy-top {
+            width: 100%;
+            height: 40px;
+            background: #114B68;
+            position: absolute;
+            top: -30px;
+            left: 0;
+            mask-image: radial-gradient(circle at 40px 0, transparent 40px, black 41px);
+            mask-size: 80px 100%;
+            mask-position: bottom;
+            -webkit-mask-image: radial-gradient(circle at 40px 0px, transparent 40px, black 41px);
+            -webkit-mask-size: 80px 100%;
+            -webkit-mask-position: bottom;
+        }
+
+        .wavy-bottom {
+            width: 100%;
+            height: 40px;
+            background: #114B68;
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+            mask-image: radial-gradient(circle at 40px 40px, transparent 40px, black 41px);
+            mask-size: 80px 100%;
+            mask-position: top;
+            -webkit-mask-image: radial-gradient(circle at 40px 40px, transparent 40px, black 41px);
+            -webkit-mask-size: 80px 100%;
+            -webkit-mask-position: top;
+        }
+
+        .inner-page {
+            background-color: white;
+            margin: 15px;
+            padding: 25px 30px;
+            border: 2px solid #114B68;
+            position: relative;
+        }
+
+        /* Outer thin border for the double border effect */
+        .inner-page::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            right: -6px;
+            bottom: -6px;
+            border: 1px solid #114B68;
+            pointer-events: none;
+        }
+
+        /* Corner Dots */
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: #114B68;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .dot-tl {
+            top: -5px;
+            left: -5px;
+        }
+
+        .dot-tr {
+            top: -5px;
+            right: -5px;
+        }
+
+        .dot-bl {
+            bottom: -5px;
+            left: -5px;
+        }
+
+        .dot-br {
+            bottom: -5px;
+            right: -5px;
+        }
+
+        .text-primary {
+            color: #114B68;
+        }
+
+        .bg-primary {
+            background-color: #114B68;
+        }
+
+        .border-primary {
+            border-color: #114B68;
+        }
+
+        .paragraph {
+            text-indent: 1.5rem;
+            text-align: justify;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+            font-size: 0.95rem;
+        }
+
+        .question-box {
+            position: relative;
+            border: 2px solid #114B68;
+            padding: 1.5rem 1rem 1rem 1rem;
+            flex: 1;
+        }
+
+        .question-header {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-color: #114B68;
+            color: white;
+            font-weight: bold;
+            padding: 0.1rem 0.5rem;
+            text-decoration: underline;
+            font-size: 1.05rem;
+        }
+
+        .footer-line-container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: #114B68;
+            z-index: 1;
+        }
+
+        .footer-text {
+            background-color: white;
+            z-index: 2;
+            padding: 0 10px;
+            font-weight: bold;
+            color: #114B68;
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+
+        .cross-icon {
+            display: inline-block;
+            position: relative;
+            width: 14px;
+            height: 14px;
+        }
+
+        .cross-icon::before,
+        .cross-icon::after {
+            content: '';
+            position: absolute;
+            background-color: #114B68;
+        }
+
+        .cross-icon::before {
+            top: 6px;
+            left: 0;
+            width: 14px;
+            height: 2px;
+        }
+
+        .cross-icon::after {
+            top: 0;
+            left: 6px;
+            width: 2px;
+            height: 14px;
+        }
+
+        ol {
+            list-style-type: decimal;
+            padding-left: 1.5rem;
+        }
+
+        ol li {
+            margin-bottom: 0.25rem;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-container">
+        <!-- Decorative SVG Waves to closely match the image -->
+        <svg class="absolute top-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,40 Q100,0 200,40 T400,40 T600,40 T800,40 T1000,40 T1200,40 L1200,40 L1200,40 L0,40 Z"
+                fill="#114B68" />
+        </svg>
+
+        <div class="inner-page">
+            <!-- Corner Dots -->
+            <div class="dot dot-tl"></div>
+            <div class="dot dot-tr"></div>
+            <div class="dot dot-bl"></div>
+            <div class="dot dot-br"></div>
+
+            <!-- Header -->
+            <div class="flex justify-between items-end mb-3">
+                <div class="flex items-center">
+                    <span class="text-primary text-2xl mr-2 leading-none">&bull;</span>
+                    <h2 class="text-primary font-bold text-xl underline underline-offset-4 decoration-2">Lisez ce texte
+                        puis répondez aux questions :</h2>
+                </div>
+                <div class="bg-primary text-white font-black text-xl px-3 py-1 rounded shadow-sm">
+                    B1
+                </div>
+            </div>
+
+            <!-- Article Content Box -->
+            <div class="border-2 border-primary p-3 mb-4">
+                <h1 class="text-center font-bold text-xl mb-3">Le phénomène des "influenceurs" sur<br>les réseaux
+                    sociaux</h1>
+
+                <div class="clearfix">
+                    <!-- Image -->
+                    <img src="images/m2_lecon3_1.png" alt="Influenceurs sur les réseaux sociaux"
+                        class="float-right w-[42%] ml-4 mb-2 border border-gray-300 object-cover rounded-lg shadow-sm"
+                        style="height: 140px;">
+
+                    <!-- Paragraphs -->
+                    <p class="paragraph">
+                        Les réseaux sociaux occupent une place importante dans la vie quotidienne et ont fait apparaître
+                        une nouvelle figure médiatique : l'influenceur. Présent sur des plateformes comme Instagram,
+                        YouTube ou TikTok, l'influenceur partage des contenus variés liés à la mode, au sport, à la
+                        cuisine ou encore au voyage. Grâce à un grand nombre d'abonnés, il peut orienter les goûts, les
+                        opinions et parfois les comportements de son public. Cette visibilité repose souvent sur une
+                        relation de confiance, car les abonnés ont l'impression de connaître personnellement la personne
+                        qu'ils suivent. Ainsi, l'influenceur devient une source d'information et un modèle, notamment
+                        pour les jeunes, qui s'identifient facilement à son style de vie et à ses choix.
+                    </p>
+
+                    <p class="paragraph">
+                        L'influence exercée par ces personnalités peut être positive lorsqu'elle transmet des messages
+                        utiles et responsables. Certains influenceurs encouragent la pratique du sport, la protection de
+                        l'environnement ou l'acceptation de soi. Ils peuvent aussi sensibiliser à des causes sociales et
+                        culturelles, en rendant certains sujets plus accessibles. Par leur langage simple et leur
+                        proximité avec le public, ils réussissent parfois à expliquer des idées complexes de manière
+                        claire. Dans ce cas, les réseaux sociaux deviennent un espace d'échange et d'apprentissage, où
+                        l'influence sert à informer et à motiver, sans imposer une vision unique du monde.
+                    </p>
+
+                    <p class="paragraph">
+                        Cependant, cette influence peut aussi avoir des effets négatifs. La promotion excessive de
+                        produits commerciaux peut pousser à la consommation inutile et créer une confusion entre conseil
+                        sincère et publicité. Certains contenus valorisent une image irréaliste du succès, de la beauté
+                        ou de la richesse, ce qui peut provoquer un sentiment de frustration chez les abonnés. Le manque
+                        de recul face aux informations diffusées pose également problème, car tout influenceur n'est pas
+                        un expert. Face à ce phénomène, il semble essentiel de développer un esprit critique afin de
+                        distinguer le divertissement, l'information fiable et les intérêts économiques cachés derrière
+                        certaines publications.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Questions Section -->
+            <div class="flex flex-col md:flex-row gap-4 mt-6">
+                <!-- Box 1 -->
+                <div class="question-box">
+                    <div class="question-header">1) Répondez aux questions :</div>
+                    <ol>
+                        <li>Qui est un influenceur ?</li>
+                        <li>Pourquoi les abonnés font-ils confiance aux influenceurs ?</li>
+                        <li>Cite un exemple d'influence positive mentionné dans le texte.</li>
+                        <li>Quelle attitude le texte conseille-t-il face aux contenus des influenceurs ?</li>
+                    </ol>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="question-box">
+                    <div class="question-header">2) Mettez Vrai ☑ ou Faux ☒ :</div>
+                    <ol>
+                        <li>Les influenceurs parlent uniquement de mode et de beauté.</li>
+                        <li>Les réseaux sociaux peuvent servir à informer et à sensibiliser.</li>
+                        <li>Les influenceurs montrent toujours une image réaliste de la vie quotidienne.</li>
+                        <li>L'influence peut avoir des effets positifs et négatifs.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer-line-container">
+                <div class="footer-line"></div>
+                <div class="footer-text pl-0">
+                    <span class="cross-icon mr-3"></span>
+                    La langue française
+                </div>
+                <div class="footer-text pr-0">
+                    Bien écrire
+                    <span class="cross-icon ml-3"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Decorative SVG Waves Bottom -->
+        <svg class="absolute bottom-[-25px] left-0 w-full h-[30px]" preserveAspectRatio="none" viewBox="0 0 1200 40">
+            <path d="M0,0 Q100,40 200,0 T400,0 T600,0 T800,0 T1000,0 T1200,0 L1200,0 L1200,0 L0,0 Z" fill="#114B68" />
+        </svg>
+    </div>
+
+</body>
+
+</html>
