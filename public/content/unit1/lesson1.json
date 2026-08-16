@@ -416,6 +416,10 @@
         {
           "type": "question",
           "questionId": "l1-vf4"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-vf5"
         }
       ]
     },
@@ -429,10 +433,6 @@
           "type": "heading",
           "text": "Questions guidées (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l1-vf5"
         },
         {
           "type": "microtask",
@@ -650,10 +650,6 @@
         {
           "type": "question",
           "questionId": "l1-e9"
-        },
-        {
-          "type": "question",
-          "questionId": "l1-e10"
         }
       ]
     },
@@ -667,6 +663,10 @@
           "type": "heading",
           "text": "Soumission du devoir",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l1-e10"
         },
         {
           "type": "paragraph",

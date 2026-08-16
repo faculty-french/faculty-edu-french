@@ -686,10 +686,6 @@
         {
           "type": "question",
           "questionId": "l5-e5"
-        },
-        {
-          "type": "question",
-          "questionId": "l5-e6"
         }
       ]
     },
@@ -703,6 +699,10 @@
           "type": "heading",
           "text": "Soumission du devoir",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e6"
         },
         {
           "type": "paragraph",

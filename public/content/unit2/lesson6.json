@@ -669,15 +669,7 @@
         {
           "type": "question",
           "questionId": "l6-e9"
-        }
-      ]
-    },
-    {
-      "id": "lesson6-p22",
-      "type": "content",
-      "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
-      "phase": 4,
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",
@@ -964,19 +956,19 @@
       "id": "l6-e7",
       "type": "open-ended",
       "text": "7- Trouver un (autre) titre qui qui reflète bien le texte ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l6-e8",
       "type": "open-ended",
       "text": "8- Complétez les phrases avec un connecteur logique approprié (car – cependant – donc).",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l6-e9",
       "type": "open-ended",
       "text": "9- Exprimez votre opinion personnelle sur le phénomène des influenceurs.",
-      "lines": 4
+      "lines": 2
     }
   ]
 }

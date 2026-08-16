@@ -709,15 +709,7 @@
         {
           "type": "question",
           "questionId": "l2-e13"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p21",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",
@@ -977,13 +969,13 @@
       "id": "l2-e11",
       "type": "open-ended",
       "text": "Pourquoi les espaces verts sont-ils importants pour les animaux ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l2-e12",
       "type": "open-ended",
       "text": "Quelles sont les causes de la disparition des espaces verts ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l2-e13",
