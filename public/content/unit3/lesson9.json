@@ -83,7 +83,7 @@
       "id": "lesson9-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 3 : PHASE 1 — OBSERVATION",
+      "title": "LEÇON 3 : PHASE 1 — OBSERVATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -108,15 +108,7 @@
         {
           "type": "question",
           "questionId": "l9-q0"
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p03",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 3 : QUESTIONS PRÉLIMINAIRES",
-      "content": [
+        },
         {
           "type": "consigne",
           "text": "Répondez aux questions suivantes :"
@@ -132,10 +124,10 @@
       ]
     },
     {
-      "id": "lesson9-p04",
+      "id": "lesson9-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 1",
+      "title": "LEÇON 3 : PHASE 1 — OBSERVATION (2/2)",
       "content": [
         {
           "type": "images-row",
@@ -154,15 +146,7 @@
         {
           "type": "question",
           "questionId": "l9-q3"
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p05",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 2",
-      "content": [
+        },
         {
           "type": "images-row",
           "images": [
@@ -180,15 +164,7 @@
         {
           "type": "question",
           "questionId": "l9-q4"
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p06",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 3 : LECTURE GUIDÉE",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Lecture guidée du texte (15 minutes)",
@@ -201,10 +177,10 @@
       ]
     },
     {
-      "id": "lesson9-p07",
+      "id": "lesson9-p04",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 3 : PHASE 2 — LECTURE",
       "content": [
         {
           "type": "phase-banner",
@@ -228,50 +204,32 @@
       ]
     },
     {
-      "id": "lesson9-p08",
+      "id": "lesson9-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : LECTURE (2/3)",
+      "title": "LEÇON 3 : LECTURE",
       "content": [
-        {
-          "type": "heading",
-          "text": "Le pot de lait de Gita (2/3)",
-          "level": 2
-        },
         {
           "type": "paragraph",
           "text": "En marchant, Gita imagina une vie magnifique. « Avec l'argent du lait, je vais acheter une poule. Cette poule pondra des œufs. Je vendrai les œufs et j'aurai assez pour acheter une vache. Avec le lait de cette vache, j'aurai encore plus d'argent. Je pourrai acheter une belle robe bleue et aller à la fête du village. Qui sait ? Peut-être qu'un prince me remarquera ! Gita riait en pensant à tout cela. Mais, toute à ses rêves, elle oubliait son pot. Elle leva la tête fièrement, fit un grand pas... et ploc ! le pot tomba par terre. Le lait se renversa, coula sur la route, et tous ses beaux rêves disparurent d'un seul coup."
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p09",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : LECTURE (3/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Le pot de lait de Gita (3/3)",
-          "level": 2
         },
         {
           "type": "paragraph",
           "text": "Gita resta là, sans bouger, le cœur serré. Elle pensa à sa grand-mère et sentit la honte la gagner. Elle avait perdu le lait, l'argent et la confiance de sa famille. Quand elle rentra à la maison, sa grand-mère l'écouta sans colère et dit doucement : « Tu vois, ma petite, il faut d'abord travailler avant de rêver. Les beaux projets naissent de la patience. » Gita essuya ses larmes et promit de ne plus rêver sans effort. Le lendemain, elle retourna au marché, plus prudente, un nouveau pot sur la tête et un vrai sourire sur les lèvres : cette fois, elle savait que le courage et la patience valent mieux que les rêves sans travail."
-        },
-        {
-          "type": "link",
-          "url": "/articles/m3_l3_article.html",
-          "label": "📄 Article interactif : Le pot de lait de Gita"
         }
       ]
     },
     {
-      "id": "lesson9-p10",
+      "id": "lesson9-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : IDÉE GÉNÉRALE & QUESTIONS GUIDÉES (1/3)",
+      "title": "LEÇON 3 : IDÉE GÉNÉRALE & QUESTIONS GUIDÉES (1/2)",
       "content": [
+        {
+          "type": "link",
+          "url": "/articles/m3_l3_article.html",
+          "label": "📄 Article interactif : Le pot de lait de Gita"
+        },
         {
           "type": "microtask",
           "number": 3,
@@ -293,22 +251,40 @@
         {
           "type": "question",
           "questionId": "l9-q6"
-        },
-        {
-          "type": "question",
-          "questionId": "l9-q7"
         }
       ]
     },
     {
-      "id": "lesson9-p11",
+      "id": "lesson9-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (2/3)",
+      "title": "LEÇON 3 : IDÉE GÉNÉRALE & QUESTIONS GUIDÉES (2/2)",
       "content": [
         {
           "type": "question",
+          "questionId": "l9-q7"
+        },
+        {
+          "type": "heading",
+          "text": "Le pot de lait de Gita (suite)",
+          "level": 3
+        },
+        {
+          "type": "question",
           "questionId": "l9-q8"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Le pot de lait de Gita (suite)",
+          "level": 3
         },
         {
           "type": "question",
@@ -317,18 +293,23 @@
         {
           "type": "question",
           "questionId": "l9-q10"
+        },
+        {
+          "type": "question",
+          "questionId": "l9-q11"
         }
       ]
     },
     {
-      "id": "lesson9-p12",
+      "id": "lesson9-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (3/3) & PRÉSENTATION",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (3/3) & PRÉSENTATION (1/2)",
       "content": [
         {
-          "type": "question",
-          "questionId": "l9-q11"
+          "type": "heading",
+          "text": "Le pot de lait de Gita (suite)",
+          "level": 3
         },
         {
           "type": "info-box",
@@ -361,10 +342,10 @@
       ]
     },
     {
-      "id": "lesson9-p13",
+      "id": "lesson9-p10",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHES 4 À 6",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (3/3) & PRÉSENTATION (2/2)",
       "content": [
         {
           "type": "microtask",
@@ -399,10 +380,10 @@
       ]
     },
     {
-      "id": "lesson9-p14",
+      "id": "lesson9-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHES 7 & 8",
+      "title": "LEÇON 3 : MICRO-TÂCHES 4 À 6",
       "content": [
         {
           "type": "microtask",
@@ -435,10 +416,10 @@
       ]
     },
     {
-      "id": "lesson9-p15",
+      "id": "lesson9-p12",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 9 & STRUCTURE À OBSERVER (1/2)",
+      "title": "LEÇON 3 : MICRO-TÂCHES 7 & 8",
       "content": [
         {
           "type": "microtask",
@@ -453,15 +434,7 @@
         {
           "type": "question",
           "questionId": "l9-q17"
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p16",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : STRUCTURE À OBSERVER : (1/2)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Structure à observer :",
@@ -482,10 +455,10 @@
       ]
     },
     {
-      "id": "lesson9-p17",
+      "id": "lesson9-p13",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : STRUCTURE À OBSERVER : (2/2)",
+      "title": "LEÇON 3 : STRUCTURE À OBSERVER :",
       "content": [
         {
           "type": "heading",
@@ -518,20 +491,20 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p18",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 10 — VIDÉO",
-      "content": [
+        },
         {
           "type": "link",
           "url": "https://www.kartable.fr/ressources/francais/cours/les-connecteurs-3/49846",
           "label": "🔗 En savoir plus sur les connecteurs logiques"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p14",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHE 10 — VIDÉO",
+      "content": [
         {
           "type": "microtask",
           "number": 10,
@@ -554,7 +527,7 @@
       ]
     },
     {
-      "id": "lesson9-p19",
+      "id": "lesson9-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 3 : MINI-PRODUCTION",
@@ -568,15 +541,7 @@
         {
           "type": "question",
           "questionId": "l9-q19"
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p20",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 12,
@@ -590,6 +555,19 @@
         {
           "type": "paragraph",
           "text": "« Que feriez-vous à la place de Gita? »"
+        }
+      ]
+    },
+    {
+      "id": "lesson9-p16",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : DISCUSSION EN GROUPES",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Structure à observer : (suite)",
+          "level": 2
         },
         {
           "type": "consigne",
@@ -602,7 +580,7 @@
       ]
     },
     {
-      "id": "lesson9-p21",
+      "id": "lesson9-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 3 : PHASE 3 — TÂCHE FINALE",
@@ -629,10 +607,10 @@
       ]
     },
     {
-      "id": "lesson9-p22",
+      "id": "lesson9-p18",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : PHASE 4 — ÉVALUATION",
+      "title": "LEÇON 3 : PHASE 4 — ÉVALUATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -651,10 +629,10 @@
       ]
     },
     {
-      "id": "lesson9-p23",
+      "id": "lesson9-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
+      "title": "LEÇON 3 : PHASE 4 — ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -680,10 +658,10 @@
       ]
     },
     {
-      "id": "lesson9-p24",
+      "id": "lesson9-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
+      "title": "LEÇON 3 : É-ÉVALUATION",
       "content": [
         {
           "type": "heading",
@@ -697,19 +675,6 @@
         {
           "type": "question",
           "questionId": "l9-q27"
-        }
-      ]
-    },
-    {
-      "id": "lesson9-p25",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -722,7 +687,7 @@
       ]
     },
     {
-      "id": "lesson9-p26",
+      "id": "lesson9-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : SOUMISSION DU DEVOIR",

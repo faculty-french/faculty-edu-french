@@ -519,6 +519,13 @@
   height: 90px;
   object-fit: cover;
 }
+/* A row with a single image shows the full illustration (source-book style)
+   instead of a cropped strip. */
+.page__images-row .page__image--row-item:only-child img {
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+}
 
 /* ---------- Phase banner ---------- */
 .phase-banner {

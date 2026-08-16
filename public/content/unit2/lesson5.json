@@ -8,7 +8,7 @@
       "id": "lesson5-p01",
       "phase": 0,
       "type": "content",
-      "title": "LEÇON 2 : OBJECTIFS (1/2)",
+      "title": "LEÇON 2 : OBJECTIFS",
       "content": [
         {
           "type": "heading",
@@ -111,6 +111,14 @@
         {
           "type": "question",
           "questionId": "l5-q0"
+        },
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q1"
         }
       ]
     },
@@ -121,12 +129,9 @@
       "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
       "content": [
         {
-          "type": "consigne",
-          "text": "Répondez aux questions suivantes :"
-        },
-        {
-          "type": "question",
-          "questionId": "l5-q1"
+          "type": "heading",
+          "text": "Introduction et Motivation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -147,7 +152,7 @@
       "id": "lesson5-p04",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 2 — LECTURE (1/3)",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE",
       "content": [
         {
           "type": "phase-banner",
@@ -183,29 +188,11 @@
       "id": "lesson5-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : LECTURE (2/3)",
+      "title": "LEÇON 2 : LECTURE",
       "content": [
-        {
-          "type": "heading",
-          "text": "L’absence familiale et ses effets sur la vie quotidienne. (2/3)",
-          "level": 3
-        },
         {
           "type": "paragraph",
           "text": "Cette situation a souvent des conséquences sur l’équilibre émotionnel. La solitude prolongée peut provoquer de la tristesse, une perte de motivation et parfois un repli sur soi. Certaines personnes hésitent à parler de leur mal-être par peur de déranger ou par honte. Les fêtes, les anniversaires ou les moments difficiles renforcent ce sentiment d’absence familiale. Sans un soutien proche, il devient plus difficile de partager ses émotions ou de demander de l’aide. Les spécialistes expliquent que le lien social joue un rôle essentiel dans la santé mentale et le sentiment de sécurité."
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p06",
-      "type": "content",
-      "phase": 2,
-      "title": "LEÇON 2 : LECTURE (3/3)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "L’absence familiale et ses effets sur la vie quotidienne. (3/3)",
-          "level": 2
         },
         {
           "type": "paragraph",
@@ -218,7 +205,7 @@
       ]
     },
     {
-      "id": "lesson5-p07",
+      "id": "lesson5-p06",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : MOTS-CLÉS",
@@ -247,7 +234,7 @@
       ]
     },
     {
-      "id": "lesson5-p08",
+      "id": "lesson5-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS GUIDÉES (1/3)",
@@ -272,7 +259,7 @@
       ]
     },
     {
-      "id": "lesson5-p09",
+      "id": "lesson5-p08",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS GUIDÉES (2/3)",
@@ -297,7 +284,7 @@
       ]
     },
     {
-      "id": "lesson5-p10",
+      "id": "lesson5-p09",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS GUIDÉES (3/3)",
@@ -322,10 +309,10 @@
       ]
     },
     {
-      "id": "lesson5-p11",
-      "type": "content",
+      "id": "lesson5-p10",
       "phase": 2,
-      "title": "LEÇON 2 : IDÉE PRINCIPALE DU TEXTE",
+      "type": "content",
+      "title": "LEÇON 2 : IDÉE PRINCIPALE DU TEXTE (1/2)",
       "content": [
         {
           "type": "microtask",
@@ -340,11 +327,16 @@
       ]
     },
     {
-      "id": "lesson5-p12",
+      "id": "lesson5-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : TEXTE EXPLICATIF",
+      "title": "LEÇON 2 : IDÉE PRINCIPALE DU TEXTE (2/2)",
       "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (suite)",
+          "level": 2
+        },
         {
           "type": "info-box",
           "title": "Des informations enrichissants",
@@ -379,7 +371,7 @@
       ]
     },
     {
-      "id": "lesson5-p13",
+      "id": "lesson5-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : RÔLE DE LA TECHNOLOGIE ET DE LA SOLITUDE",
@@ -407,7 +399,7 @@
       ]
     },
     {
-      "id": "lesson5-p14",
+      "id": "lesson5-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : RÉSUMÉ ET REFORMULATION",
@@ -439,7 +431,7 @@
       ]
     },
     {
-      "id": "lesson5-p15",
+      "id": "lesson5-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES À OBSERVER",
@@ -488,7 +480,7 @@
       ]
     },
     {
-      "id": "lesson5-p16",
+      "id": "lesson5-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : VIDÉO DE COMPRÉHENSION",
@@ -511,7 +503,7 @@
       ]
     },
     {
-      "id": "lesson5-p17",
+      "id": "lesson5-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : RÉSUMÉ VIDÉO ET CONNECTEURS",
@@ -533,18 +525,23 @@
         {
           "type": "question",
           "questionId": "l5-q17"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q18"
         }
       ]
     },
     {
-      "id": "lesson5-p18",
+      "id": "lesson5-p17",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : CONNECTEURS (SUITE)",
       "content": [
         {
-          "type": "question",
-          "questionId": "l5-q18"
+          "type": "heading",
+          "text": "Structures à observer (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -563,7 +560,7 @@
       ]
     },
     {
-      "id": "lesson5-p19",
+      "id": "lesson5-p18",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : TÂCHE FINALE — PREPARATION",
@@ -615,7 +612,7 @@
       ]
     },
     {
-      "id": "lesson5-p20",
+      "id": "lesson5-p19",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : TÂCHE FINALE — CRÉATION",
@@ -633,10 +630,10 @@
       ]
     },
     {
-      "id": "lesson5-p21",
+      "id": "lesson5-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : ÉVALUATION & É-ÉVALUATION (1/3)",
+      "title": "LEÇON 2 : ÉVALUATION & É-ÉVALUATION",
       "content": [
         {
           "type": "phase-banner",
@@ -647,15 +644,7 @@
         {
           "type": "question",
           "questionId": "l5-q22"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p22",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (1/2)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "É-évaluation",
@@ -668,22 +657,14 @@
         {
           "type": "question",
           "questionId": "l5-e1"
-        },
-        {
-          "type": "question",
-          "questionId": "l5-e2"
-        },
-        {
-          "type": "question",
-          "questionId": "l5-e3"
         }
       ]
     },
     {
-      "id": "lesson5-p23",
+      "id": "lesson5-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (2/2)",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/2)",
       "content": [
         {
           "type": "heading",
@@ -692,7 +673,28 @@
         },
         {
           "type": "question",
+          "questionId": "l5-e2"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-e3"
+        },
+        {
+          "type": "question",
           "questionId": "l5-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p22",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -705,7 +707,7 @@
       ]
     },
     {
-      "id": "lesson5-p24",
+      "id": "lesson5-p23",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
