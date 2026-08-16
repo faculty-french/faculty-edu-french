@@ -424,7 +424,15 @@
         {
           "type": "question",
           "questionId": "l8-q10"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : RÔLE DU TRAVAIL & REFORMULATION (2/2)",
+      "content": [
         {
           "type": "microtask",
           "number": 9,
@@ -435,15 +443,7 @@
           "type": "video",
           "videoUrl": "https://www.youtube.com/embed/K5TUHK_J5QQ",
           "caption": "Micro-tâche 8"
-        }
-      ]
-    },
-    {
-      "id": "lesson8-p12",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : RÔLE DU TRAVAIL & REFORMULATION (2/2)",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Questions guidées (5 minutes) (suite)",

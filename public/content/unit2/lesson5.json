@@ -301,10 +301,6 @@
         {
           "type": "question",
           "questionId": "l5-q8"
-        },
-        {
-          "type": "question",
-          "questionId": "l5-q9"
         }
       ]
     },
@@ -314,6 +310,10 @@
       "type": "content",
       "title": "LEÇON 2 : IDÉE PRINCIPALE DU TEXTE (1/2)",
       "content": [
+        {
+          "type": "question",
+          "questionId": "l5-q9"
+        },
         {
           "type": "microtask",
           "number": 3,

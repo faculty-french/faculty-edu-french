@@ -25,7 +25,15 @@
         {
           "type": "paragraph",
           "text": "À la fin de cette leçon, l’apprenant doit être capable de :"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p02",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
+      "content": [
         {
           "type": "objectives",
           "title": "Objectifs de la leçon (01 - 07)",
@@ -59,15 +67,7 @@
               "text": "Argumenter son point de vue."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p02",
-      "phase": 0,
-      "type": "content",
-      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
-      "content": [
+        },
         {
           "type": "objectives",
           "title": "Objectifs de la leçon (08 - 13) (suite)",
@@ -586,10 +586,6 @@
           "type": "video",
           "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
           "caption": "Micro-tâche 10"
-        },
-        {
-          "type": "question",
-          "questionId": "l4-q19"
         }
       ]
     },
@@ -599,6 +595,10 @@
       "type": "content",
       "title": "LEÇON 1 : COMPRÉHENSION VIDÉO ET DISCUSSION",
       "content": [
+        {
+          "type": "question",
+          "questionId": "l4-q19"
+        },
         {
           "type": "microtask",
           "number": 11,
