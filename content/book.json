@@ -93,16 +93,21 @@
         },
         {
           "type": "paragraph",
-          "text": "Software Developer"
+          "text": "Cybersecurity Specialist"
         },
         {
           "type": "paragraph",
-          "text": "Design & development of this interactive e-book — the realistic page-flip reading experience, the interactive activities, the Telegram delivery of answers and the built-in content editor."
+          "text": "Cybersecurity specialist — and the builder of this interactive e-book: the realistic page-flip reading experience, the interactive activities, the Telegram delivery of answers and the built-in content editor."
         },
         {
           "type": "link",
           "url": "https://github.com/george1-adel",
           "label": "GitHub — george1-adel"
+        },
+        {
+          "type": "link",
+          "url": "https://hackerone.com/0xdyad?type=user",
+          "label": "HackerOne — 0xdyad"
         },
         {
           "type": "link",
