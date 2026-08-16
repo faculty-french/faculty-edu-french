@@ -97,6 +97,19 @@
           "text": "Observez l'image, puis prédisez le thème de la leçon."
         },
         {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson11-a.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson11-b.png",
+              "caption": "Image 2"
+            }
+          ]
+        },
+        {
           "type": "question",
           "questionId": "l11-q0"
         }

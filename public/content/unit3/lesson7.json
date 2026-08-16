@@ -585,12 +585,6 @@
       "title": "LEÇON 1 : TÂCHE FINALE — CRÉATION",
       "content": [
         {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (Tâche finale)",
-          "duration": "20 min"
-        },
-        {
           "type": "question",
           "questionId": "l7-q13"
         }

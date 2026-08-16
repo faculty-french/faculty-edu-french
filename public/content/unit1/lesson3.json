@@ -536,6 +536,11 @@
           "duration": "5 min"
         },
         {
+          "type": "video",
+          "videoUrl": "videos/m1_lecon3.mp4",
+          "caption": "Vidéo : Le covoiturage"
+        },
+        {
           "type": "link",
           "url": "https://toutenfrancais.tv/fle-covoiturage-a2"
         },

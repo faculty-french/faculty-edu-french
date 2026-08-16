@@ -101,6 +101,10 @@
             {
               "imageUrl": "images/lessons/lesson5-b.png",
               "caption": "Image 2"
+            },
+            {
+              "imageUrl": "images/lessons/lesson5-c.png",
+              "caption": "Image 3"
             }
           ]
         },
