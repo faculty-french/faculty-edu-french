@@ -79,7 +79,7 @@
       "id": "lesson10-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (1/2)",
+      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -119,7 +119,7 @@
       "id": "lesson10-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (2/2)",
+      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (2/3)",
       "content": [
         {
           "type": "consigne",
@@ -128,7 +128,15 @@
         {
           "type": "question",
           "questionId": "l10-q1"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson10-p04",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (3/3)",
+      "content": [
         {
           "type": "heading",
           "text": "Introduction et Motivation (suite)",
@@ -137,19 +145,6 @@
         {
           "type": "question",
           "questionId": "l10-q2"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p04",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Introduction et Motivation (suite)",
-          "level": 2
         },
         {
           "type": "microtask",
@@ -288,19 +283,6 @@
         {
           "type": "question",
           "questionId": "l10-q9"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p10",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : PRÉSENTATION DU TEXTE",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Mohammed Salah : Le Pharaon du Football (suite)",
-          "level": 3
         },
         {
           "type": "info-box",
@@ -323,7 +305,15 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson10-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : PRÉSENTATION DU TEXTE (1/2)",
+      "content": [
         {
           "type": "microtask",
           "number": 3,
@@ -333,15 +323,7 @@
         {
           "type": "question",
           "questionId": "l10-q10"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p11",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : MICRO-TÂCHES 3 & 4",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 4,
@@ -351,7 +333,15 @@
         {
           "type": "question",
           "questionId": "l10-q11"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson10-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : PRÉSENTATION DU TEXTE (2/2)",
+      "content": [
         {
           "type": "microtask",
           "number": 5,
@@ -402,11 +392,6 @@
       "type": "content",
       "title": "LEÇON 1 : MICRO-TÂCHE 8 — MAJUSCULES",
       "content": [
-        {
-          "type": "heading",
-          "text": "Mohammed Salah : Le Pharaon du Football (suite)",
-          "level": 3
-        },
         {
           "type": "question",
           "questionId": "l10-q14"

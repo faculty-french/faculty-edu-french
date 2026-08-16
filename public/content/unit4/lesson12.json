@@ -209,7 +209,7 @@
       "id": "lesson12-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 1 (1/2)",
+      "title": "LEÇON 3 : MICRO-TÂCHE 1 (1/3)",
       "content": [
         {
           "type": "microtask",
@@ -233,10 +233,6 @@
         {
           "type": "consigne",
           "text": "Répondez aux questions suivantes :"
-        },
-        {
-          "type": "question",
-          "questionId": "l12-q4"
         }
       ]
     },
@@ -244,16 +240,28 @@
       "id": "lesson12-p07",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 1 (2/2)",
+      "title": "LEÇON 3 : MICRO-TÂCHE 1 (2/3)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l12-q4"
+        },
+        {
+          "type": "question",
+          "questionId": "l12-q5"
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p08",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHE 1 (3/3)",
       "content": [
         {
           "type": "heading",
           "text": "Questions guidées (10 minutes) (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l12-q5"
         },
         {
           "type": "question",
@@ -262,19 +270,6 @@
         {
           "type": "question",
           "questionId": "l12-q7"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p08",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Questions guidées (10 minutes) (suite)",
-          "level": 2
         },
         {
           "type": "info-box",
@@ -295,7 +290,15 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES)",
+      "content": [
         {
           "type": "microtask",
           "number": 2,
@@ -305,15 +308,7 @@
         {
           "type": "question",
           "questionId": "l12-q8"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p09",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHES 2 & 3",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 3,
@@ -323,7 +318,15 @@
         {
           "type": "question",
           "questionId": "l12-q9"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson12-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 3 : MICRO-TÂCHES 2 & 3",
+      "content": [
         {
           "type": "microtask",
           "number": 4,
@@ -333,15 +336,7 @@
         {
           "type": "question",
           "questionId": "l12-q10"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p10",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 3 : MICRO-TÂCHE 4",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 5,
@@ -575,7 +570,7 @@
       "id": "lesson12-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (1/5)",
+      "title": "LEÇON 3 : É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "heading",
@@ -592,7 +587,7 @@
       "id": "lesson12-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (2/5)",
+      "title": "LEÇON 3 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
@@ -602,19 +597,6 @@
         {
           "type": "question",
           "questionId": "l12-q19"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p21",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (3/5)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -623,10 +605,10 @@
       ]
     },
     {
-      "id": "lesson12-p22",
+      "id": "lesson12-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (4/5)",
+      "title": "LEÇON 3 : É-ÉVALUATION (3/3)",
       "content": [
         {
           "type": "heading",
@@ -636,19 +618,6 @@
         {
           "type": "question",
           "questionId": "l12-q21"
-        }
-      ]
-    },
-    {
-      "id": "lesson12-p23",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (5/5)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -657,7 +626,7 @@
       ]
     },
     {
-      "id": "lesson12-p24",
+      "id": "lesson12-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 3 : SOUMISSION DU DEVOIR",

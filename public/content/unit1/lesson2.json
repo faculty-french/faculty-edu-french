@@ -87,7 +87,7 @@
       "id": "lesson2-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (1/2)",
+      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -131,16 +131,24 @@
       "id": "lesson2-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (2/2)",
+      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (2/3)",
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l2-q1"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p04",
+      "phase": 1,
+      "type": "content",
+      "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (3/3)",
       "content": [
         {
           "type": "heading",
           "text": "I. Introduction et motivation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q1"
         },
         {
           "type": "question",
@@ -153,15 +161,7 @@
         {
           "type": "question",
           "questionId": "l2-q3"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p04",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 2 : QUESTIONS PRÉLIMINAIRES",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 1,
@@ -177,7 +177,7 @@
       "id": "lesson2-p05",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE (1/2)",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -215,12 +215,20 @@
       "id": "lesson2-p06",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE (2/2)",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE (2/3)",
       "content": [
         {
           "type": "paragraph",
           "text": "Beaucoup de personnes aiment passer leur temps libre dans les espaces verts. Les enfants y jouent, les adultes font des pique-niques ou lisent un livre, et les personnes âgées s’y promènent pour rester en forme. Ces endroits sont aussi utiles pour les animaux et les insectes, comme les oiseaux et les abeilles, qui y trouvent de la nourriture et un habitat naturel. Sans les espaces verts, la vie en ville serait beaucoup moins agréable."
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p07",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE (3/3)",
+      "content": [
         {
           "type": "paragraph",
           "text": "Malheureusement, dans certaines villes, les espaces verts disparaissent à cause de la construction de bâtiments ou de routes. Les gouvernements et les citoyens doivent agir pour protéger et créer plus de zones vertes. Planter des arbres, nettoyer les parcs et organiser des activités écologiques sont des solutions simples mais efficaces. Si tout le monde participe, les villes pourront devenir plus vertes et plus saines pour les générations futures."
@@ -229,15 +237,7 @@
           "type": "link",
           "url": "/articles/m1_l2_article.html",
           "label": "📄 Source de l'article"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p07",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : LECTURE",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Questions guidées",
@@ -250,10 +250,6 @@
         {
           "type": "question",
           "questionId": "l2-q5"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q6"
         }
       ]
     },
@@ -261,12 +257,16 @@
       "id": "lesson2-p08",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 2 : QUESTIONS GUIDÉES",
+      "title": "LEÇON 2 : LECTURE",
       "content": [
         {
           "type": "heading",
           "text": "Questions guidées (suite)",
           "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q6"
         },
         {
           "type": "consigne",
@@ -275,7 +275,15 @@
         {
           "type": "question",
           "questionId": "l2-q7"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p09",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : QUESTIONS GUIDÉES",
+      "content": [
         {
           "type": "microtask",
           "number": 3,
@@ -285,15 +293,7 @@
         {
           "type": "question",
           "questionId": "l2-q8"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p09",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : MICRO-TÂCHES D'ANALYSE",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 4,
@@ -303,6 +303,19 @@
         {
           "type": "question",
           "questionId": "l2-q9"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p10",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : MICRO-TÂCHES D'ANALYSE",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (suite)",
+          "level": 2
         },
         {
           "type": "info-box",
@@ -333,15 +346,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p10",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : TEXTE EXPLICATIF",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 5,
@@ -351,7 +356,15 @@
         {
           "type": "question",
           "questionId": "l2-q10"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p11",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : TEXTE EXPLICATIF",
+      "content": [
         {
           "type": "microtask",
           "number": 6,
@@ -373,19 +386,6 @@
         {
           "type": "question",
           "questionId": "l2-vf2"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p11",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : RÉSUMÉ & PHRASES DIFFICILES",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Questions guidées (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -394,7 +394,15 @@
         {
           "type": "question",
           "questionId": "l2-vf4"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : RÉSUMÉ & PHRASES DIFFICILES",
+      "content": [
         {
           "type": "microtask",
           "number": 7,
@@ -408,15 +416,7 @@
         {
           "type": "question",
           "questionId": "l2-q12"
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p12",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : REFORMULATION & MINI-PRODUCTION",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 8,
@@ -688,6 +688,10 @@
         {
           "type": "question",
           "questionId": "l2-e9"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-e10"
         }
       ]
     },
@@ -701,10 +705,6 @@
           "type": "heading",
           "text": "É-évaluation (suite)",
           "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l2-e10"
         },
         {
           "type": "question",

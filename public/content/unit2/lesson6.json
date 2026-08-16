@@ -253,6 +253,10 @@
         {
           "type": "question",
           "questionId": "l6-q5"
+        },
+        {
+          "type": "question",
+          "questionId": "l6-q6"
         }
       ]
     },
@@ -269,11 +273,11 @@
         },
         {
           "type": "question",
-          "questionId": "l6-q6"
+          "questionId": "l6-q7"
         },
         {
           "type": "question",
-          "questionId": "l6-q7"
+          "questionId": "l6-q8"
         }
       ]
     },
@@ -283,15 +287,6 @@
       "type": "content",
       "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Questions guidées (10 minutes) (suite)",
-          "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l6-q8"
-        },
         {
           "type": "microtask",
           "number": 2,
@@ -592,7 +587,7 @@
       "id": "lesson6-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (1/2)",
+      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "phase-banner",
@@ -612,10 +607,6 @@
         {
           "type": "consigne",
           "text": "Répondez à ces questions :"
-        },
-        {
-          "type": "question",
-          "questionId": "l6-e1"
         }
       ]
     },
@@ -623,12 +614,24 @@
       "id": "lesson6-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (2/2)",
+      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "question",
-          "questionId": "l6-e2"
+          "questionId": "l6-e1"
         },
+        {
+          "type": "question",
+          "questionId": "l6-e2"
+        }
+      ]
+    },
+    {
+      "id": "lesson6-p21",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION (3/3)",
+      "content": [
         {
           "type": "heading",
           "text": "É-évaluation (suite)",
@@ -637,19 +640,6 @@
         {
           "type": "question",
           "questionId": "l6-e3"
-        }
-      ]
-    },
-    {
-      "id": "lesson6-p21",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (1/2)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -669,7 +659,7 @@
       "id": "lesson6-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 3 : É-ÉVALUATION (2/2)",
+      "title": "LEÇON 3 : É-ÉVALUATION",
       "content": [
         {
           "type": "heading",

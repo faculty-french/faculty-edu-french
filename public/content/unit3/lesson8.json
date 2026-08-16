@@ -424,15 +424,7 @@
         {
           "type": "question",
           "questionId": "l8-q10"
-        }
-      ]
-    },
-    {
-      "id": "lesson8-p12",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 2 : RÔLE DU TRAVAIL & REFORMULATION (2/2)",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 9,
@@ -443,6 +435,19 @@
           "type": "video",
           "videoUrl": "https://www.youtube.com/embed/K5TUHK_J5QQ",
           "caption": "Micro-tâche 8"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p12",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 2 : RÔLE DU TRAVAIL & REFORMULATION (2/2)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Questions guidées (5 minutes) (suite)",
+          "level": 2
         },
         {
           "type": "consigne",
@@ -622,7 +627,7 @@
       "id": "lesson8-p18",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (1/6)",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/5)",
       "content": [
         {
           "type": "heading",
@@ -643,7 +648,7 @@
       "id": "lesson8-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (2/6)",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/5)",
       "content": [
         {
           "type": "heading",
@@ -660,7 +665,7 @@
       "id": "lesson8-p20",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (3/6)",
+      "title": "LEÇON 2 : É-ÉVALUATION (3/5)",
       "content": [
         {
           "type": "heading",
@@ -677,7 +682,7 @@
       "id": "lesson8-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (4/6)",
+      "title": "LEÇON 2 : É-ÉVALUATION (4/5)",
       "content": [
         {
           "type": "heading",
@@ -687,19 +692,6 @@
         {
           "type": "question",
           "questionId": "l8-e4"
-        }
-      ]
-    },
-    {
-      "id": "lesson8-p22",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (5/6)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -708,10 +700,10 @@
       ]
     },
     {
-      "id": "lesson8-p23",
+      "id": "lesson8-p22",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (6/6)",
+      "title": "LEÇON 2 : É-ÉVALUATION (5/5)",
       "content": [
         {
           "type": "heading",
@@ -734,7 +726,7 @@
       ]
     },
     {
-      "id": "lesson8-p24",
+      "id": "lesson8-p23",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : QUESTIONS FINALES",
@@ -751,7 +743,7 @@
       ]
     },
     {
-      "id": "lesson8-p25",
+      "id": "lesson8-p24",
       "type": "content",
       "phase": 4,
       "title": "LEÇON 2 : QUESTIONS FINALES (2/2) & SOUMISSION",
