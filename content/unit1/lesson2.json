@@ -461,7 +461,10 @@
             {
               "heading": "Temps verbaux",
               "items": [
-                "Présent → utilisé pour décrire, expliquer ou parler de faits généraux : « Les espaces verts sont des endroits naturels ».",
+                "Présent → utilisé pour décrire, expliquer ou parler de faits généraux :",
+                "« Les espaces verts sont des endroits naturels » → « Les espaces verts existent et sont naturels »",
+                "« Ils permettent de se détendre » → « Ils permettent aux habitants de se relaxer »",
+                "« Ils améliorent la qualité de l’air » → « Ils améliorent la qualité de l’air »",
                 "Futur → utilisé pour exprimer une conséquence possible : « Si tout le monde participe, les villes pourront devenir plus vertes »."
               ]
             }
@@ -471,6 +474,33 @@
     },
     {
       "id": "lesson2-p15",
+      "title": "LEÇON 2 : VIDÉO DE LA LEÇON",
+      "type": "content",
+      "content": [
+        {
+          "type": "microtask",
+          "number": 9,
+          "text": "Déduisez les temps verbaux et les prépositions ?",
+          "duration": "5 min"
+        },
+        {
+          "type": "video",
+          "videoUrl": "videos/m1_lecon2.mp4",
+          "caption": "Vidéo : Les espaces verts"
+        },
+        {
+          "type": "consigne",
+          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q17"
+        }
+      ],
+      "phase": 2
+    },
+    {
+      "id": "lesson2-p16",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES & DISCUSSION",
@@ -492,7 +522,7 @@
       ]
     },
     {
-      "id": "lesson2-p16",
+      "id": "lesson2-p17",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : PHASE 3 — TÂCHE FINALE",
@@ -545,7 +575,7 @@
       ]
     },
     {
-      "id": "lesson2-p17",
+      "id": "lesson2-p18",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 2 : TÂCHE FINALE — ARTICLE",
@@ -561,13 +591,26 @@
           "text": "Vous êtes membre d’un club écologique à l’université."
         },
         {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson2-c.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson2-d.png",
+              "caption": "Image 2"
+            }
+          ]
+        },
+        {
           "type": "question",
           "questionId": "l2-q15"
         }
       ]
     },
     {
-      "id": "lesson2-p18",
+      "id": "lesson2-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : PHASE 4 — ÉVALUATION",
@@ -585,7 +628,7 @@
       ]
     },
     {
-      "id": "lesson2-p19",
+      "id": "lesson2-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (1/5)",
@@ -610,7 +653,7 @@
       ]
     },
     {
-      "id": "lesson2-p20",
+      "id": "lesson2-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (2/5)",
@@ -635,7 +678,7 @@
       ]
     },
     {
-      "id": "lesson2-p21",
+      "id": "lesson2-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (3/5)",
@@ -660,7 +703,7 @@
       ]
     },
     {
-      "id": "lesson2-p22",
+      "id": "lesson2-p23",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (4/5)",
@@ -681,7 +724,7 @@
       ]
     },
     {
-      "id": "lesson2-p23",
+      "id": "lesson2-p24",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : É-ÉVALUATION (5/5)",
@@ -702,7 +745,7 @@
       ]
     },
     {
-      "id": "lesson2-p24",
+      "id": "lesson2-p25",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
@@ -978,6 +1021,12 @@
       "id": "l2-e13",
       "type": "open-ended",
       "text": "Comment peut-on protéger les espaces verts ?",
+      "lines": 4
+    },
+    {
+      "id": "l2-q17",
+      "type": "open-ended",
+      "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo.",
       "lines": 4
     }
   ]

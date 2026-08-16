@@ -97,6 +97,19 @@
           "text": "Observez l'image, puis prédisez le thème de la leçon."
         },
         {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson10-a.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson10-b.png",
+              "caption": "Image 2"
+            }
+          ]
+        },
+        {
           "type": "question",
           "questionId": "l10-q0"
         }
@@ -518,7 +531,7 @@
       "content": [
         {
           "type": "microtask",
-          "number": 11,
+          "number": 12,
           "text": "Discussion en groupes",
           "duration": "10 minutes"
         },
