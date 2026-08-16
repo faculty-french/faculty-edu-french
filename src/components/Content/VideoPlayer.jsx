@@ -21,6 +21,10 @@ export default function VideoPlayer({ videoUrl, caption }) {
   }
 
   const embedUrl = videoUrl.replace('www.youtube.com/embed/', 'www.youtube-nocookie.com/embed/');
+  // A direct media file inside an iframe becomes a top-level media document,
+  // which Chrome auto-plays once the page mounts during a flip — render a
+  // native player instead so playback only ever starts from the controls.
+  const isMediaFile = /\.(mp4|webm|ogg)(\?.*)?$/i.test(videoUrl);
 
   // An iframe prints as an empty grey rectangle. On paper the video becomes a card
   // carrying its title and the address the reader can open.
@@ -30,6 +34,21 @@ export default function VideoPlayer({ videoUrl, caption }) {
         <span className="print-video__label">🎬 Vidéo</span>
         {caption && <span className="print-video__caption">{caption}</span>}
         <span className="print-video__url">{watchUrl(embedUrl)}</span>
+      </div>
+    );
+  }
+
+  if (isMediaFile) {
+    return (
+      <div className="video-player">
+        <video
+          className="video-player__iframe"
+          src={videoUrl}
+          controls
+          preload="metadata"
+          playsInline
+        />
+        {caption && <p className="video-player__caption">{caption}</p>}
       </div>
     );
   }
