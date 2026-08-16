@@ -526,6 +526,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "link",
+          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
+          "label": "🔗 En savoir plus sur les connecteurs logiques"
         }
       ]
     },
@@ -535,11 +540,6 @@
       "type": "content",
       "title": "LEÇON 2 : MINI-PRODUCTION ET DISCUSSION",
       "content": [
-        {
-          "type": "link",
-          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
-          "label": "🔗 En savoir plus sur les connecteurs logiques"
-        },
         {
           "type": "microtask",
           "number": 10,
