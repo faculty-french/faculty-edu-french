@@ -212,6 +212,15 @@
         {
           "type": "paragraph",
           "text": "Beaucoup de personnes aiment passer leur temps libre dans les espaces verts. Les enfants y jouent, les adultes font des pique-niques ou lisent un livre, et les personnes âgées s’y promènent pour rester en forme. Ces endroits sont aussi utiles pour les animaux et les insectes, comme les oiseaux et les abeilles, qui y trouvent de la nourriture et un habitat naturel. Sans les espaces verts, la vie en ville serait beaucoup moins agréable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Malheureusement, dans certaines villes, les espaces verts disparaissent à cause de la construction de bâtiments ou de routes. Les gouvernements et les citoyens doivent agir pour protéger et créer plus de zones vertes. Planter des arbres, nettoyer les parcs et organiser des activités écologiques sont des solutions simples mais efficaces. Si tout le monde participe, les villes pourront devenir plus vertes et plus saines pour les générations futures."
+        },
+        {
+          "type": "link",
+          "url": "/articles/m1_l2_article.html",
+          "label": "📄 Source de l'article"
         }
       ]
     },
@@ -221,15 +230,6 @@
       "type": "content",
       "title": "LEÇON 2 : PHASE 2 — LECTURE GUIDÉE (3/3)",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "Malheureusement, dans certaines villes, les espaces verts disparaissent à cause de la construction de bâtiments ou de routes. Les gouvernements et les citoyens doivent agir pour protéger et créer plus de zones vertes. Planter des arbres, nettoyer les parcs et organiser des activités écologiques sont des solutions simples mais efficaces. Si tout le monde participe, les villes pourront devenir plus vertes et plus saines pour les générations futures."
-        },
-        {
-          "type": "link",
-          "url": "/articles/m1_l2_article.html",
-          "label": "📄 Source de l'article"
-        },
         {
           "type": "heading",
           "text": "Questions guidées",
@@ -477,14 +477,6 @@
           "type": "video",
           "videoUrl": "videos/m1_lecon2.mp4",
           "caption": "Vidéo : Les espaces verts"
-        },
-        {
-          "type": "consigne",
-          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q17"
         }
       ]
     },
@@ -494,6 +486,14 @@
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES & DISCUSSION",
       "content": [
+        {
+          "type": "consigne",
+          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q17"
+        },
         {
           "type": "microtask",
           "number": 10,

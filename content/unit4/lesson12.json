@@ -581,10 +581,6 @@
         {
           "type": "question",
           "questionId": "l12-q21"
-        },
-        {
-          "type": "question",
-          "questionId": "l12-q22"
         }
       ]
     },
@@ -594,6 +590,10 @@
       "type": "content",
       "title": "LEÇON 3 : SOUMISSION DU DEVOIR",
       "content": [
+        {
+          "type": "question",
+          "questionId": "l12-q22"
+        },
         {
           "type": "heading",
           "text": "Soumission du devoir",

@@ -112,14 +112,6 @@
               "caption": "Image 2 : Notre planète Terre en souffrance"
             }
           ]
-        },
-        {
-          "type": "consigne",
-          "text": "Répondez aux questions suivantes :"
-        },
-        {
-          "type": "question",
-          "questionId": "l1-q0"
         }
       ]
     },
@@ -129,6 +121,14 @@
       "type": "content",
       "title": "LEÇON 1 : QUESTIONS PRÉLIMINAIRES",
       "content": [
+        {
+          "type": "consigne",
+          "text": "Répondez aux questions suivantes :"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q0"
+        },
         {
           "type": "heading",
           "text": "I. Introduction et motivation (suite)",

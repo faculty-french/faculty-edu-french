@@ -274,10 +274,6 @@
         {
           "type": "question",
           "questionId": "l6-q7"
-        },
-        {
-          "type": "question",
-          "questionId": "l6-q8"
         }
       ]
     },
@@ -287,6 +283,10 @@
       "type": "content",
       "title": "LEÇON 3 : QUESTIONS GUIDÉES (10 MINUTES) (3/3)",
       "content": [
+        {
+          "type": "question",
+          "questionId": "l6-q8"
+        },
         {
           "type": "microtask",
           "number": 2,
