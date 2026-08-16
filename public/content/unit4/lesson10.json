@@ -79,7 +79,7 @@
       "id": "lesson10-p02",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (1/3)",
+      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -112,15 +112,7 @@
         {
           "type": "question",
           "questionId": "l10-q0"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p03",
-      "phase": 1,
-      "type": "content",
-      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (2/3)",
-      "content": [
+        },
         {
           "type": "consigne",
           "text": "Répondez aux questions suivantes :"
@@ -132,10 +124,10 @@
       ]
     },
     {
-      "id": "lesson10-p04",
+      "id": "lesson10-p03",
       "phase": 1,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (3/3)",
+      "title": "LEÇON 1 : PHASE 1 — OBSERVATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -171,7 +163,7 @@
       ]
     },
     {
-      "id": "lesson10-p05",
+      "id": "lesson10-p04",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : PHASE 2 — LECTURE",
@@ -198,7 +190,7 @@
       ]
     },
     {
-      "id": "lesson10-p06",
+      "id": "lesson10-p05",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : LECTURE (1/3)",
@@ -210,7 +202,7 @@
       ]
     },
     {
-      "id": "lesson10-p07",
+      "id": "lesson10-p06",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : LECTURE (2/3)",
@@ -237,7 +229,7 @@
       ]
     },
     {
-      "id": "lesson10-p08",
+      "id": "lesson10-p07",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : LECTURE (3/3)",
@@ -266,7 +258,7 @@
       ]
     },
     {
-      "id": "lesson10-p09",
+      "id": "lesson10-p08",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : QUESTIONS GUIDÉES",
@@ -309,10 +301,10 @@
       ]
     },
     {
-      "id": "lesson10-p10",
+      "id": "lesson10-p09",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : PRÉSENTATION DU TEXTE (1/2)",
+      "title": "LEÇON 1 : PRÉSENTATION DU TEXTE",
       "content": [
         {
           "type": "microtask",
@@ -333,15 +325,7 @@
         {
           "type": "question",
           "questionId": "l10-q11"
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p11",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : PRÉSENTATION DU TEXTE (2/2)",
-      "content": [
+        },
         {
           "type": "microtask",
           "number": 5,
@@ -355,7 +339,7 @@
       ]
     },
     {
-      "id": "lesson10-p12",
+      "id": "lesson10-p10",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MICRO-TÂCHES 5 & 6",
@@ -387,7 +371,7 @@
       ]
     },
     {
-      "id": "lesson10-p13",
+      "id": "lesson10-p11",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MICRO-TÂCHE 8 — MAJUSCULES",
@@ -413,7 +397,7 @@
       ]
     },
     {
-      "id": "lesson10-p14",
+      "id": "lesson10-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MICRO-TÂCHE 9 — VIDÉO",
@@ -440,7 +424,7 @@
       ]
     },
     {
-      "id": "lesson10-p15",
+      "id": "lesson10-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MICRO-TÂCHE 10 — REFORMULATION",
@@ -490,7 +474,7 @@
       ]
     },
     {
-      "id": "lesson10-p16",
+      "id": "lesson10-p14",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MINI-PRODUCTION",
@@ -513,7 +497,7 @@
       ]
     },
     {
-      "id": "lesson10-p17",
+      "id": "lesson10-p15",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : DISCUSSION EN GROUPES",
@@ -543,7 +527,7 @@
       ]
     },
     {
-      "id": "lesson10-p18",
+      "id": "lesson10-p16",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : PHASE 3 — TÂCHE FINALE",
@@ -566,19 +550,6 @@
         {
           "type": "paragraph",
           "text": "Votre texte doit :<br>• Présenter qui est Mohamed Salah ou la personne que vous imaginez.<br>• Décrire les défis rencontrés et les efforts fournis pour réussir.<br>• Expliquer les actions concrètes pour aider les autres ou sa communauté.<br>• Utiliser des phrases claires et logiques, et un vocabulaire simple et précis."
-        }
-      ]
-    },
-    {
-      "id": "lesson10-p19",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 1 : RÉDACTION",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Tâche finale (avec modèle + aide lexicale) (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -587,7 +558,7 @@
       ]
     },
     {
-      "id": "lesson10-p20",
+      "id": "lesson10-p17",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (1/2)",
@@ -609,7 +580,7 @@
       ]
     },
     {
-      "id": "lesson10-p21",
+      "id": "lesson10-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (2/2)",
@@ -638,7 +609,7 @@
       ]
     },
     {
-      "id": "lesson10-p22",
+      "id": "lesson10-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION (1/2)",
@@ -663,7 +634,7 @@
       ]
     },
     {
-      "id": "lesson10-p23",
+      "id": "lesson10-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION (2/2)",
@@ -693,7 +664,7 @@
       ]
     },
     {
-      "id": "lesson10-p24",
+      "id": "lesson10-p21",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : VRAI/FAUX & SOUMISSION",
@@ -742,7 +713,7 @@
       "id": "l10-q1",
       "type": "open-ended",
       "text": "1. Que voyez-vous dans ces images ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l10-q2",
@@ -796,7 +767,7 @@
       "id": "l10-q10",
       "type": "open-ended",
       "text": "Expliquez l'expression suivante selon le contexte : « un vrai super-héros »",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l10-q11",
@@ -808,7 +779,7 @@
       "id": "l10-q12",
       "type": "open-ended",
       "text": "Pourquoi peut-on dire que Mohamed Salah est un modèle pour les jeunes ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l10-q13",
@@ -856,7 +827,7 @@
       "id": "l10-q20",
       "type": "open-ended",
       "text": "Rédigez ici votre texte explicatif (8 à 10 lignes).",
-      "lines": 10
+      "lines": 6
     },
     {
       "id": "l10-q21",

@@ -722,19 +722,6 @@
         {
           "type": "question",
           "questionId": "l8-q16"
-        }
-      ]
-    },
-    {
-      "id": "lesson8-p23",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : QUESTIONS FINALES",
-      "content": [
-        {
-          "type": "heading",
-          "text": "Répondez aux questions : (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -743,7 +730,7 @@
       ]
     },
     {
-      "id": "lesson8-p24",
+      "id": "lesson8-p23",
       "type": "content",
       "phase": 4,
       "title": "LEÇON 2 : QUESTIONS FINALES (2/2) & SOUMISSION",
@@ -1072,13 +1059,13 @@
       "id": "l8-q16",
       "type": "open-ended",
       "text": "1. Trouvez un (autre) titre qui qui reflète bien le texte ?",
-      "lines": 8
+      "lines": 3
     },
     {
       "id": "l8-q17",
       "type": "open-ended",
       "text": "2. Proposez d'autres avantages et inconvénients du travail.",
-      "lines": 9
+      "lines": 3
     },
     {
       "id": "l8-q18",

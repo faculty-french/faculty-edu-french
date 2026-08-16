@@ -664,7 +664,7 @@
       "id": "lesson5-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (1/2)",
+      "title": "LEÇON 2 : É-ÉVALUATION",
       "content": [
         {
           "type": "heading",
@@ -682,19 +682,6 @@
         {
           "type": "question",
           "questionId": "l5-e4"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p22",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (2/2)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -707,7 +694,7 @@
       ]
     },
     {
-      "id": "lesson5-p23",
+      "id": "lesson5-p22",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 2 : SOUMISSION DU DEVOIR",
@@ -967,31 +954,31 @@
       "id": "l5-e2",
       "type": "open-ended",
       "text": "2) Précisez deux effets négatifs de l’éloignement familial sur la vie quotidienne.",
-      "lines": 4
+      "lines": 2
     },
     {
       "id": "l5-e3",
       "type": "open-ended",
       "text": "3) Donnez deux solutions proposées dans le texte pour lutter contre la solitude.",
-      "lines": 4
+      "lines": 2
     },
     {
       "id": "l5-e4",
       "type": "open-ended",
       "text": "4) Expliquez avec vos mots pourquoi les fêtes ou anniversaires renforcent le sentiment d’absence familiale.",
-      "lines": 4
+      "lines": 2
     },
     {
       "id": "l5-e5",
       "type": "open-ended",
       "text": "5) Trouvez un (autre) titre qui qui reflète bien le texte ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l5-e6",
       "type": "open-ended",
       "text": "6) Donnez un exemple du texte qui montre que l’éloignement familial peut être difficile pour certaines catégories de personnes.",
-      "lines": 4
+      "lines": 2
     }
   ]
 }

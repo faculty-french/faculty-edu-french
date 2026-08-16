@@ -3,7 +3,9 @@ import { useState, useEffect, useRef } from 'react';
 export default function OpenEnded({ question, value, onChange, hideText = false }) {
   const stopEvent = (e) => e.stopPropagation();
 
-  const lineCount = Math.max(question.lines || 0, 4);
+  // Floor of 2 (was 4): page packing may shrink a question's writing box so a
+  // lonely block fits on a neighbouring page — the question text itself never changes.
+  const lineCount = Math.max(question.lines || 4, 2);
 
   const [localLines, setLocalLines] = useState(() => {
     const initialLines = value ? value.split('\n') : [];

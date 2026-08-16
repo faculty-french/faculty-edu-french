@@ -381,7 +381,7 @@
       "id": "lesson7-p11",
       "phase": 2,
       "type": "content",
-      "title": "LEÇON 1 : REFORMULATION",
+      "title": "LEÇON 1 : STRUCTURE À OBSERVER",
       "content": [
         {
           "type": "microtask",
@@ -396,15 +396,7 @@
         {
           "type": "question",
           "questionId": "l7-q9"
-        }
-      ]
-    },
-    {
-      "id": "lesson7-p12",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : STRUCTURE À OBSERVER",
-      "content": [
+        },
         {
           "type": "heading",
           "text": "Structure à observer",
@@ -439,7 +431,7 @@
       ]
     },
     {
-      "id": "lesson7-p13",
+      "id": "lesson7-p12",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : VIDÉO DE COMPRÉHENSION",
@@ -471,7 +463,7 @@
       ]
     },
     {
-      "id": "lesson7-p14",
+      "id": "lesson7-p13",
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : MINI-PRODUCTION ET DISCUSSION",
@@ -503,7 +495,7 @@
       ]
     },
     {
-      "id": "lesson7-p15",
+      "id": "lesson7-p14",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : TÂCHE FINALE — PRÉPARATION",
@@ -558,7 +550,7 @@
       ]
     },
     {
-      "id": "lesson7-p16",
+      "id": "lesson7-p15",
       "phase": 3,
       "type": "content",
       "title": "LEÇON 1 : TÂCHE FINALE — CRÉATION",
@@ -575,7 +567,7 @@
       ]
     },
     {
-      "id": "lesson7-p17",
+      "id": "lesson7-p16",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (1/2)",
@@ -606,7 +598,7 @@
       ]
     },
     {
-      "id": "lesson7-p18",
+      "id": "lesson7-p17",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : ÉVALUATION & É-ÉVALUATION (2/2)",
@@ -631,7 +623,7 @@
       ]
     },
     {
-      "id": "lesson7-p19",
+      "id": "lesson7-p18",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : É-ÉVALUATION",
@@ -656,7 +648,7 @@
       ]
     },
     {
-      "id": "lesson7-p20",
+      "id": "lesson7-p19",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : SOUMISSION DU DEVOIR",
@@ -771,7 +763,7 @@
       "id": "l7-q9",
       "type": "open-ended",
       "text": "Reformulez cette phrase en utilisant vos propres mots. « Le télétravail permet de gagner du temps en évitant les trajets quotidiens ».",
-      "lines": 6
+      "lines": 3
     },
     {
       "id": "l7-q10",

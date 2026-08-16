@@ -365,8 +365,10 @@ async function main() {
       if (q.type === 'open-ended') {
         if (typeof q.lines !== 'number') {
           errors.push(`[ERROR] Question "${q.id}" of type "open-ended" is missing numeric "lines" field`);
-        } else if (q.lines < 3) {
-          errors.push(`[ERROR] Question "${q.id}" of type "open-ended" has lines < 3 (found ${q.lines})`);
+        } else if (q.lines < 2) {
+          // Floor 2 (was 3): page packing may shrink a writing box so a lonely
+          // block fits on a neighbouring page (matches OpenEnded.jsx floor).
+          errors.push(`[ERROR] Question "${q.id}" of type "open-ended" has lines < 2 (found ${q.lines})`);
         }
       }
 

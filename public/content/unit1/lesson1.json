@@ -568,7 +568,7 @@
       "id": "lesson1-p17",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (1/3)",
+      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (1/2)",
       "content": [
         {
           "type": "phase-banner",
@@ -588,15 +588,7 @@
           "type": "heading",
           "text": "É-évaluation : répondez à ces questions",
           "level": 2
-        }
-      ]
-    },
-    {
-      "id": "lesson1-p18",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (2/3)",
-      "content": [
+        },
         {
           "type": "question",
           "questionId": "l1-e1"
@@ -608,10 +600,10 @@
       ]
     },
     {
-      "id": "lesson1-p19",
+      "id": "lesson1-p18",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (3/3)",
+      "title": "LEÇON 1 : PHASE 4 — ÉVALUATION (2/2)",
       "content": [
         {
           "type": "heading",
@@ -637,10 +629,10 @@
       ]
     },
     {
-      "id": "lesson1-p20",
+      "id": "lesson1-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION : RÉPONDEZ À CES QUESTIONS (1/2)",
+      "title": "LEÇON 1 : É-ÉVALUATION : RÉPONDEZ À CES QUESTIONS",
       "content": [
         {
           "type": "heading",
@@ -654,19 +646,6 @@
         {
           "type": "question",
           "questionId": "l1-e8"
-        }
-      ]
-    },
-    {
-      "id": "lesson1-p21",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 1 : É-ÉVALUATION : RÉPONDEZ À CES QUESTIONS (2/2)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation : répondez à ces questions (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -679,7 +658,7 @@
       ]
     },
     {
-      "id": "lesson1-p22",
+      "id": "lesson1-p20",
       "phase": 4,
       "type": "content",
       "title": "LEÇON 1 : SOUMISSION DU DEVOIR",
@@ -832,7 +811,7 @@
       "id": "l1-q16",
       "type": "open-ended",
       "text": "Discutez en groupe : quelles actions pourraient être mises en place dans votre ville ou votre quartier ?",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l1-e1",
@@ -874,19 +853,19 @@
       "id": "l1-e7",
       "type": "open-ended",
       "text": "Identifiez l’opinion de l’auteur et ses arguments principaux.",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l1-e8",
       "type": "open-ended",
       "text": "Comparez ces pratiques économiques de l’auteur pour la protection de l’environnement selon votre propre environnement.",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l1-e9",
       "type": "open-ended",
       "text": "Proposez une critique ou un commentaire sur les actions proposées.",
-      "lines": 4
+      "lines": 3
     },
     {
       "id": "l1-e10",
