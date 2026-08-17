@@ -255,6 +255,19 @@
       "title": "LEÇON 1 : QUESTIONS GUIDÉES",
       "content": [
         {
+          "type": "consigne",
+          "text": "Questions guidées (suite)"
+        },
+        {
+          "type": "question",
+          "questionId": "l1-q5"
+        },
+        {
+          "type": "heading",
+          "text": "Déterminez les mots-clés dans le texte et leurs significations selon le contexte. ",
+          "level": 2
+        },
+        {
           "type": "keywords",
           "title": "Mots-clés",
           "items": [
@@ -264,19 +277,6 @@
             "Transports en commun",
             "Sacs plastiques"
           ]
-        },
-        {
-          "type": "heading",
-          "text": "Questions guidées (suite)",
-          "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l1-q5"
-        },
-        {
-          "type": "consigne",
-          "text": ""
         },
         {
           "type": "question",
