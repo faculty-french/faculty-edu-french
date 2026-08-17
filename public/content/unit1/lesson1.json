@@ -126,13 +126,13 @@
           "text": "Répondez aux questions suivantes :"
         },
         {
-          "type": "question",
-          "questionId": "l1-q0"
+          "type": "heading",
+          "text": "",
+          "level": 2
         },
         {
-          "type": "heading",
-          "text": "I. Introduction et motivation (suite)",
-          "level": 2
+          "type": "question",
+          "questionId": "l1-q0"
         },
         {
           "type": "question",
@@ -684,7 +684,7 @@
     {
       "id": "l1-q0",
       "type": "open-ended",
-      "text": "Consigne : Observez attentivement les deux images suivantes, puis prédisez le thème du texte.",
+      "text": "",
       "lines": 4
     },
     {
