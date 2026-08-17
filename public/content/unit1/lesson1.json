@@ -255,13 +255,13 @@
       "title": "LEÇON 1 : QUESTIONS GUIDÉES",
       "content": [
         {
+          "type": "consigne",
+          "text": "Déterminez les mots-clés dans le texte et leurs significations selon le contexte. "
+        },
+        {
           "type": "heading",
           "text": "Questions guidées (suite)",
           "level": 2
-        },
-        {
-          "type": "consigne",
-          "text": "Déterminez les mots-clés dans le texte et leurs significations selon le contexte "
         },
         {
           "type": "question",
