@@ -255,8 +255,15 @@
       "title": "LEÇON 1 : QUESTIONS GUIDÉES",
       "content": [
         {
-          "type": "consigne",
-          "text": "Déterminez les mots-clés dans le texte et leurs significations selon le contexte. "
+          "type": "keywords",
+          "title": "Mots-clés",
+          "items": [
+            "Consommateur",
+            "Produits polluants",
+            "Circuits courts",
+            "Transports en commun",
+            "Sacs plastiques"
+          ]
         },
         {
           "type": "heading",
@@ -268,15 +275,8 @@
           "questionId": "l1-q5"
         },
         {
-          "type": "keywords",
-          "title": "Mots-clés",
-          "items": [
-            "Consommateur",
-            "Produits polluants",
-            "Circuits courts",
-            "Transports en commun",
-            "Sacs plastiques"
-          ]
+          "type": "consigne",
+          "text": ""
         },
         {
           "type": "question",
