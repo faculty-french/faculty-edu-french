@@ -23,6 +23,11 @@
         {
           "type": "paragraph",
           "text": "Cette approche présente l’avantage de permettre à l’apprenant de se focaliser sur les objectifs à atteindre, de façon à ce que le langage devienne un outil, et enfin, de transformer l’usage de la langue en nécessité. Ces situations ressemblent à des activités ou des tâches que l’apprenant réalise afin d’atteindre le but désiré. Pendant qu’il accomplit ces tâches, il pratique la langue comme un outil, en même temps il apprend la langue à travers la pratiquer dans ces tâches."
+        },
+        {
+          "type": "heading",
+          "text": "Objectifs de l’approche actionnelle :",
+          "level": 2
         }
       ]
     },
@@ -32,11 +37,6 @@
       "type": "content",
       "title": "LEÇON ZÉRO (2/9)",
       "content": [
-        {
-          "type": "heading",
-          "text": "Objectifs de l’approche actionnelle :",
-          "level": 2
-        },
         {
           "type": "paragraph",
           "text": "L’objectif essentiel de l’approche actionnelle est de mettre l’accent sur les tâches à accomplir par lesquels l’apprenant qui participe à l’intérieur d’un projet global pour des objectifs sociaux, non pour des objectifs langagiers ou pédagogiques seulement."
