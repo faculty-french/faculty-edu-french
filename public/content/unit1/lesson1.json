@@ -221,18 +221,18 @@
       "title": "LEÇON 1 : LECTURE (2/2)",
       "content": [
         {
-          "type": "link",
-          "url": "https://anyfrench.com/lecture/agir-contre-le-rechauffement-climatique",
-          "label": "🔗 Source de l'article"
+          "type": "paragraph",
+          "text": "Mais je reste plutôt optimiste, les choses commencent à changer, bien que trop lentement à mon goût. De toute façon, je ne suis pas un modèle non plus et je sais que je pollue énormément malgré mes petits gestes."
         },
         {
           "type": "heading",
-          "text": "Questions guidées",
+          "text": "Questions guidées  (10 minutes)",
           "level": 2
         },
         {
-          "type": "paragraph",
-          "text": "Mais je reste plutôt optimiste, les choses commencent à changer, bien que trop lentement à mon goût. De toute façon, je ne suis pas un modèle non plus et je sais que je pollue énormément malgré mes petits gestes."
+          "type": "link",
+          "url": "https://anyfrench.com/lecture/agir-contre-le-rechauffement-climatique",
+          "label": "🔗 Source de l'article"
         },
         {
           "type": "consigne",
