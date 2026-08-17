@@ -260,12 +260,12 @@
           "level": 2
         },
         {
-          "type": "question",
-          "questionId": "l1-q5"
+          "type": "consigne",
+          "text": "Déterminez les mots-clés dans le texte et leurs significations selon le contexte. ( 5 minutes) "
         },
         {
-          "type": "consigne",
-          "text": "Déterminez les mots-clés dans le texte et leurs significations selon le contexte."
+          "type": "question",
+          "questionId": "l1-q5"
         },
         {
           "type": "keywords",
