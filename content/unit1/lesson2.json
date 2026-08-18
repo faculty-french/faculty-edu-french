@@ -109,7 +109,7 @@
           "images": [
             {
               "imageUrl": "images/lessons/lesson2-a.png",
-              "caption": "Image 1   Image 2"
+              "caption": "Image 1  Image 2"
             },
             {
               "imageUrl": "images/lessons/lesson2-b.png",
@@ -118,12 +118,12 @@
           ]
         },
         {
-          "type": "question",
-          "questionId": "l2-q0"
-        },
-        {
           "type": "consigne",
           "text": "Répondez aux questions suivantes "
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q0"
         },
         {
           "type": "question",
