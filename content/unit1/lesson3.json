@@ -649,22 +649,12 @@
           "level": 2
         },
         {
-          "type": "info-box",
-          "title": "Outils interactifs fournis",
-          "sections": [
-            {
-              "heading": "Banque de connecteurs",
-              "items": [
-                "d’abord, ensuite, en plus, par exemple, mais, pourtant, enfin…"
-              ]
-            },
-            {
-              "heading": "Aide lexicale",
-              "items": [
-                "covoiturage, trajet, partager, frais, carburant, pollution, application, écologique, solidaire…"
-              ]
-            }
-          ]
+          "type": "consigne",
+          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
+        },
+        {
+          "type": "question",
+          "questionId": "l3-q19"
         },
         {
           "type": "info-box",
@@ -681,14 +671,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "consigne",
-          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q19"
         }
       ]
     },
@@ -703,6 +685,24 @@
           "phase": 3,
           "title": "Post-action (Tâche finale)",
           "duration": "20 min"
+        },
+        {
+          "type": "info-box",
+          "title": "Outils interactifs fournis",
+          "sections": [
+            {
+              "heading": "Banque de connecteurs",
+              "items": [
+                "d’abord, ensuite, en plus, par exemple, mais, pourtant, enfin…"
+              ]
+            },
+            {
+              "heading": "Aide lexicale",
+              "items": [
+                "covoiturage, trajet, partager, frais, carburant, pollution, application, écologique, solidaire…"
+              ]
+            }
+          ]
         }
       ]
     },
