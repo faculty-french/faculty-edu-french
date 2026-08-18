@@ -340,19 +340,19 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
+          "type": "consigne",
+          "text": "Mettez vrai ou faux devant chaque phrase :"
         },
         {
           "type": "phase-banner",
           "phase": 4,
-          "title": "Évaluation des produits des étudiants",
-          "duration": "10 min"
+          "title": "",
+          "duration": ""
         },
         {
-          "type": "consigne",
-          "text": "Mettez vrai ou faux devant chaque phrase :"
+          "type": "heading",
+          "text": "",
+          "level": 2
         },
         {
           "type": "question",
