@@ -310,11 +310,6 @@
       "title": "LEÇON 3 : TEXTE EXPLICATIF",
       "content": [
         {
-          "type": "heading",
-          "text": "Questions guidées (suite)",
-          "level": 2
-        },
-        {
           "type": "info-box",
           "title": "Des informations enrichissantes",
           "sections": [
@@ -343,6 +338,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "heading",
+          "text": "",
+          "level": 2
         },
         {
           "type": "phase-banner",
