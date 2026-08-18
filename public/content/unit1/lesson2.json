@@ -262,7 +262,7 @@
         },
         {
           "type": "consigne",
-          "text": "Choisissez la bonne réponse :"
+          "text": "3. Les abeilles et les oiseaux trouvent dans les espaces verts…"
         },
         {
           "type": "question",
@@ -807,23 +807,23 @@
     {
       "id": "l2-q7",
       "type": "multiple-choice",
-      "text": "3. Les abeilles et les oiseaux trouvent dans les espaces verts…",
+      "text": "des voitures",
       "answer": "b",
       "options": [
         {
           "id": "a",
           "label": "a",
-          "text": "des voitures"
+          "text": "de la nourriture"
         },
         {
           "id": "b",
           "label": "b",
-          "text": "de la nourriture"
+          "text": "des bâtiments"
         },
         {
           "id": "c",
           "label": "c",
-          "text": "des bâtiments"
+          "text": ""
         }
       ]
     },
