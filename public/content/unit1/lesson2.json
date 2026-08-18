@@ -533,6 +533,22 @@
         },
         {
           "type": "info-box",
+          "title": "Le texte doit contenir",
+          "sections": [
+            {
+              "heading": "Éléments requis",
+              "items": [
+                "Définition d’un espace vert.",
+                "Importance pour les habitants.",
+                "Problèmes actuels.",
+                "Solutions proposées.",
+                "Conclusion motivante."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "info-box",
           "title": "Outils interactifs fournis",
           "sections": [
             {
@@ -550,36 +566,6 @@
           ]
         },
         {
-          "type": "info-box",
-          "title": "Le texte doit contenir",
-          "sections": [
-            {
-              "heading": "Éléments requis",
-              "items": [
-                "Définition d’un espace vert.",
-                "Importance pour les habitants.",
-                "Problèmes actuels.",
-                "Solutions proposées.",
-                "Conclusion motivante."
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lesson2-p16",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 2 : TÂCHE FINALE — ARTICLE",
-      "content": [
-        {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (tâche finale)",
-          "duration": "20 min"
-        },
-        {
           "type": "images-row",
           "images": [
             {
@@ -595,6 +581,20 @@
         {
           "type": "question",
           "questionId": "l2-q15"
+        }
+      ]
+    },
+    {
+      "id": "lesson2-p16",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 2 : TÂCHE FINALE — ARTICLE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (tâche finale)",
+          "duration": "20 min"
         }
       ]
     },
