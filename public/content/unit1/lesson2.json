@@ -369,7 +369,7 @@
         },
         {
           "type": "consigne",
-          "text": "Mettez vrai ou faux devant chaque phrase :"
+          "text": "Mettez vrai ou faux devant chaque phrase :(5 minutes)"
         },
         {
           "type": "question",
