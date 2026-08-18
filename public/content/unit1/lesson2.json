@@ -502,7 +502,7 @@
         },
         {
           "type": "consigne",
-          "text": "Travaillez en petits groupes (3 à 4 étudiants). \nÉchangez vos idées envers la tâche visée et notez les propositions les plus convenables."
+          "text": " eQuelles actions pourraient être mises en place dans votre ville ou votre quartier ?"
         },
         {
           "type": "question",
@@ -890,7 +890,7 @@
     {
       "id": "l2-q14",
       "type": "open-ended",
-      "text": "Quelles actions pourraient être mises en place dans votre ville ou votre quartier ?",
+      "text": "Travaillez en petits groupes (3 à 4 étudiants). \nÉchangez vos idées envers la tâche visée et notez les propositions les plus convenables.",
       "lines": 4
     },
     {
