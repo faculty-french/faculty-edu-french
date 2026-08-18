@@ -807,23 +807,23 @@
     {
       "id": "l2-q7",
       "type": "multiple-choice",
-      "text": "des voitures",
+      "text": "",
       "answer": "b",
       "options": [
         {
           "id": "a",
           "label": "a",
-          "text": "de la nourriture"
+          "text": "des voitures"
         },
         {
           "id": "b",
           "label": "b",
-          "text": "des bâtiments"
+          "text": "de la nourriture"
         },
         {
           "id": "c",
           "label": "c",
-          "text": ""
+          "text": "des bâtiments"
         }
       ]
     },
