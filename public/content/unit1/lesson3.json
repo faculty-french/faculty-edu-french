@@ -246,12 +246,12 @@
           "level": 2
         },
         {
-          "type": "consigne",
-          "text": ""
-        },
-        {
           "type": "question",
           "questionId": "l3-q6"
+        },
+        {
+          "type": "consigne",
+          "text": ""
         },
         {
           "type": "microtask",
