@@ -97,7 +97,7 @@
         },
         {
           "type": "heading",
-          "text": "I. Introduction et motivation:",
+          "text": "I. Introduction et motivation",
           "level": 2
         },
         {
@@ -119,7 +119,7 @@
         },
         {
           "type": "consigne",
-          "text": "Répondez aux questions suivantes :"
+          "text": "Répondez aux questions suivantes "
         },
         {
           "type": "question",
@@ -131,7 +131,7 @@
         },
         {
           "type": "consigne",
-          "text": ""
+          "text": "3.\tQuel est le thème du texte ?"
         }
       ]
     },
@@ -737,7 +737,7 @@
     {
       "id": "l2-q1",
       "type": "open-ended",
-      "text": "",
+      "text": "Pourquoi ces endroits sont-ils importants ?",
       "lines": 3
     },
     {
