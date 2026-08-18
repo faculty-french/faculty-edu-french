@@ -246,12 +246,12 @@
           "level": 2
         },
         {
-          "type": "question",
-          "questionId": "l3-q6"
-        },
-        {
           "type": "consigne",
           "text": ""
+        },
+        {
+          "type": "question",
+          "questionId": "l3-q6"
         },
         {
           "type": "microtask",
@@ -906,7 +906,7 @@
     {
       "id": "l3-q7",
       "type": "open-ended",
-      "text": "Trouvez dans le texte trois avantages et un inconvénient du covoiturage ?",
+      "text": "",
       "lines": 4
     },
     {
