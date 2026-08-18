@@ -344,10 +344,6 @@
           "text": "Mettez vrai ou faux devant chaque phrase :"
         },
         {
-          "type": "question",
-          "questionId": "l3-vf1"
-        },
-        {
           "type": "phase-banner",
           "phase": 4,
           "title": "",
@@ -355,7 +351,7 @@
         },
         {
           "type": "question",
-          "questionId": "l3-vf2"
+          "questionId": "l3-vf1"
         }
       ]
     },
@@ -365,6 +361,10 @@
       "type": "content",
       "title": "LEÇON 3 : VRAI OU FAUX",
       "content": [
+        {
+          "type": "question",
+          "questionId": "l3-vf2"
+        },
         {
           "type": "question",
           "questionId": "l3-vf3"
