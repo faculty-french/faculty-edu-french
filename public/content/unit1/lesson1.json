@@ -555,12 +555,12 @@
           "duration": "20 min"
         },
         {
-          "type": "question",
-          "questionId": "l1-q15"
+          "type": "consigne",
+          "text": ""
         },
         {
-          "type": "consigne",
-          "text": "En tant qu'étudiant, rédigez votre article de sensibilisation (8 à 10 lignes) :"
+          "type": "question",
+          "questionId": "l1-q15"
         }
       ]
     },
