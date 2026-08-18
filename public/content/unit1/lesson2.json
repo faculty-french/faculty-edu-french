@@ -560,6 +560,10 @@
               ]
             }
           ]
+        },
+        {
+          "type": "consigne",
+          "text": "Vous êtes membre d’un club écologique à l’université."
         }
       ]
     },
@@ -574,10 +578,6 @@
           "phase": 3,
           "title": "Post-action (tâche finale)",
           "duration": "20 min"
-        },
-        {
-          "type": "consigne",
-          "text": "Vous êtes membre d’un club écologique à l’université."
         },
         {
           "type": "images-row",
