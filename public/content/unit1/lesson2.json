@@ -113,7 +113,7 @@
             },
             {
               "imageUrl": "images/lessons/lesson2-b.png",
-              "caption": "Image 1 Image 2"
+              "caption": "Image 2 Image 1"
             }
           ]
         },
@@ -737,7 +737,7 @@
     {
       "id": "l2-q1",
       "type": "open-ended",
-      "text": "",
+      "text": "Pourquoi ces endroits sont-ils importants ?",
       "lines": 3
     },
     {
