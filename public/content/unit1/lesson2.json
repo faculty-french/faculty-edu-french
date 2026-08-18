@@ -543,6 +543,10 @@
               "caption": "Image 2"
             }
           ]
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q15"
         }
       ]
     },
@@ -557,10 +561,6 @@
           "phase": 3,
           "title": "Post-action (tâche finale)",
           "duration": "20 min"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q15"
         },
         {
           "type": "info-box",
