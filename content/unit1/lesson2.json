@@ -533,22 +533,6 @@
         },
         {
           "type": "info-box",
-          "title": "Le texte doit contenir",
-          "sections": [
-            {
-              "heading": "Éléments requis",
-              "items": [
-                "Définition d’un espace vert.",
-                "Importance pour les habitants.",
-                "Problèmes actuels.",
-                "Solutions proposées.",
-                "Conclusion motivante."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "info-box",
           "title": "Outils interactifs fournis",
           "sections": [
             {
@@ -561,6 +545,22 @@
               "heading": "Aide lexicale",
               "items": [
                 "arbres, pollution, protéger, créer, planter…"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Le texte doit contenir",
+          "sections": [
+            {
+              "heading": "Éléments requis",
+              "items": [
+                "Définition d’un espace vert.",
+                "Importance pour les habitants.",
+                "Problèmes actuels.",
+                "Solutions proposées.",
+                "Conclusion motivante."
               ]
             }
           ]
