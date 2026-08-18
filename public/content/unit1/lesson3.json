@@ -352,6 +352,10 @@
           "phase": 4,
           "title": "",
           "duration": ""
+        },
+        {
+          "type": "question",
+          "questionId": "l3-vf2"
         }
       ]
     },
@@ -361,10 +365,6 @@
       "type": "content",
       "title": "LEÇON 3 : VRAI OU FAUX",
       "content": [
-        {
-          "type": "question",
-          "questionId": "l3-vf2"
-        },
         {
           "type": "question",
           "questionId": "l3-vf3"
