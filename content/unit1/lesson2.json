@@ -533,22 +533,6 @@
         },
         {
           "type": "info-box",
-          "title": "Le texte doit contenir",
-          "sections": [
-            {
-              "heading": "Éléments requis",
-              "items": [
-                "Définition d’un espace vert.",
-                "Importance pour les habitants.",
-                "Problèmes actuels.",
-                "Solutions proposées.",
-                "Conclusion motivante."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "info-box",
           "title": "Outils interactifs fournis",
           "sections": [
             {
@@ -595,6 +579,22 @@
         {
           "type": "question",
           "questionId": "l2-q15"
+        },
+        {
+          "type": "info-box",
+          "title": "Le texte doit contenir",
+          "sections": [
+            {
+              "heading": "Éléments requis",
+              "items": [
+                "Définition d’un espace vert.",
+                "Importance pour les habitants.",
+                "Problèmes actuels.",
+                "Solutions proposées.",
+                "Conclusion motivante."
+              ]
+            }
+          ]
         }
       ]
     },
