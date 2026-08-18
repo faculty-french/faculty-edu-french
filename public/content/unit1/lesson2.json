@@ -128,6 +128,10 @@
         {
           "type": "question",
           "questionId": "l2-q1"
+        },
+        {
+          "type": "consigne",
+          "text": ""
         }
       ]
     },
@@ -145,10 +149,6 @@
         {
           "type": "question",
           "questionId": "l2-q2"
-        },
-        {
-          "type": "consigne",
-          "text": "Quel est le thème du texte ?"
         },
         {
           "type": "question",
@@ -737,13 +737,13 @@
     {
       "id": "l2-q1",
       "type": "open-ended",
-      "text": "Pourquoi ces endroits sont-ils importants ?",
+      "text": "",
       "lines": 3
     },
     {
       "id": "l2-q2",
       "type": "open-ended",
-      "text": "",
+      "text": "Quel est le thème du texte ?",
       "lines": 4
     },
     {
