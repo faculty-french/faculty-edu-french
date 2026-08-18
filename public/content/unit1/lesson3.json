@@ -650,22 +650,6 @@
         },
         {
           "type": "info-box",
-          "title": "Le texte doit contenir",
-          "sections": [
-            {
-              "heading": "Éléments requis",
-              "items": [
-                "Une définition du covoiturage.",
-                "Son importance pour les étudiants et les habitants.",
-                "Les avantages principaux (économiques, écologiques, sociaux).",
-                "Les difficultés possibles liées au covoiturage.",
-                "Une conclusion motivante incitant à changer les habitudes de transport."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "info-box",
           "title": "Outils interactifs fournis",
           "sections": [
             {
@@ -678,6 +662,22 @@
               "heading": "Aide lexicale",
               "items": [
                 "covoiturage, trajet, partager, frais, carburant, pollution, application, écologique, solidaire…"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Le texte doit contenir",
+          "sections": [
+            {
+              "heading": "Éléments requis",
+              "items": [
+                "Une définition du covoiturage.",
+                "Son importance pour les étudiants et les habitants.",
+                "Les avantages principaux (économiques, écologiques, sociaux).",
+                "Les difficultés possibles liées au covoiturage.",
+                "Une conclusion motivante incitant à changer les habitudes de transport."
               ]
             }
           ]
