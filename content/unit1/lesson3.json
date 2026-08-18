@@ -340,12 +340,6 @@
           ]
         },
         {
-          "type": "phase-banner",
-          "phase": 4,
-          "title": "",
-          "duration": ""
-        },
-        {
           "type": "consigne",
           "text": "Mettez vrai ou faux devant chaque phrase :"
         },
@@ -356,6 +350,12 @@
         {
           "type": "question",
           "questionId": "l3-vf2"
+        },
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "",
+          "duration": ""
         }
       ]
     },
