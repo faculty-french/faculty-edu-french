@@ -142,6 +142,10 @@
       "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (2/2)",
       "content": [
         {
+          "type": "question",
+          "questionId": "l2-q3"
+        },
+        {
           "type": "heading",
           "text": "I. Introduction et motivation (suite)",
           "level": 2
@@ -149,10 +153,6 @@
         {
           "type": "question",
           "questionId": "l2-q2"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q3"
         },
         {
           "type": "microtask",
