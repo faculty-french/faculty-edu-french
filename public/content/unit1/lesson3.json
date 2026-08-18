@@ -348,11 +348,6 @@
           "questionId": "l3-vf1"
         },
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
           "type": "phase-banner",
           "phase": 4,
           "title": "",
@@ -737,6 +732,11 @@
         {
           "type": "question",
           "questionId": "l3-e2"
+        },
+        {
+          "type": "heading",
+          "text": "",
+          "level": 2
         }
       ]
     },
