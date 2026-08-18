@@ -523,27 +523,13 @@
           "duration": "20 min"
         },
         {
+          "type": "consigne",
+          "text": "Vous êtes membre d’un club écologique à l’université."
+        },
+        {
           "type": "heading",
           "text": "Tâche finale",
           "level": 2
-        },
-        {
-          "type": "info-box",
-          "title": "Outils interactifs fournis",
-          "sections": [
-            {
-              "heading": "Banque de connecteurs",
-              "items": [
-                "d’abord, ensuite, en plus, pourtant, enfin…"
-              ]
-            },
-            {
-              "heading": "Aide lexicale",
-              "items": [
-                "arbres, pollution, protéger, créer, planter…"
-              ]
-            }
-          ]
         },
         {
           "type": "info-box",
@@ -562,8 +548,22 @@
           ]
         },
         {
-          "type": "consigne",
-          "text": "Vous êtes membre d’un club écologique à l’université."
+          "type": "info-box",
+          "title": "Outils interactifs fournis",
+          "sections": [
+            {
+              "heading": "Banque de connecteurs",
+              "items": [
+                "d’abord, ensuite, en plus, pourtant, enfin…"
+              ]
+            },
+            {
+              "heading": "Aide lexicale",
+              "items": [
+                "arbres, pollution, protéger, créer, planter…"
+              ]
+            }
+          ]
         }
       ]
     },
