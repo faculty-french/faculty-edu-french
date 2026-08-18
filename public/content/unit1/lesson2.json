@@ -109,11 +109,11 @@
           "images": [
             {
               "imageUrl": "images/lessons/lesson2-a.png",
-              "caption": "Image 1"
+              "caption": "Image 1   Image 2"
             },
             {
               "imageUrl": "images/lessons/lesson2-b.png",
-              "caption": " Image 2"
+              "caption": ""
             }
           ]
         },
