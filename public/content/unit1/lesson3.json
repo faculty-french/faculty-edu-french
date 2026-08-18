@@ -647,6 +647,28 @@
           "type": "heading",
           "text": "Tâche finale (avec modèle + aide lexicale)",
           "level": 2
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p17",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
+          "type": "consigne",
+          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
+        },
+        {
+          "type": "question",
+          "questionId": "l3-q19"
         },
         {
           "type": "info-box",
@@ -681,28 +703,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "consigne",
-          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p17",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
-      "content": [
-        {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (Tâche finale)",
-          "duration": "20 min"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q19"
         }
       ]
     },
