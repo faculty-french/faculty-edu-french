@@ -477,6 +477,10 @@
           "type": "video",
           "videoUrl": "videos/m1_lecon2.mp4",
           "caption": "Vidéo : Les espaces verts"
+        },
+        {
+          "type": "consigne",
+          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
         }
       ]
     },
@@ -486,10 +490,6 @@
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES & DISCUSSION",
       "content": [
-        {
-          "type": "consigne",
-          "text": "Écrivez un court résumé de ce que vous avez compris de cette vidéo."
-        },
         {
           "type": "question",
           "questionId": "l2-q17"
