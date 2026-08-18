@@ -529,22 +529,6 @@
         },
         {
           "type": "info-box",
-          "title": "Le texte doit contenir",
-          "sections": [
-            {
-              "heading": "Éléments requis",
-              "items": [
-                "Définition d’un espace vert.",
-                "Importance pour les habitants.",
-                "Problèmes actuels.",
-                "Solutions proposées.",
-                "Conclusion motivante."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "info-box",
           "title": "Outils interactifs fournis",
           "sections": [
             {
@@ -562,21 +546,24 @@
           ]
         },
         {
-          "type": "consigne",
-          "text": "Vous êtes membre d’un club écologique à l’université."
-        },
-        {
-          "type": "images-row",
-          "images": [
+          "type": "info-box",
+          "title": "Le texte doit contenir",
+          "sections": [
             {
-              "imageUrl": "images/lessons/lesson2-c.png",
-              "caption": "Image 1"
-            },
-            {
-              "imageUrl": "images/lessons/lesson2-d.png",
-              "caption": "Image 2"
+              "heading": "Éléments requis",
+              "items": [
+                "Définition d’un espace vert.",
+                "Importance pour les habitants.",
+                "Problèmes actuels.",
+                "Solutions proposées.",
+                "Conclusion motivante."
+              ]
             }
           ]
+        },
+        {
+          "type": "consigne",
+          "text": "Vous êtes membre d’un club écologique à l’université."
         }
       ]
     },
@@ -591,6 +578,19 @@
           "phase": 3,
           "title": "Post-action (tâche finale)",
           "duration": "20 min"
+        },
+        {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson2-c.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson2-d.png",
+              "caption": "Image 2"
+            }
+          ]
         },
         {
           "type": "question",
