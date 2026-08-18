@@ -340,9 +340,12 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
+          "type": "consigne",
+          "text": "Mettez vrai ou faux devant chaque phrase :"
+        },
+        {
+          "type": "question",
+          "questionId": "l3-vf1"
         },
         {
           "type": "phase-banner",
@@ -351,12 +354,9 @@
           "duration": ""
         },
         {
-          "type": "consigne",
-          "text": "Mettez vrai ou faux devant chaque phrase :"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-vf1"
+          "type": "heading",
+          "text": "",
+          "level": 2
         }
       ]
     },
