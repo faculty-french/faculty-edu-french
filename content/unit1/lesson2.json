@@ -731,13 +731,13 @@
     {
       "id": "l2-q0",
       "type": "open-ended",
-      "text": "",
+      "text": "Que voyez-vous dans ces images ?",
       "lines": 3
     },
     {
       "id": "l2-q1",
       "type": "open-ended",
-      "text": "Que voyez-vous dans ces images ?",
+      "text": "",
       "lines": 3
     },
     {
