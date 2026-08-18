@@ -310,11 +310,6 @@
       "title": "LEÇON 3 : TEXTE EXPLICATIF",
       "content": [
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
           "type": "info-box",
           "title": "Des informations enrichissantes",
           "sections": [
@@ -351,6 +346,11 @@
         {
           "type": "question",
           "questionId": "l3-vf1"
+        },
+        {
+          "type": "heading",
+          "text": "",
+          "level": 2
         },
         {
           "type": "phase-banner",
