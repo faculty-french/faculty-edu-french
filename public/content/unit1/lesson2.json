@@ -501,12 +501,12 @@
           "duration": "10 min"
         },
         {
-          "type": "question",
-          "questionId": "l2-q14"
+          "type": "consigne",
+          "text": "Travaillez en petits groupes (3 à 4 étudiants). \nÉchangez vos idées envers la tâche visée et notez les propositions les plus convenables."
         },
         {
-          "type": "consigne",
-          "text": "Travaillez en petits groupes (3 à 4 étudiants). Échangez vos idées envers la tâche visée et notez les propositions les plus convenables."
+          "type": "question",
+          "questionId": "l2-q14"
         }
       ]
     },
