@@ -649,28 +649,30 @@
           "level": 2
         },
         {
+          "type": "info-box",
+          "title": "Outils interactifs fournis",
+          "sections": [
+            {
+              "heading": "Banque de connecteurs",
+              "items": [
+                "d’abord, ensuite, en plus, par exemple, mais, pourtant, enfin…"
+              ]
+            },
+            {
+              "heading": "Aide lexicale",
+              "items": [
+                "covoiturage, trajet, partager, frais, carburant, pollution, application, écologique, solidaire…"
+              ]
+            }
+          ]
+        },
+        {
           "type": "consigne",
           "text": "Chaque étudiant utilise les idées générées pendant la discussion."
         },
         {
           "type": "question",
           "questionId": "l3-q19"
-        },
-        {
-          "type": "info-box",
-          "title": "Le texte doit contenir",
-          "sections": [
-            {
-              "heading": "Éléments requis",
-              "items": [
-                "Une définition du covoiturage.",
-                "Son importance pour les étudiants et les habitants.",
-                "Les avantages principaux (économiques, écologiques, sociaux).",
-                "Les difficultés possibles liées au covoiturage.",
-                "Une conclusion motivante incitant à changer les habitudes de transport."
-              ]
-            }
-          ]
         }
       ]
     },
@@ -688,18 +690,16 @@
         },
         {
           "type": "info-box",
-          "title": "Outils interactifs fournis",
+          "title": "Le texte doit contenir",
           "sections": [
             {
-              "heading": "Banque de connecteurs",
+              "heading": "Éléments requis",
               "items": [
-                "d’abord, ensuite, en plus, par exemple, mais, pourtant, enfin…"
-              ]
-            },
-            {
-              "heading": "Aide lexicale",
-              "items": [
-                "covoiturage, trajet, partager, frais, carburant, pollution, application, écologique, solidaire…"
+                "Une définition du covoiturage.",
+                "Son importance pour les étudiants et les habitants.",
+                "Les avantages principaux (économiques, écologiques, sociaux).",
+                "Les difficultés possibles liées au covoiturage.",
+                "Une conclusion motivante incitant à changer les habitudes de transport."
               ]
             }
           ]
