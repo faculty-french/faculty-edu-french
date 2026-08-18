@@ -560,7 +560,7 @@
         },
         {
           "type": "consigne",
-          "text": ""
+          "text": "En tant qu'étudiant, rédigez votre article de sensibilisation (8 à 10 lignes) :"
         }
       ]
     },
@@ -804,7 +804,7 @@
     {
       "id": "l1-q15",
       "type": "open-ended",
-      "text": "",
+      "text": "Tâche Finale : Rédiger un message de sensibilisation écologique (format publication Facebook / Instagram) : En tant qu’étudiant, rédigez un article (8 à 10 lignes) pour sensibiliser vos camarades aux comportements simples qui réduisent le réchauffement climatique.",
       "lines": 6
     },
     {
