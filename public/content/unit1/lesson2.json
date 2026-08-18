@@ -109,11 +109,11 @@
           "images": [
             {
               "imageUrl": "images/lessons/lesson2-a.png",
-              "caption": "Image 1  Image 2"
+              "caption": "Image 1 "
             },
             {
               "imageUrl": "images/lessons/lesson2-b.png",
-              "caption": ""
+              "caption": " Image 2"
             }
           ]
         },
@@ -126,12 +126,12 @@
           "questionId": "l2-q0"
         },
         {
-          "type": "consigne",
-          "text": "3.\tQuel est le thème du texte ?"
-        },
-        {
           "type": "question",
           "questionId": "l2-q1"
+        },
+        {
+          "type": "consigne",
+          "text": "3.\tQuel est le thème du texte ?"
         },
         {
           "type": "question",
