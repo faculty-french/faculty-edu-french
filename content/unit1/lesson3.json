@@ -348,12 +348,6 @@
           "questionId": "l3-vf1"
         },
         {
-          "type": "phase-banner",
-          "phase": 4,
-          "title": "",
-          "duration": ""
-        },
-        {
           "type": "question",
           "questionId": "l3-vf2"
         }
@@ -518,6 +512,12 @@
         {
           "type": "question",
           "questionId": "l3-q17"
+        },
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "",
+          "duration": ""
         }
       ]
     },
