@@ -530,6 +530,19 @@
         {
           "type": "consigne",
           "text": "Vous êtes membre d’un club écologique à l’université."
+        },
+        {
+          "type": "images-row",
+          "images": [
+            {
+              "imageUrl": "images/lessons/lesson2-c.png",
+              "caption": "Image 1"
+            },
+            {
+              "imageUrl": "images/lessons/lesson2-d.png",
+              "caption": "Image 2"
+            }
+          ]
         }
       ]
     },
@@ -544,19 +557,6 @@
           "phase": 3,
           "title": "Post-action (tâche finale)",
           "duration": "20 min"
-        },
-        {
-          "type": "images-row",
-          "images": [
-            {
-              "imageUrl": "images/lessons/lesson2-c.png",
-              "caption": "Image 1"
-            },
-            {
-              "imageUrl": "images/lessons/lesson2-d.png",
-              "caption": "Image 2"
-            }
-          ]
         },
         {
           "type": "question",
