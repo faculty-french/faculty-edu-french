@@ -681,6 +681,10 @@
               ]
             }
           ]
+        },
+        {
+          "type": "consigne",
+          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
         }
       ]
     },
@@ -695,10 +699,6 @@
           "phase": 3,
           "title": "Post-action (Tâche finale)",
           "duration": "20 min"
-        },
-        {
-          "type": "consigne",
-          "text": "Chaque étudiant utilise les idées générées pendant la discussion."
         },
         {
           "type": "question",
