@@ -132,6 +132,10 @@
         {
           "type": "consigne",
           "text": "3.\tQuel est le thème du texte ?"
+        },
+        {
+          "type": "question",
+          "questionId": "l2-q3"
         }
       ]
     },
@@ -141,10 +145,6 @@
       "type": "content",
       "title": "LEÇON 2 : PHASE 1 — IMAGES D'OBSERVATION (2/2)",
       "content": [
-        {
-          "type": "question",
-          "questionId": "l2-q3"
-        },
         {
           "type": "heading",
           "text": "I. Introduction et motivation (suite)",
