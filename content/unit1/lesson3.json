@@ -655,20 +655,6 @@
         {
           "type": "question",
           "questionId": "l3-q19"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p17",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
-      "content": [
-        {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (Tâche finale)",
-          "duration": "20 min"
         },
         {
           "type": "info-box",
@@ -687,6 +673,20 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p17",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
         },
         {
           "type": "info-box",
