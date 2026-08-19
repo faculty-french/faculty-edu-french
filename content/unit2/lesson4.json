@@ -572,6 +572,10 @@
           "type": "video",
           "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
           "caption": "Micro-tâche 10"
+        },
+        {
+          "type": "question",
+          "questionId": "l4-q20"
         }
       ]
     },
@@ -604,12 +608,7 @@
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : COMPRÉHENSION VIDÉO ET DISCUSSION",
-      "content": [
-        {
-          "type": "question",
-          "questionId": "l4-q20"
-        }
-      ]
+      "content": []
     },
     {
       "id": "lesson4-p19",
