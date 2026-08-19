@@ -25,18 +25,10 @@
         {
           "type": "paragraph",
           "text": "À la fin de cette leçon, l’apprenant doit être capable de :"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p02",
-      "phase": 0,
-      "type": "content",
-      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
-      "content": [
+        },
         {
           "type": "objectives",
-          "title": "Objectifs de la leçon (01 - 07)",
+          "title": "Objectifs de la leçon (01 - 05)",
           "items": [
             {
               "num": "01",
@@ -57,7 +49,21 @@
             {
               "num": "05",
               "text": "Résumer correctement un texte lu."
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p02",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
+      "content": [
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (06 - 13) (suite)",
+          "items": [
             {
               "num": "06",
               "text": "Reconnaitre les règles grammaticales dans un texte lu."
@@ -65,13 +71,7 @@
             {
               "num": "07",
               "text": "Argumenter son point de vue."
-            }
-          ]
-        },
-        {
-          "type": "objectives",
-          "title": "Objectifs de la leçon (08 - 13) (suite)",
-          "items": [
+            },
             {
               "num": "08",
               "text": "Donner des exemples, en tant que possible sur le sujet du texte."

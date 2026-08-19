@@ -246,10 +246,6 @@
           "level": 2
         },
         {
-          "type": "consigne",
-          "text": ""
-        },
-        {
           "type": "question",
           "questionId": "l3-q6"
         },
@@ -258,10 +254,6 @@
           "number": 2,
           "text": "Trouvez dans le texte trois avantages et un inconvénient du covoiturage ?",
           "duration": "5 min"
-        },
-        {
-          "type": "question",
-          "questionId": "l3-q7"
         }
       ]
     },
@@ -647,24 +639,6 @@
           "text": "Chaque étudiant utilise les idées générées pendant la discussion."
         },
         {
-          "type": "question",
-          "questionId": "l3-q19"
-        }
-      ]
-    },
-    {
-      "id": "lesson3-p17",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
-      "content": [
-        {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (Tâche finale)",
-          "duration": "20 min"
-        },
-        {
           "type": "info-box",
           "title": "Le texte doit contenir",
           "sections": [
@@ -679,6 +653,20 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "lesson3-p17",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 3 : TÂCHE FINALE — ARTICLE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
         },
         {
           "type": "info-box",
@@ -697,6 +685,10 @@
               ]
             }
           ]
+        },
+        {
+          "type": "question",
+          "questionId": "l3-q19"
         }
       ]
     },
@@ -707,17 +699,23 @@
       "title": "LEÇON 3 : ÉVALUATION & É-ÉVALUATION",
       "content": [
         {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "Évaluation des produits des étudiants",
+          "duration": "10 min"
+        },
+        {
           "type": "question",
           "questionId": "l3-q20"
         },
         {
           "type": "heading",
-          "text": "Lisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collèges et corrigez son texte si nécessaire.",
+          "text": "É-évaluation",
           "level": 2
         },
         {
           "type": "consigne",
-          "text": "É-évaluation\nRépondez à ces questions :"
+          "text": "Répondez à ces questions :"
         },
         {
           "type": "question",
@@ -726,17 +724,6 @@
         {
           "type": "question",
           "questionId": "l3-e2"
-        },
-        {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
-          "type": "phase-banner",
-          "phase": 4,
-          "title": "",
-          "duration": ""
         }
       ]
     },
@@ -904,12 +891,6 @@
       ]
     },
     {
-      "id": "l3-q7",
-      "type": "open-ended",
-      "text": "",
-      "lines": 4
-    },
-    {
       "id": "l3-q8",
       "type": "open-ended",
       "text": "Identifiez l’idée essentielle du texte ?",
@@ -1008,8 +989,8 @@
     {
       "id": "l3-q20",
       "type": "open-ended",
-      "text": "évaluation des produits des étudiants : Durée :  10 minutes",
-      "lines": 6
+      "text": "Lisez votre produit écrit et identifiez vos erreurs (vocabulaire, grammaire, orthographe, organisation des idées), comparez avec vos collèges et corrigez son texte si nécessaire.",
+      "lines": 3
     },
     {
       "id": "l3-e1",
