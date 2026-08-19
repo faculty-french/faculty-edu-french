@@ -569,9 +569,10 @@
           "caption": "Regardez cette vidéo :"
         },
         {
-          "type": "video",
-          "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
-          "caption": "Micro-tâche 10"
+          "type": "microtask",
+          "number": 10,
+          "text": "Regardez cette vidéo pour bien comprendre qu’est-ce que signifie le covoit :",
+          "duration": "5 min"
         }
       ]
     },
@@ -582,10 +583,9 @@
       "title": "LEÇON 1 : MICRO-TÂCHE 10",
       "content": [
         {
-          "type": "microtask",
-          "number": 10,
-          "text": "Regardez cette vidéo pour bien comprendre qu’est-ce que signifie le covoit :",
-          "duration": "5 min"
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
+          "caption": "Micro-tâche 10"
         }
       ]
     },
