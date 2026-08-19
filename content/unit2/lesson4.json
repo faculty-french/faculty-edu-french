@@ -569,10 +569,9 @@
           "caption": "Regardez cette vidéo :"
         },
         {
-          "type": "microtask",
-          "number": 10,
-          "text": "Regardez cette vidéo pour bien comprendre qu’est-ce que signifie le covoit :",
-          "duration": "5 min"
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
+          "caption": "Micro-tâche 10"
         }
       ]
     },
@@ -583,18 +582,11 @@
       "title": "LEÇON 1 : MICRO-TÂCHE 10",
       "content": [
         {
-          "type": "video",
-          "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
-          "caption": "Micro-tâche 10"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p18",
-      "phase": 2,
-      "type": "content",
-      "title": "LEÇON 1 : COMPRÉHENSION VIDÉO ET DISCUSSION",
-      "content": [
+          "type": "microtask",
+          "number": 10,
+          "text": "Regardez cette vidéo pour bien comprendre qu’est-ce que signifie le covoit :",
+          "duration": "5 min"
+        },
         {
           "type": "question",
           "questionId": "l4-q19"
@@ -604,7 +596,15 @@
           "number": 11,
           "text": "Discussion en groupes",
           "duration": "10 min"
-        },
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p18",
+      "phase": 2,
+      "type": "content",
+      "title": "LEÇON 1 : COMPRÉHENSION VIDÉO ET DISCUSSION",
+      "content": [
         {
           "type": "question",
           "questionId": "l4-q20"
