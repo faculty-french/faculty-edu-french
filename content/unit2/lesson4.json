@@ -594,14 +594,14 @@
       "title": "LEÇON 1 : COMPRÉHENSION VIDÉO ET DISCUSSION",
       "content": [
         {
-          "type": "question",
-          "questionId": "l4-q20"
-        },
-        {
           "type": "microtask",
           "number": 11,
           "text": "Discussion en groupes",
           "duration": "10 min"
+        },
+        {
+          "type": "question",
+          "questionId": "l4-q20"
         }
       ]
     },
