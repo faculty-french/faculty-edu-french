@@ -51,15 +51,7 @@
               "text": "Résumer correctement un texte lu."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p02",
-      "phase": 0,
-      "type": "content",
-      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
-      "content": [
+        },
         {
           "type": "objectives",
           "title": "Objectifs de la leçon (06 - 13) (suite)",
@@ -99,6 +91,13 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lesson4-p02",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
+      "content": []
     },
     {
       "id": "lesson4-p03",
