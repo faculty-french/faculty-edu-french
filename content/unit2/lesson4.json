@@ -28,7 +28,7 @@
         },
         {
           "type": "objectives",
-          "title": "Objectifs de la leçon (01 - 05)",
+          "title": "Objectifs de la leçon (01 - 04)",
           "items": [
             {
               "num": "01",
@@ -45,17 +45,25 @@
             {
               "num": "04",
               "text": "Analyser l’organisation d’un texte lu et interpréter son sens en s’appuyant sur des indices."
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p02",
+      "phase": 0,
+      "type": "content",
+      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
+      "content": [
+        {
+          "type": "objectives",
+          "title": "Objectifs de la leçon (05 - 13) (suite)",
+          "items": [
             {
               "num": "05",
               "text": "Résumer correctement un texte lu."
-            }
-          ]
-        },
-        {
-          "type": "objectives",
-          "title": "Objectifs de la leçon (06 - 13) (suite)",
-          "items": [
+            },
             {
               "num": "06",
               "text": "Reconnaitre les règles grammaticales dans un texte lu."
@@ -91,13 +99,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "lesson4-p02",
-      "phase": 0,
-      "type": "content",
-      "title": "LEÇON 1 : OBJECTIFS (SUITE)",
-      "content": []
     },
     {
       "id": "lesson4-p03",
