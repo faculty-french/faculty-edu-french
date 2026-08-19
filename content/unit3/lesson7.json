@@ -437,6 +437,11 @@
       "title": "LEÇON 1 : VIDÉO DE COMPRÉHENSION",
       "content": [
         {
+          "type": "link",
+          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
+          "label": "🔗 En savoir plus sur les connecteurs logiques"
+        },
+        {
           "type": "microtask",
           "number": 8,
           "text": "Regardez cette vidéo pour bien comprendre qu'est-ce que signifie le covoit :",
@@ -454,11 +459,6 @@
         {
           "type": "question",
           "questionId": "l7-q10"
-        },
-        {
-          "type": "link",
-          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
-          "label": "🔗 En savoir plus sur les connecteurs logiques"
         }
       ]
     },
