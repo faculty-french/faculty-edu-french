@@ -639,6 +639,10 @@
           "text": "Chaque étudiant utilise les idées générées pendant la discussion."
         },
         {
+          "type": "consigne",
+          "text": "Imaginez que vous êtes membre d’un club universitaire de développement durable. Rédigez un article (8–10 lignes) pour convaincre vos camarades d’adopter le covoiturage pour leurs déplacements quotidiens (université, travail, sorties).."
+        },
+        {
           "type": "info-box",
           "title": "Le texte doit contenir",
           "sections": [
@@ -685,6 +689,10 @@
               ]
             }
           ]
+        },
+        {
+          "type": "consigne",
+          "text": "Rédigez votre texte ici :"
         },
         {
           "type": "question",
