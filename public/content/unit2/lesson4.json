@@ -567,10 +567,6 @@
           "type": "video",
           "videoUrl": "https://www.youtube.com/embed/S2ZE4Rvbt0A",
           "caption": "Regardez cette vidéo :"
-        },
-        {
-          "type": "question",
-          "questionId": "l4-q20"
         }
       ]
     },
@@ -608,7 +604,12 @@
       "phase": 2,
       "type": "content",
       "title": "LEÇON 1 : COMPRÉHENSION VIDÉO ET DISCUSSION",
-      "content": []
+      "content": [
+        {
+          "type": "question",
+          "questionId": "l4-q20"
+        }
+      ]
     },
     {
       "id": "lesson4-p19",
