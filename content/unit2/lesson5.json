@@ -311,10 +311,6 @@
       "title": "LEÇON 2 : IDÉE PRINCIPALE DU TEXTE (1/2)",
       "content": [
         {
-          "type": "question",
-          "questionId": "l5-q9"
-        },
-        {
           "type": "microtask",
           "number": 3,
           "text": "déterminez l’idée principale du texte puis relevez deux idées secondaires qui la développent.",
@@ -323,6 +319,10 @@
         {
           "type": "question",
           "questionId": "l5-q10"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q9"
         }
       ]
     },
@@ -334,7 +334,7 @@
       "content": [
         {
           "type": "heading",
-          "text": "Questions guidées (suite)",
+          "text": "",
           "level": 2
         },
         {
