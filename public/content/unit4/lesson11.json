@@ -366,11 +366,6 @@
         {
           "type": "question",
           "questionId": "l11-q13"
-        },
-        {
-          "type": "link",
-          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
-          "label": "📄 Explications et exercices : Les connecteurs logiques"
         }
       ]
     },
@@ -442,6 +437,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "link",
+          "url": "https://www.espacefrancais.com/les-connecteurs-logiques/",
+          "label": "📄 Explications et exercices : Les connecteurs logiques"
         }
       ]
     },
