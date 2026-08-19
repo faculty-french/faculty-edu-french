@@ -470,13 +470,13 @@
           "text": "« Selon vous, comment pourrait-on rendre les devoirs à l'école plus utiles et efficace pour tous les élèves ? »"
         },
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
           "type": "consigne",
           "text": "Chaque groupe propose des solutions réelles liées à ce phénomène."
+        },
+        {
+          "type": "heading",
+          "text": "Structures à observer : (5 minutes) (suite)",
+          "level": 2
         },
         {
           "type": "question",
@@ -709,7 +709,7 @@
     {
       "id": "l12-q15",
       "type": "open-ended",
-      "text": "",
+      "text": "Selon vous, comment pourrait-on rendre les devoirs à l'école plus utiles et efficace pour tous les élèves ?",
       "lines": 2
     },
     {
