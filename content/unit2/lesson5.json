@@ -301,10 +301,6 @@
         {
           "type": "question",
           "questionId": "l5-q8"
-        },
-        {
-          "type": "question",
-          "questionId": "l5-q9"
         }
       ]
     },
@@ -323,6 +319,10 @@
         {
           "type": "question",
           "questionId": "l5-q10"
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q9"
         }
       ]
     },
