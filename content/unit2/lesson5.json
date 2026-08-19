@@ -333,11 +333,6 @@
       "title": "LEÇON 2 : IDÉE PRINCIPALE DU TEXTE (2/2)",
       "content": [
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
           "type": "info-box",
           "title": "Des informations enrichissants",
           "sections": [
@@ -577,6 +572,10 @@
           "level": 2
         },
         {
+          "type": "consigne",
+          "text": "Vous êtes un conseiller social qui donne des conseils aux familles. Rédigez un texte de 6 à 8 lignes pour expliquer comment lutter contre la solitude et favoriser les liens sociaux entre les membres de la famille."
+        },
+        {
           "type": "info-box",
           "title": "Ce texte doit contenir :",
           "sections": [
@@ -590,6 +589,20 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "lesson5-p19",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 2 : TÂCHE FINALE — CRÉATION",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
         },
         {
           "type": "info-box",
@@ -610,22 +623,12 @@
           ]
         },
         {
+          "type": "consigne",
+          "text": "Rédigez votre texte ici :"
+        },
+        {
           "type": "question",
           "questionId": "l5-q21"
-        }
-      ]
-    },
-    {
-      "id": "lesson5-p19",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 2 : TÂCHE FINALE — CRÉATION",
-      "content": [
-        {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (Tâche finale)",
-          "duration": "20 min"
         }
       ]
     },
