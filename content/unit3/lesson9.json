@@ -531,17 +531,17 @@
           "text": "« Que feriez-vous à la place de Gita? »"
         },
         {
-          "type": "heading",
-          "text": "Structure à observer : (suite)",
-          "level": 2
-        },
-        {
           "type": "consigne",
           "text": "Chaque groupe propose des solutions réelles liées à ce phénomène."
         },
         {
           "type": "question",
           "questionId": "l9-q20"
+        },
+        {
+          "type": "heading",
+          "text": "",
+          "level": 2
         }
       ]
     },
@@ -803,7 +803,7 @@
     {
       "id": "l9-q20",
       "type": "open-ended",
-      "text": "",
+      "text": "Que feriez-vous à la place de Gita ?",
       "lines": 3
     },
     {
