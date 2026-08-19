@@ -318,11 +318,6 @@
       "title": "LEÇON 1 : QUESTIONS GUIDÉES (3/3)",
       "content": [
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
           "type": "info-box",
           "title": "Des informations enrichissantes",
           "sections": [
@@ -629,6 +624,28 @@
           "level": 2
         },
         {
+          "type": "consigne",
+          "text": "Chaque étudiant utilise les idées générées pendant la discussion:"
+        },
+        {
+          "type": "question",
+          "questionId": "l4-q21"
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p20",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 1 : TÂCHE FINALE — ARTICLE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
+        },
+        {
           "type": "info-box",
           "title": "Le texte doit contenir",
           "sections": [
@@ -660,28 +677,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p20",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 1 : TÂCHE FINALE — ARTICLE",
-      "content": [
-        {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (Tâche finale)",
-          "duration": "20 min"
-        },
-        {
-          "type": "consigne",
-          "text": "Chaque étudiant utilise les idées générées pendant la discussion:"
-        },
-        {
-          "type": "question",
-          "questionId": "l4-q21"
         }
       ]
     },
