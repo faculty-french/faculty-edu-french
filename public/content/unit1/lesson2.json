@@ -249,8 +249,8 @@
           "questionId": "l2-q6"
         },
         {
-          "type": "consigne",
-          "text": "3. Les abeilles et les oiseaux trouvent dans les espaces verts…"
+          "type": "question",
+          "questionId": "l2-q7"
         }
       ]
     },
@@ -933,6 +933,29 @@
       "type": "open-ended",
       "text": "Comment peut-on protéger les espaces verts ?",
       "lines": 4
+    },
+    {
+      "id": "l2-q7",
+      "type": "multiple-choice",
+      "text": "3. Les abeilles et les oiseaux trouvent dans les espaces verts…",
+      "answer": "b",
+      "options": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "des voitures"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "de la nourriture"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "des bâtiments"
+        }
+      ]
     }
   ]
 }
