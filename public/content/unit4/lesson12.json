@@ -474,13 +474,13 @@
           "text": "Chaque groupe propose des solutions réelles liées à ce phénomène."
         },
         {
-          "type": "heading",
-          "text": "Structures à observer : (5 minutes) (suite)",
-          "level": 2
-        },
-        {
           "type": "question",
           "questionId": "l12-q15"
+        },
+        {
+          "type": "heading",
+          "text": "",
+          "level": 2
         }
       ]
     },
