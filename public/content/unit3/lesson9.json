@@ -164,15 +164,6 @@
         {
           "type": "question",
           "questionId": "l9-q4"
-        },
-        {
-          "type": "heading",
-          "text": "Lecture guidée du texte (15 minutes)",
-          "level": 2
-        },
-        {
-          "type": "consigne",
-          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global. (10 minutes)"
         }
       ]
     },
@@ -187,6 +178,15 @@
           "phase": 2,
           "title": "Action (Compréhension approfondie)",
           "duration": "60 min"
+        },
+        {
+          "type": "heading",
+          "text": "Lecture guidée du texte (15 minutes)",
+          "level": 2
+        },
+        {
+          "type": "consigne",
+          "text": "Lisez le texte en entier en silence ou à voix basse et comprenez le sens global. (10 minutes)"
         },
         {
           "type": "consigne",

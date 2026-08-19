@@ -306,11 +306,6 @@
       "title": "LEÇON 2 : QUESTIONS GUIDÉES (5 MINUTES)",
       "content": [
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
           "type": "info-box",
           "title": "Dans ce texte, l'auteur :",
           "sections": [
@@ -591,11 +586,6 @@
       "title": "LEÇON 2 : TÂCHE FINALE — CRÉATION",
       "content": [
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
           "type": "question",
           "questionId": "l8-q14"
         }
@@ -627,33 +617,16 @@
       "id": "lesson8-p18",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (1/5)",
+      "title": "LEÇON 2 : É-ÉVALUATION (1/3)",
       "content": [
         {
           "type": "heading",
-          "text": "É-évaluation",
+          "text": "É-évaluation : choisissez la bonne réponse",
           "level": 2
-        },
-        {
-          "type": "consigne",
-          "text": "Choisissez la bonne réponse :"
         },
         {
           "type": "question",
           "questionId": "l8-e1"
-        }
-      ]
-    },
-    {
-      "id": "lesson8-p19",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (2/5)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
         },
         {
           "type": "question",
@@ -662,10 +635,10 @@
       ]
     },
     {
-      "id": "lesson8-p20",
+      "id": "lesson8-p19",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (3/5)",
+      "title": "LEÇON 2 : É-ÉVALUATION (2/3)",
       "content": [
         {
           "type": "heading",
@@ -675,6 +648,31 @@
         {
           "type": "question",
           "questionId": "l8-e3"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e4"
+        }
+      ]
+    },
+    {
+      "id": "lesson8-p20",
+      "phase": 4,
+      "type": "content",
+      "title": "LEÇON 2 : É-ÉVALUATION (3/3)",
+      "content": [
+        {
+          "type": "heading",
+          "text": "É-évaluation (suite)",
+          "level": 2
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e5"
+        },
+        {
+          "type": "question",
+          "questionId": "l8-e6"
         }
       ]
     },
@@ -682,38 +680,8 @@
       "id": "lesson8-p21",
       "phase": 4,
       "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (4/5)",
+      "title": "LEÇON 2 : QUESTIONS FINALES & SOUMISSION",
       "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l8-e4"
-        },
-        {
-          "type": "question",
-          "questionId": "l8-e5"
-        }
-      ]
-    },
-    {
-      "id": "lesson8-p22",
-      "phase": 4,
-      "type": "content",
-      "title": "LEÇON 2 : É-ÉVALUATION (5/5)",
-      "content": [
-        {
-          "type": "heading",
-          "text": "É-évaluation (suite)",
-          "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l8-e6"
-        },
         {
           "type": "heading",
           "text": "Répondez aux questions :",
@@ -726,15 +694,7 @@
         {
           "type": "question",
           "questionId": "l8-q17"
-        }
-      ]
-    },
-    {
-      "id": "lesson8-p23",
-      "type": "content",
-      "phase": 4,
-      "title": "LEÇON 2 : QUESTIONS FINALES (2/2) & SOUMISSION",
-      "content": [
+        },
         {
           "type": "question",
           "questionId": "l8-q18"
@@ -1059,19 +1019,19 @@
       "id": "l8-q16",
       "type": "open-ended",
       "text": "1. Trouvez un (autre) titre qui qui reflète bien le texte ?",
-      "lines": 3
+      "lines": 2
     },
     {
       "id": "l8-q17",
       "type": "open-ended",
       "text": "2. Proposez d'autres avantages et inconvénients du travail.",
-      "lines": 3
+      "lines": 2
     },
     {
       "id": "l8-q18",
       "type": "open-ended",
       "text": "3. Êtes-vous d'accord avec l'idée que le travail peut contribuer au bonheur ? Justifiez votre réponse.",
-      "lines": 8
+      "lines": 2
     }
   ]
 }
