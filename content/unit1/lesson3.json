@@ -655,24 +655,6 @@
         {
           "type": "question",
           "questionId": "l3-q19"
-        },
-        {
-          "type": "info-box",
-          "title": "Outils interactifs fournis",
-          "sections": [
-            {
-              "heading": "Banque de connecteurs.",
-              "items": [
-                "d’abord, ensuite, en plus, par exemple, mais, pourtant, enfin…"
-              ]
-            },
-            {
-              "heading": "Aide lexicale",
-              "items": [
-                "covoiturage, trajet, partager, frais, carburant, pollution, application, écologique, solidaire…"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -700,6 +682,24 @@
                 "Les avantages principaux (économiques, écologiques, sociaux).",
                 "Les difficultés possibles liées au covoiturage.",
                 "Une conclusion motivante incitant à changer les habitudes de transport."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Outils interactifs fournis",
+          "sections": [
+            {
+              "heading": "Banque de connecteurs.",
+              "items": [
+                "d’abord, ensuite, en plus, par exemple, mais, pourtant, enfin…"
+              ]
+            },
+            {
+              "heading": "Aide lexicale",
+              "items": [
+                "covoiturage, trajet, partager, frais, carburant, pollution, application, écologique, solidaire…"
               ]
             }
           ]
