@@ -126,15 +126,6 @@
           "text": "Répondez aux questions suivantes :"
         },
         {
-          "type": "heading",
-          "text": "",
-          "level": 2
-        },
-        {
-          "type": "question",
-          "questionId": "l1-q0"
-        },
-        {
           "type": "question",
           "questionId": "l1-q1"
         },
@@ -231,7 +222,7 @@
         },
         {
           "type": "heading",
-          "text": "Questions guidées  (10 minutes",
+          "text": "Questions guidées (10 minutes)",
           "level": 2
         },
         {
@@ -555,10 +546,6 @@
           "duration": "20 min"
         },
         {
-          "type": "consigne",
-          "text": ""
-        },
-        {
           "type": "question",
           "questionId": "l1-q15"
         }
@@ -681,12 +668,6 @@
     }
   ],
   "questions": [
-    {
-      "id": "l1-q0",
-      "type": "open-ended",
-      "text": "",
-      "lines": 4
-    },
     {
       "id": "l1-q1",
       "type": "open-ended",

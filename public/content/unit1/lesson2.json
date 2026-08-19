@@ -118,24 +118,12 @@
           ]
         },
         {
-          "type": "consigne",
-          "text": "Répondez aux questions suivantes "
-        },
-        {
           "type": "question",
           "questionId": "l2-q0"
         },
         {
           "type": "question",
           "questionId": "l2-q1"
-        },
-        {
-          "type": "consigne",
-          "text": "3.\tQuel est le thème du texte ?"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q3"
         }
       ]
     },
@@ -263,10 +251,6 @@
         {
           "type": "consigne",
           "text": "3. Les abeilles et les oiseaux trouvent dans les espaces verts…"
-        },
-        {
-          "type": "question",
-          "questionId": "l2-q7"
         }
       ]
     },
@@ -490,10 +474,6 @@
       "type": "content",
       "title": "LEÇON 2 : STRUCTURES & DISCUSSION",
       "content": [
-        {
-          "type": "question",
-          "questionId": "l2-q17"
-        },
         {
           "type": "microtask",
           "number": 10,
@@ -732,24 +712,18 @@
       "id": "l2-q0",
       "type": "open-ended",
       "text": "Que voyez-vous dans ces images ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l2-q1",
       "type": "open-ended",
       "text": "Pourquoi ces endroits sont-ils importants ?",
-      "lines": 3
+      "lines": 4
     },
     {
       "id": "l2-q2",
       "type": "open-ended",
       "text": "Quel est le thème du texte ?",
-      "lines": 4
-    },
-    {
-      "id": "l2-q3",
-      "type": "open-ended",
-      "text": "",
       "lines": 4
     },
     {
@@ -801,29 +775,6 @@
           "id": "c",
           "label": "c",
           "text": "vont à l’école"
-        }
-      ]
-    },
-    {
-      "id": "l2-q7",
-      "type": "multiple-choice",
-      "text": "",
-      "answer": "b",
-      "options": [
-        {
-          "id": "a",
-          "label": "a",
-          "text": "des voitures"
-        },
-        {
-          "id": "b",
-          "label": "b",
-          "text": "de la nourriture"
-        },
-        {
-          "id": "c",
-          "label": "c",
-          "text": "des bâtiments"
         }
       ]
     },
@@ -981,12 +932,6 @@
       "id": "l2-e13",
       "type": "open-ended",
       "text": "Comment peut-on protéger les espaces verts ?",
-      "lines": 4
-    },
-    {
-      "id": "l2-q17",
-      "type": "open-ended",
-      "text": "",
       "lines": 4
     }
   ]
