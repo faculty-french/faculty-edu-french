@@ -608,6 +608,10 @@
               ]
             }
           ]
+        },
+        {
+          "type": "question",
+          "questionId": "l5-q21"
         }
       ]
     },
@@ -622,10 +626,6 @@
           "phase": 3,
           "title": "Post-action (Tâche finale)",
           "duration": "20 min"
-        },
-        {
-          "type": "question",
-          "questionId": "l5-q21"
         }
       ]
     },
