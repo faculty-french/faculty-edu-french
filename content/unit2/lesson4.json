@@ -567,6 +567,11 @@
           "type": "video",
           "videoUrl": "https://www.youtube.com/embed/S2ZE4Rvbt0A",
           "caption": "Regardez cette vidéo :"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
+          "caption": "Micro-tâche 10"
         }
       ]
     },
@@ -581,11 +586,6 @@
           "number": 10,
           "text": "Regardez cette vidéo pour bien comprendre qu’est-ce que signifie le covoit :",
           "duration": "5 min"
-        },
-        {
-          "type": "video",
-          "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
-          "caption": "Micro-tâche 10"
         }
       ]
     },
