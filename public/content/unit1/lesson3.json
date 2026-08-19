@@ -512,12 +512,6 @@
         {
           "type": "question",
           "questionId": "l3-q17"
-        },
-        {
-          "type": "phase-banner",
-          "phase": 4,
-          "title": "",
-          "duration": ""
         }
       ]
     },
@@ -737,6 +731,12 @@
           "type": "heading",
           "text": "",
           "level": 2
+        },
+        {
+          "type": "phase-banner",
+          "phase": 4,
+          "title": "",
+          "duration": ""
         }
       ]
     },
