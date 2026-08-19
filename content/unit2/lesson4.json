@@ -628,22 +628,8 @@
           "text": "Chaque étudiant utilise les idées générées pendant la discussion:"
         },
         {
-          "type": "question",
-          "questionId": "l4-q21"
-        }
-      ]
-    },
-    {
-      "id": "lesson4-p20",
-      "phase": 3,
-      "type": "content",
-      "title": "LEÇON 1 : TÂCHE FINALE — ARTICLE",
-      "content": [
-        {
-          "type": "phase-banner",
-          "phase": 3,
-          "title": "Post-action (Tâche finale)",
-          "duration": "20 min"
+          "type": "consigne",
+          "text": "Imaginez que vous êtes journaliste dans un magazine sur l’histoire et la vie quotidienne. Rédigez un article (8–10 lignes) comparant la vie dans le passé et la vie actuelle, en utilisant :"
         },
         {
           "type": "info-box",
@@ -659,6 +645,20 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "lesson4-p20",
+      "phase": 3,
+      "type": "content",
+      "title": "LEÇON 1 : TÂCHE FINALE — ARTICLE",
+      "content": [
+        {
+          "type": "phase-banner",
+          "phase": 3,
+          "title": "Post-action (Tâche finale)",
+          "duration": "20 min"
         },
         {
           "type": "info-box",
@@ -677,6 +677,14 @@
               ]
             }
           ]
+        },
+        {
+          "type": "consigne",
+          "text": "Rédigez votre texte ici :"
+        },
+        {
+          "type": "question",
+          "questionId": "l4-q21"
         }
       ]
     },
