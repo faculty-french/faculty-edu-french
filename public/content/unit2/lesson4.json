@@ -569,11 +569,6 @@
           "caption": "Regardez cette vidéo :"
         },
         {
-          "type": "video",
-          "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
-          "caption": "Micro-tâche 10"
-        },
-        {
           "type": "question",
           "questionId": "l4-q20"
         }
@@ -600,6 +595,11 @@
           "number": 11,
           "text": "Discussion en groupes",
           "duration": "10 min"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/embed/XtO1mN8O_-8",
+          "caption": "Micro-tâche 10"
         }
       ]
     },
