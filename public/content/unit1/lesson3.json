@@ -252,7 +252,7 @@
         {
           "type": "microtask",
           "number": 2,
-          "text": "Trouvez dans le texte trois avantages et un inconvénient du covoiturage ?",
+          "text": "Trouvez dans le texte trois avantages et un inconvénient du covoiturage ?\n\n",
           "duration": "5 min"
         }
       ]
