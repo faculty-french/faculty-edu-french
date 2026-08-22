@@ -140,7 +140,7 @@
         {
           "type": "microtask",
           "number": 1,
-          "text": "Identifiez l’idée générale du texte ?"
+          "text": "Identifiez l’idée générale du texte ? (5 minutes)     "
         },
         {
           "type": "question",
