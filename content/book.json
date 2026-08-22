@@ -55,14 +55,6 @@
           "level": 2
         },
         {
-          "type": "paragraph",
-          "text": "Présenté pour l’obtention du grade de Doctorat (didactique du FLE)"
-        },
-        {
-          "type": "paragraph",
-          "text": "Par"
-        },
-        {
           "type": "heading",
           "text": "Ola Yahia Fangary Ali",
           "level": 3
@@ -72,52 +64,25 @@
           "text": "Maitre assistante à la faculté de pédagogie de Minia\nDépartement de Curricula et de Méthodologie"
         },
         {
+          "type": "heading",
+          "text": "Sous la direction de",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr. Gamal Hussein Osman\nProfesseur adjoint émérite de Curricula et de Méthodologie du FLE, Faculté de Pédagogie de Minia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr. Mohamed Gomaa Refaï\nProfesseur adjoint de Curricula et de Méthodologie du FLE, Faculté de Pédagogie de Minia"
+        },
+        {
           "type": "paragraph",
           "text": "2026"
-        }
-      ]
-    },
-    {
-      "id": "developer-credits-2b",
-      "type": "content",
-      "layout": "developer-credits",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "BUILT & DEVELOPED BY"
-        },
-        {
-          "type": "heading",
-          "text": "George Adel",
-          "level": 2
         },
         {
           "type": "paragraph",
-          "text": "Cybersecurity Specialist"
-        },
-        {
-          "type": "paragraph",
-          "text": "Cybersecurity specialist — and the builder of this interactive e-book: the realistic page-flip reading experience, the interactive activities, the Telegram delivery of answers and the built-in content editor."
-        },
-        {
-          "type": "link",
-          "url": "https://github.com/george1-adel",
-          "label": "GitHub — george1-adel"
-        },
-        {
-          "type": "link",
-          "url": "https://hackerone.com/0xdyad?type=user",
-          "label": "HackerOne — 0xdyad"
-        },
-        {
-          "type": "link",
-          "url": "https://wa.me/201278936828",
-          "label": "WhatsApp — 01278936828"
-        },
-        {
-          "type": "link",
-          "url": "https://x.com/george_adel_1",
-          "label": "X — @george_adel_1"
+          "text": "Développé par George Adel — Cybersecurity Specialist"
         }
       ]
     },
