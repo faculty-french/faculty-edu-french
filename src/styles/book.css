@@ -66,11 +66,77 @@
 .book-viewer {
   flex: 1 1 auto;
   min-height: 0;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   padding: var(--spacing-sm);
+}
+
+.book-viewer__scroll {
+  flex: 1 1 auto;
+  align-self: stretch;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+/* margin:auto centers the sheet when it fits AND keeps every edge reachable
+   by scrolling once zoom makes it larger than the viewport. */
+.book-viewer__scroll .book-sheet-frame { margin: auto; }
+
+.book-viewer--zoomed .book-viewer__scroll {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ---------- Zoom controls ---------- */
+.book-zoom {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.book-zoom__btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--color-sheet-border, #cbd5e1);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 2px 10px rgba(15, 40, 80, 0.22);
+  color: var(--ink, #1f2a44);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.book-zoom__btn:hover:not(:disabled) {
+  transform: scale(1.08);
+  box-shadow: 0 4px 14px rgba(15, 40, 80, 0.3);
+}
+
+.book-zoom__btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.book-zoom__btn--level {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .book-sheet-frame {

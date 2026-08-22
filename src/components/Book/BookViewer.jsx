@@ -15,8 +15,17 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
   const frameRef = useRef(null);
   const sheetFrameRef = useRef(null);
   const [scale, setScale] = useState(1);
+  const [zoom, setZoom] = useState(1);
   const [currentPage, setCurrentPage] = useState(initialPage);
   const { isHighlightMode } = useHighlighter();
+
+  const ZOOM_MAX = 2.5;
+  const ZOOM_STEP = 0.25;
+  const isZoomed = zoom > 1;
+  const effectiveScale = scale * zoom;
+  const zoomIn = () => setZoom((z) => Math.min(ZOOM_MAX, Math.round((z + ZOOM_STEP) * 100) / 100));
+  const zoomOut = () => setZoom((z) => Math.max(1, Math.round((z - ZOOM_STEP) * 100) / 100));
+  const zoomReset = () => setZoom(1);
 
   useEffect(() => {
     const el = frameRef.current;
@@ -46,8 +55,10 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
     const el = sheetFrameRef.current;
     if (!el) return;
 
+    // Zoomed-in panning uses the same trick as highlight mode: swallow the
+    // drag before page-flip sees it, so the scroll container pans instead.
     const stopFlipInHighlightMode = (e) => {
-      if (isHighlightMode) {
+      if (isHighlightMode || isZoomed) {
         e.stopPropagation();
       }
     };
@@ -62,7 +73,7 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
       el.removeEventListener('touchstart', stopFlipInHighlightMode, opts);
       el.removeEventListener('mousedown', stopFlipInHighlightMode, opts);
     };
-  }, [isHighlightMode]);
+  }, [isHighlightMode, isZoomed]);
 
   useImperativeHandle(ref, () => ({
     flipNext: () => {
@@ -96,16 +107,19 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
     onPageChange?.(e.data);
   }, [onPageChange]);
 
+  const stopAll = (e) => e.stopPropagation();
+
   return (
-    <div className="book-viewer" ref={frameRef}>
+    <div className={`book-viewer${isZoomed ? ' book-viewer--zoomed' : ''}`} ref={frameRef}>
+      <div className="book-viewer__scroll">
       <div
         className="book-sheet-frame"
         ref={sheetFrameRef}
-        style={{ width: SHEET_WIDTH * scale, height: SHEET_HEIGHT * scale }}
+        style={{ width: SHEET_WIDTH * effectiveScale, height: SHEET_HEIGHT * effectiveScale }}
       >
         <div
           className="book-sheet-scaler"
-          style={{ width: SHEET_WIDTH, height: SHEET_HEIGHT, transform: `scale(${scale})` }}
+          style={{ width: SHEET_WIDTH, height: SHEET_HEIGHT, transform: `scale(${effectiveScale})` }}
         >
           <HTMLFlipBook
             ref={bookRef}
@@ -139,6 +153,46 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
             ))}
           </HTMLFlipBook>
         </div>
+      </div>
+      </div>
+
+      <div
+        className="book-zoom"
+        onPointerDown={stopAll}
+        onMouseDown={stopAll}
+        onTouchStart={stopAll}
+      >
+        <button
+          type="button"
+          className="book-zoom__btn"
+          title="Zoom avant"
+          aria-label="Zoom avant"
+          disabled={zoom >= ZOOM_MAX}
+          onClick={(e) => { stopAll(e); zoomIn(); }}
+        >
+          +
+        </button>
+        {isZoomed && (
+          <button
+            type="button"
+            className="book-zoom__btn book-zoom__btn--level"
+            title="Réinitialiser le zoom"
+            aria-label="Réinitialiser le zoom"
+            onClick={(e) => { stopAll(e); zoomReset(); }}
+          >
+            {Math.round(zoom * 100)}%
+          </button>
+        )}
+        <button
+          type="button"
+          className="book-zoom__btn"
+          title="Zoom arrière"
+          aria-label="Zoom arrière"
+          disabled={!isZoomed}
+          onClick={(e) => { stopAll(e); zoomOut(); }}
+        >
+          −
+        </button>
       </div>
     </div>
   );
