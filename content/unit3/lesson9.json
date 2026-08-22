@@ -139,13 +139,13 @@
       "title": "LEÇON 3 : PHASE 1 — OBSERVATION (2/2)",
       "content": [
         {
-          "type": "microtask",
-          "number": 1,
-          "text": "2.\tOù vivent-ils ?\n\n"
-        },
-        {
           "type": "question",
           "questionId": "l9-q3"
+        },
+        {
+          "type": "microtask",
+          "number": 1,
+          "text": "2.\tQue fait-elle\n\n"
         },
         {
           "type": "images-row",
@@ -701,7 +701,7 @@
     {
       "id": "l9-q3",
       "type": "open-ended",
-      "text": "3. Que fait-elle ?",
+      "text": "3. Où vivent-ils ?",
       "lines": 4
     },
     {
