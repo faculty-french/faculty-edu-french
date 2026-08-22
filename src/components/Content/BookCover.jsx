@@ -33,6 +33,7 @@ export default function BookCover({
           
           {/* Header Area */}
           <div className="book-cover__head">
+            <img className="book-cover__logo" src="minia_logo.png" alt="Université de Minia" />
             {eyebrow && <p className="book-cover__eyebrow">{eyebrow}</p>}
             {title && <h1 className="book-cover__title">{title}</h1>}
             {subtitle && <p className="book-cover__subtitle">{subtitle}</p>}
@@ -76,11 +77,18 @@ export default function BookCover({
                   {[credential, year].filter(Boolean).join(' · ')}
                 </p>
               )}
-              {/* French flag CSS emblem in the center */}
-              <div className="book-cover__french-emblem" aria-hidden="true">
-                <span className="emblem-blue" />
-                <span className="emblem-white" />
-                <span className="emblem-red" />
+              {/* French & Egyptian flag emblems */}
+              <div className="book-cover__emblems" aria-hidden="true">
+                <div className="book-cover__french-emblem">
+                  <span className="emblem-blue" />
+                  <span className="emblem-white" />
+                  <span className="emblem-red" />
+                </div>
+                <div className="book-cover__egyptian-emblem">
+                  <span className="emblem-eg-red" />
+                  <span className="emblem-eg-white" />
+                  <span className="emblem-eg-black" />
+                </div>
               </div>
             </div>
           </div>

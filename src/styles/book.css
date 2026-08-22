@@ -1344,6 +1344,48 @@
 }
 
 /* French emblem detail */
+.book-cover__logo {
+  display: block;
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  margin: 0 auto 6px;
+}
+.book-cover__emblems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+.book-cover__egyptian-emblem {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 16px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+.book-cover__egyptian-emblem span { flex: 1; }
+.emblem-eg-red { background: #CE1126; }
+.emblem-eg-white { background: #fff; }
+.emblem-eg-black { background: #000; }
+/* Compact supervisor block + developer credit on the academic cover */
+.page--layout-academic-cover .page__heading--3 { margin-bottom: 0; }
+.page--layout-academic-cover .page__paragraph:nth-of-type(2),
+.page--layout-academic-cover .page__paragraph:nth-of-type(3) {
+  font-size: 0.72rem;
+  line-height: 1.45;
+  margin: 0;
+}
+.page--layout-academic-cover .page__paragraph:last-of-type {
+  font-size: 0.62rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.4px;
+  margin-top: 2px;
+}
+
 .book-cover__french-emblem {
   display: flex;
   width: 18px;
