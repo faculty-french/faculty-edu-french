@@ -45,22 +45,14 @@ export default function BookCover({
             </div>
           </div>
 
-          {/* Modules/Sommaire Preview */}
-          {modules.length > 0 && (
-            <div className="book-cover__body">
-              <div className="book-cover__section-title">Sommaire du Programme</div>
-              <ol className="book-cover__modules">
-                {modules.map((m, i) => (
-                  <li key={m.num || i} className={`cover-module cover-module--phase-${i + 1}`}>
-                    <span className="cover-module__num-wrapper">
-                      <span className="cover-module__num">{m.num}</span>
-                    </span>
-                    <span className="cover-module__title">{m.title}</span>
-                  </li>
-                ))}
-              </ol>
-            </div>
-          )}
+          {/* Cover artwork (author's design) — replaces the modules list */}
+          <div className="book-cover__body book-cover__body--art">
+            <img
+              className="book-cover__art"
+              src="cover-art.jpg"
+              alt="Livre ouvert avec stylo plume devant la faculté — Apprendre, écrire, communiquer… construire l'avenir"
+            />
+          </div>
 
           {/* Footer Area */}
           <div className="book-cover__foot">

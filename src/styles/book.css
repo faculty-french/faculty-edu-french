@@ -1323,6 +1323,22 @@
   width: 100%;
   margin: 0.5rem 0;
 }
+
+/* Author's cover artwork fills the space between head and footer */
+.book-cover__body--art {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.25rem 0;
+}
+.book-cover__art {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
 .book-cover__section-title {
   font-family: var(--font-sans);
   font-size: 0.58rem;
