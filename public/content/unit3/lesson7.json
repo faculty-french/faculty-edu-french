@@ -531,7 +531,7 @@
         },
         {
           "type": "info-box",
-          "title": "",
+          "title": "Outils interactifs fournis",
           "sections": [
             {
               "heading": "",
@@ -540,7 +540,7 @@
               ]
             },
             {
-              "heading": "Aide lexicale",
+              "heading": "",
               "items": [
                 ""
               ]
@@ -778,7 +778,7 @@
     {
       "id": "l7-q13",
       "type": "open-ended",
-      "text": "Vous travaillez en ligne et vos amis vous demandent quels sont les avantages et les inconvénients du télétravail. Rédigez un texte explicatif de 8 à 10 lignes sur le télétravail, en présentant ses avantages et ses inconvénients.",
+      "text": "",
       "lines": 10
     },
     {
