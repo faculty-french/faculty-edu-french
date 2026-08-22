@@ -531,7 +531,7 @@
         },
         {
           "type": "info-box",
-          "title": "Outils interactifs fournis",
+          "title": "",
           "sections": [
             {
               "heading": "",
@@ -540,7 +540,7 @@
               ]
             },
             {
-              "heading": "",
+              "heading": "Aide lexicale",
               "items": [
                 ""
               ]
