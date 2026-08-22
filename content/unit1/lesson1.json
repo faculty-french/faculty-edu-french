@@ -105,11 +105,11 @@
           "images": [
             {
               "imageUrl": "images/lessons/lesson1-run.png",
-              "caption": "Image 1 : Pollution et réaction humaine"
+              "caption": "Image 1 : Pollution et réaction humaine\n\n"
             },
             {
               "imageUrl": "images/lessons/lesson1-earth.png",
-              "caption": "Image 2 : Notre planète Terre en souffrance"
+              "caption": "Image 2 : Notre planète Terre en souffrance\n\n"
             }
           ]
         }
