@@ -880,13 +880,13 @@
     {
       "id": "l10-vf1",
       "type": "vrai-faux",
-      "text": "Salah a commencé sa carrière au Caire avec El Mokawloon.",
+      "text": "1-Salah a commencé sa carrière au Caire avec El Mokawloon.",
       "answer": "vrai"
     },
     {
       "id": "l10-vf2",
       "type": "vrai-faux",
-      "text": "À Chelsea, Salah était titulaire dans l'équipe.",
+      "text": "2- À Chelsea, Salah était titulaire dans l'équipe.",
       "answer": "faux"
     },
     {
