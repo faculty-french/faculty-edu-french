@@ -141,7 +141,7 @@
         {
           "type": "microtask",
           "number": 1,
-          "text": "Que fait-elle ?"
+          "text": "2.\tOù vivent-ils ?"
         },
         {
           "type": "question",
@@ -152,7 +152,7 @@
           "images": [
             {
               "imageUrl": "images/lessons/lesson9-c.png",
-              "caption": "Le rêve de Gita"
+              "caption": "2.\tIls vivent dans une petite maison à la campagne.\n3.Elle portait le lait au marché du village."
             }
           ]
         },
@@ -701,7 +701,7 @@
     {
       "id": "l9-q3",
       "type": "open-ended",
-      "text": "Que fait-elle ?",
+      "text": "3. Que fait-elle ?",
       "lines": 4
     },
     {
