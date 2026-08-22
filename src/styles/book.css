@@ -90,6 +90,11 @@
 .book-viewer--zoomed .book-viewer__scroll {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+  cursor: grab;
+}
+
+.book-viewer--zoomed .book-viewer__scroll:active {
+  cursor: grabbing;
 }
 
 /* ---------- Zoom controls ---------- */

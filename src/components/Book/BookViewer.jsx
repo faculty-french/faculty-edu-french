@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect, forwardRef, useImperativeHandle, useRef } from 'react';
+import { useState, useCallback, useEffect, useLayoutEffect, forwardRef, useImperativeHandle, useRef } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import PageContent from './PageContent';
 import { useHighlighter } from '../../context/HighlighterContext';
@@ -26,6 +26,65 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
   const zoomIn = () => setZoom((z) => Math.min(ZOOM_MAX, Math.round((z + ZOOM_STEP) * 100) / 100));
   const zoomOut = () => setZoom((z) => Math.max(1, Math.round((z - ZOOM_STEP) * 100) / 100));
   const zoomReset = () => setZoom(1);
+
+  const scrollRef = useRef(null);
+  const prevZoomRef = useRef(1);
+
+  // Keep the point at the center of the viewport fixed while zooming, so
+  // repeated +/− stays anchored on what the reader is looking at.
+  useLayoutEffect(() => {
+    const el = scrollRef.current;
+    const prev = prevZoomRef.current;
+    prevZoomRef.current = zoom;
+    if (!el || prev === zoom) return;
+    const ratio = zoom / prev;
+    el.scrollLeft = (el.scrollLeft + el.clientWidth / 2) * ratio - el.clientWidth / 2;
+    el.scrollTop = (el.scrollTop + el.clientHeight / 2) * ratio - el.clientHeight / 2;
+  }, [zoom]);
+
+  // Mouse drag-to-pan while zoomed (touch pans natively via overflow scroll).
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el || !isZoomed) return;
+
+    let dragging = false;
+    let moved = false;
+    let startX = 0, startY = 0, startLeft = 0, startTop = 0;
+
+    const down = (e) => {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;
+      if (e.target.closest('input, textarea, select, button, a, [contenteditable="true"]')) return;
+      dragging = true;
+      moved = false;
+      startX = e.clientX; startY = e.clientY;
+      startLeft = el.scrollLeft; startTop = el.scrollTop;
+    };
+    const move = (e) => {
+      if (!dragging) return;
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      if (!moved && (Math.abs(dx) > 4 || Math.abs(dy) > 4)) moved = true;
+      if (moved) {
+        el.scrollLeft = startLeft - dx;
+        el.scrollTop = startTop - dy;
+        e.preventDefault();
+      }
+    };
+    const up = () => { dragging = false; };
+
+    // Capture phase: the sheet-frame's flip-blocker stops propagation of
+    // pointerdown while zoomed, and this ancestor listener must run first.
+    el.addEventListener('pointerdown', down, true);
+    window.addEventListener('pointermove', move);
+    window.addEventListener('pointerup', up);
+    window.addEventListener('pointercancel', up);
+    return () => {
+      el.removeEventListener('pointerdown', down, true);
+      window.removeEventListener('pointermove', move);
+      window.removeEventListener('pointerup', up);
+      window.removeEventListener('pointercancel', up);
+    };
+  }, [isZoomed]);
 
   useEffect(() => {
     const el = frameRef.current;
@@ -111,7 +170,7 @@ const BookViewer = forwardRef(({ pages, questions, getAnswer, setAnswer, answers
 
   return (
     <div className={`book-viewer${isZoomed ? ' book-viewer--zoomed' : ''}`} ref={frameRef}>
-      <div className="book-viewer__scroll">
+      <div className="book-viewer__scroll" ref={scrollRef}>
       <div
         className="book-sheet-frame"
         ref={sheetFrameRef}
