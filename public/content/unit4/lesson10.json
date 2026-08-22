@@ -880,31 +880,31 @@
     {
       "id": "l10-vf1",
       "type": "vrai-faux",
-      "text": "Salah a commencé sa carrière au Caire avec El Mokawloon.",
+      "text": "1-Salah a commencé sa carrière au Caire avec El Mokawloon.",
       "answer": "vrai"
     },
     {
       "id": "l10-vf2",
       "type": "vrai-faux",
-      "text": "À Chelsea, Salah était titulaire dans l'équipe.",
+      "text": "2- À Chelsea, Salah était titulaire dans l'équipe..",
       "answer": "faux"
     },
     {
       "id": "l10-vf3",
       "type": "vrai-faux",
-      "text": "3- Il a marqué 19 buts en une saison avec l'AS Roma.",
+      "text": "Il a marqué 19 buts en une saison avec l'AS Roma.",
       "answer": "vrai"
     },
     {
       "id": "l10-vf4",
       "type": "vrai-faux",
-      "text": "4- Sa fondation aide 100 familles par mois.",
+      "text": "Sa fondation aide 100 familles par mois.",
       "answer": "faux"
     },
     {
       "id": "l10-vf5",
       "type": "vrai-faux",
-      "text": "5- Salah a payé l'essence de tous les clients dans une station-service.",
+      "text": "Salah a payé l'essence de tous les clients dans une station-service.",
       "answer": "vrai"
     }
   ]
