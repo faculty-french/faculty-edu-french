@@ -33,7 +33,8 @@ export default function BookCover({
           
           {/* Header Area */}
           <div className="book-cover__head">
-            <img className="book-cover__logo" src="minia_logo.png" alt="Université de Minia" />
+            <img className="book-cover__logo book-cover__logo--left" src="minia_logo.png" alt="Université de Minia" />
+            <img className="book-cover__logo book-cover__logo--right" src="faculty_logo.png" alt="Faculté de Pédagogie" />
             {eyebrow && <p className="book-cover__eyebrow">{eyebrow}</p>}
             {title && <h1 className="book-cover__title">{title}</h1>}
             {subtitle && <p className="book-cover__subtitle">{subtitle}</p>}
@@ -84,11 +85,7 @@ export default function BookCover({
                   <span className="emblem-white" />
                   <span className="emblem-red" />
                 </div>
-                <div className="book-cover__egyptian-emblem">
-                  <span className="emblem-eg-red" />
-                  <span className="emblem-eg-white" />
-                  <span className="emblem-eg-black" />
-                </div>
+                <img className="book-cover__egyptian-flag" src="flag-egypt.svg" alt="Drapeau de l'Égypte" />
               </div>
             </div>
           </div>
