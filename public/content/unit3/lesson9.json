@@ -145,7 +145,7 @@
         {
           "type": "microtask",
           "number": 1,
-          "text": "2.\tQue fait-elle\n\n\n\n\n\n\n"
+          "text": "Que fait-elle\n\n\n\n\n\n\n"
         },
         {
           "type": "images-row",
@@ -701,7 +701,7 @@
     {
       "id": "l9-q3",
       "type": "open-ended",
-      "text": "3. Où vivent-ils ?",
+      "text": "2. Où vivent-ils ?",
       "lines": 4
     },
     {
